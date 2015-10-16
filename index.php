@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+<?php include_once "common.php"; ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -6,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>MStone - Resume Portfolio</title>
+	<title><?php echo $lang['PAGE_TITLE']; ?></title>
 
 	<!-- CSS -->
 	<!-- Bootstrap core CSS -->
