@@ -40,7 +40,7 @@
 
 		<div id="preloader">
 			<div id="status">
-				<div class="status-mes"><h4>Mark Stone</h4></div>
+				<div class="status-mes"><h4><?php echo $lang['NAME']; ?></h4></div>
 			</div>
 		</div>
 
@@ -63,12 +63,12 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#intro">home</a></li>
-						<li><a href="#profile">Profile</a></li>
-						<li><a href="#services">Services</a></li>
-						<li><a href="#resume">Resume</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#intro"><?php echo $lang['intro']; ?></a></li>
+						<li><a href="#profile"><?php echo $lang['profile']; ?></a></li>
+						<li><a href="#services"><?php echo $lang['services']; ?></a></li>
+						<li><a href="#resume"><?php echo $lang['resume']; ?></a></li>
+						<li><a href="#portfolio"><?php echo $lang['portfolio']; ?></a></li>
+						<li><a href="#contact"><?php echo $lang['contact']; ?></a></li>
 					</ul>
 				</div>
 
@@ -88,8 +88,8 @@
 					<div class="col-md-12">
 
 						<div class="hello wow bounceInDown">
-							<h1>Hello, I'm Mark Stone</h1>
-							<h3><span class="rotate">Visual Designer. | Front-end Developer. | C# Programmer.</span></h3>
+							<h1><?php echo $lang['hello_1']; ?></h1>
+							<h3><span class="rotate"><?php echo $lang['hello_2']; ?></span></h3>
 						</div>
 
 						<a href="#profile">
@@ -154,8 +154,8 @@
 				<div class="row">
 
 					<div class="col-md-12 headline wow bounceInDown">
-						<h2>Mark Stone</h2>
-						<p>Visual Designer. Front-end Developer. C# Programmer.</p>
+						<h2><?php echo $lang['hello_1']; ?></h2>
+						<p><?php echo $lang['hello_3']; ?></p>
 					</div>
 
 					<div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
@@ -167,7 +167,7 @@
 						<div class="profile-widget">
 							<h3>Skillset</h3>
 
-							<h5>UX Design</h5>
+							<h5>HTML5 / CSS3 / PHP5</h5>
 							<div class="skill-bar">
 								<div class="skill-rate-on"></div>
 								<div class="skill-rate-on"></div>
@@ -175,7 +175,7 @@
 								<div class="skill-rate-off"></div>
 							</div>
 
-							<h5>HTML / CSS3 / SASS</h5>
+							<h5>MySQL / Microsoft SQL Server</h5>
 							<div class="skill-bar">
 								<div class="skill-rate-on"></div>
 								<div class="skill-rate-on"></div>
@@ -183,7 +183,7 @@
 								<div class="skill-rate-off"></div>
 							</div>
 
-							<h5>Javascript</h5>
+							<h5>Constant Contact / Informz / MailChimp</h5>
 							<div class="skill-bar">
 								<div class="skill-rate-on"></div>
 								<div class="skill-rate-on"></div>
@@ -191,10 +191,10 @@
 								<div class="skill-rate-on"></div>
 							</div>
 
-							<h5>Ajax</h5>
+							<h5>Premiere / After Effects / Photoshop / InDesign</h5>
 							<div class="skill-bar">
 								<div class="skill-rate-on"></div>
-								<div class="skill-rate-off"></div>
+								<div class="skill-rate-on"></div>
 								<div class="skill-rate-off"></div>
 								<div class="skill-rate-off"></div>
 							</div>
@@ -203,19 +203,17 @@
 						<div class="profile-widget">
 							<h3>Social Profiles</h3>
 							<ul class="widget-social">
-								<li><a href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
 								<li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
 							</ul>
 						</div>
 
 					</div><!-- .col-md-3 -->
 
 					<div class="col-md-6 col-sm-12 wow bounceInRight">
-						<h3>Profesional Profile</h3>
-						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend. I am so happy, my dear friend.</p>
-						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+					<?php echo $lang['bio']; ?>
 					</div>
 
 				</div><!-- .row -->
@@ -241,7 +239,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="32"></span></h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="1"></span></h2>
 							</div>
 							<h3>Cup of coffee</h3>
 						</div>
@@ -250,7 +248,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInUp">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="999"></span></h2>
+								<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="724"></span></h2>
 							</div>
 							<h3>Line of code</h3>
 						</div>
@@ -387,13 +385,13 @@
 				<div class="row">
 
 					<div class="col-md-3 hidden-xs wow bounceInLeft">
-						<h3>My status</h3>
+						<h3><?php echo $lang['status_title']; ?></h3>
 					</div>
 
 					<div class="col-md-9 headline nomargin wow bounceInDown">
-						<h3>I'm currently available for freelance work.</h3>
-						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-						<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> Contact me</a>
+						<h3><?php $lang['status_1']; ?></h3>
+						<p><?php $lang['status_2']; ?></p>
+						<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php $lang['status_3']; ?></a>
 					</div>
 
 				</div><!-- .row -->
@@ -506,7 +504,7 @@
 				<div class="row">
 
 					<div class="col-md-3 hidden-xs wow bounceInLeft">
-						<h3>Customers</h3>
+						<h3><?php $lang['customers']; ?></h3>
 					</div>
 
 					<div class="col-md-9 wow bounceInRight">
