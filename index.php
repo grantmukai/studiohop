@@ -57,7 +57,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Mark Stone</a>
+					<a class="navbar-brand" href="#">Grant Mukai</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -389,9 +389,9 @@
 					</div>
 
 					<div class="col-md-9 headline nomargin wow bounceInDown">
-						<h3><?php $lang['status_1']; ?></h3>
-						<p><?php $lang['status_2']; ?></p>
-						<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php $lang['status_3']; ?></a>
+						<h3><?php echo $lang['status_1']; ?></h3>
+						<p><?php echo $lang['status_2']; ?></p>
+						<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php echo $lang['status_3']; ?></a>
 					</div>
 
 				</div><!-- .row -->
@@ -504,7 +504,7 @@
 				<div class="row">
 
 					<div class="col-md-3 hidden-xs wow bounceInLeft">
-						<h3><?php $lang['customers']; ?></h3>
+						<h3><?php echo $lang['customers']; ?></h3>
 					</div>
 
 					<div class="col-md-9 wow bounceInRight">
@@ -730,7 +730,7 @@
 
 					<div class="col-md-12">
 						<p class="copy">
-							© 2014 Mark Stone, All Rights Reserved.
+							&copy; <?php echo date('Y'); ?> Grant Mukai, All Rights Reserved.
 						</p>
 					</div>
 
