@@ -65,10 +65,10 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#intro"><?php echo $lang['intro']; ?></a></li>
 						<li><a href="#profile"><?php echo $lang['profile']; ?></a></li>
-						<li><a href="#services"><?php echo $lang['services']; ?></a></li>
+						<!--<li><a href="#services"><-php echo $lang['services']; ?></a></li>-->
 						<li><a href="#resume"><?php echo $lang['resume']; ?></a></li>
-						<li><a href="#portfolio"><?php echo $lang['portfolio']; ?></a></li>
-						<li><a href="#contact"><?php echo $lang['contact']; ?></a></li>
+						<!--<li><a href="#portfolio"><-php echo $lang['portfolio']; ?></a></li>-->
+						<!--<li><a href="#contact"><-php echo $lang['contact']; ?></a></li>-->
 					</ul>
 				</div>
 
@@ -90,6 +90,17 @@
 						<div class="hello wow bounceInDown">
 							<h1><?php echo $lang['hello_1']; ?></h1>
 							<h3><span class="rotate"><?php echo $lang['hello_2']; ?></span></h3>
+						</div>
+						
+						<!-- Language dropdown menu -->
+						<div class="dropdown">
+						  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Country/Pays
+						  <span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    <li><a href="index.php?lang=en-US">United States</a></li>
+						    <li><a href="index.php?lang=fr-CA">Qu&eacute;bec</a></li>
+						    <li><a href="index.php?lang=en-CA">Canada</a></li>
+						  </ul>
 						</div>
 
 						<a href="#profile">
@@ -233,7 +244,7 @@
 				<div class="row">
 
 					<div class="col-md-3 col-sm-12 hidden-xs wow bounceInLeft">
-						<h3>My Stats</h3>
+						<h3><?php echo $lang['my_stats']; ?></h3>
 					</div>
 
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
@@ -730,7 +741,7 @@
 
 					<div class="col-md-12">
 						<p class="copy">
-							&copy; <?php echo date('Y'); ?> Grant Mukai, All Rights Reserved.
+							&copy; <?php echo date('Y') . " " . $lang['copyright']; ?>
 						</p>
 					</div>
 
