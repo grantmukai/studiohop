@@ -108,7 +108,7 @@
 
 		<!-- Intro section end -->
 
-		<!-- Profile contact callout section -->
+		<!-- Profile contact callout section 
 
 		<section id="profile-contact">
 
@@ -137,13 +137,13 @@
 						</div>
 					</div>
 
-				</div><!-- .row -->
+				</div>
 
-			</div><!-- .container -->
+			</div>
 
 		</section>
 
-		<!-- Profile contact callout section -->
+		Profile contact callout section -->
 
 		<!-- Profile section start -->
 
@@ -165,7 +165,7 @@
 					<div class="col-md-3 col-sm-6 wow bounceInUp">
 
 						<div class="profile-widget">
-							<h3>Skillset</h3>
+							<h3><?php echo $lang['skillset']; ?></h3>
 
 							<h5>HTML5 / CSS3 / PHP5</h5>
 							<div class="skill-bar">
@@ -201,12 +201,12 @@
 						</div>
 
 						<div class="profile-widget">
-							<h3>Social Profiles</h3>
+							<h3><?php echo $lang['social_profiles']; ?></h3>
 							<ul class="widget-social">
-								<li><a href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
-								<li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="http://www.twitter.com/grantmukai"><i class="fa fa-twitter fa-fw"></i></a></li>
+								<li><a href="http://www.github.com/grantmukai"><i class="fa fa-github-alt"></i></a></li>
+								<li><a href="http://www.linkedin.com/in/grantmukai"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="http://www.youtube.com/grantmukai"><i class="fa fa-youtube"></i></a></li>
 							</ul>
 						</div>
 
@@ -239,9 +239,9 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="1"></span></h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="2"></span></h2>
 							</div>
-							<h3>Cup of coffee</h3>
+							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
 					</div>
 
@@ -250,7 +250,7 @@
 							<div class="stat-icon">
 								<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="724"></span></h2>
 							</div>
-							<h3>Line of code</h3>
+							<h3><?php echo $lang['lines_of_code']; ?></h3>
 						</div>
 					</div>
 
@@ -259,7 +259,7 @@
 							<div class="stat-icon">
 								<h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="300"></span>+</h2>
 							</div>
-							<h3>Happy customers</h3>
+							<h3><?php echo $lang['happy_customers']; ?></h3>
 						</div>
 					</div>
 
@@ -271,7 +271,7 @@
 
 		<!-- Callout section end -->
 
-		<!-- Services section start -->
+		<!-- Services section start
 
 		<section id="services" class="section">
 
@@ -324,7 +324,7 @@
 								</div>
 							</div>
 
-						</div><!-- .row -->
+						</div>
 
 						<div class="row">
 
@@ -364,15 +364,15 @@
 								</div>
 							</div>
 
-						</div><!-- .row -->
+						</div>
 
-					</div><!-- .col-md-12 -->
+					</div>
 
-				</div><!-- .row -->
+				</div>
 
-			</div><!-- .container -->
+			</div>
 
-		</section>
+		</section>-->
 
 		<!-- Services section end -->
 
@@ -513,32 +513,32 @@
 							
 							<div class="owl-item">
 								<img src="assets/images/logo/client160-3.png" alt="">
-								<h4>Client 1</h4>
+								<h4>American Political Science Association</h4>
 							</div>
 
 							<div class="owl-item">
 								<img src="assets/images/logo/client160-1.png" alt="">
-								<h4>Client 2</h4>
+								<h4>Georgetown University</h4>
 							</div>
 
 							<div class="owl-item">
 								<img src="assets/images/logo/client160-3.png" alt="">
-								<h4>Client 3</h4>
+								<h4>iQ Solutions</h4>
 							</div>
 
 							<div class="owl-item">
 								<img src="assets/images/logo/client160-1.png" alt="">
-								<h4>Client 4</h4>
+								<h4>Wellesley Public Media</h4>
 							</div>
 
 							<div class="owl-item">
 								<img src="assets/images/logo/client160-3.png" alt="">
-								<h4>Client 5</h4>
+								<h4>Patch.com</h4>
 							</div>
 
 							<div class="owl-item">
 								<img src="assets/images/logo/client160-1.png" alt="">
-								<h4>Client 6</h4>
+								<h4>WGBH Educational Foundation</h4>
 							</div>
 
 						</div>
@@ -553,7 +553,7 @@
 
 		<!-- Callout section end -->
 
-		<!-- Portfolio section start -->
+		<!-- Portfolio section start
 
 		<section id="portfolio" class="section">
 
@@ -650,15 +650,15 @@
 						</a>
 					</div>
 
-				</div><!-- .row -->
+				</div>
 
-			</div><!-- .container -->
+			</div>
 
-		</section>
+		</section>-->
 
 		<!-- Portfolio section end -->
 
-		<!-- Contact section start -->
+		<!-- Contact section start 
 
 		<section id="contact" class="section">
 
@@ -712,11 +712,11 @@
 
 					</div>
 
-				</div><!-- .row -->
+				</div>
 
-			</div><!-- .container -->
+			</div>
 
-		</section>
+		</section>-->
 
 		<!-- Contact section end -->
 
