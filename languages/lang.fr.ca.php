@@ -17,11 +17,13 @@ $lang['profile'] = 'Profil';
 $lang['services'] = 'services';
 $lang['resume'] = 'Curriculum Vitae';
 $lang['portfolio'] = 'Mon travail';
-$lang['contact'] = 'Contactez-Mois';
+$lang['contact'] = 'Contactez-Moi';
 
 $lang['hello_1'] = "Bonjour, je m'appelle Grant Kiyoshi Muka&iuml;";
 $lang['hello_2'] = 'D&eacute;veloppeur Web. | G&eacute;rant des bases de donn&eacute;es. | Agent de Marketing. | Monteur Vid&eacute;o.';
 $lang['hello_3'] = 'D&eacute;veloppeur Web. G&eacute;rant des Bases de Donn&eacute;es. Agent de Marketing.';
+
+$lang['select_country'] = "Choisissez votre pays";
 
 $lang['skillset'] = 'Gamme de comp&eacute;tences';
 
@@ -47,7 +49,7 @@ $lang['my_stats'] = 'Mes Stats';
 
 $lang['cups_of_coffee'] = 'Tasses de caf&eacute;';
 $lang['lines_of_code'] = 'Lignes de code';
-$lang['happy_customers'] = 'Clients heureux';
+$lang['happy_customers'] = 'Gens travaillant sur mon &eacute;quipe';
 
 $lang['status_title'] = 'Mon status';
 $lang['status_1'] = "Je travaille actuellement pour l'Association am&eacute;ricaine de science politique";

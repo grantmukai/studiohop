@@ -25,6 +25,8 @@ $lang['hello_3'] = 'Front-end Developer. Database Manager. Email Marketer.';
 
 $lang['skillset'] = 'Skillset';
 
+$lang['select_country'] = "Select your country";
+
 $lang['social_profiles'] = 'Social Profiles';
 
 $lang['bio'] = "
@@ -46,7 +48,7 @@ $lang['bio'] = "
 $lang['my_stats'] = 'My Stats';
 $lang['cups_of_coffee'] = 'Cups of coffee';
 $lang['lines_of_code'] = 'Lines of code';
-$lang['happy_customers'] = 'Happy customers';
+$lang['happy_customers'] = 'People I work with';
 
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";

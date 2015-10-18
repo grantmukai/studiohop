@@ -91,17 +91,6 @@
 							<h1><?php echo $lang['hello_1']; ?></h1>
 							<h3><span class="rotate"><?php echo $lang['hello_2']; ?></span></h3>
 						</div>
-						
-						<!-- Language dropdown menu -->
-						<div class="dropdown">
-						  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Country/Pays
-						  <span class="caret"></span></button>
-						  <ul class="dropdown-menu">
-						    <li><a href="index.php?lang=en-US">United States</a></li>
-						    <li><a href="index.php?lang=fr-CA">Qu&eacute;bec</a></li>
-						    <li><a href="index.php?lang=en-CA">Canada</a></li>
-						  </ul>
-						</div>
 
 						<a href="#profile">
 							<div class="mouse-icon">
@@ -119,7 +108,7 @@
 
 		<!-- Intro section end -->
 
-		<!-- Profile contact callout section 
+		<!-- Profile contact callout section -->
 
 		<section id="profile-contact">
 
@@ -127,7 +116,7 @@
 
 				<div class="row">
 
-					<div class="col-sm-4 wow bounceInLeft">
+					<!--<div class="col-sm-4 wow bounceInLeft">
 						<div class="profile-item">
 							<i class="fa fa-envelope-o"></i>
 							<h5><a href="#">markstone@some.com</a></h5>
@@ -146,15 +135,23 @@
 							<i class="fa fa-map-marker"></i>
 							<h5>144 Some Street, Some City, Some Country</h5>
 						</div>
+					</div>-->
+					<div style="text-align:center;">
+						<h4><?php echo $lang['select_country']; ?></h4>
+						<h5>
+						<a href="index.php?lang=en-US">United States</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=fr-CA">Qu&eacute;bec</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=en-CA">Canada</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=es-MX">M&eacute;xico</a>
+						</h5>
 					</div>
-
 				</div>
 
 			</div>
 
 		</section>
 
-		Profile contact callout section -->
+		<!--Profile contact callout section -->
 
 		<!-- Profile section start -->
 
@@ -268,7 +265,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInRight">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="300"></span>+</h2>
+								<h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="24"></span></h2>
 							</div>
 							<h3><?php echo $lang['happy_customers']; ?></h3>
 						</div>
@@ -523,32 +520,32 @@
 						<div id="owl-clients" class="owl-carousel">
 							
 							<div class="owl-item">
-								<img src="assets/images/logo/client160-3.png" alt="">
+								<img src="assets/images/logo/apsa.jpg" alt="">
 								<h4>American Political Science Association</h4>
 							</div>
 
 							<div class="owl-item">
-								<img src="assets/images/logo/client160-1.png" alt="">
+								<img src="assets/images/logo/georgetown.png" alt="">
 								<h4>Georgetown University</h4>
 							</div>
 
 							<div class="owl-item">
-								<img src="assets/images/logo/client160-3.png" alt="">
+								<img src="assets/images/logo/iqsolutions.jpg" alt="">
 								<h4>iQ Solutions</h4>
 							</div>
 
 							<div class="owl-item">
-								<img src="assets/images/logo/client160-1.png" alt="">
+								<img src="assets/images/logo/wellesley.png" alt="">
 								<h4>Wellesley Public Media</h4>
 							</div>
 
 							<div class="owl-item">
-								<img src="assets/images/logo/client160-3.png" alt="">
+								<img src="assets/images/logo/patch.jpg" alt="">
 								<h4>Patch.com</h4>
 							</div>
 
 							<div class="owl-item">
-								<img src="assets/images/logo/client160-1.png" alt="">
+								<img src="assets/images/logo/wgbh.jpg" alt="">
 								<h4>WGBH Educational Foundation</h4>
 							</div>
 
