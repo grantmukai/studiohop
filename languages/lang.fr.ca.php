@@ -51,6 +51,8 @@ $lang['cups_of_coffee'] = 'Tasses de caf&eacute;';
 $lang['lines_of_code'] = 'Lignes de code';
 $lang['happy_customers'] = 'Gens travaillant sur mon &eacute;quipe';
 
+$lang['web_development'] = "D&eacute;veloppement Web";
+
 $lang['status_title'] = 'Mon status';
 $lang['status_1'] = "Je travaille actuellement pour l'Association am&eacute;ricaine de science politique";
 $lang['status_2'] = "Je travaille dans le D&eacute;partement des communications &amp; marketing avec une &eacute;quipe formidable.";
