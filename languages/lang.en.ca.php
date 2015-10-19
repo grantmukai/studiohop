@@ -50,6 +50,8 @@ $lang['cups_of_coffee'] = 'Cups of coffee';
 $lang['lines_of_code'] = 'Lines of code';
 $lang['happy_customers'] = 'People I work with';
 
+$lang['web_development'] = "Web Development";
+
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";
 $lang['status_2'] = "I work in the Communications &amp; Marketing Department helping our members better connect to the field of political science.";
