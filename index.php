@@ -1,6 +1,6 @@
 <?php include_once "common.php"; ?>
 <!DOCTYPE html>
-<html lang="en">
+<?php echo "<html lang='" . $_GET['lang'] . "'"; ?>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -423,7 +423,7 @@
 						
 						<?php 
 						$con=mysql_connect("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv");
-						$intro_Cv = mysql_query($con,"SELECT paragraph FROM intros WHERE lang='" . $_GET("lang") . "';");
+						$intro_Cv = mysql_query($con,"SELECT paragraph FROM intros WHERE lang='" . $_GET('lang') . "';");
 						$intro_result = $conn->query($intro_cv);
 						echo "<p>" . $intro_result . "</p>";
 						?>
