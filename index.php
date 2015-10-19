@@ -419,7 +419,7 @@
 				<div class="row">
 
 					<div class="col-md-12 headline wow bounceInDown">
-						<h2>Resume</h2>
+						<h2><?php echo $lang['web_development']; ?></h2>
 						<p>My education and experience.</p>
 					</div>
 
