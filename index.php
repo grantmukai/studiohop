@@ -420,6 +420,13 @@
 
 					<div class="col-md-12 headline wow bounceInDown">
 						<h2><?php echo $lang['web_development']; ?></h2>
+						
+						<?php 
+						$con=mysql_connect("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv");
+						$intro_Cv = mysql_query($con,"SELECT paragraph FROM intros WHERE lang='" . $_GET("lang") . "';");
+						$intro_result = $conn->query($intro_cv);
+						echo "<p>" . $intro_result . "</p>";
+						?>
 						<p>My education and experience.</p>
 					</div>
 
