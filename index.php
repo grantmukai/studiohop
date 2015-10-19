@@ -423,7 +423,7 @@
 						
 						<?php 
 						$con=mysql_connect("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv");
-						$intro_Cv = mysql_query($con,"SELECT paragraph FROM intros WHERE lang='" . $_GET('lang') . "';");
+						$intro_Cv = mysql_query($con,"SELECT paragraph FROM intros WHERE language='" . $lang . "' AND type = 'WEB';");
 						$intro_result = $conn->query($intro_cv);
 						echo "<p>" . $intro_result . "</p>";
 						?>
