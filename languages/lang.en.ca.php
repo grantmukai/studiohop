@@ -4,6 +4,7 @@
 Language: English - Canada
 ----------------------
 */
+$cv_lang = "en-CA";
  
 $lang = array();
  
@@ -51,6 +52,7 @@ $lang['lines_of_code'] = 'Lines of code';
 $lang['happy_customers'] = 'People I work with';
 
 $lang['web_development'] = "Web Development";
+$lang['experience'] = "Work Experience";
 
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";

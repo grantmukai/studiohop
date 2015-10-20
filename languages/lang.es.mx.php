@@ -4,6 +4,7 @@
 Langue: Español - México
 ------------------------
 */
+$cv_lang = "es-MX";
  
 $lang = array();
  
@@ -52,6 +53,7 @@ $lang['lines_of_code'] = 'L&iacute;neas de c&oacute;digo';
 $lang['happy_customers'] = 'Personas en mi equipo';
 
 $lang['web_development'] = "Desarrollo Web";
+$lang['experience'] = "Experiencias Profesionales";
 
 $lang['status_title'] = 'Mi Estado';
 $lang['status_1'] = "Estoy trabajando para la Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica";
