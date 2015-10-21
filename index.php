@@ -423,10 +423,10 @@
 						<?php 
 						mysql_connect("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras") or die(mysql_error());
 						mysql_select_db("cv") or die(mysql_error());
-						$rs = mysql_query("SELECT paragraph FROM intros WHERE language='$cv_lang' AND type = 'WEB';") or die(mysql_error());
-						while(false !== ($row = mysql_fetch_assoc($rs)))
+						$rs_intros = mysql_query("SELECT paragraph FROM intros WHERE language='$cv_lang' AND type = 'WEB';") or die(mysql_error());
+						while(false !== ($row_intros = mysql_fetch_assoc($rs_intros)))
 						{
-							echo "<p>" . $row['paragraph'] . "</p>";
+							echo "<p>" . $row_intros['paragraph'] . "</p>";
 						}
 						?>
 						<p>My education and experience.</p>
@@ -440,6 +440,23 @@
 						<h3><?php echo $lang['experience']; ?></h3>
 					</div>
 
+					<?php
+						$rs_positions = mysql_query("SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY id;") or die(mysql_error());
+						while(false !==($row_positions = mysql_fetch_assoc($rs_positions)))
+						{
+							echo "<div class='col-md-8 col-sm-8 resume-item wow bounceInUp' style='clear:both;'>";
+							echo "<h4>".$row_positions['jobtitle']."</h4>";
+							echo "<p>Job descriptions to come later</p>";
+							echo "<hr class='hidden-xs'>";
+							echo "</div>";
+							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
+							echo "<h4><i class='fa fa-suitcase'></i> Company Name</h4>";
+							echo "<i class='fa fa-calendar'></i> MM.YYYY - MM.YYYY";
+							echo "<hr class='visible-xs'>";
+							echo "</div>";
+						}
+					?>
+
 					<div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
 						<h4>Front-end developer / php programmer</h4>
 						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
@@ -447,7 +464,7 @@
 					</div>
 
 					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
-						<h4><i class="fa fa-suitcase"></i></h4>
+						<h4><i class="fa fa-suitcase"></i> Google</h4>
 						<i class="fa fa-calendar"></i> 2013 - 2014
 						<hr class="visible-xs">
 					</div>
