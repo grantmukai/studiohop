@@ -558,32 +558,32 @@
 						<div id="owl-clients" class="owl-carousel">
 							
 							<div class="owl-item">
-								<img src="assets/images/logo/apsa.jpg" alt="">
+								<img src="assets/images/logo/apsa.jpg" alt="" style="width:91px;">
 								<h4>American Political Science Association</h4>
 							</div>
 
 							<div class="owl-item">
-								<img src="assets/images/logo/georgetown.png" alt="">
+								<img src="assets/images/logo/georgetown.png" alt="" style="width:91px;">
 								<h4>Georgetown University</h4>
 							</div>
 
 							<div class="owl-item">
-								<img src="assets/images/logo/iqsolutions.jpg" alt="">
+								<img src="assets/images/logo/iqsolutions.jpg" alt="" style="width:91px;">
 								<h4>iQ Solutions</h4>
 							</div>
 
 							<div class="owl-item">
-								<img src="assets/images/logo/wellesley.png" alt="">
+								<img src="assets/images/logo/wellesley.png" alt="" style="width:91px;">
 								<h4>Wellesley Public Media</h4>
 							</div>
 
 							<div class="owl-item">
-								<img src="assets/images/logo/patch.jpg" alt="">
+								<img src="assets/images/logo/patch.jpg" alt="" style="width:91px;">
 								<h4>Patch.com</h4>
 							</div>
 
 							<div class="owl-item">
-								<img src="assets/images/logo/wgbh.jpg" alt="">
+								<img src="assets/images/logo/wgbh.jpg" alt="" style="width:91px;">
 								<h4>WGBH Educational Foundation</h4>
 							</div>
 
