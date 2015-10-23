@@ -247,7 +247,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="2"></span></h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="3"></span></h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -450,7 +450,7 @@
 							echo "<hr class='hidden-xs'>";
 							echo "</div>";
 							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
-							echo "<h4><i class='fa fa-suitcase'></i> Company Name</h4>";
+							echo "<h4><i class='fa fa-suitcase'></i> ".$row_positions['company']."</h4>";
 							echo "<i class='fa fa-calendar'></i> MM.YYYY - MM.YYYY";
 							echo "<hr class='visible-xs'>";
 							echo "</div>";
@@ -465,30 +465,6 @@
 
 					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
 						<h4><i class="fa fa-suitcase"></i> Google</h4>
-						<i class="fa fa-calendar"></i> 2013 - 2014
-						<hr class="visible-xs">
-					</div>
-
-					<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
-						<h4>C# programmer</h4>
-						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-						<hr class="hidden-xs">
-					</div>
-
-					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
-						<h4><i class="fa fa-suitcase"></i> Microsoft</h4>
-						<i class="fa fa-calendar"></i> 2013 - 2014
-						<hr class="visible-xs">
-					</div>
-
-					<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
-						<h4>C# programmer</h4>
-						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-						<hr class="hidden-xs">
-					</div>
-
-					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
-						<h4><i class="fa fa-suitcase"></i> Microsoft</h4>
 						<i class="fa fa-calendar"></i> 2013 - 2014
 						<hr class="visible-xs">
 					</div>
