@@ -1,4 +1,5 @@
 <?php include_once "common.php"; ?>
+<?php date_default_timezone_set("America/Montreal"); ?>
 <!DOCTYPE html>
 <?php echo "<html lang='" . $_GET['lang'] . "'"; ?>
 <head>
@@ -247,7 +248,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="3"></span></h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="4"></span></h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -429,7 +430,6 @@
 							echo "<p>" . $row_intros['paragraph'] . "</p>";
 						}
 						?>
-						<p>My education and experience.</p>
 					</div>
 
 				</div><!-- .row -->
@@ -451,7 +451,7 @@
 							echo "</div>";
 							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
 							echo "<h4><i class='fa fa-suitcase'></i> ".$row_positions['company']."</h4>";
-							echo "<i class='fa fa-calendar'></i> MM.YYYY - MM.YYYY";
+							echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_positions['start_date']))." - ".date('m.Y',strtotime($row_positions['end_date']));
 							echo "<hr class='visible-xs'>";
 							echo "</div>";
 						}
