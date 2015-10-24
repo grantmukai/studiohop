@@ -52,7 +52,9 @@ $lang['lines_of_code'] = 'Lines of code';
 $lang['happy_customers'] = 'People I work with';
 
 $lang['web_development'] = "Web Development";
+$lang['public_relations'] = "Public Relations";
 $lang['experience'] = "Work Experience";
+$lang['duties'] = "Duties";
 
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";

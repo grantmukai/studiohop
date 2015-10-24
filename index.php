@@ -248,7 +248,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="4"></span></h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="5"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -460,51 +460,49 @@
 				</div><!-- .row -->
 				<div class="row resume-items">
 					<div class="col-md-12 wow bounceInLeft">
-						<h3>Duties</h3>
+						<h3><?php echo $lang['duties']; ?></h3>
 					</div>
 					
 					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
-						<h4>APSA</h4>
+						<img src="assets/images/logo/apsa.jpg" alt="APSA" style="width:91px;">
 						<?php
 						$rs_apsa = mysql_query("SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'apsa' ORDER BY id;") or die(mysql_error());
-						echo "<ul style='list-style-type:none;padding:0;'>";
+						echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
 						while(false !==($row_apsa = mysql_fetch_assoc($rs_apsa)))
 						{
-							echo "<li>".$row_apsa['job']."</li>";
+							echo "<li style='padding-bottom:10px;'>".$row_apsa['job']."</li>";
 						}
 						echo "</ul>";
 						?>
-						<hr class="hidden-xs">
 					</div>
 					
 					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
-						<h4>iQ</h4>
+						<img src="assets/images/logo/iqsolutions.jpg" alt="iQ" style="width:91px;">
 						<?php
 						$rs_iq = mysql_query("SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'iq' ORDER BY id;") or die(mysql_error());
-						echo "<ul style='list-style-type:none;padding:0;'>";
+						echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
 						while(false !==($row_iq = mysql_fetch_assoc($rs_iq)))
 						{
-							echo "<li>".$row_iq['job']."</li>";
+							echo "<li style='padding-bottom:10px;'>".$row_iq['job']."</li>";
 						}
 						echo "</ul>";
 						?>
-						<hr class="hidden-xs">
 					</div>
 					
 					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
-						<h4>Georgetown</h4>
+						<img src="assets/images/logo/georgetown.png" alt="Georgetown" style="width:91px;">
 						<?php
 						$rs_georgetown = mysql_query("SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'georgetown' ORDER BY id;") or die(mysql_error());
-						echo "<ul style='list-style-type:none;padding:0;'>";
+						echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
 						while(false !==($row_georgetown = mysql_fetch_assoc($rs_georgetown)))
 						{
-							echo "<li>".$row_georgetown['job']."</li>";
+							echo "<li style='padding-bottom:10px;'>".$row_georgetown['job']."</li>";
 						}
 						echo "</ul>";
 						?>
-						<hr class="hidden-xs">
 					</div>
 				</div>
+				<hr class="hidden-xs">
 				<div class="row resume-items">
 
 					<div class="col-md-3 wow bounceInLeft">

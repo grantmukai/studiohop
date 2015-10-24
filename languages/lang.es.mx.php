@@ -53,7 +53,9 @@ $lang['lines_of_code'] = 'L&iacute;neas de c&oacute;digo';
 $lang['happy_customers'] = 'Personas en mi equipo';
 
 $lang['web_development'] = "Desarrollo Web";
+$lang['public relations'] = "Relaciones P&uacute;blicas";
 $lang['experience'] = "Experiencias Profesionales";
+$lang['duties'] = "Tareas";
 
 $lang['status_title'] = 'Mi Estado';
 $lang['status_1'] = "Estoy trabajando para la Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica";
