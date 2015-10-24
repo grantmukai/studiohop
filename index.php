@@ -459,12 +459,30 @@
 
 				</div><!-- .row -->
 				<div class="row resume-items">
-					<div class="col-md-3 wow bounceInLeft">
+					<div class="col-md-12 wow bounceInLeft">
 						<h3>Duties</h3>
 					</div>
 					
-					<div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
-						<h4>Computer science</h4>
+					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+						<h4>APSA</h4>
+						<ul>
+							<li>List item</li>
+							<li>List item</li>
+						</ul>
+						<hr class="hidden-xs">
+					</div>
+					
+					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+						<h4>iQ Solutions</h4>
+						<ul>
+							<li>List item</li>
+							<li>List item</li>
+						</ul>
+						<hr class="hidden-xs">
+					</div>
+					
+					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+						<h4>Georgetown</h4>
 						<ul>
 							<li>List item</li>
 							<li>List item</li>
