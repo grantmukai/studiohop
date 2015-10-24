@@ -441,12 +441,18 @@
 					</div>
 
 					<?php
-						$rs_positions = mysql_query("SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY id;") or die(mysql_error());
+						$rs_positions = mysql_query("SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY start_date;") or die(mysql_error());
+						$rs_duties = mysql_query("SELET job FROM descriptions WHERE company = 'APSA' AND type = 'WEB' AND language = '$cv_lang' ORDER BY id;") or die(mysql_error());
 						while(false !==($row_positions = mysql_fetch_assoc($rs_positions)))
 						{
 							echo "<div class='col-md-8 col-sm-8 resume-item wow bounceInUp' style='clear:both;'>";
 							echo "<h4>".$row_positions['jobtitle']."</h4>";
-							echo "<p>Job descriptions to come later</p>";
+							echo "<ul>";
+							while(false !==($row_duties = mysql_fetch_assoc($rs_duties)))
+							{
+								echo "<li>".$row_duties['job']."</li>";
+							}
+							echo "</ul>";
 							echo "<hr class='hidden-xs'>";
 							echo "</div>";
 							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
