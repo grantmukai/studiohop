@@ -441,7 +441,7 @@
 					</div>
 
 					<?php
-						$rs_positions = mysql_query("SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY start_date;") or die(mysql_error());
+						$rs_positions = mysql_query("SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY start_date DESC;") or die(mysql_error());
 						while(false !==($row_positions = mysql_fetch_assoc($rs_positions)))
 						{
 							echo "<div class='col-md-8 col-sm-8 resume-item wow bounceInUp' style='clear:both;'>";
@@ -456,20 +456,22 @@
 						}
 					?>
 
-					<div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
-						<h4>Front-end developer / php programmer</h4>
-						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-						<hr class="hidden-xs">
-					</div>
-
-					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
-						<h4><i class="fa fa-suitcase"></i> Google</h4>
-						<i class="fa fa-calendar"></i> 2013 - 2014
-						<hr class="visible-xs">
-					</div>
 
 				</div><!-- .row -->
-
+				<div class="row resume-items">
+					<div class="col-md-3 wow bounceInLeft">
+						<h3>Duties</h3>
+					</div>
+					
+					<div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
+						<h4>Computer science</h4>
+						<ul>
+							<li>List item</li>
+							<li>List item</li>
+						</ul>
+						<hr class="hidden-xs">
+					</div>
+				</div>
 				<div class="row resume-items">
 
 					<div class="col-md-3 wow bounceInLeft">
