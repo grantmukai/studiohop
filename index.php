@@ -465,10 +465,15 @@
 					
 					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
 						<h4>APSA</h4>
-						<ul>
-							<li>List item</li>
-							<li>List item</li>
-						</ul>
+						<?php
+						$rs_apsa = mysql_query("SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'apsa' ORDER BY id;") or die(mysql_error());
+						echo "<ul>";
+						while(false !==($row_apsa = mysql_fetch_assoc($rs_apsa)))
+						{
+							echo "<li>".$row_apsa['job']."</li>";
+						}
+						echo "</ul>";
+						?>
 						<hr class="hidden-xs">
 					</div>
 					
