@@ -467,7 +467,7 @@
 						<h4>APSA</h4>
 						<?php
 						$rs_apsa = mysql_query("SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'apsa' ORDER BY id;") or die(mysql_error());
-						echo "<ul>";
+						echo "<ul style='list-style-type:none;padding:0;'>";
 						while(false !==($row_apsa = mysql_fetch_assoc($rs_apsa)))
 						{
 							echo "<li>".$row_apsa['job']."</li>";
@@ -478,20 +478,30 @@
 					</div>
 					
 					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
-						<h4>iQ Solutions</h4>
-						<ul>
-							<li>List item</li>
-							<li>List item</li>
-						</ul>
+						<h4>iQ</h4>
+						<?php
+						$rs_iq = mysql_query("SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'iq' ORDER BY id;") or die(mysql_error());
+						echo "<ul style='list-style-type:none;padding:0;'>";
+						while(false !==($row_iq = mysql_fetch_assoc($rs_iq)))
+						{
+							echo "<li>".$row_iq['job']."</li>";
+						}
+						echo "</ul>";
+						?>
 						<hr class="hidden-xs">
 					</div>
 					
 					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
 						<h4>Georgetown</h4>
-						<ul>
-							<li>List item</li>
-							<li>List item</li>
-						</ul>
+						<?php
+						$rs_georgetown = mysql_query("SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'georgetown' ORDER BY id;") or die(mysql_error());
+						echo "<ul style='list-style-type:none;padding:0;'>";
+						while(false !==($row_georgetown = mysql_fetch_assoc($rs_georgetown)))
+						{
+							echo "<li>".$row_georgetown['job']."</li>";
+						}
+						echo "</ul>";
+						?>
 						<hr class="hidden-xs">
 					</div>
 				</div>
