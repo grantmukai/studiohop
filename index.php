@@ -451,7 +451,7 @@
 							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
 							echo "<h4><i class='fa fa-suitcase'></i> ".$row_positions['company']."</h4>";
 							if (is_null($row_positions['end_date'])) {
-								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_positions['start_date']))." - Present";	
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_positions['start_date']))." - " . date('m') . "." . date('Y');	
 							} else {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_positions['start_date']))." - ".date('m.Y',strtotime($row_positions['end_date']));
 							}
@@ -510,7 +510,7 @@
 				<div class="row resume-items">
 
 					<div class="col-md-3 wow bounceInLeft">
-						<h3>Education</h3>
+						<h3><?php echo $lang['education']; ?></h3>
 					</div>
 
 					<div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
