@@ -55,6 +55,7 @@ $lang['web_development'] = "Web Development";
 $lang['public_relations'] = "Public Relations";
 $lang['experience'] = "Work Experience";
 $lang['duties'] = "Duties";
+$lang['education'] = "Education";
 
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";
