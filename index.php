@@ -450,7 +450,11 @@
 							echo "</div>";
 							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
 							echo "<h4><i class='fa fa-suitcase'></i> ".$row_positions['company']."</h4>";
-							echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_positions['start_date']))." - ".date('m.Y',strtotime($row_positions['end_date']));
+							if (is_null($row_positions['end_date'])) {
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_positions['start_date']))." - Present";	
+							} else {
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_positions['start_date']))." - ".date('m.Y',strtotime($row_positions['end_date']));
+							}
 							echo "<hr class='visible-xs'>";
 							echo "</div>";
 						}
