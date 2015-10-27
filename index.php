@@ -540,7 +540,7 @@
 				<div class="row">
 
 					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
-						<a href="#" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> Download CV</a>
+						<a href="<?php echo "cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($fileDate, 'mdy').".pdf"; ?>" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> <?php echo $lang['download_cv']." (".$lang['file_size']."KB)"; ?></a>
 					</div>
 
 				</div><!-- .row -->

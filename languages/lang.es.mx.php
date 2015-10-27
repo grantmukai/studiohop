@@ -1,3 +1,4 @@
+<?php date_default_timezone_set("America/Montreal"); ?>
 <?php
 /*
 ------------------------
@@ -57,6 +58,10 @@ $lang['public relations'] = "Relaciones P&uacute;blicas";
 $lang['experience'] = "Experiencias Profesionales";
 $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
+
+$lang['download_cv'] = "Descargar CV";
+$lang['file_date'] = new DateTime('10/20/2015');
+$lang['file_size'] = 65;
 
 $lang['status_title'] = 'Mi Estado';
 $lang['status_1'] = "Estoy trabajando para la Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica";
