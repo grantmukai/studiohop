@@ -248,7 +248,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="6"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="7"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -257,7 +257,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInUp">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="724"></span></h2>
+								<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="832"></span></h2>
 							</div>
 							<h3><?php echo $lang['lines_of_code']; ?></h3>
 						</div>
@@ -518,8 +518,8 @@
 						<h3><?php echo $lang['education']; ?></h3>
 					</div>
 
-					<!--php
-					$educationQuery = "SELECT school, degreetype, degreetitle, minortype, minortitle, start_date, end_date WHERE language = '$cv_lang' ORDER BY id;";
+					<?php
+					$educationQuery = "SELECT school, degreetype, degreetitle, minortype, minortitle, start_date, end_date FROM education WHERE language = '$cv_lang' ORDER BY id;";
 					$educationResult = $link->query($educationQuery);
 					while($row_education = $educationResult->fetch_assoc())
 					{
@@ -528,14 +528,13 @@
 						echo "<p>".$row_education['minortype'].",".$row_education['minortitle']."</p>";
 						echo "<hr class='hidden-xs'>";
 						echo "</div>";
-						echo
 						echo "<div class='col-md-3 col-sm-4 resume-place wow bounceInRight'>";
 						echo "<h4><i class='fa fa-suitcase'></i> ".$row_education['school']."</h4>";
 						echo "<i class='fa fa-calendar'></i> 2013 - 2014";
 						echo "<hr class='visible-xs'>";
 						echo "</div>";
 					}
-					?-->
+					?>
 				</div><!-- .row -->
 
 				<div class="row">
