@@ -248,7 +248,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="5"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="6"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -495,7 +495,7 @@
 						echo "</ul>";
 						?>
 					</div>
-					
+
 					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
 						<img src="assets/images/logo/iqsolutions.jpg" alt="iQ" style="width:91px;">
 						<?php
@@ -518,30 +518,24 @@
 						<h3><?php echo $lang['education']; ?></h3>
 					</div>
 
-					<div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
-						<h4>Computer science</h4>
-						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-						<hr class="hidden-xs">
-					</div>
-
-					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
-						<h4><i class="fa fa-suitcase"></i> Stanford University</h4>
-						<i class="fa fa-calendar"></i> 2013 - 2014
-						<hr class="visible-xs">
-					</div>
-
-					<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
-						<h4>Visual designer</h4>
-						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-						<hr class="hidden-xs">
-					</div>
-
-					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
-						<h4><i class="fa fa-suitcase"></i> St. Patrick University</h4>
-						<i class="fa fa-calendar"></i> 2013 - 2014
-						<hr class="visible-xs">
-					</div>
-
+					<!--php
+					$educationQuery = "SELECT school, degreetype, degreetitle, minortype, minortitle, start_date, end_date WHERE language = '$cv_lang' ORDER BY id;";
+					$educationResult = $link->query($educationQuery);
+					while($row_education = $educationResult->fetch_assoc())
+					{
+						echo "<div class='col-md-6 col-sm-8 resume-item wow bounceInUp'>";
+						echo "<h4>".$row_education['degreetype'].",".$row_education['degreetitle']."</h4>";
+						echo "<p>".$row_education['minortype'].",".$row_education['minortitle']."</p>";
+						echo "<hr class='hidden-xs'>";
+						echo "</div>";
+						echo
+						echo "<div class='col-md-3 col-sm-4 resume-place wow bounceInRight'>";
+						echo "<h4><i class='fa fa-suitcase'></i> ".$row_education['school']."</h4>";
+						echo "<i class='fa fa-calendar'></i> 2013 - 2014";
+						echo "<hr class='visible-xs'>";
+						echo "</div>";
+					}
+					?-->
 				</div><!-- .row -->
 
 				<div class="row">
