@@ -59,7 +59,7 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_cv'] = "Download CV";
-$lang['file_date'] = new DateTime('09/25/2015');
+$fileDate = new DateTime('09/25/2015');
 $lang['file_size'] = 68;
 
 $lang['status_title'] = 'My status';

@@ -60,7 +60,7 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_cv'] = "Descargar CV";
-$lang['file_date'] = new DateTime('10/20/2015');
+$fileDate = new DateTime('10/20/2015');
 $lang['file_size'] = 65;
 
 $lang['status_title'] = 'Mi Estado';
