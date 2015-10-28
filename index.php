@@ -248,7 +248,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="7"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="8"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -530,7 +530,11 @@
 						echo "</div>";
 						echo "<div class='col-md-3 col-sm-4 resume-place wow bounceInRight'>";
 						echo "<h4><i class='fa fa-suitcase'></i> ".$row_education['school']."</h4>";
-						echo "<i class='fa fa-calendar'></i> 2013 - 2014";
+						if (is_null($row_positions['end_date'])) {
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_education['start_date']))." - " . date('m') . "." . date('Y');	
+							} else {
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_education['start_date']))." - ".date('m.Y',strtotime($row_education['end_date']));
+							}
 						echo "<hr class='visible-xs'>";
 						echo "</div>";
 					}
