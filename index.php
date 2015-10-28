@@ -175,6 +175,23 @@
 
 						<div class="profile-widget">
 							<h3><?php echo $lang['skillset']; ?></h3>
+                            
+                            <!--php
+						      $skillsetQuery = "SELECT Memo1, Memo2, level FROM appslangs WHERE language='$cv_lang' ORDER BY id;";
+						      $skillsetResult = $link->query($skillsetQuery);
+                                while($row_skillset = $skillsetResult->fetch_assoc())
+                                {
+                                    echo "<h5>".$row_skillset['Memo1']."</h5>";
+                                    echo "<h6>".$row_skillset['Memo2']."</h6>";
+                                    echo "<div class='skill-bar'>";
+                                    echo "<div class='skill-rate-off'></div>";
+                                    echo "<div class='skill-rate-off'></div>";
+                                    echo "<div class='skill-rate-off'></div>";
+                                    echo "<div class='skill-rate-off'></div>";
+                                    echo "<div class='skill-rate-off'></div>";
+                                    echo "</div>";
+                                }
+                            ?-->
 
 							<h5>HTML5 / CSS3 / PHP5</h5>
 							<div class="skill-bar">
