@@ -1,5 +1,6 @@
 <?php include_once "common.php"; ?>
 <?php date_default_timezone_set("America/Montreal"); ?>
+<?php $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv"); ?>
 <!DOCTYPE html>
 <?php echo "<html lang='" . $_GET['lang'] . "'"; ?>
 <head>
@@ -176,7 +177,7 @@
 						<div class="profile-widget">
 							<h3><?php echo $lang['skillset']; ?></h3>
                             
-                            <!--php
+                            <?php
 						      $skillsetQuery = "SELECT Memo1, Memo2, level FROM appslangs WHERE language='$cv_lang' ORDER BY id;";
 						      $skillsetResult = $link->query($skillsetQuery);
                                 while($row_skillset = $skillsetResult->fetch_assoc())
@@ -191,7 +192,7 @@
                                     echo "<div class='skill-rate-off'></div>";
                                     echo "</div>";
                                 }
-                            ?-->
+                            ?>
 
 							<h5>HTML5 / CSS3 / PHP5</h5>
 							<div class="skill-bar">
@@ -265,7 +266,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="8"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="9"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -431,7 +432,6 @@
 		<!-- Resume section start -->
 
 		<section id="resume" class="section">
-		<?php $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv"); ?>
 
 			<div class="container">
 
