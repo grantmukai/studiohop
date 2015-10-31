@@ -1,9 +1,9 @@
 <?php date_default_timezone_set("America/Montreal"); ?>
 <?php
 /*
-----------------------
+--------------------------
 Language: English - Canada
-----------------------
+--------------------------
 */
 $cv_lang = "en-CA";
  
@@ -56,7 +56,7 @@ $lang['web_development'] = "Web Development";
 $lang['public_relations'] = "Public Relations";
 $lang['experience'] = "Work Experience";
 $lang['duties'] = "Duties";
-$lang['education'] = "Where I got my creds! Yo!";
+$lang['education'] = "Education";
 
 $lang['download_cv'] = "Download CV";
 $fileDate = new DateTime('10/12/2015');

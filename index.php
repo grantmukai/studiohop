@@ -182,14 +182,22 @@
 						      $skillsetResult = $link->query($skillsetQuery);
                                 while($row_skillset = $skillsetResult->fetch_assoc())
                                 {
+                                	$levelStart = 1;
+                                	$levelEnd = $row_skillset['level'];
+                                	$levelMax = 5;
+                                	$levelRemain = 5 - $row_skillset['level'];
                                     echo "<h5>".$row_skillset['Memo1']."</h5>";
                                     echo "<h6>".$row_skillset['Memo2']."</h6>";
                                     echo "<div class='skill-bar'>";
-                                    echo "<div class='skill-rate-off'></div>";
-                                    echo "<div class='skill-rate-off'></div>";
-                                    echo "<div class='skill-rate-off'></div>";
-                                    echo "<div class='skill-rate-off'></div>";
-                                    echo "<div class='skill-rate-off'></div>";
+                                    while ($levelStart <= $levelEnd) {
+                                    	echo "<div class='skill-rate-on'></div>";
+                                    	$levelStart = $levelStart + 1;
+                                    }
+
+                                    while ($levelRemain > 0) {
+                                    	echo "<div class='skill-rate-off'></div>";
+                                    	$levelRemain = $levelRemain - 1;
+                                    }
                                     echo "</div>";
                                 }
                             ?>
@@ -266,7 +274,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="9"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="10"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
