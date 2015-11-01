@@ -144,7 +144,8 @@
 						<a href="index.php?lang=en-US">United States</a>&nbsp;|&nbsp;
 						<a href="index.php?lang=fr-CA">Qu&eacute;bec</a>&nbsp;|&nbsp;
 						<a href="index.php?lang=en-CA">Canada</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=es-MX">M&eacute;xico</a>
+						<a href="index.php?lang=es-MX">M&eacute;xico</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=fr-FR">France</a>
 						</h5>
 					</div>
 				</div>
@@ -274,7 +275,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="10"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="11"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -569,11 +570,12 @@
 				<div class="row">
 
 					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
-						<a href="<?php if (preg_match('/^en*/', $cv_lang)) {
-							echo "cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($fileDate, 'mdy').".pdf"; ?>" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> <?php echo $lang['download_cv']." (".$lang['file_size']."KB)";
+						<?php if (preg_match('/^en/', $cv_lang)) {
+							echo "<a href='cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($fileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_cv']." (".$lang['file_size']."KB)</a>";
 								} else {
-							echo "cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($fileDate, 'dmy').".pdf"; ?>" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> <?php echo $lang['download_cv']." (".$lang['file_size']."KB)";
-								} ?></a>
+							echo "<a href='cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($fileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_cv']." (".$lang['file_size']."KB)</a>";
+								} 
+						?>
 					</div>
 
 				</div><!-- .row -->
