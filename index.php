@@ -179,7 +179,7 @@
 							<h3><?php echo $lang['skillset']; ?></h3>
                             
                             <?php
-						      $skillsetQuery = "SELECT Memo1, Memo2, level FROM appslangs WHERE language='$cv_lang' ORDER BY id;";
+						      $skillsetQuery = "SELECT subject, level FROM appslangs2 WHERE (language='$cv_lang' OR language IS NULL) ORDER BY id;";
 						      $skillsetResult = $link->query($skillsetQuery);
                                 while($row_skillset = $skillsetResult->fetch_assoc())
                                 {
@@ -187,8 +187,7 @@
                                 	$levelEnd = $row_skillset['level'];
                                 	$levelMax = 5;
                                 	$levelRemain = 5 - $row_skillset['level'];
-                                    echo "<h5>".$row_skillset['Memo1']."</h5>";
-                                    echo "<h6>".$row_skillset['Memo2']."</h6>";
+                                    echo "<h5>".$row_skillset['subject']."</h5>";
                                     echo "<div class='skill-bar'>";
                                     while ($levelStart <= $levelEnd) {
                                     	echo "<div class='skill-rate-on'></div>";
@@ -203,7 +202,7 @@
                                 }
                             ?>
 
-							<h5>HTML5 / CSS3 / PHP5</h5>
+							<h5>Placeholder</h5>
 							<div class="skill-bar">
 								<div class="skill-rate-on"></div>
 								<div class="skill-rate-on"></div>
@@ -211,29 +210,6 @@
 								<div class="skill-rate-off"></div>
 							</div>
 
-							<h5>MySQL / Microsoft SQL Server</h5>
-							<div class="skill-bar">
-								<div class="skill-rate-on"></div>
-								<div class="skill-rate-on"></div>
-								<div class="skill-rate-off"></div>
-								<div class="skill-rate-off"></div>
-							</div>
-
-							<h5>Constant Contact / Informz / MailChimp</h5>
-							<div class="skill-bar">
-								<div class="skill-rate-on"></div>
-								<div class="skill-rate-on"></div>
-								<div class="skill-rate-on"></div>
-								<div class="skill-rate-on"></div>
-							</div>
-
-							<h5>Premiere / After Effects / Photoshop / InDesign</h5>
-							<div class="skill-bar">
-								<div class="skill-rate-on"></div>
-								<div class="skill-rate-on"></div>
-								<div class="skill-rate-off"></div>
-								<div class="skill-rate-off"></div>
-							</div>
 						</div>
 
 						<div class="profile-widget">
@@ -275,7 +251,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="11"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="12"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
