@@ -22,8 +22,8 @@ $lang['portfolio'] = 'Mi trabajo';
 $lang['contact'] = 'Contactarme';
 
 $lang['hello_1'] = "Hola, me llamo Grant Kiyoshi Mukai";
-$lang['hello_2'] = 'Desarrollador Web. | Gerente de bases de datos. | Agente de Marketing. | Editor de V&iacute;deo.';
-$lang['hello_3'] = 'Desarrollador Web. Gerente de bases de datos. Agente de Marketing.';
+$lang['hello_2'] = 'Desarrollador Web. | Gerente de bases de datos. | Agente de comunicaciones. | Editor de v&iacute;deo.';
+$lang['hello_3'] = 'Desarrollador Web. Gerente de bases de datos. Agente de comunicaciones.';
 
 $lang['select_country'] = "Elige su pa&iacute;s";
 

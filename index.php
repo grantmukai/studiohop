@@ -202,14 +202,6 @@
                                 }
                             ?>
 
-							<h5>Placeholder</h5>
-							<div class="skill-bar">
-								<div class="skill-rate-on"></div>
-								<div class="skill-rate-on"></div>
-								<div class="skill-rate-on"></div>
-								<div class="skill-rate-off"></div>
-							</div>
-
 						</div>
 
 						<div class="profile-widget">
@@ -403,7 +395,7 @@
 					<div class="col-md-9 headline nomargin wow bounceInDown">
 						<h3><?php echo $lang['status_1']; ?></h3>
 						<p><?php echo $lang['status_2']; ?></p>
-						<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php echo $lang['status_3']; ?></a>
+						<a href="mailto:mukai_job_emploi@icloud.com" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php echo $lang['status_3']; ?></a>
 					</div>
 
 				</div><!-- .row -->
