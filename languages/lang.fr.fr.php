@@ -51,7 +51,7 @@ $lang['my_stats'] = 'Mes Statistiques';
 
 $lang['cups_of_coffee'] = 'Tasses de caf&eacute;';
 $lang['lines_of_code'] = 'Lignes de code';
-$lang['happy_customers'] = 'Gens sur mon &eacute;quipe';
+$lang['happy_customers'] = 'Membres de mon &eacute;quipe';
 
 $lang['web_development'] = "D&eacute;veloppement Web";
 $lang['public_relations'] = "Relations Publiques";
@@ -59,9 +59,13 @@ $lang['experience'] = "Exp&eacute;riences Professionnelles";
 $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";
 
-$lang['download_cv'] = "T&eacute;l&eacute;charger CV";
-$fileDate = new DateTime('10/27/2015');
-$lang['file_size'] = 3;
+$lang['download_webcv'] = "T&eacute;l&eacute;charger CV";
+$webFileDate = new DateTime('10/27/2015');
+$lang['webfile_size'] = 3;
+
+$lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
+$prFileDate = new DateTime('10/31/2015');
+$lang['prfile_size'] = 3;
 
 $lang['status_title'] = 'Mon status';
 $lang['status_1'] = "Je travaille actuellement pour l'Association am&eacute;ricaine de science politique";

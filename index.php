@@ -191,12 +191,12 @@
                                     echo "<div class='skill-bar'>";
                                     while ($levelStart <= $levelEnd) {
                                     	echo "<div class='skill-rate-on'></div>";
-                                    	$levelStart = $levelStart + 1;
+                                    	$levelStart++;
                                     }
 
                                     while ($levelRemain > 0) {
                                     	echo "<div class='skill-rate-off'></div>";
-                                    	$levelRemain = $levelRemain - 1;
+                                    	$levelRemain--;
                                     }
                                     echo "</div>";
                                 }
@@ -243,7 +243,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="12"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="13"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -406,7 +406,7 @@
 
 		<!-- Callout section end -->
 
-		<!-- Resume section start -->
+		<!-- web cv section start -->
 
 		<section id="resume" class="section">
 
@@ -435,20 +435,20 @@
 					</div>
 
 					<?php
-						$positionsQuery = "SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY start_date DESC;";
-						$positionsResult = $link->query($positionsQuery);
-						while($row_positions = $positionsResult->fetch_assoc())
+						$webpositionsQuery = "SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY start_date DESC;";
+						$webpositionsResult = $link->query($webpositionsQuery);
+						while($row_webpositions = $webpositionsResult->fetch_assoc())
 						{
 							echo "<div class='col-md-8 col-sm-8 resume-item wow bounceInUp' style='clear:both;'>";
-							echo "<h4>".$row_positions['jobtitle']."</h4>";
+							echo "<h4>".$row_webpositions['jobtitle']."</h4>";
 							echo "<hr class='hidden-xs'>";
 							echo "</div>";
 							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
 							echo "<h4><i class='fa fa-suitcase'></i> ".$row_positions['company']."</h4>";
-							if (is_null($row_positions['end_date'])) {
-								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_positions['start_date']))." - " . date('m') . "." . date('Y');	
+							if (is_null($row_webpositions['end_date'])) {
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_webpositions['start_date']))." - " . date('m') . "." . date('Y');	
 							} else {
-								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_positions['start_date']))." - ".date('m.Y',strtotime($row_positions['end_date']));
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_webpositions['start_date']))." - ".date('m.Y',strtotime($row_webpositions['end_date']));
 							}
 							echo "<hr class='visible-xs'>";
 							echo "</div>";
@@ -539,9 +539,9 @@
 
 					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
 						<?php if (preg_match('/^en/', $cv_lang)) {
-							echo "<a href='cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($fileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_cv']." (".$lang['file_size']."KB)</a>";
+							echo "<a href='cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($webFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_webcv']." (".$lang['webfile_size']."KB)</a>";
 								} else {
-							echo "<a href='cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($fileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_cv']." (".$lang['file_size']."KB)</a>";
+							echo "<a href='cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($webFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_webcv']." (".$lang['webfile_size']."KB)</a>";
 								} 
 						?>
 					</div>
@@ -552,7 +552,155 @@
 
 		</section>
 
-		<!-- Resume section end -->
+		<!-- web cv section end -->
+		
+		<!-- marketing cv section start -->
+
+		<section id="#" class="section">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12 headline wow bounceInDown">
+						<h2><?php echo $lang['public_relations']; ?></h2>
+						<?php 
+						$introsQuery = "SELECT paragraph FROM intros WHERE language='$cv_lang' AND type = 'MAR';";
+						$introsResult = $link->query($introsQuery);
+						while($row_intros = $introsResult->fetch_assoc())
+						{
+							echo "<p>" . $row_intros['paragraph'] . "</p>";
+						}
+						?>
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row resume-items">
+
+					<div class="col-md-3 wow bounceInLeft">
+						<h3><?php echo $lang['experience']; ?></h3>
+					</div>
+
+					<?php
+						$prpositionsQuery = "SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'MAR' ORDER BY start_date DESC;";
+						$prpositionsResult = $link->query($prpositionsQuery);
+						while($row_prpositions = $prpositionsResult->fetch_assoc())
+						{
+							echo "<div class='col-md-8 col-sm-8 resume-item wow bounceInUp' style='clear:both;'>";
+							echo "<h4>".$row_prpositions['jobtitle']."</h4>";
+							echo "<hr class='hidden-xs'>";
+							echo "</div>";
+							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
+							echo "<h4><i class='fa fa-suitcase'></i> ".$row_positions['company']."</h4>";
+							if (is_null($row_prpositions['end_date'])) {
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_prpositions['start_date']))." - " . date('m') . "." . date('Y');	
+							} else {
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_prpositions['start_date']))." - ".date('m.Y',strtotime($row_prpositions['end_date']));
+							}
+							echo "<hr class='visible-xs'>";
+							echo "</div>";
+						}
+					?>
+
+
+				</div><!-- .row -->
+				<div class="row resume-items">
+					<div class="col-md-12 wow bounceInLeft">
+						<h3><?php echo $lang['duties']; ?></h3>
+					</div>
+					
+					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+						<img src="assets/images/logo/apsa.jpg" alt="APSA" style="width:91px;">
+						<?php
+						$apsaQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'MAR' AND company = 'apsa' ORDER BY id;";
+						$apsaResult = $link->query($apsaQuery);
+						echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
+						while($row_apsa = $apsaResult->fetch_assoc())
+						{
+							echo "<li style='padding-bottom:10px;'>".$row_apsa['job']."</li>";
+						}
+						echo "</ul>";
+						?>
+					</div>
+					
+					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+						<img src="assets/images/logo/wellesley.png" alt="Wellesley Public Media" style="width:91px;">
+						<?php
+						$wellesleyQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'MAR' AND company = 'wellesley' ORDER BY id;";
+						echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
+						$wellesleyResult = $link->query($wellesleyQuery);
+						while($row_wellesley = $wellesleyResult->fetch_assoc())
+						{
+							echo "<li style='padding-bottom:10px;'>".$row_wellesley['job']."</li>";
+						}
+						echo "</ul>";
+						?>
+					</div>
+
+					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+						<img src="assets/images/logo/patch.jpg" alt="iQ" style="width:91px;">
+						<?php
+						$patchQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'MAR' AND company = 'patch' ORDER BY id;";
+						echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
+						$patchResult = $link->query($patchQuery);
+						while($row_patch = $patchResult->fetch_assoc())
+						{
+							echo "<li style='padding-bottom:10px;'>".$row_patch['job']."</li>";
+						}
+						echo "</ul>";
+						?>
+					</div>
+					
+				</div>
+				<hr class="hidden-xs">
+				<div class="row resume-items">
+
+					<div class="col-md-3 wow bounceInLeft">
+						<h3><?php echo $lang['education']; ?></h3>
+					</div>
+
+					<?php
+					$educationQuery = "SELECT school, degreetype, degreetitle, minortype, minortitle, start_date, end_date FROM education WHERE language = '$cv_lang' ORDER BY id;";
+					$educationResult = $link->query($educationQuery);
+					while($row_education = $educationResult->fetch_assoc())
+					{
+						echo "<div class='col-md-6 col-sm-8 resume-item wow bounceInUp'>";
+						echo "<h4>".$row_education['degreetype'].",".$row_education['degreetitle']."</h4>";
+						echo "<p>".$row_education['minortype'].",".$row_education['minortitle']."</p>";
+						echo "<hr class='hidden-xs'>";
+						echo "</div>";
+						echo "<div class='col-md-3 col-sm-4 resume-place wow bounceInRight'>";
+						echo "<h4><i class='fa fa-suitcase'></i> ".$row_education['school']."</h4>";
+						if (is_null($row_positions['end_date'])) {
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_education['start_date']))." - " . date('m') . "." . date('Y');	
+							} else {
+								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_education['start_date']))." - ".date('m.Y',strtotime($row_education['end_date']));
+							}
+						echo "<hr class='visible-xs'>";
+						echo "</div>";
+					}
+					?>
+				</div><!-- .row -->
+
+				<div class="row">
+
+					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
+						<?php if (preg_match('/^en/', $cv_lang)) {
+							echo "<a href='cv_files/".$cv_lang."/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_prcv']." (".$lang['prfile_size']."KB)</a>";
+								} else {
+							echo "<a href='cv_files/".$cv_lang."/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_prcv']." (".$lang['prfile_size']."KB)</a>";
+								} 
+						?>
+					</div>
+
+				</div><!-- .row -->
+
+			</div><!-- .container -->
+
+		</section>
+
+		<!-- Marketing cv section end -->
 
 		<!-- Callout section start -->
 

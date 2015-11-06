@@ -58,9 +58,13 @@ $lang['experience'] = "Work Experience";
 $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
-$lang['download_cv'] = "Download CV";
-$fileDate = new DateTime('09/25/2015');
-$lang['file_size'] = 68;
+$lang['download_webcv'] = "Download CV";
+$webFileDate = new DateTime('09/25/2015');
+$lang['webfile_size'] = 68;
+
+$lang['download_prcv'] = "Download CV";
+$prFileDate = new DateTime('09/30/2015');
+$lang['prfile_size'] = 67;
 
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";
