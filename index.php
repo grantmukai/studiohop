@@ -243,7 +243,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="13"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="14"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -444,7 +444,7 @@
 							echo "<hr class='hidden-xs'>";
 							echo "</div>";
 							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
-							echo "<h4><i class='fa fa-suitcase'></i> ".$row_positions['company']."</h4>";
+							echo "<h4><i class='fa fa-suitcase'></i> ".$row_webpositions['company']."</h4>";
 							if (is_null($row_webpositions['end_date'])) {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_webpositions['start_date']))." - " . date('m') . "." . date('Y');	
 							} else {
@@ -538,10 +538,12 @@
 				<div class="row">
 
 					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
-						<?php if (preg_match('/^en/', $cv_lang)) {
-							echo "<a href='cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($webFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_webcv']." (".$lang['webfile_size']."KB)</a>";
+						<?php 
+						if ($lang['webfile_size'] < 10) { $webFileByte = "MB";} else { $webFileByte = "KB";}
+						if (preg_match('/^en/', $cv_lang)) {
+							echo "<a href='cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($webFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_webcv']." (".$lang['webfile_size'].$webFileByte.")</a>";
 								} else {
-							echo "<a href='cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($webFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_webcv']." (".$lang['webfile_size']."KB)</a>";
+							echo "<a href='cv_files/".$cv_lang."/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($webFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_webcv']." (".$lang['webfile_size'].$webFileByte.")</a>";
 								} 
 						?>
 					</div>
@@ -592,7 +594,7 @@
 							echo "<hr class='hidden-xs'>";
 							echo "</div>";
 							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
-							echo "<h4><i class='fa fa-suitcase'></i> ".$row_positions['company']."</h4>";
+							echo "<h4><i class='fa fa-suitcase'></i> ".$row_prpositions['company']."</h4>";
 							if (is_null($row_prpositions['end_date'])) {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_prpositions['start_date']))." - " . date('m') . "." . date('Y');	
 							} else {
@@ -686,10 +688,12 @@
 				<div class="row">
 
 					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
-						<?php if (preg_match('/^en/', $cv_lang)) {
-							echo "<a href='cv_files/".$cv_lang."/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_prcv']." (".$lang['prfile_size']."KB)</a>";
+						<?php 
+						if ($lang['prfile_size'] < 10) { $prFileByte = "MB";} else { $prFileByte = "KB";}
+						if (preg_match('/^en/', $cv_lang)) {
+							echo "<a href='cv_files/".$cv_lang."/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_prcv']." (".$lang['prfile_size'].$prFileByte.")</a>";
 								} else {
-							echo "<a href='cv_files/".$cv_lang."/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_prcv']." (".$lang['prfile_size']."KB)</a>";
+							echo "<a href='cv_files/".$cv_lang."/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> ".$lang['download_prcv']." (".$lang['prfile_size'].$prFileByte.")</a>";
 								} 
 						?>
 					</div>
