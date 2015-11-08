@@ -68,7 +68,8 @@
 						<li><a href="#intro"><?php echo $lang['intro']; ?></a></li>
 						<li><a href="#profile"><?php echo $lang['profile']; ?></a></li>
 						<!--<li><a href="#services"><-php echo $lang['services']; ?></a></li>-->
-						<li><a href="#resume"><?php echo $lang['resume']; ?></a></li>
+						<li><a href="#web"><?php echo $lang['web_cv']; ?></a></li>
+                        <li><a href="#public_relations"><?php echo $lang['pr_cv']; ?></a></li>
 						<!--<li><a href="#portfolio"><-php echo $lang['portfolio']; ?></a></li>-->
 						<!--<li><a href="#contact"><-php echo $lang['contact']; ?></a></li>-->
 					</ul>
@@ -408,7 +409,7 @@
 
 		<!-- web cv section start -->
 
-		<section id="resume" class="section">
+		<section id="web" class="section">
 
 			<div class="container">
 
@@ -558,7 +559,7 @@
 		
 		<!-- marketing cv section start -->
 
-		<section id="#" class="section">
+		<section id="public_relations" class="section">
 
 			<div class="container">
 

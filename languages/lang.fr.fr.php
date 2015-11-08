@@ -17,7 +17,8 @@ $lang['NAME'] = 'Grant Kiyoshi Muka&iuml;';
 $lang['intro'] = 'Acceuil';
 $lang['profile'] = 'Profil';
 $lang['services'] = 'services';
-$lang['resume'] = 'Curriculum Vitae';
+$lang['web_cv'] = 'D&eacute;veloppement Web';
+$lang['pr_cv'] = 'Relations Publiques';
 $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 

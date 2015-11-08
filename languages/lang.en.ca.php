@@ -17,7 +17,8 @@ $lang['NAME'] = 'Grant Kiyoshi Mukai';
 $lang['intro'] = 'home';
 $lang['profile'] = 'profile';
 $lang['services'] = 'services';
-$lang['resume'] = 'Curriculum Vitae';
+$lang['web_cv'] = 'Web Development';
+$lang['pr_cv'] = 'Public Relations';
 $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
