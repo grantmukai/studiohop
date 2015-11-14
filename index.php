@@ -6,8 +6,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="<?php echo $lang['metadesc']; ?>">
+	<meta name="author" content="Grant Kiyoshi Mukai">
 
 	<title><?php echo $lang['PAGE_TITLE']; ?></title>
 

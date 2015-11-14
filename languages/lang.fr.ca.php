@@ -8,7 +8,8 @@ Langue: Français - Canada
 $cv_lang = "fr-CA";
  
 $lang = array();
- 
+
+$lang['metadesc'] = "Grant Kiyoshi Muka&iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia, &Eacute;tats&ndash;Unis"; 
 $lang['PAGE_TITLE'] = 'Grant Muka&iuml;';
 $lang['NAME'] = 'Grant Kiyoshi Muka&iuml;';
 
