@@ -8,6 +8,9 @@ Language: English - Ireland
 $cv_lang = "en-IE";
  
 $lang = array();
+
+$lang['drapeau'] = "ie";
+$lang['drapeau_alt'] = "Flag of Ireland";
  
 $lang['metadesc'] = "Grant Kiyoshi Mukai is a Web developer and communications associate in Washington, District of Columbia, United States";
 $lang['PAGE_TITLE'] = 'Grant Mukai';

@@ -1,13 +1,16 @@
 <?php date_default_timezone_set("America/Montreal"); ?>
 <?php
 /*
-----------------------
+-------------------------
 Langue: Français - Canada
-----------------------
+-------------------------
 */
 $cv_lang = "fr-CA";
  
 $lang = array();
+
+$lang['drapeau'] = "ca";
+$lang['drapeau_alt'] = "Drapeau du Canada";
 
 $lang['metadesc'] = "Grant Kiyoshi Muka&iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia, &Eacute;tats&ndash;Unis"; 
 $lang['PAGE_TITLE'] = 'Grant Muka&iuml;';

@@ -8,6 +8,9 @@ Language: English - Canada
 $cv_lang = "en-CA";
  
 $lang = array();
+
+$lang['drapeau'] = "ca";
+$lang['drapeau_alt'] = "Flag of Canada";
  
 $lang['metadesc'] = "Grant Kiyoshi Mukai is a Web developer and communications associate in Washington, District of Columbia, United States";
 $lang['PAGE_TITLE'] = 'Grant Mukai';

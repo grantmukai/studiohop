@@ -166,8 +166,9 @@
 				<div class="row">
 
 					<div class="col-md-12 headline wow bounceInDown">
+						<img style="float:right;" alt="<?php echo $lang['drapeau_alt']; ?>" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" />
 						<h2><?php echo $lang['hello_1']; ?></h2>
-						<p><?php echo $lang['hello_3']; ?></p>
+						<p><?php echo $lang['hello_3']; ?></p> 
 					</div>
 
 					<div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
@@ -244,7 +245,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="17"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="18"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>

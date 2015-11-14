@@ -9,6 +9,9 @@ $cv_lang = "en-US";
  
 $lang = array();
  
+$lang['drapeau'] = "us";
+$lang['drapeau_alt'] = "Flag of the United States";
+
 $lang['metadesc'] = "Grant Kiyoshi Mukai is a Web developer and communications associate in Washington, District of Columbia, United States";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
 $lang['NAME'] = 'Grant Kiyoshi Mukai';

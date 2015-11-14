@@ -8,6 +8,9 @@ Langue: Español - México
 $cv_lang = "es-MX";
  
 $lang = array();
+
+$lang['drapeau'] = "mx";
+$lang['drapeau_alt'] = "Bandera de M&eacute;xico";
  
 $lang['metadesc'] = "Grant Kiyoshi Mukai es un desarrollador Web y agente de comunicaciones a Washington, Distrito de Columbia, Estados Unidos";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
