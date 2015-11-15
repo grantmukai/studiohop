@@ -68,8 +68,8 @@ $webFileDate = new DateTime('11/07/2015');
 $lang['webfile_size'] = 72;
 
 $lang['download_prcv'] = "Download CV";
-$prFileDate = new DateTime('09/30/2015');
-$lang['prfile_size'] = 67;
+$prFileDate = new DateTime('11/07/2015');
+$lang['prfile_size'] = 58;
 
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";
