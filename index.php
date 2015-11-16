@@ -182,7 +182,7 @@
 				<div class="row">
 
 					<div class="col-md-12 headline wow bounceInDown">
-						<img style="float:right;" alt="<?php echo $lang['drapeau_alt']; ?>" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" />
+						<img class="drapeau" alt="<?php echo $lang['drapeau_alt']; ?>" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" />
 						<h2><?php echo $lang['hello_1']; ?></h2>
 						<p><?php echo $lang['hello_3']; ?></p> 
 					</div>
