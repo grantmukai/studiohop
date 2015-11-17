@@ -57,6 +57,8 @@ $lang['cups_of_coffee'] = 'Cups of coffee';
 $lang['lines_of_code'] = 'Lines of code';
 $lang['happy_customers'] = 'People I work with';
 
+$lang['derniere_maj'] = "Last updated";
+
 $lang['web_development'] = "Web Development";
 $lang['public_relations'] = "Public Relations";
 $lang['experience'] = "Work Experience";

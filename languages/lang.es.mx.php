@@ -58,6 +58,8 @@ $lang['cups_of_coffee'] = 'Tazas de caf&eacute;';
 $lang['lines_of_code'] = 'L&iacute;neas de c&oacute;digo';
 $lang['happy_customers'] = 'Personas en mi equipo';
 
+$lang['derniere_maj'] = "&Uacute;ltima actualizaci&oacute;n";
+
 $lang['web_development'] = "Desarrollo Web";
 $lang['public_relations'] = "Relaciones P&uacute;blicas";
 $lang['experience'] = "Experiencias Profesionales";

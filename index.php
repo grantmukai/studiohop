@@ -1,6 +1,7 @@
 <?php include_once "common.php"; ?>
 <?php date_default_timezone_set("America/Montreal"); ?>
 <?php $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv"); ?>
+<?php $langueLocale = str_replace("-","_",$cv_lang); ?>
 <!DOCTYPE html>
 <?php echo "<html lang='" . $_GET['lang'] . "'"; ?>
 <head>
@@ -261,7 +262,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="19"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="20"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -439,9 +440,14 @@
 						$introsResult = $link->query($introsQuery);
 						while($row_intros = $introsResult->fetch_assoc())
 						{
-							echo "<p>" . $row_intros['paragraph'] . "</p>";
+							echo "<p style='color:#000;'>" . $row_intros['paragraph'] . "</p>";
 						}
 						?>
+						<?php 
+						setlocale(LC_TIME, $langueLocale);
+						echo "<p><small>{$lang['derniere_maj']}: ";
+						echo strftime("%d %B %Y", $webFileDate->getTimestamp());
+						echo "</small></p>"; ?>
 					</div>
 
 				</div><!-- .row -->
@@ -589,9 +595,14 @@
 						$introsResult = $link->query($introsQuery);
 						while($row_intros = $introsResult->fetch_assoc())
 						{
-							echo "<p>" . $row_intros['paragraph'] . "</p>";
+							echo "<p style='color:#000;'>" . $row_intros['paragraph'] . "</p>";
 						}
 						?>
+						<?php 
+						setlocale(LC_TIME, $langueLocale);
+						echo "<p><small>{$lang['derniere_maj']}: ";
+						echo strftime("%d %B %Y", $prFileDate->getTimestamp());
+						echo "</small></p>"; ?>
 					</div>
 
 				</div><!-- .row -->
