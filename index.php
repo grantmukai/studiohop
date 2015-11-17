@@ -548,7 +548,7 @@
 						echo "</div>";
 						echo "<div class='col-md-3 col-sm-4 resume-place wow bounceInRight'>";
 						echo "<h4><i class='fa fa-suitcase'></i> ".$row_education['school']."</h4>";
-						if (is_null($row_positions['end_date'])) {
+						if (is_null($row_education['end_date'])) {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_education['start_date']))." - " . date('m') . "." . date('Y');	
 							} else {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_education['start_date']))." - ".date('m.Y',strtotime($row_education['end_date']));
@@ -703,7 +703,7 @@
 						echo "</div>";
 						echo "<div class='col-md-3 col-sm-4 resume-place wow bounceInRight'>";
 						echo "<h4><i class='fa fa-suitcase'></i> ".$row_education['school']."</h4>";
-						if (is_null($row_positions['end_date'])) {
+						if (is_null($row_education['end_date'])) {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_education['start_date']))." - " . date('m') . "." . date('Y');	
 							} else {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_education['start_date']))." - ".date('m.Y',strtotime($row_education['end_date']));
