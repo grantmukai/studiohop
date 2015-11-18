@@ -88,7 +88,7 @@
 						<li><a href="#web"><?php echo $lang['web_cv']; ?></a></li>
                         <li><a href="#public_relations"><?php echo $lang['pr_cv']; ?></a></li>
 						<!--<li><a href="#portfolio"><-php echo $lang['portfolio']; ?></a></li>-->
-						<!--<li><a href="#contact"><-php echo $lang['contact']; ?></a></li>-->
+						<li><a href="#contact"><?php echo $lang['contact']; ?></a></li>
 					</ul>
 				</div>
 
@@ -898,7 +898,7 @@
 
 		<!-- Portfolio section end -->
 
-		<!-- Contact section start 
+		<!-- Contact section start -->
 
 		<section id="contact" class="section">
 
@@ -907,26 +907,26 @@
 				<div class="row">
 
 					<div class="col-md-12 headline wow bounceInLeft">
-						<h2>Contact Us</h2>
-						<p>Drop us a line or give us a ring. We love to hear you.</p>
+						<h2><?php echo $lang['contact_title']; ?></h2>
+						<p><?php echo $lang['contact_subtitle']; ?></p>
 					</div>
 
 					<div class="col-md-6 wow bounceInUp">
 
-						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+						<p><?php echo $lang['contact_paragraph']; ?></p>
 
 						<ul class="icon-list">
-							<li><i class="fa fa-fw fa-map-marker"></i>001 Some Street, Some City, US</li>
-							<li><i class="fa fa-fw fa-phone"></i>123 4567 8910</li>
-							<li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">support@site.com</a></li>
-							<li><i class="fa fa-fw fa-globe"></i><a href="">http://www.site.com</a></li>
+							<!--<li><i class="fa fa-fw fa-map-marker"></i>001 Some Street, Some City, US</li>-->
+							<li><i class="fa fa-fw fa-phone"></i>+1 202 656 8317</li>
+							<li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">mukai_job_emploi@icloud.com</a></li>
+							<li><i class="fa fa-fw fa-globe"></i><a href="">http://www.grantmukai.com</a></li>
 						</ul>
 
 					</div>
 
 					<div class="col-md-6 wow bounceInRight">
 
-						<form id="contact-form" role="form">
+						<!--<form id="contact-form" role="form">
 
 							<div class="form-group">
 								<label class="sr-only" for="c_name">Name</label>
@@ -946,7 +946,7 @@
 								<i class="fa fa-bullhorn icon-before"></i> Send it
 							</button>
 
-						</form>
+						</form>-->
 
 						<div class="ajax-response"></div>
 
@@ -956,7 +956,7 @@
 
 			</div>
 
-		</section>-->
+		</section>
 
 		<!-- Contact section end -->
 

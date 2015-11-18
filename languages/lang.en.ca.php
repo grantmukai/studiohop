@@ -78,8 +78,12 @@ $lang['status_1'] = "I currently work for the American Political Science Associa
 $lang['status_2'] = "I work in the Communications &amp; Marketing Department helping our members better connect to the field of political science.";
 $lang['status_3'] = 'Contact me';
 
+$lang['contact_title'] = 'Contact Me';
+$lang['contact_subtitle'] = "Drop me a line or give me a ring. I'd love to hear from you";
+$lang['contact_paragraph'] = "Feel free to contact me using one of the methods below or use the contact form on the right. <em>Coming Soon!</em>";
+
 $lang['customers'] = 'Companies I have worked for';
 
-$lang['copyright'] = 'Grant Mukai. All rights reserved. Canada.';
+$lang['copyright'] = 'Grant Mukai. All rights reserved.';
 
 ?>

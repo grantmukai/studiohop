@@ -77,7 +77,11 @@ $lang['prfile_size'] = 82;
 $lang['status_title'] = 'Mi Estado';
 $lang['status_1'] = "Estoy trabajando para la Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica";
 $lang['status_2'] = "Trabajo en el Departamento de comunicaciones y marketing con un equipo fantastico.";
-$lang['status_3'] = 'Contactarme';
+$lang['status_3'] = 'Cont&aacute;ctame';
+
+$lang['contact_title'] = 'Cont&aacute;ctame';
+$lang['contact_subtitle'] = "Me da una l&iacute;nea o llamame por tel&eacute;fono. Me gustar&iacute;a escucharle.";
+$lang['contact_paragraph'] = "Puede contactarme utilizando una de las maneras abajo o el formulario de contacto a su derecho. <em>&iexcl;Venga pronto!</em>";
 
 $lang['customers'] = "Trabaj&oacute; para estas empresas";
 

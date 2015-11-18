@@ -79,6 +79,10 @@ $lang['status_1'] = "Je travaille actuellement pour l'Association am&eacute;rica
 $lang['status_2'] = "Je travaille dans le D&eacute;partement des communications &amp; marketing avec une &eacute;quipe formidable.";
 $lang['status_3'] = 'Contactez-moi';
 
+$lang['contact_title'] = 'Contactez-Moi';
+$lang['contact_subtitle'] = "Donnez-moi un coup de fil ou envoyez-moi un courriel. J'ai h&acirc;te de vous parler.";
+$lang['contact_paragraph'] = "Vous pouvez prendre contact avec moi en utilisant un des moyens au-dessous ou en essayant le formulaire &agrave; droite. <em>&Agrave; Venir!</em>";
+
 $lang['customers'] = "Soci&eacute;t&eacute;s pour lesquelles j'ai travaill&eacute";
 
 $lang['copyright'] = 'Grant Muka&iuml;. Tous droits r&eacute;serv&eacute;s.';
