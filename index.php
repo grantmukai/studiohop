@@ -926,7 +926,7 @@
 
 					<div class="col-md-6 wow bounceInRight">
 
-						<!--<form id="contact-form" role="form">
+						<form id="contact-form" role="form" name="contact-form" action="process-form.php" action="post">
 
 							<div class="form-group">
 								<label class="sr-only" for="c_name">Name</label>
@@ -946,7 +946,7 @@
 								<i class="fa fa-bullhorn icon-before"></i> Send it
 							</button>
 
-						</form>-->
+						</form>
 
 						<div class="ajax-response"></div>
 
