@@ -80,7 +80,7 @@ $lang['status_3'] = 'Contact me';
 
 $lang['contact_title'] = 'Contact Me';
 $lang['contact_subtitle'] = "Drop me a line or give me a ring. I'd love to hear from you";
-$lang['contact_paragraph'] = "Feel free to contact me using one of the methods below or use the contact form on the right. <em>Coming Soon!</em>";
+$lang['contact_paragraph'] = "Feel free to contact me using one of the methods below or use the contact form on the right.";
 
 $lang['customers'] = 'Companies I have worked for';
 
