@@ -262,7 +262,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="24"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="25"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -940,6 +940,10 @@
 
 							<div class="form-group">
 								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message"></textarea>
+							</div>
+							
+							<div style="display:none;" class="form-group">
+								<?php echo "<textarea class='form-control' id='c_language' name='c_language' rows='1'>{$cv_lang}</textarea>"; ?>
 							</div>
 
 							<button type="submit" class="btn btn-custom-1">

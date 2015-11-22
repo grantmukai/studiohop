@@ -159,14 +159,15 @@
 			var c_name = $("#c_name").val();
 			var c_email = $("#c_email").val();
 			var c_message = $("#c_message ").val();
+			var c_language = $("#c_language").val();
 			var responseMessage = $('.ajax-response');
 
-			if (( c_name== "" || c_email == "" || c_message == "") || (!isValidEmailAddress(c_email) )) {
+			/*if (( c_name== "" || c_email == "" || c_message == "") || c_language == "" ||(!isValidEmailAddress(c_email) )) {
 				responseMessage.fadeIn(500);
 				responseMessage.html('<i class="fa fa-warning"></i> Check all fields.');
 			}
 
-			else {
+			else {*/
 				$.ajax({
 					type: "POST",
 					url: "assets/php/contactForm.php",
@@ -174,7 +175,8 @@
 					data: {
 						c_email: c_email,
 						c_name: c_name,
-						c_message: c_message
+						c_message: c_message,
+						c_language: c_language
 					},
 					beforeSend: function(result) {
 						$('#contact-form button').empty();
@@ -193,7 +195,7 @@
 						}
 					}
 				});
-			}
+				//}
 
 			return false;
 
