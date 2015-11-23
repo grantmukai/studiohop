@@ -71,8 +71,8 @@ $webFileDate = new DateTime('11/17/2015');
 $lang['webfile_size'] = 2;
 
 $lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
-$prFileDate = new DateTime('10/07/2015');
-$lang['prfile_size'] = 61;
+$prFileDate = new DateTime('11/21/2015');
+$lang['prfile_size'] = 57;
 
 $lang['status_title'] = 'Mon status';
 $lang['status_1'] = "Je travaille actuellement pour l'Association am&eacute;ricaine de science politique";
