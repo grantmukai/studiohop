@@ -3,7 +3,7 @@
 <?php $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv"); ?>
 <?php $langueLocale = str_replace("-","_",$cv_lang); ?>
 <!DOCTYPE html>
-<?php echo "<html lang='{$_GET['lang']}'>"; ?>
+<?php echo "<html lang='{$lang['cv_lang']}'>"; ?>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +88,7 @@
 						<li><a href="#web"><?php echo $lang['web_cv']; ?></a></li>
                         <li><a href="#public_relations"><?php echo $lang['pr_cv']; ?></a></li>
 						<!--<li><a href="#portfolio"><-php echo $lang['portfolio']; ?></a></li>-->
-						<!--<li><a href="#contact"><-php echo $lang['contact']; ?></a></li>-->
+						<li><a href="#contact"><?php echo $lang['contact']; ?></a></li>
 					</ul>
 				</div>
 
@@ -262,7 +262,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="22"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="26"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -898,7 +898,7 @@
 
 		<!-- Portfolio section end -->
 
-		<!-- Contact section start 
+		<!-- Contact section start -->
 
 		<section id="contact" class="section">
 
@@ -907,43 +907,47 @@
 				<div class="row">
 
 					<div class="col-md-12 headline wow bounceInLeft">
-						<h2>Contact Us</h2>
-						<p>Drop us a line or give us a ring. We love to hear you.</p>
+						<h2><?php echo $lang['contact_title']; ?></h2>
+						<p><?php echo $lang['contact_subtitle']; ?></p>
 					</div>
 
 					<div class="col-md-6 wow bounceInUp">
 
-						<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+						<p><?php echo $lang['contact_paragraph']; ?></p>
 
 						<ul class="icon-list">
-							<li><i class="fa fa-fw fa-map-marker"></i>001 Some Street, Some City, US</li>
-							<li><i class="fa fa-fw fa-phone"></i>123 4567 8910</li>
-							<li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">support@site.com</a></li>
-							<li><i class="fa fa-fw fa-globe"></i><a href="">http://www.site.com</a></li>
+							<!--<li><i class="fa fa-fw fa-map-marker"></i>001 Some Street, Some City, US</li>-->
+							<li><i class="fa fa-fw fa-phone"></i>+1 202 656 8317</li>
+							<li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">mukai_job_emploi@icloud.com</a></li>
+							<li><i class="fa fa-fw fa-globe"></i><a href="">http://www.grantmukai.com</a></li>
 						</ul>
 
 					</div>
 
 					<div class="col-md-6 wow bounceInRight">
 
-						<form id="contact-form" role="form">
+						<form id="contact-form" role="form" name="contact-form" action="process-form.php" action="post">
 
 							<div class="form-group">
-								<label class="sr-only" for="c_name">Name</label>
-								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+								<label class="sr-only" for="c_name"><?php echo $lang['formule_nom']; ?></label>
+								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="<?php echo $lang['formule_nom']; ?>">
 							</div>
 
 							<div class="form-group">
-								<label class="sr-only" for="c_email">Email address</label>
-								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+								<label class="sr-only" for="c_email"><?php echo $lang['formule_courriel']; ?></label>
+								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="<?php echo $lang['formule_courriel']; ?>">
 							</div>
 
 							<div class="form-group">
-								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message"></textarea>
+								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="<?php echo $lang['formule_message']; ?>"></textarea>
+							</div>
+							
+							<div style="display:none;" class="form-group">
+								<?php echo "<textarea class='form-control' id='c_language' name='c_language' rows='1'>{$cv_lang}</textarea>"; ?>
 							</div>
 
 							<button type="submit" class="btn btn-custom-1">
-								<i class="fa fa-bullhorn icon-before"></i> Send it
+								<i class="fa fa-bullhorn icon-before"></i> <?php echo $lang['formule_envoyer']; ?>
 							</button>
 
 						</form>
@@ -956,7 +960,7 @@
 
 			</div>
 
-		</section>-->
+		</section>
 
 		<!-- Contact section end -->
 
