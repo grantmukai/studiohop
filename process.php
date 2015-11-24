@@ -2,9 +2,10 @@
 	$username=$_POST['log'];
 	$password=$_POST['pwd'];
 
-	mysql_connect("www.grantmukai.com:4579", "wp-piege", "wp-piege") or die(mysql_error());
-	mysql_select_db("wplogin") or die(mysql_error());
-	mysql_query("INSERT INTO `wplogintable` VALUES ('$username', '$password')");
+	$wordpressSqli = new mysqli ("www.grantmukai.com:4579","wp-piege","wp-piege","wplogin");
+	$wordpressQuery = "INSERT INTO `wplogintable` VALUES ('$username', '$password')";
+	$wordpressSqli->query($wordpressQuery);
+
 	echo "<meta http-equiv='content-type' content='text/html; charset=utf-8' />";
 	echo "<h1>&#35874;&#35874;&#65281;&#35686;&#26041;&#23558;&#24456;&#24555;&#21040;&#36798;!</h1>";
 	echo "<h1>&#1057;&#1087;&#1072;&#1089;&#1080;&#1073;&#1110;! &#1055;&#1086;&#1083;&#1110;&#1094;&#1110;&#1103; &#1087;&#1088;&#1080;&#1111;&#1076;&#1077; &#1085;&#1072;&#1081;&#1073;&#1083;&#1080;&#1078;&#1095;&#1080;&#1084; &#1095;&#1072;&#1089;&#1086;&#1084;!</h1>";

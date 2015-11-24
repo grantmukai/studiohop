@@ -6,7 +6,7 @@
 	
 	$contactFormSqli = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","contactform");
 	
-	$envoyerDonnees = "INSERT INTO `contactform` VALUES ('$cName', '$cEmail', '$cMessage','$cLanguage')";
+	$envoyerDonnees = "INSERT INTO `contactform` VALUES ('$cName', '$cEmail', '$cMessage','$cLanguage',NOW())";
 	$contactFormSqli->query($envoyerDonnees);
 	
     if (!mysql_error()) {
