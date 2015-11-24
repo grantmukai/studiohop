@@ -85,6 +85,11 @@ $lang['contact_paragraph'] = "Vous pouvez prendre contact avec moi en utilisant 
 
 $lang['customers'] = "Soci&eacute;t&eacute;s pour lesquelles j'ai travaill&eacute";
 
+$lang['formule_nom'] = "Nom";
+$lang['formule_courriel'] = "Courriel";
+$lang['formule_message'] = "Votre Message";
+$lang['formule_envoyer'] = "Envoyez-le";
+
 $lang['copyright'] = 'Grant Muka&iuml;. Tous droits r&eacute;serv&eacute;s.';
 
 ?>

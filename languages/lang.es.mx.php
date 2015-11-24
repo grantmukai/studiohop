@@ -85,6 +85,11 @@ $lang['contact_paragraph'] = "Puede contactarme utilizando una de las maneras ab
 
 $lang['customers'] = "Trabaj&oacute; para estas empresas";
 
+$lang['formule_nom'] = "Nombre";
+$lang['formule_courriel'] = "Dirrecci&oacute;n de correo electr&oacute;nico";
+$lang['formule_message'] = "Su mensaje";
+$lang['formule_envoyer'] = "Envialo";
+
 $lang['copyright'] = 'Grant Mukai. Todos los derechos reservados.';
 
 ?>

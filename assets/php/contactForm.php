@@ -11,12 +11,12 @@
 	
     if (!mysql_error()) {
         $result = array(
-            'message' => "Merci de m'avoir contact&eacute;! Thanks for contacting me! &iexcl;Gracias por ponerse en contacto conmigo!",
+            'message' => "Merci de m'avoir contact&eacute;! <br />Thanks for contacting me!<br /> &iexcl;Gracias por ponerse en contacto conmigo!",
             'sendstatus' => 1
             );
     } else {
         $result = array(
-            'message' => "D&eacute;sol&eacute;, il y a quelque chose de pas correct. Sorry, something is wrong. Lo siento, algo no pas&oacute; bien.",
+            'message' => "D&eacute;sol&eacute;, il y a quelque chose de pas correct.<br />Sorry, something is wrong.<br />Lo siento, algo no pas&oacute; bien.",
             'sendstatus' => 1
             );
     }

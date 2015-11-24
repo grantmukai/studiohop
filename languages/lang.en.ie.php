@@ -84,6 +84,11 @@ $lang['contact_paragraph'] = "Feel free to contact me using one of the methods b
 
 $lang['customers'] = 'Companies I have worked for';
 
+$lang['formule_nom'] = "Name";
+$lang['formule_courriel'] = "Email Address";
+$lang['formule_message'] = "Your message";
+$lang['formule_envoyer'] = "Send It";
+
 $lang['copyright'] = 'Grant Mukai. All rights reserved. Ireland.';
 
 ?>

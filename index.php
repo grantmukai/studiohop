@@ -3,7 +3,7 @@
 <?php $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv"); ?>
 <?php $langueLocale = str_replace("-","_",$cv_lang); ?>
 <!DOCTYPE html>
-<?php echo "<html lang='{$_GET['lang']}'>"; ?>
+<?php echo "<html lang='{$lang['cv_lang']}'>"; ?>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -262,7 +262,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="25"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="26"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -929,17 +929,17 @@
 						<form id="contact-form" role="form" name="contact-form" action="process-form.php" action="post">
 
 							<div class="form-group">
-								<label class="sr-only" for="c_name">Name</label>
-								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+								<label class="sr-only" for="c_name"><?php echo $lang['formule_nom']; ?></label>
+								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="<?php echo $lang['formule_nom']; ?>">
 							</div>
 
 							<div class="form-group">
-								<label class="sr-only" for="c_email">Email address</label>
-								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+								<label class="sr-only" for="c_email"><?php echo $lang['formule_courriel']; ?></label>
+								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="<?php echo $lang['formule_courriel']; ?>">
 							</div>
 
 							<div class="form-group">
-								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message"></textarea>
+								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="<?php echo $lang['formule_message']; ?>"></textarea>
 							</div>
 							
 							<div style="display:none;" class="form-group">
@@ -947,7 +947,7 @@
 							</div>
 
 							<button type="submit" class="btn btn-custom-1">
-								<i class="fa fa-bullhorn icon-before"></i> Send it
+								<i class="fa fa-bullhorn icon-before"></i> <?php echo $lang['formule_envoyer']; ?>
 							</button>
 
 						</form>

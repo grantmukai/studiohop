@@ -162,12 +162,12 @@
 			var c_language = $("#c_language").val();
 			var responseMessage = $('.ajax-response');
 
-			/*if (( c_name== "" || c_email == "" || c_message == "") || c_language == "" ||(!isValidEmailAddress(c_email) )) {
+			if (( c_name== "" || c_email == "" || c_message == "") ||(!isValidEmailAddress(c_email) )) {
 				responseMessage.fadeIn(500);
 				responseMessage.html('<i class="fa fa-warning"></i> Check all fields.');
 			}
 
-			else {*/
+			else {
 				$.ajax({
 					type: "POST",
 					url: "assets/php/contactForm.php",
@@ -180,7 +180,7 @@
 					},
 					beforeSend: function(result) {
 						$('#contact-form button').empty();
-						$('#contact-form button').append('<i class="fa fa-cog fa-spin"></i> Wait...');
+						$('#contact-form button').append('<i class="fa fa-cog fa-spin"></i> Wait..Attendez..Espera..');
 					},
 					success: function(result) {
 						if(result.sendstatus == 1) {
@@ -189,13 +189,13 @@
 							$('#contact-form').fadeOut(500);
 						} else {
 							$('#contact-form button').empty();
-							$('#contact-form button').append('<i class="fa fa-retweet"></i> Try again.');
+							$('#contact-form button').append('<i class="fa fa-retweet"></i> Try again. Reessayez. Intentar otra vez.');
 							responseMessage.html(result.message);
 							responseMessage.fadeIn(1000);
 						}
 					}
 				});
-				//}
+			}
 
 			return false;
 
