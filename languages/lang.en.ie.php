@@ -89,6 +89,6 @@ $lang['formule_courriel'] = "Email Address";
 $lang['formule_message'] = "Your message";
 $lang['formule_envoyer'] = "Send It";
 
-$lang['copyright'] = 'Grant Mukai. All rights reserved. Ireland.';
+$lang['copyright'] = "Grant Mukai. All rights reserved. Flag icons graciously provided by <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
 
 ?>

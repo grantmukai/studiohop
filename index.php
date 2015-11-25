@@ -3,7 +3,7 @@
 <?php $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv"); ?>
 <?php $langueLocale = str_replace("-","_",$cv_lang); ?>
 <!DOCTYPE html>
-<?php echo "<html lang='{$lang['cv_lang']}'>"; ?>
+<?php echo "<html lang='{$cv_lang}'>"; ?>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -159,11 +159,11 @@
 					<div style="text-align:center;">
 						<h4><?php echo $lang['select_country']; ?></h4>
 						<h5>
-						<a href="index.php?lang=en-US">United States</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=fr-CA">Qu&eacute;bec</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=en-CA">Canada</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=es-MX">M&eacute;xico</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=fr-FR">France</a>
+						<a href="index.php?lang=en-US"><img src="assets/images/drapeaux/us24.png" alt="" />&nbsp;United States</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=fr-CA"><img src="assets/images/drapeaux/qc24.png" alt="" />&nbsp;Qu&eacute;bec</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=en-CA"><img src="assets/images/drapeaux/ca24.png" alt="" />&nbsp;Canada</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=es-MX"><img src="assets/images/drapeaux/mx24.png" alt="" />&nbsp;M&eacute;xico</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=fr-FR"><img src="assets/images/drapeaux/fr24.png" alt="" />&nbsp;France</a>
 						</h5>
 					</div>
 				</div>

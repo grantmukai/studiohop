@@ -90,6 +90,6 @@ $lang['formule_courriel'] = "Dirrecci&oacute;n de correo electr&oacute;nico";
 $lang['formule_message'] = "Su mensaje";
 $lang['formule_envoyer'] = "Envialo";
 
-$lang['copyright'] = 'Grant Mukai. Todos los derechos reservados.';
+$lang['copyright'] = "Grant Mukai. Todos los derechos reservados. Iconos de banderas graciosamente proporcionados por <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
 
 ?>

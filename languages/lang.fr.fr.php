@@ -90,6 +90,6 @@ $lang['formule_courriel'] = "Courrier El&eacute;ctronique";
 $lang['formule_message'] = "Votre Message";
 $lang['formule_envoyer'] = "Envoyez-le";
 
-$lang['copyright'] = 'Grant Muka&iuml;. Tous droits r&eacute;serv&eacute;s.';
+$lang['copyright'] = "Grant Muka&iuml;. Tous droits r&eacute;serv&eacute;s. Ic&ocirc;nes des drapeaux gracieusement fournies par <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
 
 ?>

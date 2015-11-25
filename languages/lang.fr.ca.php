@@ -9,8 +9,8 @@ $cv_lang = "fr-CA";
  
 $lang = array();
 
-$lang['drapeau'] = "ca";
-$lang['drapeau_alt'] = "Drapeau du Canada";
+$lang['drapeau'] = "qc";
+$lang['drapeau_alt'] = "Drapeau du Qu&eacute;bec";
 
 $lang['metadesc'] = "Grant Kiyoshi Muka&iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia, &Eacute;tats&ndash;Unis"; 
 $lang['PAGE_TITLE'] = 'Grant Muka&iuml;';
@@ -90,6 +90,6 @@ $lang['formule_courriel'] = "Courriel";
 $lang['formule_message'] = "Votre Message";
 $lang['formule_envoyer'] = "Envoyez-le";
 
-$lang['copyright'] = 'Grant Muka&iuml;. Tous droits r&eacute;serv&eacute;s.';
+$lang['copyright'] = "Grant Muka&iuml;. Tous droits r&eacute;serv&eacute;s. Ic&ocirc;nes des drapeaux gracieusement fournies par <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
 
 ?>
