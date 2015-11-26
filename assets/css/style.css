@@ -765,6 +765,14 @@ h3 > .fa {
 	.drapeau {
 		float: center;
 	}
+	
+	.formuleDroite {
+		display:none;
+	}
+	
+	/*.formuleBas {
+		display:block;
+	}*/
 
 }
 
