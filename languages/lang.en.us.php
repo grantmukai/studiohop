@@ -73,6 +73,10 @@ $lang['download_prcv'] = "Download CV";
 $prFileDate = new DateTime('11/07/2015');
 $lang['prfile_size'] = 58;
 
+$lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
+$lang['redaction_soustitre'] = "Writing";
+$lang['redaction_p'] = "As a journalism major, I know how to write well for both print and online publications. I have used my writing abilities to report the news and also to promote businesses in the marketing space.";
+
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";
 $lang['status_2'] = "I work in the Communications &amp; Marketing Department helping our members better connect to the field of political science.";

@@ -74,6 +74,10 @@ $lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
 $prFileDate = new DateTime('11/21/2015');
 $lang['prfile_size'] = 57;
 
+$lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
+$lang['redaction_soustitre'] = "R&eacute;daction";
+$lang['redaction_p'] = "Puisque j'ai obtenu mon bac en journalisme, je sais bien &eacute;crire en &eacute;crit et en ligne et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et aussi pour mettre les petites entreprises en vedette dans l'espace de promotion.";
+
 $lang['status_title'] = 'Mon status';
 $lang['status_1'] = "Je travaille actuellement pour l'Association am&eacute;ricaine de science politique";
 $lang['status_2'] = "Je travaille dans le D&eacute;partement des communications &amp; marketing avec une &eacute;quipe formidable.";

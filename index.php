@@ -294,7 +294,7 @@
 
 		<!-- Callout section end -->
 
-		<!-- Services section start
+		<!-- Services section start -->
 
 		<section id="services" class="section">
 
@@ -303,8 +303,7 @@
 				<div class="row">
 
 					<div class="col-md-12 headline wow bounceInDown">
-						<h2>What i can do</h2>
-						<p>My Services.</p>
+						<h2><?php echo $lang['ce_que_je_peux_faire_titre']; ?></h2>
 					</div>
 
 					<div class="col-md-12">
@@ -316,9 +315,9 @@
 									<div class="icon">
 										<i class="fa fa-pencil"></i>
 									</div>
-									<h4>Text rotator</h4>
+									<h4><?php echo $lang['redaction_soustitre']; ?></h4>
 									<div class="text">
-										<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+										<p><?php echo $lang['redaction_p']; ?></p>
 									</div>
 								</div>
 							</div>
@@ -395,7 +394,7 @@
 
 			</div>
 
-		</section>-->
+		</section>
 
 		<!-- Services section end -->
 
