@@ -77,6 +77,8 @@ $lang['prfile_size'] = 3;
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
 $lang['redaction_p'] = "Puisque je suis dipl&ocirc;m&eacute; en journalisme, je sais bien &eacute;crire en &eacute;crit et en ligne et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et aussi pour mettre les petites entreprises en vedette dans l'espace de marketing.";
+$lang['multimedia_soustitre'] = "Multim&eacute;dia";
+$lang['multimedia_p'] = "Dans mes anciens jours, je travaillais en tant qu'animateur &agrave; la t&eacute;l&eacute; et monteur de vid&eacute;os. Je realisais mes propres reportages du d&eacute;but jusqu'&agrave; la fin en produisant mes propres effets sp&eacute;ciaux.";
 
 $lang['status_title'] = 'Mon status';
 $lang['status_1'] = "Je travaille actuellement pour l'Association am&eacute;ricaine de science politique";

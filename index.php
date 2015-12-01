@@ -183,7 +183,7 @@
 				<div class="row">
 
 					<div class="col-md-12 headline wow bounceInDown drapeau">
-						<img alt="<?php echo $lang['drapeau_alt']; ?>" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" />
+						<img id="drapeau_en_tete" alt="<?php echo $lang['drapeau_alt']; ?>" style="float:right;" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" />
 						<h2><?php echo $lang['hello_1']; ?></h2>
 						<p><?php echo $lang['hello_3']; ?></p> 
 					</div>
@@ -262,7 +262,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="28"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="29"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -294,7 +294,7 @@
 
 		<!-- Callout section end -->
 
-		<!-- Services section start -->
+		<!-- Services section start
 
 		<section id="services" class="section">
 
@@ -325,11 +325,11 @@
 							<div class="col-sm-4 wow bounceInUp">
 								<div class="service">
 									<div class="icon">
-										<i class="fa fa-image"></i>
+										<i class="fa fa-video-camera"></i>
 									</div>
-									<h4>Slideshow</h4>
+									<h4><?php echo $lang['multimedia_soustitre']; ?></h4>
 									<div class="text">
-										<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+										<p><?php echo $lang['multimedia_p']; ?></p>
 									</div>
 								</div>
 							</div>
@@ -806,7 +806,7 @@
 					</div>
 
 					<div class="col-md-4 col-sm-6 wow bounceInLeft">
-						<a href="assets/images/p1.jpg" class="pop-up" title="Caption 1">
+						<a href="index.php" class="popup-modal" title="Caption 1">
 							<div class="portfolio-item">
 								<div class="portfolio-item-preview">
 									<img src="assets/images/p1.jpg" alt="">

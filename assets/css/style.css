@@ -762,6 +762,10 @@ h3 > .fa {
 		float:right;
         padding-left:5px;
 	}
+
+	#drapeau_en_tete {
+		float:none!important;
+	}
 	
 	.formuleDroite {
 		display:none;

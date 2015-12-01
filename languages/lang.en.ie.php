@@ -76,6 +76,8 @@ $lang['webfile_size'] = 69;
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
 $lang['redaction_p'] = "As a journalism major, I know how to write well for both print and online publications. I have used my writing abilities to report the news and also to promote businesses in the marketing space.";
+$lang['multimedia_soustitre'] = "Multimedia";
+$lang['multimedia_p'] = "In my former days, I worked as a television reporter and video editor. I produced my own stories from start to finish and created my own special effects.";
 
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";
