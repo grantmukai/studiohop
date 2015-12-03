@@ -78,6 +78,8 @@ $lang['redaction_soustitre'] = "Writing";
 $lang['redaction_p'] = "As a journalism major, I know how to write well for both print and online publications. I have used my writing abilities to report the news and also to promote businesses in the marketing space.";
 $lang['multimedia_soustitre'] = "Multimedia";
 $lang['multimedia_p'] = "In my former days, I worked as a television reporter and video editor. I produced my own stories from start to finish and created my own special effects.";
+$lang['email_soustitre'] = "Email Design";
+$lang['email_p'] = "Understanding that email design is not the same as Web design, I am proficient in coding &ldquo;depricated&rdquo; HTML and inline CSS as well as having a good idea of what Outlook does and does not support.";
 
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";

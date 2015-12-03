@@ -79,6 +79,9 @@ $lang['redaction_soustitre'] = "R&eacute;daction";
 $lang['redaction_p'] = "Puisque je suis dipl&ocirc;m&eacute; en journalisme, je sais bien &eacute;crire en &eacute;crit et en ligne et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et aussi pour mettre les petites entreprises en vedette dans l'espace de marketing.";
 $lang['multimedia_soustitre'] = "Multim&eacute;dia";
 $lang['multimedia_p'] = "Dans mes anciens jours, je travaillais en tant qu'animateur &agrave; la t&eacute;l&eacute; et monteur de vid&eacute;os. Je realisais mes propres reportages du d&eacute;but jusqu'&agrave; la fin en produisant mes propres effets sp&eacute;ciaux.";
+$lang['email_soustitre'] = "Design de Courrier El&eacute;ctronique";
+$lang['email_p'] = "En comprenant que le design de courrier el&eacute;tronique n'est pas pareille que celle du Web, je suis comp&eacute;tent avec le code &ldquo;obsol&egrave;te&rdquo; du HTML et le CSS entre les m&ecirc;mes parenth&egrave;ses. De plus, j'ai une bonne id&eacute;e de ce qu'Outlook accepte et n'accepte pas.";
+
 
 $lang['status_title'] = 'Mon status';
 $lang['status_1'] = "Je travaille actuellement pour l'Association am&eacute;ricaine de science politique";

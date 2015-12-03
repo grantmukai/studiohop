@@ -262,7 +262,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="29"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="30"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -294,7 +294,7 @@
 
 		<!-- Callout section end -->
 
-		<!-- Services section start
+		<!-- Services section start -->
 
 		<section id="services" class="section">
 
@@ -337,11 +337,11 @@
 							<div class="col-sm-4 wow bounceInRight">
 								<div class="service">
 									<div class="icon">
-										<i class="fa fa-cog"></i>
+										<i class="fa fa-envelope-square"></i>
 									</div>
-									<h4>Easy configure</h4>
+									<h4><?php echo $lang['email_soustitre']; ?></h4>
 									<div class="text">
-										<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+										<p><?php echo $lang['email_p']; ?></p>
 									</div>
 								</div>
 							</div>
@@ -792,7 +792,7 @@
 
 		<!-- Callout section end -->
 
-		<!-- Portfolio section start
+		<!-- Portfolio section start -->
 
 		<section id="portfolio" class="section">
 
@@ -832,9 +832,22 @@
 							</div>
 						</a>
 					</div>
-
+					<script>
+						$(function () {
+							$('.popup-modal').magnificPopup({
+								type: 'inline',
+								preloader: false,
+								focus: '#username',
+								modal: true
+							});
+							$(document).on('click', '.popup-modal-dismiss', function (e) {
+								e.preventDefault();
+								$.magnificPopup.close();
+							});
+						});
+					</script>
 					<div class="col-md-4 col-sm-6 wow bounceInRight">
-						<a href="assets/images/p3.jpg" class="pop-up" title="Caption 3">
+						<a href="#test-modal" class="popup-modal">Ouvrez-Moi!</a>
 							<div class="portfolio-item">
 								<div class="portfolio-item-preview">
 									<img src="assets/images/p3.jpg" alt="">
@@ -843,8 +856,14 @@
 									<h3>Some work</h3>
 									<p>Category</p>
 								</div>
+								<div id="test-modal" class="white-popup-block mfp-hide">
+									<h1>Modal dialog</h1>
+									<p>You won't be able to dismiss this by usual means (escape or
+										click button), but you can close it programatically based on
+										user choices or actions.</p>
+									<p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+								</div>		
 							</div>
-						</a>
 					</div>
 
 					<div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".2s">
