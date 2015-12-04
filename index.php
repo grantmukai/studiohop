@@ -339,9 +339,9 @@
 									<div class="icon">
 										<i class="fa fa-envelope-square"></i>
 									</div>
-									<h4><?php echo $lang['email_soustitre']; ?></h4>
+									<h4><?php echo $lang['courriel_soustitre']; ?></h4>
 									<div class="text">
-										<p><?php echo $lang['email_p']; ?></p>
+										<p><?php echo $lang['courriel_p']; ?></p>
 									</div>
 								</div>
 							</div>
@@ -355,9 +355,9 @@
 									<div class="icon">
 										<i class="fa fa-code"></i>
 									</div>
-									<h4>Clear code</h4>
+									<h4><?php echo $lang['codepropre_soustitre']; ?></h4>
 									<div class="text">
-										<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+										<p><?php echo $lang['codepropre_p']; ?></p>
 									</div>
 								</div>
 							</div>
@@ -895,7 +895,7 @@
 					</div>
 
 					<div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".6s">
-						<a href="assets/images/p6.jpg" class="pop-up" title="Caption 6">
+						<a href="http://www.google.com">
 							<div class="portfolio-item">
 								<div class="portfolio-item-preview">
 									<img src="assets/images/p6.jpg" alt="">
