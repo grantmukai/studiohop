@@ -20,13 +20,13 @@ $lang['NAME'] = 'Grant Kiyoshi Muka&iuml;';
 
 $lang['intro'] = 'Acceuil';
 $lang['profile'] = 'Profil';
-$lang['services'] = 'services';
+$lang['services'] = 'Services';
 $lang['web_cv'] = 'D&eacute;veloppement Web';
 $lang['pr_cv'] = 'Relations Publiques';
 $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
-$lang['hello_1'] = "Bonjour, je m'appelle Grant Kiyoshi Muka&iuml;";
+$lang['hello_1'] = "Bonjour, mon nom est Grant Kiyoshi Muka&iuml;";
 $lang['hello_2'] = 'D&eacute;veloppeur Web. | G&eacute;rant des bases de donn&eacute;es. | Agent des communications. | Monteur vid&eacute;o.';
 $lang['hello_3'] = 'D&eacute;veloppeur Web. G&eacute;rant des Bases de Donn&eacute;es. Agent des communications.';
 
@@ -85,6 +85,8 @@ $lang['codepropre_soustitre'] = "Code Propre";
 $lang['codepropre_p'] = "Je suis s&eacute;rieux en &eacute;crivant seulement du code HTML5, CSS3 et PHP5 le plus propre et &agrave; jour. Mon code est correctement dent&eacute;l&eacute; et il suit les standards &eacute;tablis par le W3C.";
 $lang['adaptatif_soustitre'] = "Sites Web Adaptifs";
 $lang['adaptatif_p'] = "Non seulement je comprend l'impl&eacute;mentation des requ&ecirc;tes m&eacute;dias pour flotter et mettre &agrave; l'&eacute;chelle du contenu pour les sites Web adaptifs, je comprend aussi les meilleures pratiques pour cr&eacute;er un courriel adaptif (si support&eacute;)";
+$lang['soutien_soustitre'] = "Soutien";
+$lang['soutien_p'] = "Bien que j'offre des services Web pour mon association, j'entra&icirc;ne aussi nos employ&eacute;s pour qu'il puissent g&eacute;rer leurs propres contenus et j'assiste nos membres en anglais, fran&ccedil;ais et espagnol avec leurs questions d'adh&eacute;sion.";
 
 $lang['status_title'] = 'Mon status';
 $lang['status_1'] = "Je travaille actuellement pour l'Association am&eacute;ricaine de science politique";

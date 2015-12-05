@@ -84,7 +84,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#intro"><?php echo $lang['intro']; ?></a></li>
 						<li><a href="#profile"><?php echo $lang['profile']; ?></a></li>
-						<!--<li><a href="#services"><-php echo $lang['services']; ?></a></li>-->
+						<li><a href="#services"><?php echo $lang['services']; ?></a></li>
 						<li><a href="#web"><?php echo $lang['web_cv']; ?></a></li>
                         <li><a href="#public_relations"><?php echo $lang['pr_cv']; ?></a></li>
 						<!--<li><a href="#portfolio"><-php echo $lang['portfolio']; ?></a></li>-->
@@ -379,9 +379,9 @@
 									<div class="icon">
 										<i class="fa fa-life-ring"></i>
 									</div>
-									<h4>Support</h4>
+									<h4><?php echo $lang['soutien_soustitre']; ?></h4>
 									<div class="text">
-										<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+										<p><?php echo $lang['soutien_p']; ?></p>
 									</div>
 								</div>
 							</div>
@@ -792,7 +792,7 @@
 
 		<!-- Callout section end -->
 
-		<!-- Portfolio section start -->
+		<!-- Portfolio section start
 
 		<section id="portfolio" class="section">
 

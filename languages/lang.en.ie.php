@@ -20,7 +20,7 @@ $lang['NAME'] = 'Grant Kiyoshi Mukai';
 
 $lang['intro'] = 'home';
 $lang['profile'] = 'profile';
-$lang['services'] = 'services';
+$lang['services'] = 'Services';
 $lang['web_cv'] = 'Web Development';
 $lang['pr_cv'] = 'Public Relations';
 $lang['portfolio'] = 'My Work';
@@ -84,6 +84,8 @@ $lang['codepropre_soustitre'] = "Clear Code";
 $lang['codepropre_p'] = "I am very serious about only writing the cleanest up-to-date HTML5, CSS3 and PHP5. My code is properly indented and follows standards set by the W3C.";
 $lang['adaptatif_soustitre'] = "Responsive Design";
 $lang['adaptatif_p'] = "Not only do I understand how to implement media queries and float and scale content for responsive Web design, I also undestand best practices for creating responsive email (where supported)";
+$lang['soutien_soustitre'] = "Support";
+$lang['soutien_p'] = "Although I provide Web services for my association, I also offer training to our staff on how to manage their own content and assist our members in English, French and Spanish with membership issues.";
 
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";

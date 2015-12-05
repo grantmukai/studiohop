@@ -20,7 +20,7 @@ $lang['NAME'] = 'Grant Kiyoshi Mukai';
 
 $lang['intro'] = 'Inicio';
 $lang['profile'] = 'Perfil';
-$lang['services'] = 'servicios';
+$lang['services'] = 'Servicios';
 $lang['web_cv'] = 'Desarrollo Web';
 $lang['pr_cv'] = 'Relaciones P&uacute;blicas';
 $lang['portfolio'] = 'Mi trabajo';
@@ -85,6 +85,8 @@ $lang['codepropre_soustitre'] = "C&oacute;digo Limpio";
 $lang['codepropre_p'] = "Estoy serioso cuando escribo c&oacute;digo HTML5, CSS3 y PHP5 el m&aacute;s limpio y actualizado. Mi c&oacute;digo es correctamente sangrado y sigue los est&aacute;ndares establicidos por el W3C.";
 $lang['adaptatif_soustitre'] = "Dise&ntilde;o Web Adaptable";
 $lang['adaptatif_p'] = "No solo comprendo l'implementaci&oacute;n de <em>media quieres</em> para flotar y escalar contenidos para el dise&ntilde;o Web adaptable, comprendo tambi&eacute;n las mejores pr&aacute;cticas para crear un correo electr&oacute;nico adaptable (cuando apoyado)"; 
+$lang['soutien_soustitre'] = "Apoyo";
+$lang['soutien_p'] = "Aunque proporciono servicios Web para mi asociaci&oacute;n, ofrezco tambi&eacute;n entrenamiento a nuestros empleados c&oacute;mo pueden administrar sus propios contenidos y ayudo a nuestros miembros en ingl&eacute;s, franc&eacute;s; y espa&ntilde;ol con preguntas de membres&iacute;a.";
 
 $lang['status_title'] = 'Mi Estado';
 $lang['status_1'] = "Estoy trabajando para la Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica";
