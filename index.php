@@ -367,9 +367,9 @@
 									<div class="icon">
 										<i class="fa fa-desktop"></i>
 									</div>
-									<h4>Responsive design</h4>
+									<h4><?php echo $lang['adaptatif_soustitre']; ?></h4>
 									<div class="text">
-										<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+										<p><?php echo $lang['adaptatif_p']; ?></p>
 									</div>
 								</div>
 							</div>

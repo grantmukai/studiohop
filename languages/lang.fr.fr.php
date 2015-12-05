@@ -79,10 +79,12 @@ $lang['redaction_soustitre'] = "R&eacute;daction";
 $lang['redaction_p'] = "Puisque je suis dipl&ocirc;m&eacute; en journalisme, je sais bien &eacute;crire en &eacute;crit et en ligne et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et aussi pour mettre les petites entreprises en vedette dans l'espace de marketing.";
 $lang['multimedia_soustitre'] = "Multim&eacute;dia";
 $lang['multimedia_p'] = "Dans mes anciens jours, je travaillais en tant qu'animateur &agrave; la t&eacute;l&eacute; et monteur de vid&eacute;os. Je realisais mes propres reportages du d&eacute;but jusqu'&agrave; la fin en produisant mes propres effets sp&eacute;ciaux.";
-$lang['courriel_soustitre'] = "Design de Courrier El&eacute;ctronique";
-$lang['courriel_p'] = "En comprenant que le design de courrier el&eacute;tronique n'est pas pareille que celle du Web, je suis comp&eacute;tent avec le code &ldquo;obsol&egrave;te&rdquo; du HTML et le CSS entre les m&ecirc;mes parenth&egrave;ses. De plus, j'ai une bonne id&eacute;e de ce qu'Outlook accepte et n'accepte pas.";
+$lang['courriel_soustitre'] = "Design d'E-mail";
+$lang['courriel_p'] = "En comprenant que le design de courrier el&eacute;ctronique n'est pas pareil que celui du Web, je suis comp&eacute;tent avec le code &ldquo;obsol&egrave;te&rdquo; du HTML et le CSS. De plus, j'ai une bonne id&eacute;e de ce qu'Outlook accepte et n'accepte pas.";
 $lang['codepropre_soustitre'] = "Code Propre";
-$lang['codepropre_p'] = "Je suis s&eacute;rieux en &eacute;crivant seulement le code HTML5, CSS3 et PHP5 le plus propre et &agrave; jour. Mon code est correctement dent&eacute;l&eacute; et il suit les standards &eacute;tablis par le W3C.";
+$lang['codepropre_p'] = "Je suis s&eacute;rieux en &eacute;crivant seulement du code HTML5, CSS3 et PHP5 le plus propre et &agrave; jour. Mon code est correctement dent&eacute;l&eacute; et il suit les standards &eacute;tablis par le W3C.";
+$lang['adaptatif_soustitre'] = "Sites Web Adaptifs";
+$lang['adaptatif_p'] = "Non seulement je comprend l'impl&eacute;mentation des <em>media queries</em> pour flotter et mettre &agrave; l'&eacute;chelle du contenu pour les sites Web adaptifs, je comprend aussi les meilleures pratiques pour cr&eacute;er un email adaptif (si support&eacute;)";
 
 $lang['status_title'] = 'Mon status';
 $lang['status_1'] = "Je travaille actuellement pour l'Association am&eacute;ricaine de science politique";
@@ -90,13 +92,13 @@ $lang['status_2'] = "Je travaille dans le D&eacute;partement des communications 
 $lang['status_3'] = 'Contactez-moi';
 
 $lang['contact_title'] = 'Contactez-Moi';
-$lang['contact_subtitle'] = "Donnez-moi un coup de fil ou envoyez-moi un courrier &eacute;lectronique. J'ai envie de vous parler.";
+$lang['contact_subtitle'] = "Donnez-moi un coup de fil ou envoyez-moi un e-mail. J'ai envie de vous parler.";
 $lang['contact_paragraph'] = "Vous pouvez prendre contact avec moi en utilisant un des moyens au-dessous<span class='formuleDroite'> ou en essayant le formulaire &agrave; droite</span><span class='formuleBas' style='display:none;'>au-dessus</span>.";
 
 $lang['customers'] = "Soci&eacute;t&eacute;s pour lesquelles j'ai travaill&eacute";
 
 $lang['formule_nom'] = "Nom";
-$lang['formule_courriel'] = "Courrier El&eacute;ctronique";
+$lang['formule_courriel'] = "E-mail";
 $lang['formule_message'] = "Votre Message";
 $lang['formule_envoyer'] = "Envoyez-le";
 

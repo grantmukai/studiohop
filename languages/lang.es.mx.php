@@ -83,6 +83,8 @@ $lang['courriel_soustitre'] = "Dise&ntilde;o Correo Electr&oacute;nico";
 $lang['courriel_p'] = "Compreniendo que el dise&ntilde;o de correo electr&oacute;nico no es el mismo que el dise&ntilde;o Web, soy competente con el c&oacute;digo &ldquo;obsoleto&rdquo; del HTML y CSS entre los par&eacute;ntesis. Asimismo, tengo una buena idea de lo que Outlook acepta y no acepta.";
 $lang['codepropre_soustitre'] = "C&oacute;digo Limpio";
 $lang['codepropre_p'] = "Estoy serioso cuando escribo c&oacute;digo HTML5, CSS3 y PHP5 el m&aacute;s limpio y actualizado. Mi c&oacute;digo es correctamente sangrado y sigue los est&aacute;ndares establicidos por el W3C.";
+$lang['adaptatif_soustitre'] = "Dise&ntilde;o Web Adaptable";
+$lang['adaptatif_p'] = "No solo comprendo l'implementaci&oacute;n de <em>media quieres</em> para flotar y escalar contenidos para el dise&ntilde;o Web adaptable, comprendo tambi&eacute;n las mejores pr&aacute;cticas para crear un correo electr&oacute;nico adaptable (cuando apoyado)"; 
 
 $lang['status_title'] = 'Mi Estado';
 $lang['status_1'] = "Estoy trabajando para la Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica";
