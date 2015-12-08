@@ -147,27 +147,36 @@
 					</div>
 				</div>
 				<hr />
-				<div class="col-sm-4 wow bounceInLeft">
-						<div class="profile-item">
-							<i class="fa fa-envelope-o"></i>
-							<h5><a href="mailto:mukai_job_emploi@icloud.com">Mukai_Job_Emploi@icloud.com</a></h5>
-						</div>
+				<div class="col-sm-3 wow bounceInLeft">
+					<div class="profile-item">
+						<i class="fa fa-envelope-o"></i>
+						<h5><a href="mailto:mukai_job_emploi@icloud.com">Mukai_Job_Emploi@icloud.com</a></h5>
 					</div>
+				</div>
 
-					<div class="col-sm-4 wow bounceInUp">
-						<div class="profile-item">
-							<i class="fa fa-phone"></i>
-							<h5>+1 (202) 656 8317</h5>
-						</div>
+				<div class="col-sm-3 wow bounceInUp">
+					<div class="profile-item">
+						<i class="fa fa-phone"></i>
+						<h5><span class="fa fa-home fa-1"></span> +1 (202) 656 8317</h5>
+						<h5><span class="fa fa-suitcase fa-1"></span> +1 (202) 349 9290</h5>
 					</div>
+				</div>
 
-					<div class="col-sm-4 wow bounceInRight">
-						<div class="profile-item">
-							<i class="fa fa-globe"></i>
-							<h5>www.grantmukai.com</h5>
-						</div>
+				<div class="col-sm-3 wow bounceInRight">
+					<div class="profile-item">
+						<i class="fa fa-globe"></i>
+						<h5>www.grantmukai.com</h5>
+						<h5>www.kiyoshimukai.com</h5>
 					</div>
+				</div>
 
+
+				<div class="col-sm-3 wow bounceInDown">
+					<div class="profile-item">
+						<i class="fa fa-map-marker"></i>
+						<h5>Washington, District of Columbia, USA 20036</h5>
+					</div>
+				</div>
 			</div>
 
 		</section>
