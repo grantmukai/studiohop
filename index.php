@@ -87,7 +87,7 @@
 						<li><a href="#services"><?php echo $lang['services']; ?></a></li>
 						<li><a href="#web"><?php echo $lang['web_cv']; ?></a></li>
                         <li><a href="#public_relations"><?php echo $lang['pr_cv']; ?></a></li>
-						<!--<li><a href="#portfolio"><-php echo $lang['portfolio']; ?></a></li>-->
+						<li><a href="#portfolio"><?php echo $lang['portfolio']; ?></a></li>
 						<li><a href="#contact"><?php echo $lang['contact']; ?></a></li>
 					</ul>
 				</div>
@@ -801,11 +801,14 @@
 
 		<!-- Callout section end -->
 
-		<!-- Portfolio section start
+		<!-- Portfolio section start -->
 
 		<section id="portfolio" class="section">
+		
+			<?php $portfolioLangue = substr($cv_lang, 0, 2);
+			include 'portfolio/'.$portfolioLangue.'.html'; ?>
 
-			<div class="container">
+			<!--<div class="container">
 
 				<div class="row">
 
@@ -919,9 +922,9 @@
 
 				</div>
 
-			</div>
+			</div>-->
 
-		</section>-->
+		</section>
 
 		<!-- Portfolio section end -->
 
