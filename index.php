@@ -271,7 +271,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="32"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="33"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
