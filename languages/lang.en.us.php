@@ -9,6 +9,7 @@ $cv_lang = "en-US";
  
 $lang = array();
  
+$drapeauNational = 0;
 $lang['drapeau'] = "us";
 $lang['drapeau_alt'] = "Flag of the United States";
 
@@ -45,7 +46,7 @@ $lang['bio'] = "
 
 <p>A large part of my responsibilities have comprised making sure that webpages and documents meet the Web Accessibility Guidelines set forth by the World Wide Web Consortium and Section 508 of the Americans with Disabilities Act.</p>
 
-<p>Prior to my career switch from journalism to Web development and database management, I was an Associate News Producer for the <a href='http://www.wellesleymedia.org'>Wellesley Media Corporation</a> in the town of Wellesley, Massachusetts where he produced news reports and documentaries for the local cable access station. In the Boston area, I was instrumental in bringing online video content to the Patch.com platform where I provided freelance video work on a number of local events and businesses and ran a weekly real estate column.</p>
+<p>Prior to my career switch from journalism to Web development and database management, I was an Associate News Producer for the <a href='http://www.wellesleymedia.org'>Wellesley Media Corporation</a> in the town of Wellesley, Massachusetts where I produced news reports and documentaries for the local cable access station. In the Boston area (capital of Massachusetts), I was instrumental in bringing online video content to the Patch.com platform where I provided freelance video work on a number of local events and businesses and ran a weekly real estate column.</p>
 
 <p>While at university, I gained additional television experiences from the <a href='http://www.wgbh.org'>WGBH Educational Foundation (PBS)</a> as the Antiques Roadshow Web Intern and with <a href='http://www.publicsynergies.com'>Public Synergies</a> (in French) and Rpublictv in Asnières-sur-Seine, France, as a multimedia and video intern.</p>
 

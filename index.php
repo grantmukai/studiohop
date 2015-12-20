@@ -192,6 +192,9 @@
 				<div class="row">
 
 					<div class="col-md-12 headline wow bounceInDown drapeau">
+                        <?php if ($drapeauNational == 1) {
+                            echo "<img id='deuxieme_drapeau_en_tete' alt='{$lang['drapeau_national_alt']}' style='float:right;' src='assets/images/drapeaux/{$lang['drapeau_national']}' />";
+                        } ?>
 						<img id="drapeau_en_tete" alt="<?php echo $lang['drapeau_alt']; ?>" style="float:right;" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" />
 						<h2><?php echo $lang['hello_1']; ?></h2>
 						<p><?php echo $lang['hello_3']; ?></p> 
@@ -271,7 +274,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="37"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="38"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>

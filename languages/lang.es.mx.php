@@ -9,6 +9,7 @@ $cv_lang = "es-MX";
  
 $lang = array();
 
+$drapeauNational = 0;
 $lang['drapeau'] = "mx";
 $lang['drapeau_alt'] = "Bandera de M&eacute;xico";
  
