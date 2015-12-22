@@ -13,7 +13,7 @@ $drapeauNational = 0;
 $lang['drapeau'] = "ie";
 $lang['drapeau_alt'] = "Flag of Ireland";
  
-$lang['metadesc'] = "Grant Kiyoshi Mukai is a Web services and systems support specialist in Washington, District of Columbia, United States";
+$lang['metadesc'] = "Grant Kiyoshi Mukai is a Web services and systems support specialist in the United States";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
 $lang['NAME'] = 'Grant Kiyoshi Mukai';
 
