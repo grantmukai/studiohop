@@ -9,9 +9,11 @@ $cv_lang = "en-IE";
  
 $lang = array();
 
-$drapeauNational = 0;
+$drapeauNational = 1;
 $lang['drapeau'] = "ie";
 $lang['drapeau_alt'] = "Flag of Ireland";
+$lang['drapeau_national'] = "eu";
+$lang['drapeau_national_alt'] = "Flag of the European Union";
  
 $lang['metadesc'] = "Grant Kiyoshi Mukai is a Web services and systems support specialist in the United States";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
@@ -67,12 +69,12 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('11/05/2015');
-$lang['webfile_size'] = 69;
+$webFileDate = new DateTime('12/19/2015');
+$lang['webfile_size'] = 74;
 
-//$lang['download_prcv'] = "Download CV";
-//$prFileDate = new DateTime('10/15/2015');
-//$lang['prfile_size'] = 83;
+$lang['download_prcv'] = "Download CV";
+$prFileDate = new DateTime('10/15/2015');
+$lang['prfile_size'] = 83;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
