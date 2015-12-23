@@ -147,14 +147,7 @@
 					</div>
 				</div>
 				<hr />
-				<div class="col-sm-3 wow bounceInLeft">
-					<div class="profile-item">
-						<i class="fa fa-envelope-o"></i>
-						<h5><a href="mailto:mukai_job_emploi@icloud.com">Mukai_Job_Emploi@icloud.com</a></h5>
-					</div>
-				</div>
-
-				<div class="col-sm-3 wow bounceInUp">
+				<div class="col-sm-4 wow bounceInUp">
 					<div class="profile-item">
 						<i class="fa fa-phone"></i>
 						<h5><span class="fa fa-home fa-1"></span> +1 (202) 656 8317</h5>
@@ -162,7 +155,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-3 wow bounceInRight">
+				<div class="col-sm-4 wow bounceInRight">
 					<div class="profile-item">
 						<i class="fa fa-globe"></i>
 						<h5>www.grantmukai.com</h5>
@@ -171,7 +164,7 @@
 				</div>
 
 
-				<div class="col-sm-3 wow bounceInDown">
+				<div class="col-sm-4 wow bounceInDown">
 					<div class="profile-item">
 						<i class="fa fa-map-marker"></i>
 						<h5>Washington, District of Columbia, USA 20036</h5>
@@ -274,7 +267,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="39"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="40"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -425,7 +418,7 @@
 					<div class="col-md-9 headline nomargin wow bounceInDown">
 						<h3><?php echo $lang['status_1']; ?></h3>
 						<p><?php echo $lang['status_2']; ?></p>
-						<a href="mailto:mukai_job_emploi@icloud.com" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php echo $lang['status_3']; ?></a>
+						<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php echo $lang['status_3']; ?></a>
 					</div>
 
 				</div><!-- .row -->
@@ -951,7 +944,6 @@
 						<ul class="icon-list">
 							<!--<li><i class="fa fa-fw fa-map-marker"></i>001 Some Street, Some City, US</li>-->
 							<li><i class="fa fa-fw fa-phone"></i>+1 202 656 8317</li>
-							<li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">mukai_job_emploi@icloud.com</a></li>
 							<li><i class="fa fa-fw fa-globe"></i><a href="">http://www.grantmukai.com</a></li>
 						</ul>
 
