@@ -142,7 +142,8 @@
 						<a href="index.php?lang=fr-CA"><img src="assets/images/drapeaux/qc24.png" alt="" />&nbsp;Qu&eacute;bec</a>&nbsp;|&nbsp;
 						<a href="index.php?lang=en-CA"><img src="assets/images/drapeaux/ca24.png" alt="" />&nbsp;Canada</a>&nbsp;|&nbsp;
 						<a href="index.php?lang=es-MX"><img src="assets/images/drapeaux/mx24.png" alt="" />&nbsp;M&eacute;xico</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=fr-FR"><img src="assets/images/drapeaux/fr24.png" alt="" />&nbsp;France</a>
+						<a href="index.php?lang=fr-FR"><img src="assets/images/drapeaux/fr24.png" alt="" />&nbsp;France</a>&nbsp;|&nbsp;
+                        <a href="index.php?lang=en-IE"><img src="assets/images/drapeaux/ie24.png" alt="" />&nbsp;Ireland</a>
 						</h5>
 					</div>
 				</div>
