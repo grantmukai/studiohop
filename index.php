@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="<?php echo $lang['metadesc']; ?>">
 	<meta name="author" content="Grant Kiyoshi Mukai">
-
+	
 	<title><?php echo $lang['PAGE_TITLE']; ?></title>
 
 	<!-- CSS -->
@@ -193,11 +193,11 @@
 						<p><?php echo $lang['hello_3']; ?></p> 
 					</div>
 
-					<div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
+					<div class="col-md-3 col-sm-6 hidden-xs wow fadeIn">
 						<img class="avatar" src="assets/images/photo.jpg" alt="">
 					</div>
 
-					<div class="col-md-3 col-sm-6 wow bounceInUp">
+					<div class="col-md-3 col-sm-6 wow fadeIn">
 
 						<div class="profile-widget">
 							<h3><?php echo $lang['skillset']; ?></h3>
@@ -240,7 +240,7 @@
 
 					</div><!-- .col-md-3 -->
 
-					<div class="col-md-6 col-sm-12 wow bounceInRight">
+					<div class="col-md-6 col-sm-12 wow fadeIn">
 					<?php echo $lang['bio']; ?>
 					</div>
 
@@ -267,7 +267,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="40"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="41"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -437,7 +437,7 @@
 
 				<div class="row">
 
-					<div class="col-md-12 headline wow bounceInDown">
+					<div class="col-md-12 headline wow fadeIn">
 						<h2><?php echo $lang['web_development']; ?></h2>
 						<?php 
 						$introsQuery = "SELECT paragraph FROM intros WHERE language='$cv_lang' AND type = 'WEB';";
@@ -458,7 +458,7 @@
 
 				<div class="row resume-items">
 
-					<div class="col-md-3 wow bounceInLeft">
+					<div class="col-md-3 wow fadeIn">
 						<h3><?php echo $lang['experience']; ?></h3>
 					</div>
 
@@ -467,11 +467,11 @@
 						$webpositionsResult = $link->query($webpositionsQuery);
 						while($row_webpositions = $webpositionsResult->fetch_assoc())
 						{
-							echo "<div class='col-md-8 col-sm-8 resume-item wow bounceInUp' style='clear:both;'>";
+							echo "<div class='col-md-8 col-sm-8 resume-item wow fadeIn' style='clear:both;'>";
 							echo "<h4>{$row_webpositions['jobtitle']}</h4>";
 							echo "<hr class='hidden-xs'>";
 							echo "</div>";
-							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
+							echo "<div class='col-md-4 col-sm-4 resume-place wow fadeIn'>";
 							echo "<h4><i class='fa fa-suitcase'></i> {$row_webpositions['company']}</h4>";
 							if (is_null($row_webpositions['end_date'])) {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_webpositions['start_date']))." - " . date('m') . "." . date('Y');	
@@ -486,11 +486,11 @@
 
 				</div><!-- .row -->
 				<div class="row resume-items">
-					<div class="col-md-12 wow bounceInLeft">
+					<div class="col-md-12 wow fadeIn">
 						<h3><?php echo $lang['duties']; ?></h3>
 					</div>
 					
-					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+					<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 						<img src="assets/images/logo/apsa.jpg" alt="APSA" style="width:91px;">
 						<?php
 						$apsaQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'apsa' ORDER BY id;";
@@ -504,7 +504,7 @@
 						?>
 					</div>
 					
-					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+					<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 						<img src="assets/images/logo/georgetown.png" alt="Georgetown" style="width:91px;">
 						<?php
 						$georgetownQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'georgetown' ORDER BY id;";
@@ -518,7 +518,7 @@
 						?>
 					</div>
 
-					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+					<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 						<img src="assets/images/logo/iqsolutions.jpg" alt="iQ" style="width:91px;">
 						<?php
 						$iqQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'iq' ORDER BY id;";
@@ -536,7 +536,7 @@
 				<hr class="hidden-xs">
 				<div class="row resume-items">
 
-					<div class="col-md-3 wow bounceInLeft">
+					<div class="col-md-3 wow fadeIn">
 						<h3><?php echo $lang['education']; ?></h3>
 					</div>
 
@@ -545,12 +545,12 @@
 					$educationResult = $link->query($educationQuery);
 					while($row_education = $educationResult->fetch_assoc())
 					{
-						echo "<div class='col-md-6 col-sm-8 resume-item wow bounceInUp'>";
+						echo "<div class='col-md-6 col-sm-8 resume-item wow fadeIn'>";
 						echo "<h4>{$row_education['degreetype']},{$row_education['degreetitle']}</h4>";
 						echo "<p>{$row_education['minortype']},{$row_education['minortitle']}</p>";
 						echo "<hr class='hidden-xs'>";
 						echo "</div>";
-						echo "<div class='col-md-3 col-sm-4 resume-place wow bounceInRight'>";
+						echo "<div class='col-md-3 col-sm-4 resume-place wow fadeIn'>";
 						echo "<h4><i class='fa fa-suitcase'></i> {$row_education['school']}</h4>";
 						if (is_null($row_education['end_date'])) {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_education['start_date']))." - " . date('m') . "." . date('Y');	
@@ -565,7 +565,7 @@
 
 				<div class="row">
 
-					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
+					<div class="col-md-6 col-md-offset-3 wow fadeIn">
 						<?php 
 						if ($lang['webfile_size'] < 10) { $webFileByte = "MB";} else { $webFileByte = "KB";}
 						if (preg_match('/^en/', $cv_lang)) {
@@ -592,7 +592,7 @@
 
 				<div class="row">
 
-					<div class="col-md-12 headline wow bounceInDown">
+					<div class="col-md-12 headline wow fadeIn">
 						<h2><?php echo $lang['public_relations']; ?></h2>
 						<?php 
 						$introsQuery = "SELECT paragraph FROM intros WHERE language='$cv_lang' AND type = 'MAR';";
@@ -613,7 +613,7 @@
 
 				<div class="row resume-items">
 
-					<div class="col-md-3 wow bounceInLeft">
+					<div class="col-md-3 wow fadeIn">
 						<h3><?php echo $lang['experience']; ?></h3>
 					</div>
 
@@ -622,11 +622,11 @@
 						$prpositionsResult = $link->query($prpositionsQuery);
 						while($row_prpositions = $prpositionsResult->fetch_assoc())
 						{
-							echo "<div class='col-md-8 col-sm-8 resume-item wow bounceInUp' style='clear:both;'>";
+							echo "<div class='col-md-8 col-sm-8 resume-item wow fadeIn' style='clear:both;'>";
 							echo "<h4>{$row_prpositions['jobtitle']}</h4>";
 							echo "<hr class='hidden-xs'>";
 							echo "</div>";
-							echo "<div class='col-md-4 col-sm-4 resume-place wow bounceInRight'>";
+							echo "<div class='col-md-4 col-sm-4 resume-place wow fadeIn'>";
 							echo "<h4><i class='fa fa-suitcase'></i> {$row_prpositions['company']}</h4>";
 							if (is_null($row_prpositions['end_date'])) {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_prpositions['start_date']))." - " . date('m') . "." . date('Y');	
@@ -641,11 +641,11 @@
 
 				</div><!-- .row -->
 				<div class="row resume-items">
-					<div class="col-md-12 wow bounceInLeft">
+					<div class="col-md-12 wow fadeIn">
 						<h3><?php echo $lang['duties']; ?></h3>
 					</div>
 					
-					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+					<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 						<img src="assets/images/logo/apsa.jpg" alt="APSA" style="width:91px;">
 						<?php
 						$apsaQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'MAR' AND company = 'apsa' ORDER BY id;";
@@ -659,7 +659,7 @@
 						?>
 					</div>
 					
-					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+					<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 						<img src="assets/images/logo/wellesley.png" alt="Wellesley Public Media" style="width:91px;">
 						<?php
 						$wellesleyQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'MAR' AND company = 'wellesley' ORDER BY id;";
@@ -673,7 +673,7 @@
 						?>
 					</div>
 
-					<div class="col-md-4 col-sm-12 resume-item wow bounceInUp">
+					<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 						<img src="assets/images/logo/patch.jpg" alt="iQ" style="width:91px;">
 						<?php
 						$patchQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'MAR' AND company = 'patch' ORDER BY id;";
@@ -691,7 +691,7 @@
 				<hr class="hidden-xs">
 				<div class="row resume-items">
 
-					<div class="col-md-3 wow bounceInLeft">
+					<div class="col-md-3 wow fadeIn">
 						<h3><?php echo $lang['education']; ?></h3>
 					</div>
 
@@ -700,12 +700,12 @@
 					$educationResult = $link->query($educationQuery);
 					while($row_education = $educationResult->fetch_assoc())
 					{
-						echo "<div class='col-md-6 col-sm-8 resume-item wow bounceInUp'>";
+						echo "<div class='col-md-6 col-sm-8 resume-item wow fadeIn'>";
 						echo "<h4>{$row_education['degreetype']},{$row_education['degreetitle']}</h4>";
 						echo "<p>{$row_education['minortype']},{$row_education['minortitle']}</p>";
 						echo "<hr class='hidden-xs'>";
 						echo "</div>";
-						echo "<div class='col-md-3 col-sm-4 resume-place wow bounceInRight'>";
+						echo "<div class='col-md-3 col-sm-4 resume-place wow fadeIn'>";
 						echo "<h4><i class='fa fa-suitcase'></i> {$row_education['school']}</h4>";
 						if (is_null($row_education['end_date'])) {
 								echo "<i class='fa fa-calendar'></i> ".date('m.Y',strtotime($row_education['start_date']))." - " . date('m') . "." . date('Y');	
@@ -720,7 +720,7 @@
 
 				<div class="row">
 
-					<div class="col-md-6 col-md-offset-3 wow bounceInUp">
+					<div class="col-md-6 col-md-offset-3 wow fadeIn">
 						<?php 
 						if ($lang['prfile_size'] < 10) { $prFileByte = "MB";} else { $prFileByte = "KB";}
 						if (preg_match('/^en/', $cv_lang)) {
