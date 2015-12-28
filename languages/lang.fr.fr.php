@@ -9,8 +9,11 @@ $cv_lang = "fr-FR";
  
 $lang = array();
 
+$drapeauNational = 1;
 $lang['drapeau'] = "fr";
 $lang['drapeau_alt'] = "Drapeau de la France";
+$lang['drapeau_national'] = "eu";
+$lang['drapeau_national_alt'] = "Drapeau de l'Union Europ&eacute;ene";
 
 $lang['metadesc'] = "Grant Kiyoshi Muka&iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia, Etats&ndash;Unis";
 $lang['PAGE_TITLE'] = 'Grant Muka&iuml;';

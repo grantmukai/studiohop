@@ -1,17 +1,19 @@
-<?php date_default_timezone_set("America/Montreal"); ?>
+<?php date_default_timezone_set("America/Puerto_Rico"); ?>
 <?php
 /*
-------------------------
-Langue: Español - México
-------------------------
+-----------------------------
+Langue: Español - Puerto Rico
+-----------------------------
 */
-$cv_lang = "es-MX";
+$cv_lang = "es-PR";
  
 $lang = array();
 
-$drapeauNational = 0;
-$lang['drapeau'] = "mx";
-$lang['drapeau_alt'] = "Bandera de M&eacute;xico";
+$drapeauNational = 1;
+$lang['drapeau'] = "pr";
+$lang['drapeau_alt'] = "Bandera de Puerto Rico";
+$lang['drapeau_national'] = "us";
+$lang['drapeau_national_alt'] = "Bandera de los Estados Unidos";
  
 $lang['metadesc'] = "Grant Kiyoshi Mukai es un desarrollador Web y agente de comunicaciones a Washington, Distrito de Columbia, Estados Unidos";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
@@ -27,9 +29,9 @@ $lang['pr_cv'] = 'Relaciones P&uacute;blicas';
 $lang['portfolio'] = 'Mi trabajo';
 $lang['contact'] = 'Contactarme';
 
-$lang['hello_1'] = "Hola, me llamo Grant Kiyoshi Mukai";
-$lang['hello_2'] = 'Desarrollador Web. | Gerente de bases de datos. | Agente de comunicaciones. | Editor de v&iacute;deo.';
-$lang['hello_3'] = 'Desarrollador Web. Gerente de bases de datos. Agente de comunicaciones.';
+$lang['hello_1'] = "Hola, mi nombre es Grant Kiyoshi Mukai";
+$lang['hello_2'] = 'Desarrollador Web | Desarrollo Correo Electr&oacute;nico | Dise&ntilde;o Gr&aacute;fico | Comunicaciones';
+$lang['hello_3'] = 'Desarrollador Web | Desarrollo Correo Electr&oacute;nico | Dise&ntilde;o Gr&aacute;fico | Comunicaciones';
 
 $lang['select_country'] = "Elige su pa&iacute;s";
 
@@ -40,7 +42,7 @@ $lang['social_profiles'] = 'Redes Sociales';
 $lang['bio'] = "
 <h3>Acerca de Mi</h3>
 
-<p>Me llamo Grant Kiyoshi Mukai y soy un Desarrollador Web y Especialista de servicios y sistemas Web a la <a href='http://www.apsanet.org'>Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica</a> (APSA) en Washington, Distrito de Columbia, Estados Unidos de Am&eacute;rica. Trabajo con un equipo peque&ntilde;o en el Departamento de promoci&oacute;n y comunicaciones d&oacute;nde ayudo a mis colegios a gestionar el sitio p&uacute;blico de la asociaci&oacute;n y varios sitios WordPress destinados a promover la ciencia pol&iacute;tica y ayudar a nuestras secciones de intereses especializadas a organizarse en los redes. Asimismo, soy responsable de la gesti&oacute;n de bases de datos, anal&iacute;ticas estad&iacute;sticas, y la generaci&oacute;n de formas de datos. Hago estas tareas proporcionando el servicio excelente al cliente en ingl&eacute;s, franc&eacute;s, y espa&ntilde;ol. Aunque nuestras oficinas se encuentran en los Estados Unidios, tenemos miembros vengan de todo el mundo.</p>
+<p>Me llamo Grant Kiyoshi Mukai y soy un Desarrollador Web y Especialista de servicios y sistemas Web a la <a href='http://www.apsanet.org'>Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica</a> (APSA) en Washington, Distrito de Columbia. Trabajo con un equipo peque&ntilde;o en el Departamento de promoci&oacute;n y comunicaciones d&oacute;nde ayudo a mis colegios a gestionar el sitio p&uacute;blico de la asociaci&oacute;n y varios sitios WordPress destinados a promover la ciencia pol&iacute;tica y ayudar a nuestras secciones de intereses especializadas a organizarse en los redes. Asimismo, soy responsable de la gesti&oacute;n de bases de datos, anal&iacute;ticas estad&iacute;sticas, y la generaci&oacute;n de formas de datos. Hago estas tareas proporcionando el servicio excelente al cliente en ingl&eacute;s, franc&eacute;s, y espa&ntilde;ol. Aunque nuestras oficinas se encuentran en los Estados Unidos, tenemos miembros vengan de todo el mundo.</p>
 
 <p>Antes de unirme a la APSA, trabaj&oacute; a la <a href='http://www.msb.edu'>Escuela de negocios McDonough</a> de la Universidad Georgetown en Washington, D.C. y <a href='http://www.iqsolutions.com'>iQ Solutions</a> en Rockville, Maryland, desarrollando boletines electr&oacute;nicos. Algunos clientes de salud para qui&eacute;nes estaba trabajando incluyen la Administraci&oacute;n de Salud Mental y Abuso de Sustancias de E.E.U.U. (SAMHSA) y los Institutos Nacionales de Salud (NIH). Asimismo, he creado y actualizado paginas Web en ingl&eacute;s y en espa&ntilde;ol para el Instituto Nacional de Artritis y Enfermedades Musculoesquel&eacute;ticas y de la Piel (NIAMS).</p>
 
@@ -50,7 +52,7 @@ $lang['bio'] = "
 
 <p>A la universidad, obtuv&oacute; m&aacute;s experiencias en televisi&oacute;n gracias a mi pasant&iacute;a como aprendiz Web para Antiques Roadshow al WGBH Educational Foundation (PBS) y a <i lang='fr-FR'><a href='http://www.publicsynergies.com'>Publiques Synergies</a></i> y Rpublic.tv a Asni&egrave;res-sur-Seine, Francia, como aprendiz en v&iacute;deo y multimedia.</p>
 
-<p>Obtuv&oacute; mi licenciatura (diploma de primero ciclo) en periodismo televisivo a la <a href='http://www.bu.edu/com';>Escuela de comunicaciones</a> <em>(en ingl&eacute;s)</em> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>
+<p>Obtuv&oacute; mi bacherillato en periodismo televisivo a la <a href='http://www.bu.edu/com';>Escuela de comunicaciones</a> <em>(en ingl&eacute;s)</em> a la Universidad de Boston con un menor en lengua y literatura francesa.</p>
 ";
 
 $lang['my_stats'] = 'Mis Stats';
@@ -68,12 +70,12 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV";
-$webFileDate = new DateTime('12/04/2015');
-$lang['webfile_size'] = 130;
+$webFileDate = new DateTime('12/27/2015');
+$lang['webfile_size'] = 67;
 
-$lang['download_prcv'] = "Descargar CV";
-$prFileDate = new DateTime('12/07/2015');
-$lang['prfile_size'] = 83;
+//$lang['download_prcv'] = "Descargar CV";
+//$prFileDate = new DateTime('12/07/2015');
+//$lang['prfile_size'] = 83;
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
