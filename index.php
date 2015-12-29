@@ -20,8 +20,8 @@
 	<link href="assets/css/owl.theme.css" rel="stylesheet">
 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
 
-	<!-- Magnific-popup lightbox -->
-	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Magnific-popup lightbox
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">-->
 
 	<!-- Simple text rotator -->
 	<link href="assets/css/simpletextrotator.css" rel="stylesheet">
@@ -34,6 +34,13 @@
 
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	
+	<!-- jQuery -->
+	<script src="assets/js/jquery-1.11.0.min.js"></script>
+	
+	<!-- Clean HTML video player -->
+	<script src="assets/js/jquery.cleanvideoplayer.js"></script>
+	<link href="assets/css/player.css" rel="stylesheet">
     
     <!--  BEGIN Google Analytics script -->
     <script type="text/javascript">
@@ -268,7 +275,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="44"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="45"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -1015,8 +1022,6 @@
 	</div><!-- .wrapper -->
 
 	<!-- Javascript files -->
-	<!-- jQuery -->
-	<script src="assets/js/jquery-1.11.0.min.js"></script>
 	<!-- Bootstrap JS -->
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<!-- Background slider -->
