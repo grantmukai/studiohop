@@ -44,17 +44,18 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 			<h3>Wellesley Public Media</h3>
 			<div class="mediatec-cleanvideoplayer" style="width:100%;">
 				<ul data-theme="default">
+			<?php
+				//include "/listes_de_lecture/wellesley.php";
+                //foreach($wellesleyPlaylist as $dataTitle => $dataUrl) {
+                //    echo "<li data-title='".$dataTitle."' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='".$dataUrl."' data-poster='Wellesley Public Media' data-free='false'></li>";
+                //}
+            ?>
 					<li data-title="Arms Around Sierra Leone" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/sierraleone.mov" data-poster="Wellesley Public Media" data-free="false"></li>
 					<li data-title="Radcliffe Bailey: Memory as Medicine" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/radcliffebailey.mov" data-poster="Wellesley Public Media" data-free="false"></li>
 					<li data-title="Painting with Egg Tempura" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/jackstandish.mov" data-poster="Wellesley Public Media" data-free="false"></li>
 					<li data-title="Wellesley College Browning Letters Project" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/browningletters.mov" data-poster="Wellesley Public Media" data-free="false"></li>
 					<li data-title="Landscape Photographer Art Donoahue" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/artdonahue.mov" data-poster="Wellesley Public Media" data-free="false"></li>
                     <li data-title="Saving Peru's Children" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/laboratoryambulance.mov" data-poster="Wellesley Public Media" data-free="false"></li>
-                    <!--<?php
-                        foreach($wellesleyPlaylist as $dataTitle => $dataUrl) {
-                            echo "<li data-title='{$dataTitle}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='{$dataUrl}' data-poster='Wellesley Public Media' data-free='false'></li>
-                        }
-                    ?>--<
 				</ul>
 			</div>
 		</div>

@@ -275,7 +275,7 @@
 					<div class="col-md-3 col-sm-4 wow bounceInDown">
 						<div class="stat">
 							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="46"></span>+</h2>
+								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="47"></span>+</h2>
 							</div>
 							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
 						</div>
@@ -810,7 +810,7 @@
 		<section id="portfolio" class="section">
 		
 			<?php $portfolioLangue = substr($cv_lang, 0, 2);
-			include 'portfolio/'.$portfolioLangue.'.html'; ?>
+			include 'portfolio/'.$portfolioLangue.'.php'; ?>
 
 			<!--<div class="container">
 
@@ -959,7 +959,7 @@
 
 					<div class="col-md-6 wow bounceInRight">
 
-						<form id="contact-form" role="form" name="contact-form" action="process-form.php" action="post">
+						<form id="contact-form" role="form" name="contact-form" action="assets/php/contactForm.php" action="post">
 
 							<div class="form-group">
 								<label class="sr-only" for="c_name"><?php echo $lang['formule_nom']; ?></label>
