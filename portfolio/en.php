@@ -45,17 +45,18 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 			<div class="mediatec-cleanvideoplayer" style="width:100%;">
 				<ul data-theme="default">
 			<?php
-				//include "/listes_de_lecture/wellesley.php";
-                //foreach($wellesleyPlaylist as $dataTitle => $dataUrl) {
-                //    echo "<li data-title='".$dataTitle."' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='".$dataUrl."' data-poster='Wellesley Public Media' data-free='false'></li>";
-                //}
+				$wellesleyPlaylist = array(
+					"Arms Around Sierra Leone"=>"sierraleone.mov",
+					"Radcliffe Bailey: Memory as Medicine"=>"radcliffebailey.mov",
+					"Landscape Photographer Art Donahue"=>"artdonahue.mov",
+					"Wellesley College Browning Letters Project"=>"browningletters.mov",
+					"Egg Tempura Demonstration"=>"jackstandish.mov",
+					"Saving Peru&rsquo;s Children with a Lab Ambulance"=>"laboratoryambulance.mov"
+					);
+                foreach($wellesleyPlaylist as $dataTitle => $dataUrl) {
+                    echo "<li data-title='{$dataTitle}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/wellesley/{$dataUrl}' data-poster='Wellesley Public Media' data-free='false'></li>";
+                }
             ?>
-					<li data-title="Arms Around Sierra Leone" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/sierraleone.mov" data-poster="Wellesley Public Media" data-free="false"></li>
-					<li data-title="Radcliffe Bailey: Memory as Medicine" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/radcliffebailey.mov" data-poster="Wellesley Public Media" data-free="false"></li>
-					<li data-title="Painting with Egg Tempura" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/jackstandish.mov" data-poster="Wellesley Public Media" data-free="false"></li>
-					<li data-title="Wellesley College Browning Letters Project" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/browningletters.mov" data-poster="Wellesley Public Media" data-free="false"></li>
-					<li data-title="Landscape Photographer Art Donoahue" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/artdonahue.mov" data-poster="Wellesley Public Media" data-free="false"></li>
-                    <li data-title="Saving Peru's Children" data-artist="Grant Kiyoshi Mukai" data-type="m4v" data-url="http://portfolio.grantmukai.com/video/wellesley/laboratoryambulance.mov" data-poster="Wellesley Public Media" data-free="false"></li>
 				</ul>
 			</div>
 		</div>
