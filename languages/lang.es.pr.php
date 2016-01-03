@@ -55,12 +55,6 @@ $lang['bio'] = "
 <p>Obtuv&oacute; mi bacherillato en periodismo televisivo a la <a href='http://www.bu.edu/com';>Escuela de comunicaciones</a> <em>(en ingl&eacute;s)</em> a la Universidad de Boston con un menor en lengua y literatura francesa.</p>
 ";
 
-$lang['my_stats'] = 'Mis Stats';
-
-$lang['cups_of_coffee'] = 'Tazas de caf&eacute;';
-$lang['lines_of_code'] = 'L&iacute;neas de c&oacute;digo';
-$lang['happy_customers'] = 'Personas en mi equipo';
-
 $lang['derniere_maj'] = "&Uacute;ltima actualizaci&oacute;n";
 
 $lang['web_development'] = "Desarrollo Web";

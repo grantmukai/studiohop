@@ -55,12 +55,6 @@ $lang['bio'] = "
 <p>J'ai obtenu un Baccalaur&eacute;at en sciences (dipl&ocirc;me de premier cycle) en journalisme t&eacute;l&eacute;vis&eacute; &agrave; <a href='http://www.bu.edu/com'>l'&Eacute;cole de communications</a> &agrave; l'Universit&eacute; de Boston avec une mineure (sp&eacute;cialit&eacute;) en langue et litt&eacute;rature fran&ccedil;aise.</p>
 ";
 
-$lang['my_stats'] = 'Mes Stats';
-
-$lang['cups_of_coffee'] = 'Tasses de caf&eacute;';
-$lang['lines_of_code'] = 'Lignes de code';
-$lang['happy_customers'] = 'Membres de mon &eacute;quipe';
-
 $lang['derniere_maj'] = "Derni&egrave;re mise &agrave; jour";
 
 $lang['web_development'] = "D&eacute;veloppement Web";

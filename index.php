@@ -260,56 +260,10 @@
 
 		<!-- Profile section end -->
 
-		<!-- Callout section start -->
-
-		<section id="stats" class="callout">
-
-			<div class="container">
-
-				<div class="row">
-
-					<div class="col-md-3 col-sm-12 hidden-xs wow bounceInLeft">
-						<h3><?php echo $lang['my_stats']; ?></h3>
-					</div>
-
-					<div class="col-md-3 col-sm-4 wow bounceInDown">
-						<div class="stat">
-							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="49"></span>+</h2>
-							</div>
-							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-sm-4 wow bounceInUp">
-						<div class="stat">
-							<div class="stat-icon">
-								<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="832"></span></h2>
-							</div>
-							<h3><?php echo $lang['lines_of_code']; ?></h3>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-sm-4 wow bounceInRight">
-						<div class="stat">
-							<div class="stat-icon">
-								<h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="24"></span></h2>
-							</div>
-							<h3><?php echo $lang['happy_customers']; ?></h3>
-						</div>
-					</div>
-
-				</div><!-- .row -->
-
-			</div><!-- .container -->
-
-		</section>
-
-		<!-- Callout section end -->
 
 		<!-- Services section start -->
 
-		<section id="services" class="section">
+		<section id="services" class="callout">
 
 			<div class="container">
 
@@ -413,7 +367,7 @@
 
 		<!-- Callout section start -->
 
-		<section class="callout">
+		<section class="section">
 
 			<div class="container">
 
