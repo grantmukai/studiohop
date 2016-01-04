@@ -51,7 +51,7 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 					"Landscape Photographer Art Donahue"=>"artdonahue.mov",
 					"Wellesley College Browning Letters Project"=>"browningletters.mov",
 					"Egg Tempura Demonstration"=>"jackstandish.mov",
-					"Saving Peru&rsquo;s Children with a Lab Ambulance"=>"laboratoryambulance.mov"
+					"Saving Peru&rsquo;s Children with a Lab Ambulance"=>"laboratoryambulance.mov",
 					"Rotary Club Pancake Breakfast"=>"pancakebreakfast.mov"
 					);
                 foreach($wellesleyPlaylist as $dataTitle => $dataUrl) {
