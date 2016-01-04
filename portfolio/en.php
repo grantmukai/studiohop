@@ -52,7 +52,6 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 					"Wellesley College Browning Letters Project"=>"browningletters.mov",
 					"Egg Tempura Demonstration"=>"jackstandish.mov",
 					"Saving Peru&rsquo;s Children with a Lab Ambulance"=>"laboratoryambulance.mov"
-					"Rotary Club Pancake Breakfast"=>"pancakebreakfast.mov"
 					);
                 foreach($wellesleyPlaylist as $dataTitle => $dataUrl) {
                     echo "<li data-title='{$dataTitle}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/wellesley/{$dataUrl}' data-poster='Wellesley Public Media' data-free='false'></li>";
