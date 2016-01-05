@@ -7,7 +7,12 @@
 	<div class="row">
 		<div class="col-md-12 headline wow fadeIn">
 			<h2>Web &amp; &Eacute;crit</h2>
-			<p>&Agrave; Venir...
+			<h3>R&eacute;dactions en Vedette</h3>
+            <ul>
+                <li><a href="http://portfolio.grantmukai.com/francais_amerique/">Le Fran&ccedil;ais en Am&eacute;rique</a></li>
+                <li><a href="http://portfolio.grantmukai.com/limportance-de-voyager/">L'Importance de Voyager</a></li>
+                <li><a href="http://portfolio.grantmukai.com/gare-contemporaine/">La Gare Contemporaine</a></li>
+            </ul>
 		</div>
 	</div>
 	<div class="row">
