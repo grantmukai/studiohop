@@ -779,6 +779,10 @@ h3 > .fa {
 	/*.formuleBas {
 		display:block;
 	}*/
+	
+	.lecturevideo {
+		width:100%!important;
+	}
 
 }
 
