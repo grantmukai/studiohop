@@ -260,56 +260,10 @@
 
 		<!-- Profile section end -->
 
-		<!-- Callout section start -->
-
-		<section id="stats" class="callout">
-
-			<div class="container">
-
-				<div class="row">
-
-					<div class="col-md-3 col-sm-12 hidden-xs wow bounceInLeft">
-						<h3><?php echo $lang['my_stats']; ?></h3>
-					</div>
-
-					<div class="col-md-3 col-sm-4 wow bounceInDown">
-						<div class="stat">
-							<div class="stat-icon">
-								<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="49"></span>+</h2>
-							</div>
-							<h3><?php echo $lang['cups_of_coffee']; ?></h3>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-sm-4 wow bounceInUp">
-						<div class="stat">
-							<div class="stat-icon">
-								<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="832"></span></h2>
-							</div>
-							<h3><?php echo $lang['lines_of_code']; ?></h3>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-sm-4 wow bounceInRight">
-						<div class="stat">
-							<div class="stat-icon">
-								<h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="24"></span></h2>
-							</div>
-							<h3><?php echo $lang['happy_customers']; ?></h3>
-						</div>
-					</div>
-
-				</div><!-- .row -->
-
-			</div><!-- .container -->
-
-		</section>
-
-		<!-- Callout section end -->
 
 		<!-- Services section start -->
 
-		<section id="services" class="section">
+		<section id="services" class="callout">
 
 			<div class="container">
 
@@ -413,7 +367,7 @@
 
 		<!-- Callout section start -->
 
-		<section class="callout">
+		<section class="section">
 
 			<div class="container">
 
@@ -812,122 +766,6 @@
 			<?php $portfolioLangue = substr($cv_lang, 0, 2);
 			include 'portfolio/'.$portfolioLangue.'.php'; ?>
 
-			<!--<div class="container">
-
-				<div class="row">
-
-					<div class="col-md-12 headline wow bounceInDown">
-						<h2>Portfolio</h2>
-						<p>My best works.</p>
-					</div>
-
-					<div class="col-md-4 col-sm-6 wow bounceInLeft">
-						<a href="index.php" class="popup-modal" title="Caption 1">
-							<div class="portfolio-item">
-								<div class="portfolio-item-preview">
-									<img src="assets/images/p1.jpg" alt="">
-								</div>
-								<div class="portfolio-item-description">
-									<h3>Some work</h3>
-									<p>Category</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="col-md-4 col-sm-6 wow bounceInUp">
-						<a href="https://vimeo.com/45830194" class="video-pop-up" title="Caption 2">
-							<div class="portfolio-item">
-								<div class="portfolio-item-preview">
-									<img src="assets/images/p2.jpg" alt="">
-								</div>
-								<div class="portfolio-item-description">
-									<h3>Some work</h3>
-									<p>Category</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<script>
-						$(function () {
-							$('.popup-modal').magnificPopup({
-								type: 'inline',
-								preloader: false,
-								focus: '#username',
-								modal: true
-							});
-							$(document).on('click', '.popup-modal-dismiss', function (e) {
-								e.preventDefault();
-								$.magnificPopup.close();
-							});
-						});
-					</script>
-					<div class="col-md-4 col-sm-6 wow bounceInRight">
-						<a href="#test-modal" class="popup-modal">Ouvrez-Moi!</a>
-							<div class="portfolio-item">
-								<div class="portfolio-item-preview">
-									<img src="assets/images/p3.jpg" alt="">
-								</div>
-								<div class="portfolio-item-description">
-									<h3>Some work</h3>
-									<p>Category</p>
-								</div>
-								<div id="test-modal" class="white-popup-block mfp-hide">
-									<h1>Modal dialog</h1>
-									<p>You won't be able to dismiss this by usual means (escape or
-										click button), but you can close it programatically based on
-										user choices or actions.</p>
-									<p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
-								</div>		
-							</div>
-					</div>
-
-					<div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".2s">
-						<a href="assets/images/p5.jpg" class="pop-up" title="Caption 4">
-							<div class="portfolio-item">
-								<div class="portfolio-item-preview">
-									<img src="assets/images/p5.jpg" alt="">
-								</div>
-								<div class="portfolio-item-description">
-									<h3>Some work</h3>
-									<p>Category</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".4s">
-						<a href="assets/images/p8.jpg" class="pop-up" title="Caption 5">
-							<div class="portfolio-item">
-								<div class="portfolio-item-preview">	
-									<img src="assets/images/p8.jpg" alt="">
-								</div>
-								<div class="portfolio-item-description">
-									<h3>Some work</h3>
-									<p>Category</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".6s">
-						<a href="http://www.google.com">
-							<div class="portfolio-item">
-								<div class="portfolio-item-preview">
-									<img src="assets/images/p6.jpg" alt="">
-								</div>
-								<div class="portfolio-item-description">
-									<h3>Some work</h3>
-									<p>Category</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-				</div>
-
-			</div>-->
-
 		</section>
 
 		<!-- Portfolio section end -->
@@ -1028,20 +866,20 @@
 	<script src="assets/js/jquery.backstretch.min.js"></script>
 	<!-- OwlCarousel -->
 	<script src="assets/js/owl.carousel.min.js"></script>
-	<!-- Modal for portfolio -->
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- Modal for portfolio
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>-->
 	<!-- Text rotator -->
 	<script src="assets/js/jquery.simple-text-rotator.min.js"></script>
 	<!-- Waypoints -->
 	<script src="assets/js/jquery.waypoints.js"></script>
-	<!-- CountTo  -->
-	<script src="assets/js/jquery.countTo.js"></script>
+	<!-- CountTo
+	<script src="assets/js/jquery.countTo.js"></script>-->
 	<!-- WOW - Reveal Animations When You Scroll -->
 	<script src="assets/js/wow.min.js"></script>   
 	<!-- Smooth scroll -->
 	<script src="assets/js/smoothscroll.js"></script>
-	<!-- Fitvids -->
-	<script src="assets/js/jquery.fitvids.js"></script>
+	<!-- Fitvids
+	<script src="assets/js/jquery.fitvids.js"></script>-->
 	<!-- Custom scripts -->
 	<script src="assets/js/custom.js"></script>
 

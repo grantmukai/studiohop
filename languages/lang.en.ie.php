@@ -55,11 +55,6 @@ $lang['bio'] = "
 <p>I am a proud alumnus of Boston University's <a href='http://www.bu.edu/com'>College of Communication</a> where I graduated with a Bachelor of Science (first cycle degree) in Broadcast Journalism and an academic minor in French Language and Literature.</p>
 ";
 
-$lang['my_stats'] = 'My Stats';
-$lang['cups_of_coffee'] = 'Cups of coffee';
-$lang['lines_of_code'] = 'Lines of code';
-$lang['happy_customers'] = 'People I work with';
-
 $lang['derniere_maj'] = "Last updated";
 
 $lang['web_development'] = "Web Development";
