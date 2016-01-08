@@ -21,7 +21,7 @@
 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
 
 	<!-- Magnific-popup lightbox
-	<link href="assets/css/magnific-popup.css" rel="stylesheet">-->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet"> -->
 
 	<!-- Simple text rotator -->
 	<link href="assets/css/simpletextrotator.css" rel="stylesheet">
@@ -866,20 +866,20 @@
 	<script src="assets/js/jquery.backstretch.min.js"></script>
 	<!-- OwlCarousel -->
 	<script src="assets/js/owl.carousel.min.js"></script>
-	<!-- Modal for portfolio
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>-->
+	<!-- Modal for portfolio REQUIS POUR QUE LE FORMULE DE CONTACT FONCTIONNE -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
 	<!-- Text rotator -->
 	<script src="assets/js/jquery.simple-text-rotator.min.js"></script>
 	<!-- Waypoints -->
 	<script src="assets/js/jquery.waypoints.js"></script>
 	<!-- CountTo
-	<script src="assets/js/jquery.countTo.js"></script>-->
+	<script src="assets/js/jquery.countTo.js"></script> -->
 	<!-- WOW - Reveal Animations When You Scroll -->
 	<script src="assets/js/wow.min.js"></script>   
 	<!-- Smooth scroll -->
 	<script src="assets/js/smoothscroll.js"></script>
-	<!-- Fitvids
-	<script src="assets/js/jquery.fitvids.js"></script>-->
+	<!-- Fitvids REQUIS POUR QUE LE FORMULE DE CONTACT FONCTIONNE -->
+	<script src="assets/js/jquery.fitvids.js"></script>
 	<!-- Custom scripts -->
 	<script src="assets/js/custom.js"></script>
 
