@@ -902,6 +902,16 @@
 	<script src="assets/js/jquery.fitvids.js"></script>
 	<!-- Custom scripts -->
 	<script src="assets/js/custom.js"></script>
+    <!-- Background Image from line 37 of custom.js -->
+    <script type="text/javascript">
+        <?php if ($imageVille == 1) {
+                $quelleVille = rand(1,$villeMax);
+                echo "$('#intro').backstretch(['assets/images/villes/".$cv_lang."/".$quelleVille.".jpg']);";
+            } else {
+                echo "$('#intro').backstretch(['assets/images/bg4.jpg']);";
+            }     
+        ?>
+    </script>
 
 </body>
 </html>
