@@ -746,6 +746,26 @@
 								<img src="assets/images/logo/wgbh.jpg" alt="" style="width:91px;">
 								<h4>WGBH Educational Foundation</h4>
 							</div>
+							
+							<div class="owl-item">
+								<img src="assets/images/logo/airpublic.png" alt="" style="width:91px;">
+								<h4>airpublic.tv</h4>
+							</div>
+							
+							<div class="owl-item">
+								<img src="assets/images/logo/kitay.png" alt="" style="width:91px;">
+								<h4>Kitay Productions</h4>
+							</div>
+							
+							<div class="owl-item">
+								<img src="assets/images/logo/bu.png" alt="" style="width:91px;">
+								<h4>Boston University IT Help Desk</h4>
+							</div>
+							
+							<div class="owl-item">
+								<img src="assets/images/logo/dol.png" alt="" style="width:91px;">
+								<h4>United States Department of Labor</h4>
+							</div>
 
 						</div>
 
