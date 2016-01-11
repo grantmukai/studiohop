@@ -8,7 +8,9 @@ Language: English - US
 $cv_lang = "en-US";
  
 $lang = array();
- 
+
+$imageVille = 0;
+
 $drapeauNational = 0;
 $lang['drapeau'] = "us";
 $lang['drapeau_alt'] = "Flag of the United States";

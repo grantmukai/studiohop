@@ -9,6 +9,8 @@ $cv_lang = "fr-FR";
  
 $lang = array();
 
+$imageVille = 0;
+
 $drapeauNational = 1;
 $lang['drapeau'] = "fr";
 $lang['drapeau_alt'] = "Drapeau de la France";

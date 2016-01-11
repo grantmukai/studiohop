@@ -9,6 +9,8 @@ $cv_lang = "es-PR";
  
 $lang = array();
 
+$imageVille = 0;
+
 $drapeauNational = 1;
 $lang['drapeau'] = "pr";
 $lang['drapeau_alt'] = "Bandera de Puerto Rico";

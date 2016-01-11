@@ -9,6 +9,8 @@ $cv_lang = "fr-CA";
  
 $lang = array();
 
+$imageVille = 0;
+
 $drapeauNational = 1;
 $lang['drapeau'] = "qc";
 $lang['drapeau_alt'] = "Drapeau du Qu&eacute;bec";
