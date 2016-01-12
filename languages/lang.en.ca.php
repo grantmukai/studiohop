@@ -9,6 +9,8 @@ $cv_lang = "en-CA";
  
 $lang = array();
 
+$imageVille = 0;
+
 $drapeauNational = 0;
 $lang['drapeau'] = "ca";
 $lang['drapeau_alt'] = "Flag of Canada";

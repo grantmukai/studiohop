@@ -9,6 +9,8 @@ $cv_lang = "en-IE";
  
 $lang = array();
 
+$imageVille = 0;
+
 $drapeauNational = 1;
 $lang['drapeau'] = "ie";
 $lang['drapeau_alt'] = "Flag of Ireland";
