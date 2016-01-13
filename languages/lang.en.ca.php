@@ -10,6 +10,16 @@ $cv_lang = "en-CA";
 $lang = array();
 
 $imageVille = 0;
+$villeMax = 6;
+$CreditsImages = array(
+	array(0,"Pretty Square","Ottawa, Ont.","Caribb","caribb"),
+	array(1,"Toronto","Toronto, Ont.","Paul Bica","dexxus"),
+	array(2,"Pembina Hwy","Winnipeg, Man.","AJ Batac","ajbatac"),
+	array(3,"Calgary","Calgary, Alta.","Jeff Wallace","wherezjeff"),
+	array(4,"Edmonton Glow","Edmonton, Alta.","Jeff Wallace","wherezjeff"),
+	array(5,"Coal Harbour","Vancouver, B.C.","tdlucas5000","tdlucas5000"),
+	array(6,"Morning Moonlight","Yellowknife, N.W.T.","Agent Magenta","magenta")
+	);
 
 $drapeauNational = 0;
 $lang['drapeau'] = "ca";
@@ -101,6 +111,8 @@ $lang['formule_courriel'] = "Email Address";
 $lang['formule_message'] = "Your message";
 $lang['formule_envoyer'] = "Send It";
 
-$lang['copyright'] = "Grant Mukai. All rights reserved. Flag icons graciously provided by <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
+$lang['copyright'] = "Grant Mukai. All rights reserved. Flag icons graciously provided by <a href='http://www.icondrawer.com'>Icon Drawer</a>";
+//<br />
+//Banner Photo Credit: <em>".$CreditsImages[$quelleVille][1]."</em> (".$CreditsImages[$quelleVille][2].") by <a href='http://www.flickr.com/photos/".$CreditsImages[$quelleVille][4]."/'>".$CreditsImages[$quelleVille][3]."</a>";
 
 ?>

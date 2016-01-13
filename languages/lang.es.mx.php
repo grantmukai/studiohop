@@ -9,7 +9,7 @@ $cv_lang = "es-MX";
  
 $lang = array();
 
-$imageVille = 1;
+$imageVille = 0;
 $villeMax = 3;
 
 $drapeauNational = 0;
