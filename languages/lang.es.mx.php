@@ -1,4 +1,4 @@
-<?php date_default_timezone_set("America/Montreal"); ?>
+<?php date_default_timezone_set("America/Mexico_City"); ?>
 <?php
 /*
 ------------------------
@@ -10,7 +10,7 @@ $cv_lang = "es-MX";
 $lang = array();
 
 $imageVille = 0;
-$villeMax = 3;
+$villeMax = 2;
 
 $drapeauNational = 0;
 $lang['drapeau'] = "mx";
@@ -102,6 +102,10 @@ $lang['formule_courriel'] = "Dirrecci&oacute;n de correo electr&oacute;nico";
 $lang['formule_message'] = "Su mensaje";
 $lang['formule_envoyer'] = "Envialo";
 
-$lang['copyright'] = "Grant Mukai. Todos los derechos reservados. Iconos de banderas graciosamente proporcionados por <a href='http://www.icondrawer.com'>Icon Drawer</a>.<br />Cr&eacute;ditos de fotos: 1. Ciudad de M&eacute;xico por <a href='https://www.flickr.com/photos/eneas/'>Eneas De Troya</a>. 2. Centro de Guadalajara por <a href='https://www.flickr.com/photos/arturoav/'>Arturo Avila</a>. 3. Parroquia Nuestra Se&ntilde;ora del Refugion, Monterrey, NL por <a href='https://www.flickr.com/photos/eltb/'>Enrique L&oacute;pez-Tamayo Biosca</a>.";
+$lang['copyright'] = "Grant Mukai. Todos los derechos reservados. Iconos de banderas graciosamente proporcionados por <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
+//<br />
+//Cr&eacute;dito de Foto Arriba: <em>".$creditsImages[0]."</em> (".$creditsImages[1].") por <a href='http://www.flickr.com/photos/".$creditsImages[3]."/'>".$creditsImages[2]."</a>
+//<br />
+//Autorizado bajo el licencia Creative Commons. No hay modificiaciones.";
 
 ?>

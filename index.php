@@ -6,6 +6,7 @@
 <?php echo "<html lang='{$cv_lang}'>"; ?>
 <?php if ($imageVille == 1) {
     $quelleVille = rand(0,$villeMax);
+	include "assets/images/villes/".$cv_lang."/credits.php";
     }  
 ?>
 <head>
