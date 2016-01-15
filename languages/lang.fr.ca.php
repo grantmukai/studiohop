@@ -1,5 +1,4 @@
-<?php date_default_timezone_set("America/Montreal"); ?>
-<?php
+<?php date_default_timezone_set("America/Montreal");
 /*
 -------------------------
 Langue: Français - Canada
@@ -70,8 +69,8 @@ $webFileDate = new DateTime('01/10/2016');
 $lang['webfile_size'] = 143;
 
 $lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
-$prFileDate = new DateTime('11/21/2015');
-$lang['prfile_size'] = 57;
+$prFileDate = new DateTime('01/13/2016');
+$lang['prfile_size'] = 78;
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";

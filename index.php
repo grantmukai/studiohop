@@ -4,6 +4,11 @@
 <?php $langueLocale = str_replace("-","_",$cv_lang); ?>
 <!DOCTYPE html>
 <?php echo "<html lang='{$cv_lang}'>"; ?>
+<?php if ($imageVille == 1) {
+    $quelleVille = rand(0,$villeMax);
+	include "assets/images/villes/".$cv_lang."/credits.php";
+    }  
+?>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -905,7 +910,6 @@
     <!-- Background Image from line 37 of custom.js -->
     <script type="text/javascript">
         <?php if ($imageVille == 1) {
-                $quelleVille = rand(1,$villeMax);
                 echo "$('#intro').backstretch(['assets/images/villes/".$cv_lang."/".$quelleVille.".jpg']);";
             } else {
                 echo "$('#intro').backstretch(['assets/images/bg4.jpg']);";
