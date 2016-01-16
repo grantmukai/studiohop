@@ -107,6 +107,6 @@ $lang['copyright'] = "Grant Mukai. All rights reserved. Flag icons graciously pr
 //Banner Photo Credit: <em>".$CreditsImages[0]."</em> (".$CreditsImages[1].") by <a href='http://www.flickr.com/photos/".$CreditsImages[3]."/'>".$CreditsImages[2]."</a>";
 $lang['creditdelaphoto'] = "Banner Photo Credit";
 $lang['par'] = "by";
-
+$lang['license2photo'] = "Licensed under the Creative Commons License. No modifications have been made to the original photo."
 
 ?>
