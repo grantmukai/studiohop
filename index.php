@@ -119,9 +119,9 @@
 
 					<div class="col-md-12">
 
-						<div class="hello wow bounceInDown">
-							<h1><?php echo $lang['hello_1']; ?></h1>
-							<h3><span class="rotate"><?php echo $lang['hello_2']; ?></span></h3>
+						<div class="hello wow bounceInDown" style="color(160,160,160,.5);">
+							<h1 class="textstroke"><?php echo $lang['hello_1']; ?></h1>
+							<h3 class="textstroke"><span class="rotate"><?php echo $lang['hello_2']; ?></span></h3>
 						</div>
 
 						<a href="#profile">
@@ -871,6 +871,11 @@
 					<div class="col-md-12">
 						<p class="copy">
 							&copy; <?php echo date('Y') . " " . $lang['copyright']; ?>
+							<br />
+							<?php if ($imageVille == 1) {
+							echo $lang['creditdelaphoto'].": <em>".$creditsImages[$quelleVille][1]."</em> (".$creditsImages[$quelleVille][2].") ".$lang['par']." <a href='http://www.flickr.com/photos/".$creditsImages[$quelleVille][4]."'>".$creditsImages[$quelleVille][3]."</a>. ".$lang['license2photo'];
+							}
+							?>
 						</p>
 					</div>
 
