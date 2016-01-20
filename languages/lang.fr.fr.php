@@ -1,5 +1,4 @@
-<?php date_default_timezone_set("Europe/Paris"); ?>
-<?php
+<?php date_default_timezone_set("Europe/Paris");
 /*
 -------------------------
 Langue: Français - France
@@ -9,7 +8,8 @@ $cv_lang = "fr-FR";
  
 $lang = array();
 
-$imageVille = 0;
+$imageVille = 1;
+$villeMax = 2;
 
 $drapeauNational = 1;
 $lang['drapeau'] = "fr";
@@ -104,5 +104,7 @@ $lang['formule_message'] = "Votre Message";
 $lang['formule_envoyer'] = "Envoyez-le";
 
 $lang['copyright'] = "Grant Muka&iuml;. Tous droits r&eacute;serv&eacute;s. Ic&ocirc;nes des drapeaux gracieusement fournies par <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
-
+$lang['creditdelaphoto'] = "Cr&eacute;dit de la Photo Ent&ecirc;te";
+$lang['par'] = "par";
+$lang['license2photo'] = "Autoris&eacute;e sous le permis Creative Commons. Aucune modification n'a &eacute;t&eacute; appliqu&eacute;e &agrave; cette photo."
 ?>
