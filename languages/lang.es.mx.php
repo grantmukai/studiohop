@@ -1,5 +1,4 @@
-<?php date_default_timezone_set("America/Mexico_City"); ?>
-<?php
+<?php date_default_timezone_set("America/Mexico_City");
 /*
 ------------------------
 Langue: Español - México
@@ -9,7 +8,7 @@ $cv_lang = "es-MX";
  
 $lang = array();
 
-$imageVille = 0;
+$imageVille = 1;
 $villeMax = 2;
 
 $drapeauNational = 0;
@@ -107,5 +106,7 @@ $lang['copyright'] = "Grant Mukai. Todos los derechos reservados. Iconos de band
 //Cr&eacute;dito de Foto Arriba: <em>".$creditsImages[0]."</em> (".$creditsImages[1].") por <a href='http://www.flickr.com/photos/".$creditsImages[3]."/'>".$creditsImages[2]."</a>
 //<br />
 //Autorizado bajo el licencia Creative Commons. No hay modificiaciones.";
-
+$lang['creditdelaphoto'] = "Cr&eacute;dito de Foto Arriba";
+$lang['par'] = "por";
+$lang['license2photo'] = "Autorizada bajo el licencia Creative Commons. No hay modificaciones a esta foto.";
 ?>
