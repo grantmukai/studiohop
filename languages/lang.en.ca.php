@@ -69,8 +69,8 @@ $webFileDate = new DateTime('01/16/2016');
 $lang['webfile_size'] = 79;
 
 $lang['download_prcv'] = "Download CV";
-$prFileDate = new DateTime('11/29/2015');
-$lang['prfile_size'] = 70;
+$prFileDate = new DateTime('01/19/2016');
+$lang['prfile_size'] = 72;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
@@ -103,8 +103,7 @@ $lang['formule_message'] = "Your message";
 $lang['formule_envoyer'] = "Send It";
 
 $lang['copyright'] = "Grant Mukai. All rights reserved. Flag icons graciously provided by <a href='http://www.icondrawer.com'>Icon Drawer</a>";
-//<br />
-//Banner Photo Credit: <em>".$CreditsImages[0]."</em> (".$CreditsImages[1].") by <a href='http://www.flickr.com/photos/".$CreditsImages[3]."/'>".$CreditsImages[2]."</a>";
+
 $lang['creditdelaphoto'] = "Banner Photo Credit";
 $lang['par'] = "by";
 $lang['license2photo'] = "Licensed under the Creative Commons License. No modifications have been made to the original photo."
