@@ -813,7 +813,6 @@
 						<p><?php echo $lang['contact_paragraph']; ?></p>
 
 						<ul class="icon-list">
-							<!--<li><i class="fa fa-fw fa-map-marker"></i>001 Some Street, Some City, US</li>-->
 							<li><i class="fa fa-fw fa-phone"></i>+1 202 656 8317</li>
 							<li><i class="fa fa-fw fa-globe"></i><a href="">http://www.grantmukai.com</a></li>
 						</ul>
