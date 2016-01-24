@@ -119,7 +119,7 @@
 
 					<div class="col-md-12">
 
-						<div class="hello wow bounceInDown" style="color(160,160,160,.5);">
+						<div class="hello wow bounceInDown" style="padding:30px; background-color: rgba(5,4,2,0.4);">
 							<h1 class="textstroke"><?php echo $lang['hello_1']; ?></h1>
 							<h3 class="textstroke"><span class="rotate"><?php echo $lang['hello_2']; ?></span></h3>
 						</div>
@@ -813,7 +813,6 @@
 						<p><?php echo $lang['contact_paragraph']; ?></p>
 
 						<ul class="icon-list">
-							<!--<li><i class="fa fa-fw fa-map-marker"></i>001 Some Street, Some City, US</li>-->
 							<li><i class="fa fa-fw fa-phone"></i>+1 202 656 8317</li>
 							<li><i class="fa fa-fw fa-globe"></i><a href="">http://www.grantmukai.com</a></li>
 						</ul>
