@@ -64,8 +64,8 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV";
-$webFileDate = new DateTime('12/04/2015');
-$lang['webfile_size'] = 130;
+$webFileDate = new DateTime('01/23/2016');
+$lang['webfile_size'] = 78;
 
 $lang['download_prcv'] = "Descargar CV";
 $prFileDate = new DateTime('12/07/2015');
@@ -102,10 +102,6 @@ $lang['formule_message'] = "Su mensaje";
 $lang['formule_envoyer'] = "Envialo";
 
 $lang['copyright'] = "Grant Mukai. Todos los derechos reservados. Iconos de banderas graciosamente proporcionados por <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
-//<br />
-//Cr&eacute;dito de Foto Arriba: <em>".$creditsImages[0]."</em> (".$creditsImages[1].") por <a href='http://www.flickr.com/photos/".$creditsImages[3]."/'>".$creditsImages[2]."</a>
-//<br />
-//Autorizado bajo el licencia Creative Commons. No hay modificiaciones.";
 $lang['creditdelaphoto'] = "Cr&eacute;dito de Foto Arriba";
 $lang['par'] = "por";
 $lang['license2photo'] = "Autorizada bajo el licencia Creative Commons. No hay modificaciones a esta foto.";
