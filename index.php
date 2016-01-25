@@ -1,13 +1,13 @@
-<?php include_once "common.php"; ?>
-<?php date_default_timezone_set("America/Montreal"); ?>
-<?php $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv"); ?>
-<?php $langueLocale = str_replace("-","_",$cv_lang); ?>
-<!DOCTYPE html>
-<?php echo "<html lang='{$cv_lang}'>"; ?>
-<?php if ($imageVille == 1) {
+<?php include_once "common.php";
+date_default_timezone_set("America/Montreal");
+$link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv");
+$langueLocale = str_replace("-","_",$cv_lang);
+echo "<!DOCTYPE html>";
+echo "<html lang='{$cv_lang}'>";
+if ($imageVille == 1) {
     $quelleVille = rand(0,$villeMax);
 	include "assets/images/villes/".$cv_lang."/credits.php";
-    }  
+}  
 ?>
 <head>
 	<meta charset="UTF-8">
@@ -83,7 +83,7 @@
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
+						<span class="sr-only"><?php echo $lang["parcourir_nav"]; ?></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>

@@ -8,6 +8,8 @@ $cv_lang = "es-MX";
  
 $lang = array();
 
+$lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
+
 $imageVille = 1;
 $villeMax = 2;
 

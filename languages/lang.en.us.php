@@ -9,6 +9,8 @@ $cv_lang = "en-US";
  
 $lang = array();
 
+$lang["parcourir_nav"] = "Toggle Navigation";
+
 $imageVille = 0;
 
 $drapeauNational = 0;
