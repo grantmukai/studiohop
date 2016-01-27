@@ -9,6 +9,8 @@ $cv_lang = "en-CA";
  
 $lang = array();
 
+$lang["parcourir_nav"] = "Parcourir Navigation";
+
 $imageVille = 1;
 $villeMax = 6;
 

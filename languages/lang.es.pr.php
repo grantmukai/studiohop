@@ -9,6 +9,8 @@ $cv_lang = "es-PR";
  
 $lang = array();
 
+$lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
+
 $imageVille = 0;
 
 $drapeauNational = 1;

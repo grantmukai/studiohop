@@ -8,6 +8,8 @@ $cv_lang = "fr-FR";
  
 $lang = array();
 
+$lang["parcourir_nav"] = "Parcourir Navigation";
+
 $imageVille = 1;
 $villeMax = 2;
 
@@ -23,7 +25,7 @@ $lang['NAME'] = 'Grant Kiyoshi Muka&iuml;';
 
 // Menu bar
 
-$lang['intro'] = 'Acceuil';
+$lang['intro'] = 'Accueil';
 $lang['profile'] = 'Profil';
 $lang['services'] = 'Services';
 $lang['web_cv'] = 'D&eacute;veloppement Web';
