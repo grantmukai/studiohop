@@ -4,7 +4,7 @@ $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverra
 $langueLocale = str_replace("-","_",$cv_lang);
 echo "<!DOCTYPE html>";
 echo "<html lang='{$cv_lang}'>";
-if ($imageVille == 1) {
+if (isset($imageVille)) {
     $quelleVille = rand(0,$villeMax);
 	include "assets/images/villes/".$cv_lang."/credits.php";
 }  
@@ -871,7 +871,7 @@ if ($imageVille == 1) {
 						<p class="copy">
 							&copy; <?php echo date('Y') . " " . $lang['copyright']; ?>
 							<br />
-							<?php if ($imageVille == 1) {
+							<?php if (isset($imageVille)) {
 							echo $lang['creditdelaphoto'].": <em>".$creditsImages[$quelleVille][1]."</em> (".$creditsImages[$quelleVille][2].") ".$lang['par']." <a href='http://www.flickr.com/photos/".$creditsImages[$quelleVille][4]."'>".$creditsImages[$quelleVille][3]."</a>. ".$lang['license2photo'];
 							}
 							?>
@@ -913,7 +913,7 @@ if ($imageVille == 1) {
 	<script src="assets/js/custom.js"></script>
     <!-- Background Image from line 37 of custom.js -->
     <script type="text/javascript">
-        <?php if ($imageVille == 1) {
+        <?php if (isset($imageVille)) {
                 echo "$('#intro').backstretch(['assets/images/villes/".$cv_lang."/".$quelleVille.".jpg']);";
             } else {
                 echo "$('#intro').backstretch(['assets/images/bg4.jpg']);";

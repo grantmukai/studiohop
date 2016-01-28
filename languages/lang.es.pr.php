@@ -11,7 +11,7 @@ $lang = array();
 
 $lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
 
-$imageVille = 0;
+//$imageVille is not set
 
 $drapeauNational = 1;
 $lang['drapeau'] = "pr";
