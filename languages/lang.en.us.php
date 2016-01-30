@@ -11,7 +11,7 @@ $lang = array();
 
 $lang["parcourir_nav"] = "Toggle Navigation";
 
-$imageVille = 0;
+// $imageVille is not set
 
 $drapeauNational = 0;
 $lang['drapeau'] = "us";

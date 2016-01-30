@@ -53,9 +53,10 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 					"Egg Tempura Demonstration"=>"jackstandish.mov",
 					"Saving Peru&rsquo;s Children with a Lab Ambulance"=>"laboratoryambulance.mov",
 					"Rotary Club Pancake Breakfast"=>"pancakebreakfast.mov",
-                    "Around Town: Boston Marathon Coverage"=>"bostonmarathon.mov",
-                    "Suzy Duffy Books: Wellesley Wives"=>"wellesleywives.mov",
-                    "Captain Marden&rsquo;s Seafood Truck"=>"foodtruck.mov"
+                    			"Around Town: Boston Marathon Coverage"=>"bostonmarathon.mov",
+                    			"Suzy Duffy Books: Wellesley Wives"=>"wellesleywives.mov",
+                    			"Captain Marden&rsquo;s Seafood Truck"=>"foodtruck.mov",
+                    			"Wellesley Media Graphic Reel"=>"wmgraphicreel.mp4"
 					);
                 foreach($wellesleyPlaylist as $dataTitle => $dataUrl) {
                     echo "<li data-title='{$dataTitle}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/wellesley/{$dataUrl}' data-poster='Wellesley Public Media' data-free='false'></li>";

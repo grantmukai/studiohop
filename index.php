@@ -4,7 +4,7 @@ $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverra
 $langueLocale = str_replace("-","_",$cv_lang);
 echo "<!DOCTYPE html>";
 echo "<html lang='{$cv_lang}'>";
-if ($imageVille == 1) {
+if (isset($imageVille)) {
     $quelleVille = rand(0,$villeMax);
 	include "assets/images/villes/".$cv_lang."/credits.php";
 }  
@@ -207,7 +207,7 @@ if ($imageVille == 1) {
 					</div>
 
 					<div class="col-md-3 col-sm-6 hidden-xs wow fadeIn">
-						<img class="avatar" src="assets/images/photo.jpg" alt="">
+						<img class="img-thumbnail" src="assets/images/photo.jpg" alt="">
 					</div>
 
 					<div class="col-md-3 col-sm-6 wow fadeIn">
@@ -244,7 +244,7 @@ if ($imageVille == 1) {
 						<div class="profile-widget">
 							<h3><?php echo $lang['social_profiles']; ?></h3>
 							<ul class="widget-social">
-								<li><a href="http://www.twitter.com/grantmukai"><i class="fa fa-twitter fa-fw"></i></a></li>
+								<li><a href="http://www.twitter.com/grantmukai"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="http://www.github.com/grantmukai"><i class="fa fa-github-alt"></i></a></li>
 								<li><a href="http://www.linkedin.com/in/grantmukai"><i class="fa fa-linkedin"></i></a></li>
 								<li><a href="http://www.youtube.com/grantmukai"><i class="fa fa-youtube"></i></a></li>
@@ -871,7 +871,7 @@ if ($imageVille == 1) {
 						<p class="copy">
 							&copy; <?php echo date('Y') . " " . $lang['copyright']; ?>
 							<br />
-							<?php if ($imageVille == 1) {
+							<?php if (isset($imageVille)) {
 							echo $lang['creditdelaphoto'].": <em>".$creditsImages[$quelleVille][1]."</em> (".$creditsImages[$quelleVille][2].") ".$lang['par']." <a href='http://www.flickr.com/photos/".$creditsImages[$quelleVille][4]."'>".$creditsImages[$quelleVille][3]."</a>. ".$lang['license2photo'];
 							}
 							?>
@@ -913,7 +913,7 @@ if ($imageVille == 1) {
 	<script src="assets/js/custom.js"></script>
     <!-- Background Image from line 37 of custom.js -->
     <script type="text/javascript">
-        <?php if ($imageVille == 1) {
+        <?php if (isset($imageVille)) {
                 echo "$('#intro').backstretch(['assets/images/villes/".$cv_lang."/".$quelleVille.".jpg']);";
             } else {
                 echo "$('#intro').backstretch(['assets/images/bg4.jpg']);";
