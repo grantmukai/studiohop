@@ -207,7 +207,7 @@ if (isset($imageVille)) {
 					</div>
 
 					<div class="col-md-3 col-sm-6 hidden-xs wow fadeIn">
-						<img class="avatar" src="assets/images/photo.jpg" alt="">
+						<img class="img-thumbnail" src="assets/images/photo.jpg" alt="">
 					</div>
 
 					<div class="col-md-3 col-sm-6 wow fadeIn">
@@ -244,7 +244,7 @@ if (isset($imageVille)) {
 						<div class="profile-widget">
 							<h3><?php echo $lang['social_profiles']; ?></h3>
 							<ul class="widget-social">
-								<li><a href="http://www.twitter.com/grantmukai"><i class="fa fa-twitter fa-fw"></i></a></li>
+								<li><a href="http://www.twitter.com/grantmukai"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="http://www.github.com/grantmukai"><i class="fa fa-github-alt"></i></a></li>
 								<li><a href="http://www.linkedin.com/in/grantmukai"><i class="fa fa-linkedin"></i></a></li>
 								<li><a href="http://www.youtube.com/grantmukai"><i class="fa fa-youtube"></i></a></li>
