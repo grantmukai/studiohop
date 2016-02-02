@@ -1,5 +1,4 @@
-<?php date_default_timezone_set("America/Montreal"); ?>
-<?php
+<?php date_default_timezone_set("America/Montreal");
 /*
 ----------------------
 Language: English - US
@@ -11,7 +10,8 @@ $lang = array();
 
 $lang["parcourir_nav"] = "Toggle Navigation";
 
-// $imageVille is not set
+$imageVille = 1;
+$villeMax = 6;
 
 $drapeauNational = 0;
 $lang['drapeau'] = "us";
@@ -104,5 +104,7 @@ $lang['formule_message'] = "Your message";
 $lang['formule_envoyer'] = "Send It";
 
 $lang['copyright'] = "Grant Mukai. All rights reserved. Flag icons graciously provided by <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
-
+$lang['creditdelaphoto'] = "Main Photo Credit";
+$lang['par'] = "by";
+$lang['license2photo'] = "Licensed under the Creative Commons. No modifications have been made to this photo.";
 ?>
