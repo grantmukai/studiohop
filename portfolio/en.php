@@ -17,7 +17,7 @@
 			<li><a href="http://portfolio.grantmukai.com/index.php/category/iq-solutions/">iQ Solutions</a></li>
 		</ul>
 	</div>
-    <div class="col-md-4 col-sm-12 headline wow fadeIn">
+	<div class="col-md-4 col-sm-12 headline wow fadeIn">
 		<h3>By Category</h3>
 		<ul>
 			<li><a href="http://portfolio.grantmukai.com/index.php/category/print/">Print</a></li>
@@ -46,6 +46,7 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 				<ul data-theme="default">
 			<?php
 				$wellesleyPlaylist = array(
+					"Wellesley Media Graphic Reel"=>"wmgraphicreel.mp4",
 					"Arms Around Sierra Leone"=>"sierraleone.mov",
 					"Radcliffe Bailey: Memory as Medicine"=>"radcliffebailey.mov",
 					"Landscape Photographer Art Donahue"=>"artdonahue.mov",
@@ -53,15 +54,15 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 					"Egg Tempura Demonstration"=>"jackstandish.mov",
 					"Saving Peru&rsquo;s Children with a Lab Ambulance"=>"laboratoryambulance.mov",
 					"Rotary Club Pancake Breakfast"=>"pancakebreakfast.mov",
-                    			"Around Town: Boston Marathon Coverage"=>"bostonmarathon.mov",
-                    			"Suzy Duffy Books: Wellesley Wives"=>"wellesleywives.mov",
-                    			"Captain Marden&rsquo;s Seafood Truck"=>"foodtruck.mov",
-                    			"Wellesley Media Graphic Reel"=>"wmgraphicreel.mp4"
+					"Around Town: Boston Marathon Coverage"=>"bostonmarathon.mov",
+					"Suzy Duffy Books: Wellesley Wives"=>"wellesleywives.mov",
+					"Captain Marden&rsquo;s Seafood Truck"=>"foodtruck.mov",
+					"BONUS: Dropping the Camera"=>"droppingcamera.mov"
 					);
-                foreach($wellesleyPlaylist as $dataTitle => $dataUrl) {
-                    echo "<li data-title='{$dataTitle}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/wellesley/{$dataUrl}' data-poster='Wellesley Public Media' data-free='false'></li>";
-                }
-            ?>
+				foreach($wellesleyPlaylist as $dataTitle => $dataUrl) {
+					echo "<li data-title='{$dataTitle}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/wellesley/{$dataUrl}' data-poster='Wellesley Public Media' data-free='false'></li>";
+				}
+			?>
 				</ul>
 			</div>
 		</div>
