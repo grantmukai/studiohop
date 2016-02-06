@@ -1,5 +1,4 @@
-<?php date_default_timezone_set("Europe/Dublin"); ?>
-<?php
+<?php date_default_timezone_set("Europe/Dublin");
 /*
 ---------------------------
 Language: English - Ireland
@@ -69,8 +68,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('12/19/2015');
-$lang['webfile_size'] = 74;
+$webFileDate = new DateTime('02/05/2016');
+$lang['webfile_size'] = 73;
 
 $lang['download_prcv'] = "Download CV";
 $prFileDate = new DateTime('12/23/2015');
