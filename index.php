@@ -5,7 +5,7 @@ $langueLocale = str_replace("-","_",$cv_lang);
 echo "<!DOCTYPE html>";
 echo "<html lang='{$cv_lang}'>";
 if (isset($imageVille)) {
-    $quelleVille = rand(0,$villeMax);
+    $quelleVille = mt_rand(0,$villeMax);
 	include "assets/images/villes/".$cv_lang."/credits.php";
 }  
 ?>
