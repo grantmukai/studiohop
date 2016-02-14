@@ -71,6 +71,7 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 			<?php
 				$wellesleyGraphicReel = array(
 					"Wellesley Media Graphic Reel"=>"wmgraphicreel.mp4",
+					"After Effects Title Example"=>"HHKtitle.mov",
 					"BONUS: Dropping the Camera"=>"droppingcamera.mov"
 					);
 				foreach($wellesleyGraphicReel as $dataTitle2 => $dataUrl2) {
