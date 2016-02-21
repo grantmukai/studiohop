@@ -1,8 +1,8 @@
-<?php date_default_timezone_set("America/Montreal");
+<?php date_default_timezone_set("America/New_York");
 /*
-----------------------
-Language: English - US
-----------------------
+---------------------------------
+Language: English - United States
+---------------------------------
 */
 $cv_lang = "en-US";
  
@@ -32,8 +32,8 @@ $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
 $lang['hello_1'] = "Hello, I'm Grant Kiyoshi Mukai";
-$lang['hello_2'] = 'Front-end Developer. | Database Administrator. | Communications Associate. | Video Editor.';
-$lang['hello_3'] = 'Front-end Developer. Database Administrator. Communications Associate. Video Editor.';
+$lang['hello_2'] = 'Web Development | Email Marketing | Database Administration | Publishing Layout';
+$lang['hello_3'] = 'Web Development | Email Marketing | Database Administration | Publishing Layout';
 
 $lang['select_country'] = "Select your country";
 
@@ -66,8 +66,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('12/31/2015');
-$lang['webfile_size'] = 62;
+$webFileDate = new DateTime('02/20/2016');
+$lang['webfile_size'] = 72;
 
 $lang['download_prcv'] = "Download CV";
 $prFileDate = new DateTime('01/05/2016');
