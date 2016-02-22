@@ -1,5 +1,4 @@
 <?php include_once "common.php";
-date_default_timezone_set("America/Montreal");
 $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv");
 $langueLocale = str_replace("-","_",$cv_lang);
 echo "<!DOCTYPE html>";
@@ -383,6 +382,8 @@ if (isset($imageVille)) {
 					<div class="col-md-9 headline nomargin wow bounceInDown">
 						<h3><?php echo $lang['status_1']; ?></h3>
 						<p><?php echo $lang['status_2']; ?></p>
+                        <!--<p>Heure o&ugrave; vous &ecirc;tes:</p>
+                        <p>Heure au District de Columbia: <0php echo date("H:i"); 0></p>-->
 						<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php echo $lang['status_3']; ?></a>
 					</div>
 
