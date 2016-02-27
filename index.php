@@ -382,8 +382,6 @@ if (isset($imageVille)) {
 					<div class="col-md-9 headline nomargin wow bounceInDown">
 						<h3><?php echo $lang['status_1']; ?></h3>
 						<p><?php echo $lang['status_2']; ?></p>
-                        <!--<p>Heure o&ugrave; vous &ecirc;tes: <-php echo date("H:i",strtotime('+6 hours')); ?></p>
-                        <p>Heure au District de Columbia: <-php echo date("H:i"); ?></p>-->
 						<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php echo $lang['status_3']; ?></a>
 					</div>
 
