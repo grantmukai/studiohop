@@ -19,7 +19,7 @@ $lang['drapeau_alt'] = "Drapeau du Qu&eacute;bec";
 $lang['drapeau_national'] = "ca";
 $lang['drapeau_national_alt'] = "Drapeau du Canada";
 
-$lang['metadesc'] = "Grant Kiyoshi Muka&iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia, &Eacute;tats&ndash;Unis"; 
+$lang['metadesc'] = "Grant Kiyoshi Muka&iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia"; 
 $lang['PAGE_TITLE'] = 'Grant Muka&iuml;';
 $lang['NAME'] = 'Grant Kiyoshi Muka&iuml;';
 
@@ -34,8 +34,8 @@ $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
 $lang['hello_1'] = "Bonjour, mon nom est Grant Kiyoshi Muka&iuml;";
-$lang['hello_2'] = 'D&eacute;veloppeur Web. | G&eacute;rant des bases de donn&eacute;es. | Agent des communications. | Monteur vid&eacute;o.';
-$lang['hello_3'] = 'D&eacute;veloppeur Web. G&eacute;rant des Bases de Donn&eacute;es. Agent des communications.';
+$lang['hello_2'] = 'D&eacute;veloppeur Web | Courriels de Promotion | Administration de Donn&eacute;es | Publications';
+$lang['hello_3'] = 'D&eacute;veloppeur Web | Courriels de Promotion | Administration de Donn&eacute;es | Publications';
 
 $lang['select_country'] = "Choisissez votre pays";
 
