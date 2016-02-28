@@ -34,8 +34,8 @@ $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
 $lang['hello_1'] = "Bonjour, mon nom est Grant Kiyoshi Muka&iuml;";
-$lang['hello_2'] = 'D&eacute;veloppeur Web | Courriels de Promotion | Administration de Donn&eacute;es | Publications';
-$lang['hello_3'] = 'D&eacute;veloppeur Web | Courriels de Promotion | Administration de Donn&eacute;es | Publications';
+$lang['hello_2'] = 'D&eacute;veloppement Web | Courriels de Promotion | Administration de Donn&eacute;es | Publications | Relations Publiques | Promotion | Gestion de Contenu Web | Journalisme';
+$lang['hello_3'] = 'D&eacute;veloppement Web | Courriels de Promotion | Administration de Donn&eacute;es | Publications';
 
 $lang['select_country'] = "Choisissez votre pays";
 
