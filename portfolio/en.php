@@ -46,16 +46,19 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 				<ul data-theme="default">
 			<?php
 				$wellesleyPlaylist = array(
-					"Arms Around Sierra Leone"=>"sierraleone.mov",
-					"Radcliffe Bailey: Memory as Medicine"=>"radcliffebailey.mov",
-					"Landscape Photographer Art Donahue"=>"artdonahue.mov",
-					"Wellesley College Browning Letters Project"=>"browningletters.mov",
-					"Egg Tempura Demonstration"=>"jackstandish.mov",
-					"Saving Peru&rsquo;s Children with a Lab Ambulance"=>"laboratoryambulance.mov",
-					"Rotary Club Pancake Breakfast"=>"pancakebreakfast.mov",
-					"Around Town: Boston Marathon Coverage"=>"bostonmarathon.mov",
-					"Suzy Duffy Books: Wellesley Wives"=>"wellesleywives.mov",
-					"Captain Marden&rsquo;s Seafood Truck"=>"foodtruck.mov",
+					"Hailey and the Bees, Part 1 (225MB)"=>"bees2.mov",
+					"Arms Around Sierra Leone (84MB)"=>"sierraleone.mov",
+					"Radcliffe Bailey: Memory as Medicine (86MB)"=>"radcliffebailey.mov",
+					"Landscape Photographer Art Donahue (129MB)"=>"artdonahue.mov",
+					"Wellesley College Browning Letters Project (87MB)"=>"browningletters.mov",
+					"Egg Tempura Demonstration (66MB)"=>"jackstandish.mov",
+					"Saving Peru&rsquo;s Children with a Lab Ambulance (16MB)"=>"laboratoryambulance.mov",
+					"Rotary Club Pancake Breakfast (14MB)"=>"pancakebreakfast.mov",
+					"Around Town: Boston Marathon Coverage (266MB)"=>"bostonmarathon.mov",
+					"Suzy Duffy Books: Wellesley Wives (90MB)"=>"wellesleywives.mov",
+					"Captain Marden&rsquo;s Seafood Truck (81MB)"=>"foodtruck.mov",
+					"Google Street View Car (116MB)"=>"streetviewcare.mov",
+					"Rained Out Gold Competition (39MB)"=>"rainedoutgolf.mov"
 					);
 				foreach($wellesleyPlaylist as $dataTitle1 => $dataUrl1) {
 					echo "<li data-title='{$dataTitle1}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/wellesley/{$dataUrl1}' data-poster='Wellesley Public Media' data-free='false'></li>";
@@ -70,9 +73,9 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 				<ul data-theme="default">
 			<?php
 				$wellesleyGraphicReel = array(
-					"Wellesley Media Graphic Reel"=>"wmgraphicreel.mp4",
-					"After Effects Title Example"=>"HHKtitle.mov",
-					"BONUS: Dropping the Camera"=>"droppingcamera.mov"
+					"Wellesley Media Graphic Reel (35MB)"=>"wmgraphicreel.mp4",
+					"After Effects Title Example (1.4MB)"=>"HHKtitle.mov",
+					"BONUS: Dropping the Camera (2.2MB)"=>"droppingcamera.mov"
 					);
 				foreach($wellesleyGraphicReel as $dataTitle2 => $dataUrl2) {
 					echo "<li data-title='{$dataTitle2}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/wellesley/{$dataUrl2}' data-poster='Wellesley Public Media' data-free='false'></li>";
