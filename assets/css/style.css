@@ -58,7 +58,7 @@ h2 {
 }
 
 h3 {
-	font-size: 22px;
+	font-size: 28px; /* était 22px */
 	text-transform: uppercase;
 	margin: 5px 0 15px;
 }
