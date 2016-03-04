@@ -1,5 +1,4 @@
-<?php date_default_timezone_set("Europe/Dublin"); ?>
-<?php
+<?php date_default_timezone_set("Europe/Dublin");
 /*
 ---------------------------
 Language: English - Ireland
@@ -47,17 +46,17 @@ $lang['social_profiles'] = 'Social Profiles';
 $lang['bio'] = "
 <h3>Who Am I?</h3>
 
-<p>My name is Grant Kiyoshi Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the United States of America. I work on a small team in the Marketing and Communications Department where I help manage our association's public-facing site as well as several small-scale WordPress sites devoted to promoting political science and helping our special interest sections organize themselves on the Web. I also help out with a lot of database management, statistical analysis, and report generation while providing excellent customer service to our members in English, French, and Spanish. Although we are located in the United States, we have a very large international membership.</p>
+<p>My name is Grant Kiyoshi Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the United States of America. I work on a small team in the Marketing and Communications Department where I help manage our association's public-facing site as well as several small-scale WordPress sites devoted to promoting political science and helping our special interest sections organise themselves on the Web. I also help out with a lot of database management, which includes querying statistics and generating reports, while providing excellent customer service to our members in English, French, and Spanish. Although we are located in the United States, we have a very large international membership.</p>
 
-<p>Before joining the APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a> in Washington, D.C. (Mid-Atlantic region) and <a href='http://www.iqsolutions.com'>iQ Solutions</a>, in Maryland State just north of the capital, developing email newsletters. Some of the healthcare clients I worked for include the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages through coding HTML, CSS, and PHP for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
+<p>Before joining the APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a> in Washington, District of Columbia. (Mid-Atlantic region) and <a href='http://www.iqsolutions.com'>iQ Solutions</a>, in the State of Maryland just north of the country's capital, developing email newsletters. Some of the healthcare clients I worked for include the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages through coding HTML, CSS, and PHP for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
 
 <p>A large part of my responsibilities have comprised making sure that webpages and documents meet the Web Accessibility Guidelines set forth by the World Wide Web Consortium.</p>
 
-<p>Prior to my career switch from journalism to Web development and database management, I was an Associate Producer for <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> in Massachusetts (Northeast) where I produced news reports and documentaries for the local cable access station. In this same area, I was instrumental in bringing online video content to the Patch.com platform where I provided freelance video work on a number of local events and businesses and ran a weekly real estate column.</p>
+<p>Prior to my career switch from journalism to Web development and database management, I was an Associate Producer for <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> in the Commonwealth of Massachusetts (Northeast region) where I produced news reports and documentaries for the local cable access station. In this same area, I was instrumental in bringing online video content to the Patch.com platform where I provided freelance video work on a number of local events and businesses and ran a weekly real estate column.</p>
 
 <p>While at university, I gained additional television experiences from the <a href='http://www.wgbh.org'>WGBH Educational Foundation (one of a series of national publicly-funded television stations in the U.S.)</a> as the Antiques Roadshow Web Intern and with <a href='http://www.publicsynergies.com'>Public Synergies</a> and Rpublictv in Asnières-sur-Seine, France, as a multimedia and video intern.</p>
 
-<p>I am a proud alumnus of Boston University's <a href='http://www.bu.edu/com'>College of Communication</a> where I graduated with a Bachelor of Science (first cycle degree) in Broadcast Journalism and an academic minor in French Language and Literature.</p>
+<p>I am a proud alumnus of Boston University's <a href='http://www.bu.edu/com'>College of Communication</a> where I graduated with a Bachelor of Science in Broadcast Journalism and an academic minor in French Language and Literature.</p>
 ";
 
 $lang['derniere_maj'] = "Last updated";
@@ -69,12 +68,12 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('12/19/2015');
-$lang['webfile_size'] = 74;
+$webFileDate = new DateTime('02/05/2016');
+$lang['webfile_size'] = 73;
 
 $lang['download_prcv'] = "Download CV";
-$prFileDate = new DateTime('12/23/2015');
-$lang['prfile_size'] = 64;
+$prFileDate = new DateTime('02/07/2016');
+$lang['prfile_size'] = 72;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
@@ -88,7 +87,7 @@ $lang['codepropre_p'] = "I am very serious about only writing the cleanest up-to
 $lang['adaptatif_soustitre'] = "Responsive Design";
 $lang['adaptatif_p'] = "Not only do I understand how to implement media queries and float and scale content for responsive Web design, I also undestand best practices for creating responsive email (where supported)";
 $lang['soutien_soustitre'] = "Support";
-$lang['soutien_p'] = "Although I provide Web services for my association, I also offer training to our staff on how to manage their own content and assist our members in English, French and Spanish with membership issues.";
+$lang['soutien_p'] = "Although I provide Web services for my association, I also offer training to our staff on how to manage their own content and assist our members and staff in English, French and Spanish with website training and membership issues.";
 
 $lang['status_title'] = 'My status';
 $lang['status_1'] = "I currently work for the American Political Science Association";

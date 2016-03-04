@@ -1,11 +1,10 @@
 <?php include_once "common.php";
-date_default_timezone_set("America/Montreal");
 $link = new mysqli("www.grantmukai.com:4579","cv_access","jenesaispasmaistuverras","cv");
 $langueLocale = str_replace("-","_",$cv_lang);
 echo "<!DOCTYPE html>";
 echo "<html lang='{$cv_lang}'>";
 if (isset($imageVille)) {
-    $quelleVille = rand(0,$villeMax);
+    $quelleVille = mt_rand(0,$villeMax);
 	include "assets/images/villes/".$cv_lang."/credits.php";
 }  
 ?>
@@ -18,15 +17,12 @@ if (isset($imageVille)) {
 	<title><?php echo $lang['PAGE_TITLE']; ?></title>
 
 	<!-- CSS -->
-	<!-- Bootstrap core CSS -->
+	<!-- Coeur Bootstrap CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
 	<!-- Owl Carousel -->
 	<link href="assets/css/owl.theme.css" rel="stylesheet">
 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
-
-	<!-- Magnific-popup lightbox
-	<link href="assets/css/magnific-popup.css" rel="stylesheet"> -->
 
 	<!-- Simple text rotator -->
 	<link href="assets/css/simpletextrotator.css" rel="stylesheet">
@@ -47,7 +43,7 @@ if (isset($imageVille)) {
 	<script src="assets/js/jquery.cleanvideoplayer.js"></script>
 	<link href="assets/css/player.css" rel="stylesheet">
     
-    <!--  BEGIN Google Analytics script -->
+    <!--  DÉBUT Google Analytics -->
     <script type="text/javascript">
 
   		var _gaq = _gaq || [];
@@ -61,13 +57,13 @@ if (isset($imageVille)) {
   		})();
 
 	</script>
-	<!-- END Google Analytics script -->
+	<!-- FIN Google Analytics -->
 </head>
 <body>
 
 	<div class="wrapper">
 
-		<!-- Preloader -->
+		<!-- Pré-chargement -->
 
 		<div id="preloader">
 			<div id="status">
@@ -75,12 +71,12 @@ if (isset($imageVille)) {
 			</div>
 		</div>
 
-		<!-- Navigation start -->
+		<!-- Début Navigation -->
 
 		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
 			<div class="container">
 
-				<!-- Brand and toggle get grouped for better mobile display -->
+				<!-- Marque et parcours groupé ensemble pour mieux s'afficher sur mobile -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only"><?php echo $lang["parcourir_nav"]; ?></span>
@@ -107,9 +103,9 @@ if (isset($imageVille)) {
 			</div>
 		</nav>
 
-		<!-- Navigation end -->
+		<!-- Fin Navigation -->
 
-		<!-- Intro section start -->
+		<!-- Début section Intro -->
 
 		<section id="intro" class="section">
 
@@ -132,15 +128,15 @@ if (isset($imageVille)) {
 
 					</div>
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
-			</div><!-- .container -->
+			</div><!-- .conteneur -->
 
 		</section>
 
-		<!-- Intro section end -->
+		<!-- Fin section Intro -->
 
-		<!-- Profile contact callout section -->
+		<!-- Section profil contact chiffe-référence -->
 
 		<section id="profile-contact">
 
@@ -155,7 +151,8 @@ if (isset($imageVille)) {
 						<a href="index.php?lang=en-CA"><img src="assets/images/drapeaux/ca24.png" alt="" />&nbsp;Canada</a>&nbsp;|&nbsp;
 						<a href="index.php?lang=es-MX"><img src="assets/images/drapeaux/mx24.png" alt="" />&nbsp;M&eacute;xico</a>&nbsp;|&nbsp;
 						<a href="index.php?lang=fr-FR"><img src="assets/images/drapeaux/fr24.png" alt="" />&nbsp;France</a>&nbsp;|&nbsp;
-                        <a href="index.php?lang=en-IE"><img src="assets/images/drapeaux/ie24.png" alt="" />&nbsp;Ireland</a>
+                        <a href="index.php?lang=en-IE"><img src="assets/images/drapeaux/ie24.png" alt="" />&nbsp;Ireland</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=es-PR"><img src="assets/images/drapeaux/pr24.png" alt="" />&nbsp;Puerto Rico</a>
 						</h5>
 					</div>
 				</div>
@@ -187,9 +184,9 @@ if (isset($imageVille)) {
 
 		</section>
 
-		<!--Profile contact callout section -->
+		<!-- section profil contact chiffre-référence -->
 
-		<!-- Profile section start -->
+		<!-- début section profil -->
 
 		<section id="profile" class="section">
 
@@ -207,7 +204,7 @@ if (isset($imageVille)) {
 					</div>
 
 					<div class="col-md-3 col-sm-6 hidden-xs wow fadeIn">
-						<img class="avatar" src="assets/images/photo.jpg" alt="">
+						<img class="img-thumbnail" src="assets/images/photo.jpg" alt="">
 					</div>
 
 					<div class="col-md-3 col-sm-6 wow fadeIn">
@@ -244,7 +241,7 @@ if (isset($imageVille)) {
 						<div class="profile-widget">
 							<h3><?php echo $lang['social_profiles']; ?></h3>
 							<ul class="widget-social">
-								<li><a href="http://www.twitter.com/grantmukai"><i class="fa fa-twitter fa-fw"></i></a></li>
+								<li><a href="http://www.twitter.com/grantmukai"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="http://www.github.com/grantmukai"><i class="fa fa-github-alt"></i></a></li>
 								<li><a href="http://www.linkedin.com/in/grantmukai"><i class="fa fa-linkedin"></i></a></li>
 								<li><a href="http://www.youtube.com/grantmukai"><i class="fa fa-youtube"></i></a></li>
@@ -257,16 +254,16 @@ if (isset($imageVille)) {
 					<?php echo $lang['bio']; ?>
 					</div>
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
-			</div><!-- .container -->
+			</div><!-- .conteneur -->
 
 		</section>
 
-		<!-- Profile section end -->
+		<!-- fin section Profil -->
 
 
-		<!-- Services section start -->
+		<!-- début section Services -->
 
 		<section id="services" class="callout">
 
@@ -368,9 +365,9 @@ if (isset($imageVille)) {
 
 		</section>
 
-		<!-- Services section end -->
+		<!-- fin section services -->
 
-		<!-- Callout section start -->
+		<!-- début section chiffres-références -->
 
 		<section class="section">
 
@@ -388,15 +385,15 @@ if (isset($imageVille)) {
 						<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php echo $lang['status_3']; ?></a>
 					</div>
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
-			</div><!-- .container -->
+			</div><!-- .conteneur -->
 
 		</section>
 
-		<!-- Callout section end -->
+		<!-- fin section chiffres-références -->
 
-		<!-- web cv section start -->
+		<!-- début section web cv -->
 
 		<section id="web" class="section">
 
@@ -421,7 +418,7 @@ if (isset($imageVille)) {
 						echo "</small></p>"; ?>
 					</div>
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
 				<div class="row resume-items">
 
@@ -451,7 +448,7 @@ if (isset($imageVille)) {
 					?>
 
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 				<div class="row resume-items">
 					<div class="col-md-12 wow fadeIn">
 						<h3><?php echo $lang['duties']; ?></h3>
@@ -528,7 +525,7 @@ if (isset($imageVille)) {
 						echo "</div>";
 					}
 					?>
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
 				<div class="row">
 
@@ -543,15 +540,15 @@ if (isset($imageVille)) {
 						?>
 					</div>
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
-			</div><!-- .container -->
+			</div><!-- .conteneur -->
 
 		</section>
 
-		<!-- web cv section end -->
+		<!-- fin section web cv -->
 		
-		<!-- marketing cv section start -->
+		<!-- début section promotion cv -->
 
 		<section id="public_relations" class="section">
 
@@ -576,7 +573,7 @@ if (isset($imageVille)) {
 						echo "</small></p>"; ?>
 					</div>
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
 				<div class="row resume-items">
 
@@ -606,7 +603,7 @@ if (isset($imageVille)) {
 					?>
 
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 				<div class="row resume-items">
 					<div class="col-md-12 wow fadeIn">
 						<h3><?php echo $lang['duties']; ?></h3>
@@ -683,7 +680,7 @@ if (isset($imageVille)) {
 						echo "</div>";
 					}
 					?>
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
 				<div class="row">
 
@@ -698,15 +695,15 @@ if (isset($imageVille)) {
 						?>
 					</div>
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
-			</div><!-- .container -->
+			</div><!-- .rang -->
 
 		</section>
 
-		<!-- Marketing cv section end -->
+		<!-- fin section promotion cv -->
 
-		<!-- Callout section start -->
+		<!-- début section chiffres-références -->
 
 		<section id="clients" class="callout">
 
@@ -776,15 +773,15 @@ if (isset($imageVille)) {
 
 					</div><!-- .col-md-9 -->
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
-			</div><!-- .container -->
+			</div><!-- .conteneur -->
 
 		</section>
 
-		<!-- Callout section end -->
+		<!-- fin section chiffres-références -->
 
-		<!-- Portfolio section start -->
+		<!-- début section Portfolio -->
 
 		<section id="portfolio" class="section">
 		
@@ -793,9 +790,9 @@ if (isset($imageVille)) {
 
 		</section>
 
-		<!-- Portfolio section end -->
+		<!-- fin section Portfolio -->
 
-		<!-- Contact section start -->
+		<!-- début section Contact -->
 
 		<section id="contact" class="section">
 
@@ -857,9 +854,9 @@ if (isset($imageVille)) {
 
 		</section>
 
-		<!-- Contact section end -->
+		<!-- fin section Portfolio -->
 
-		<!-- Footer start -->
+		<!-- début En-Pied -->
 
 		<footer id="footer">
 
@@ -878,40 +875,38 @@ if (isset($imageVille)) {
 						</p>
 					</div>
 
-				</div><!-- .row -->
+				</div><!-- .rang -->
 
-			</div><!-- .container -->
+			</div><!-- .conteneur -->
 
 		</footer>
 
-		<!-- Footer end -->
+		<!-- fin En-Pied -->
 
 	</div><!-- .wrapper -->
 
-	<!-- Javascript files -->
+	<!-- fichiers Javascript -->
 	<!-- Bootstrap JS -->
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<!-- Background slider -->
+	<!-- Glissement du fond d'écran -->
 	<script src="assets/js/jquery.backstretch.min.js"></script>
 	<!-- OwlCarousel -->
 	<script src="assets/js/owl.carousel.min.js"></script>
-	<!-- Modal for portfolio REQUIS POUR QUE LE FORMULE DE CONTACT FONCTIONNE -->
+	<!-- Modale pour le portfolio REQUIS POUR QUE LE FORMULE DE CONTACT FONCTIONNE -->
 	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<!-- Text rotator -->
+	<!-- Rotation du texte -->
 	<script src="assets/js/jquery.simple-text-rotator.min.js"></script>
 	<!-- Waypoints -->
 	<script src="assets/js/jquery.waypoints.js"></script>
-	<!-- CountTo
-	<script src="assets/js/jquery.countTo.js"></script> -->
-	<!-- WOW - Reveal Animations When You Scroll -->
+	<!-- WOW - Révéler animations lorsque vous glissez -->
 	<script src="assets/js/wow.min.js"></script>   
-	<!-- Smooth scroll -->
+	<!-- Glissement doux -->
 	<script src="assets/js/smoothscroll.js"></script>
 	<!-- Fitvids REQUIS POUR QUE LE FORMULE DE CONTACT FONCTIONNE -->
 	<script src="assets/js/jquery.fitvids.js"></script>
-	<!-- Custom scripts -->
+	<!-- Scripts personalisés -->
 	<script src="assets/js/custom.js"></script>
-    <!-- Background Image from line 37 of custom.js -->
+    <!-- image du fond de la ligne 37 de custom.js -->
     <script type="text/javascript">
         <?php if (isset($imageVille)) {
                 echo "$('#intro').backstretch(['assets/images/villes/".$cv_lang."/".$quelleVille.".jpg']);";
