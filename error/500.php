@@ -3,7 +3,7 @@
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <head>
-    <title>Grant Mukai - 403</title>
+    <title>Grant Mukai - 500</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,22 +21,6 @@
 	<!-- CSS -->
 	<!-- Bootstrap core CSS -->
 	<link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-
-	<!-- Owl Carousel -->
-	<link href="../assets/css/owl.theme.css" rel="stylesheet">
-	<link href="../assets/css/owl.carousel.css" rel="stylesheet">
-
-	<!-- Magnific-popup lightbox -->
-	<link href="../assets/css/magnific-popup.css" rel="stylesheet">
-
-	<!-- Simple text rotator -->
-	<link href="../assets/css/simpletextrotator.css" rel="stylesheet">
-
-	<!-- Font Awesome CSS -->
-	<link href="../assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-
-	<!-- Animate css -->
-	<link href="../assets/css/animate.css" rel="stylesheet">
 
 	<!-- Custom styles CSS -->
 	<link href="../assets/css/style.css" rel="stylesheet" media="screen">
