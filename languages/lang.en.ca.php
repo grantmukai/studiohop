@@ -33,7 +33,7 @@ $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
 $lang['hello_1'] = "Hello, I'm Grant Kiyoshi Mukai";
-$lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Publishing';
+$lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Publishing | Public Relations | Marketing | Web Content Management | Communications';
 $lang['hello_3'] = 'Web Development | Email Advertising | Database Administration | Publishing';
 
 $lang['skillset'] = 'Skillset';
