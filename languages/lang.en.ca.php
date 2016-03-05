@@ -9,7 +9,7 @@ $cv_lang = "en-CA";
  
 $lang = array();
 
-$lang["parcourir_nav"] = "Parcourir Navigation";
+$lang["parcourir_nav"] = "Toggle Navigation";
 
 $imageVille = 1;
 $villeMax = 6;
@@ -33,8 +33,8 @@ $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
 $lang['hello_1'] = "Hello, I'm Grant Kiyoshi Mukai";
-$lang['hello_2'] = 'Front-end Developer. | Database Manager. | Communications Associate. | Video Editor.';
-$lang['hello_3'] = 'Front-end Developer. Database Manager. Communications Associate.';
+$lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Publishing';
+$lang['hello_3'] = 'Web Development | Email Advertising | Database Administration | Publishing';
 
 $lang['skillset'] = 'Skillset';
 
@@ -67,8 +67,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('01/16/2016');
-$lang['webfile_size'] = 79;
+$webFileDate = new DateTime('03/03/2016');
+$lang['webfile_size'] = 76;
 
 $lang['download_prcv'] = "Download CV";
 $prFileDate = new DateTime('01/19/2016');
