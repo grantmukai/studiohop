@@ -67,8 +67,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('01/16/2016');
-$lang['webfile_size'] = 79;
+$webFileDate = new DateTime('03/03/2016');
+$lang['webfile_size'] = 76;
 
 $lang['download_prcv'] = "Download CV";
 $prFileDate = new DateTime('01/19/2016');
