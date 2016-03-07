@@ -146,13 +146,13 @@ if (isset($imageVille)) {
 					<div style="text-align:center;" class="wow bounceInUp">
 						<h3><?php echo $lang['select_country']; ?></h3>
 						<h5>
-						<a href="index.php?lang=en-US"><img src="assets/images/drapeaux/us24.png" alt="" />&nbsp;United States</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=fr-CA"><img src="assets/images/drapeaux/qc24.png" alt="" />&nbsp;Qu&eacute;bec</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=en-CA"><img src="assets/images/drapeaux/ca24.png" alt="" />&nbsp;Canada</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=es-MX"><img src="assets/images/drapeaux/mx24.png" alt="" />&nbsp;M&eacute;xico</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=fr-FR"><img src="assets/images/drapeaux/fr24.png" alt="" />&nbsp;France</a>&nbsp;|&nbsp;
-                        <a href="index.php?lang=en-IE"><img src="assets/images/drapeaux/ie24.png" alt="" />&nbsp;Ireland</a>&nbsp;|&nbsp;
-						<a href="index.php?lang=es-PR"><img src="assets/images/drapeaux/pr24.png" alt="" />&nbsp;Puerto Rico</a>
+						<a href="index.php?lang=en-US"><img src="assets/images/drapeaux/us24.png" alt="" style="width:24px;height:24px;" />&nbsp;United States</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=fr-CA"><img src="assets/images/drapeaux/qc24.png" alt="" style="width:24px;height:24px;" />&nbsp;Qu&eacute;bec</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=en-CA"><img src="assets/images/drapeaux/ca24.png" alt="" style="width:24px;height:24px;" />&nbsp;Canada</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=es-MX"><img src="assets/images/drapeaux/mx24.png" alt="" style="width:24px;height:24px;" />&nbsp;M&eacute;xico</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=fr-FR"><img src="assets/images/drapeaux/fr24.png" alt="" style="width:24px;height:24px;" />&nbsp;France</a>&nbsp;|&nbsp;
+                        <a href="index.php?lang=en-IE"><img src="assets/images/drapeaux/ie24.png" alt="" style="width:24px;height:24px;" />&nbsp;Ireland</a>&nbsp;|&nbsp;
+						<a href="index.php?lang=es-PR"><img src="assets/images/drapeaux/pr24.png" alt="" style="width:24px;height:24px;" />&nbsp;Puerto Rico</a>
 						</h5>
 					</div>
 				</div>
@@ -198,13 +198,13 @@ if (isset($imageVille)) {
                         <?php if ($drapeauNational == 1) {
                             echo "<img id='deuxieme_drapeau_en_tete' alt='{$lang['drapeau_national_alt']}' style='float:right;' src='assets/images/drapeaux/{$lang['drapeau_national']}.png' />";
                         } ?>
-						<img id="drapeau_en_tete" alt="<?php echo $lang['drapeau_alt']; ?>" style="float:right;" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" />
+						<img id="drapeau_en_tete" alt="<?php echo $lang['drapeau_alt']; ?>" style="float:right;" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" style="width:128px;height:128px;" />
 						<h2><?php echo $lang['hello_1']; ?></h2>
 						<p><?php echo $lang['hello_3']; ?></p> 
 					</div>
 
 					<div class="col-md-3 col-sm-6 hidden-xs wow fadeIn">
-						<img class="img-thumbnail" src="assets/images/photo.jpg" alt="">
+						<img class="img-thumbnail" src="assets/images/photo.jpg" alt="" style="width:100%;height:100%;">
 					</div>
 
 					<div class="col-md-3 col-sm-6 wow fadeIn">
