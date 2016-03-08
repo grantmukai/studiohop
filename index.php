@@ -196,7 +196,7 @@ if (isset($imageVille)) {
 
 					<div class="col-md-12 headline wow bounceInDown drapeau">
                         <?php if ($drapeauNational == 1) {
-                            echo "<img id='deuxieme_drapeau_en_tete' alt='{$lang['drapeau_national_alt']}' style='float:right;' src='assets/images/drapeaux/{$lang['drapeau_national']}.png' />";
+                            echo "<img id='deuxieme_drapeau_en_tete' alt='{$lang['drapeau_national_alt']}' style='float:right;' src='assets/images/drapeaux/{$lang['drapeau_national']}.png' style='width:128px;height:128px;' />";
                         } ?>
 						<img id="drapeau_en_tete" alt="<?php echo $lang['drapeau_alt']; ?>" style="float:right;" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" style="width:128px;height:128px;" />
 						<h2><?php echo $lang['hello_1']; ?></h2>
