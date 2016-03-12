@@ -32,8 +32,8 @@ $lang['portfolio'] = 'Mi trabajo';
 $lang['contact'] = 'Contactarme';
 
 $lang['hello_1'] = "Hola, me llamo Grant Kiyoshi Mukai";
-$lang['hello_2'] = 'Desarrollador Web. | Gerente de bases de datos. | Agente de comunicaciones. | Editor de v&iacute;deo.';
-$lang['hello_3'] = 'Desarrollador Web. Gerente de bases de datos. Agente de comunicaciones.';
+$lang['hello_2'] = 'Desarrollador Web | Publicidad Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Publicidad | Relaciones P&uacute;blicas | Periodismo | Gesti&oacute;n de contenidos Web | Comunicaciones';
+$lang['hello_3'] = 'Desarrollador Web | Publicidad Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Publicidad';
 
 $lang['select_country'] = "Elige su pa&iacute;s";
 
@@ -70,7 +70,7 @@ $webFileDate = new DateTime('03/09/2016');
 $lang['webfile_size'] = 77;
 
 $lang['download_prcv'] = "Descargar CV";
-$prFileDate = new DateTime('01/26/2016');
+$prFileDate = new DateTime('03/11/2016');
 $lang['prfile_size'] = 81;
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
