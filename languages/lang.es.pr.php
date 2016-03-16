@@ -10,7 +10,8 @@ $lang = array();
 
 $lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
 
-//$imageVille is not set
+$imageVille = 0;
+$villeMax = 0;
 
 $drapeauNational = 1;
 $lang['drapeau'] = "pr";
@@ -105,5 +106,7 @@ $lang['formule_message'] = "Su mensaje";
 $lang['formule_envoyer'] = "Envialo";
 
 $lang['copyright'] = "Grant Mukai. Todos los derechos reservados. Iconos de banderas graciosamente proporcionados por <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
-
+$lang['creditdelaphoto'] = "Cr&eacute;dito de Foto Arriba";
+$lang['par'] = "por";
+$lang['license2photo'] = "Autorizada bajo el licencia Creative Commons. No hay modificaciones a esta foto.";
 ?>
