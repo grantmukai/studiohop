@@ -12,9 +12,10 @@
 	<div class="col-md-4 col-sm-12 headline wow fadeIn">
 		<h3>By Company</h3>
 		<ul>
-			<li><a href="http://portfolio.grantmukai.com/index.php/category/boston-university/">Boston University</a></li>
-			<li><a href="http://portfolio.grantmukai.com/index.php/category/patch.com/">Patch Media Corporation</a></li>
-			<li><a href="http://portfolio.grantmukai.com/index.php/category/iq-solutions/">iQ Solutions</a></li>
+			<li><a href="http://portfolio.grantmukai.com/category/boston-university/">Boston University</a></li>
+			<li><a href="http://portfolio.grantmukai.com/category/patch.com/">Patch Media Corporation</a></li>
+			<li><a href="http://portfolio.grantmukai.com/category/iq-solutions/">iQ Solutions</a></li>
+			<li><a href="http://portfolio.grantmukai.com/category/apsa">American Politcal Science Association</a></li>
 		</ul>
 	</div>
 	<div class="col-md-4 col-sm-12 headline wow fadeIn">
@@ -48,6 +49,7 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 				$wellesleyPlaylist = array(
 					"Hailey and the Bees, Part 1 (147MB)"=>"bees1.mov",
                     "Hailey and the Bees, Part 2 (225MB)"=>"bees2.mov",
+                    "Schofield Road Race (17MB)"=>"roadrace.mp4",
 					"Arms Around Sierra Leone (84MB)"=>"sierraleone.mov",
 					"Radcliffe Bailey: Memory as Medicine (86MB)"=>"radcliffebailey.mov",
 					"Landscape Photographer Art Donahue (129MB)"=>"artdonahue.mov",
@@ -59,7 +61,8 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 					"Suzy Duffy Books: Wellesley Wives (90MB)"=>"wellesleywives.mov",
 					"Captain Marden&rsquo;s Seafood Truck (81MB)"=>"foodtruck.mov",
 					"Google Street View Car (116MB)"=>"streetviewcare.mov",
-					"Rained Out Gold Competition (39MB)"=>"rainedoutgolf.mov"
+					"Rained Out Gold Competition (39MB)"=>"rainedoutgolf.mov",
+					"Python Force PSA (15MB)"=>"pythonforce.mp4"
 					);
 				foreach($wellesleyPlaylist as $dataTitle1 => $dataUrl1) {
 					echo "<li data-title='{$dataTitle1}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/wellesley/{$dataUrl1}' data-poster='Wellesley Public Media' data-free='false'></li>";

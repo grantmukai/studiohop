@@ -11,7 +11,7 @@ $lang = array();
 $lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
 
 $imageVille = 1;
-$villeMax = 2;
+$villeMax = 3;
 
 $drapeauNational = 0;
 $lang['drapeau'] = "mx";
