@@ -23,7 +23,7 @@ $lang['metadesc'] = "Grant Kiyoshi Muka&iuml; est d&eacute;veloppeur Web et agen
 $lang['PAGE_TITLE'] = 'Grant Muka&iuml;';
 $lang['NAME'] = 'Grant Kiyoshi Muka&iuml;';
 
-// Menu bar
+// Barre de menu
 
 $lang['intro'] = 'Accueil';
 $lang['profile'] = 'Profil';
@@ -34,8 +34,8 @@ $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
 $lang['hello_1'] = "Bonjour, je m'appelle Grant Kiyoshi Muka&iuml;";
-$lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Communications | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Administration des Donn&eacute;es';
-$lang['hello_3'] = 'D&eacute;veloppeur Web. Agent de communications. Journaliste. Monteur de Vid&eacute;o.';
+$lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Communications | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Journalisme';
+$lang['hello_3'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Communications';
 
 $lang['select_country'] = "Choisissez votre pays";
 
@@ -72,7 +72,7 @@ $webFileDate = new DateTime('03/15/2016');
 $lang['webfile_size'] = 3; //2.7MB
 
 $lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
-$prFileDate = new DateTime('02/01/2016');
+$prFileDate = new DateTime('03/18/2016');
 $lang['prfile_size'] = 1;
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
