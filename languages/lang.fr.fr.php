@@ -5,7 +5,7 @@ Langue: Français - France
 -------------------------
 */
 $cv_lang = "fr-FR";
- 
+
 $lang = array();
 
 $lang["parcourir_nav"] = "Parcourir Navigation";
@@ -73,7 +73,7 @@ $lang['webfile_size'] = 3; //2.7MB
 
 $lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
 $prFileDate = new DateTime('03/18/2016');
-$lang['prfile_size'] = 1;
+$lang['prfile_size'] = 3; //2.7MB
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";

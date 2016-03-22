@@ -367,9 +367,9 @@ if (isset($imageVille)) {
 
 		<!-- fin section services -->
 
-		<!-- début section chiffres-références -->
+		<!-- début section chiffres-références-->
 
-		<section class="section">
+		<!--<section class="section">
 
 			<div class="container">
 
@@ -385,11 +385,11 @@ if (isset($imageVille)) {
 						<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> <?php echo $lang['status_3']; ?></a>
 					</div>
 
-				</div><!-- .rang -->
+				</div>--><!-- .rang -->
 
-			</div><!-- .conteneur -->
+			<!--</div>--><!-- .conteneur -->
 
-		</section>
+		<!--</section>-->
 
 		<!-- fin section chiffres-références -->
 
