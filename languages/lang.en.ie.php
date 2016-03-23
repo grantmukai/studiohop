@@ -5,6 +5,7 @@ Language: English - Ireland
 ---------------------------
 */
 $cv_lang = "en-IE";
+$jeSuisEnEurope = "oui";
  
 $lang = array();
 
@@ -38,6 +39,8 @@ $lang['hello_2'] = 'Web Development | Email Advertising | Database Administratio
 $lang['hello_3'] = 'Web Development | Email Advertising | Database Administration | Graphic Design';
 
 $lang['skillset'] = 'Skillset';
+
+$lang['cookiesEurope'] = "European Cookie Law: This site uses cookies to remember that you prefer the Irish version of this site. By visiting this site, you agree to allowing cookies to be stored on your computer. If you have questions, please <a href='#contact'>contact me</a>.";
 
 $lang['select_country'] = "Select your country";
 

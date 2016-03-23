@@ -5,6 +5,7 @@ Langue: Français - Suisse
 -------------------------
 */
 $cv_lang = "fr-FR";
+$jeSuisEnEurope = "oui";
  
 $lang = array();
 
@@ -31,6 +32,8 @@ $lang['contact'] = 'Contactez-Moi';
 $lang['hello_1'] = "Bonjour, je m'appelle Grant Kiyoshi Muka&iuml;";
 $lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Communications | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Administration des Donn&eacute;es';
 $lang['hello_3'] = 'D&eacute;veloppeur Web. Agent de communications. Journaliste. Monteur de Vid&eacute;o.';
+
+$lang['cookiesEurope'] = "Loi Europ&eacute;enne sur les Cookies : Ce site emploi des cookies pour se souvenir que vous pr&eacute;f&eacute;rez la version suisse de ce site. En visitant mon site, vous acceptez que les cookies vont &ecirc;tre stock&eacute;s sur votre ordinateur. Pour toute question concernant l'usage des cookies, veuillez <a href='#contact'>me contacter</a>.";
 
 $lang['select_country'] = "Choisissez votre pays";
 
