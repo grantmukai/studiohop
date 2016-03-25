@@ -144,6 +144,9 @@ if (isset($imageVille)) {
 
 				<div class="row">
 					<div style="text-align:center;" class="wow bounceInUp">
+						<?php if (isset($jeSuisEnEurope)) {
+							echo "<p><strong>".$lang['cookiesEurope']."</strong></p>";
+						} ?>
 						<h3><?php echo $lang['select_country']; ?></h3>
 						<h5>
 						<a href="index.php?lang=en-US"><img src="assets/images/drapeaux/us24.png" alt="" style="width:24px;height:24px;" />&nbsp;United States</a>&nbsp;|&nbsp;

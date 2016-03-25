@@ -5,6 +5,7 @@ Language: English - Ireland
 ---------------------------
 */
 $cv_lang = "en-IE";
+$jeSuisEnEurope = "oui";
  
 $lang = array();
 
@@ -39,6 +40,8 @@ $lang['hello_3'] = 'Web Development | Email Advertising | Database Administratio
 
 $lang['skillset'] = 'Skillset';
 
+$lang['cookiesEurope'] = "European Cookie Law: This site uses cookies to remember that you prefer the Irish version of this site. By visiting this site, you agree to allowing cookies to be stored on your computer. If you have questions, please <a href='#contact'>contact me</a>.";
+
 $lang['select_country'] = "Select your country";
 
 $lang['social_profiles'] = 'Social Profiles';
@@ -72,8 +75,8 @@ $webFileDate = new DateTime('03/21/2016');
 $lang['webfile_size'] = 73;
 
 $lang['download_prcv'] = "Download CV";
-$prFileDate = new DateTime('02/07/2016');
-$lang['prfile_size'] = 72;
+$prFileDate = new DateTime('03/24/2016');
+$lang['prfile_size'] = 70;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
