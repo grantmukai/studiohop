@@ -30,7 +30,7 @@ $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
 $lang['hello_1'] = "Bonjour, je m'appelle Grant Kiyoshi Muka&iuml;";
-$lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Publications | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Administration des Donn&eacute;es';
+$lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Publications | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Journalisme';
 $lang['hello_3'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Publications';
 
 $lang['cookiesEurope'] = "Loi Europ&eacute;enne sur les Cookies : Ce site emploi des cookies pour se souvenir que vous pr&eacute;f&eacute;rez la version suisse de ce site. En visitant mon site, vous acceptez que les cookies vont &ecirc;tre stock&eacute;s sur votre ordinateur. Aucune information personelle n'est rapport&eacute;e. Pour toute question concernant l'usage des cookies, veuillez <a href='#contact'>me contacter</a>.";
@@ -69,9 +69,9 @@ $lang['download_webcv'] = "T&eacute;l&eacute;charger CV";
 $webFileDate = new DateTime('04/01/2016');
 $lang['webfile_size'] = 153;
 
-//$lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
-//$prFileDate = new DateTime('02/01/2016');
-//$lang['prfile_size'] = 1;
+$lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
+$prFileDate = new DateTime('04/03/2016');
+$lang['prfile_size'] = 238;
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
@@ -83,7 +83,7 @@ $lang['courriel_p'] = "En comprenant que le design de courrier el&eacute;ctroniq
 $lang['codepropre_soustitre'] = "Code Propre";
 $lang['codepropre_p'] = "Je suis s&eacute;rieux en &eacute;crivant seulement du code HTML5, CSS3 et PHP5 le plus propre et &agrave; jour. Mon code est correctement dent&eacute;l&eacute; et il suit les standards &eacute;tablis par le W3C.";
 $lang['adaptatif_soustitre'] = "Sites Web Adaptifs";
-$lang['adaptatif_p'] = "Non seulement je comprend l'impl&eacute;mentation des <em>media queries</em> pour flotter et mettre &agrave; l'&eacute;chelle du contenu pour les sites Web adaptifs, je comprend aussi les meilleures pratiques pour cr&eacute;er un e-mail adaptif (si support&eacute;)";
+$lang['adaptatif_p'] = "Je comprend pas seulement l'impl&eacute;mentation des <em>media queries</em> pour flotter et mettre &agrave; l'&eacute;chelle du contenu pour les sites Web adaptifs, je comprend aussi les meilleures pratiques pour cr&eacute;er un e-mail adaptif (si support&eacute;)";
 $lang['soutien_soustitre'] = "Soutien";
 $lang['soutien_p'] = "Bien que j'offre des services Web pour mon association, j'entra&icirc;ne aussi nos employ&eacute;s pour qu'il puissent g&eacute;rer leurs propres contenus et j'assiste nos membres en anglais, fran&ccedil;ais et espagnol avec leurs questions d'adh&eacute;sion.";
 
