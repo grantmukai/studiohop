@@ -1,10 +1,10 @@
-<?php date_default_timezone_set("Europe/Geneva");
+<?php date_default_timezone_set("Europe/Paris");
 /*
 -------------------------
 Langue: Français - Suisse
 -------------------------
 */
-$cv_lang = "fr-FR";
+$cv_lang = "fr-CH";
 $jeSuisEnEurope = "oui";
  
 $lang = array();
