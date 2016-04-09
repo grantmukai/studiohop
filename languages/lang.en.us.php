@@ -32,8 +32,8 @@ $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
 $lang['hello_1'] = "Hello, I'm Grant Kiyoshi Mukai";
-$lang['hello_2'] = 'Web Development | Email Marketing | Database Administration | Publishing Layout';
-$lang['hello_3'] = 'Web Development | Email Marketing | Database Administration | Publishing Layout';
+$lang['hello_2'] = 'Web Development | Email Marketing | Database Administration | Member Services';
+$lang['hello_3'] = 'Web Development | Email Marketing | Database Administration | Member Services';
 
 $lang['select_country'] = "Select your country";
 
@@ -66,8 +66,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('02/20/2016');
-$lang['webfile_size'] = 72;
+$webFileDate = new DateTime('04/08/2016');
+$lang['webfile_size'] = 77;
 
 $lang['download_prcv'] = "Download CV";
 $prFileDate = new DateTime('02/22/2016');
