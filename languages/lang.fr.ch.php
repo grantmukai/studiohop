@@ -1,10 +1,10 @@
-<?php date_default_timezone_set("Europe/Geneva");
+<?php date_default_timezone_set("Europe/Paris");
 /*
 -------------------------
 Langue: Français - Suisse
 -------------------------
 */
-$cv_lang = "fr-FR";
+$cv_lang = "fr-CH";
 $jeSuisEnEurope = "oui";
  
 $lang = array();
@@ -104,7 +104,7 @@ $lang['formule_message'] = "Votre Message";
 $lang['formule_envoyer'] = "Envoyez-le";
 
 $lang['copyright'] = "Grant Muka&iuml;. Tous droits r&eacute;serv&eacute;s. Ic&ocirc;nes des drapeaux gracieusement fournies par <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
-$lang['creditdelaphoto'] = "Cr&eacute;dit de la Photo Ent&ecirc;te";
-$lang['par'] = "par";
-$lang['license2photo'] = "Autoris&eacute;e sous le permis Creative Commons. Aucune modification n'a &eacute;t&eacute; appliqu&eacute;e &agrave; cette photo."
+//$lang['creditdelaphoto'] = "Cr&eacute;dit de la Photo Ent&ecirc;te";
+//$lang['par'] = "par";
+//$lang['license2photo'] = "Autoris&eacute;e sous le permis Creative Commons. Aucune modification n'a &eacute;t&eacute; appliqu&eacute;e &agrave; cette photo."
 ?>
