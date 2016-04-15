@@ -63,6 +63,7 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 					"Captain Marden&rsquo;s Seafood Truck (81MB)"=>"foodtruck.mov",
 					"Google Street View Car (116MB)"=>"streetviewcare.mov",
 					"Rained Out Gold Competition (39MB)"=>"rainedoutgolf.mov",
+					"Mimi&rsquo;s Village (47MB)"=>"mimisvillage.mp4",
 					"Python Force PSA (15MB)"=>"pythonforce.mp4"
 					);
 				foreach($wellesleyPlaylist as $dataTitle1 => $dataUrl1) {
