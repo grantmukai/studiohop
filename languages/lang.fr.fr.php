@@ -35,8 +35,8 @@ $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
 $lang['hello_1'] = "Bonjour, je m'appelle Grant Kiyoshi Muka&iuml;";
-$lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Communications | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Journalisme';
-$lang['hello_3'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Communications';
+$lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Publication | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Journalisme';
+$lang['hello_3'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Publication';
 
 $lang['cookiesEurope'] = "Loi Europ&eacute;enne sur les Cookies : Ce site emploi des cookies pour se souvenir que vous pr&eacute;f&eacute;rez la version fran&ccedil;aise de ce site. En visitant mon site, vous acceptez que les cookies vont &ecirc;tre stock&eacute;s sur votre ordinateur. Aucune information personelle n'est rapport&eacute;e. Pour toute question concernant l'usage des cookies, veuillez <a href='#contact'>me contacter</a>.";
 
@@ -49,7 +49,7 @@ $lang['social_profiles'] = 'R&eacute;seaux Sociaux';
 $lang['bio'] = "
 <h3>Qui Je Suis</h3>
 
-<p>Je m'appelle Grant Kiyoshi Muka&iuml; et je suis D&eacute;veloppeur Web et Sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> (APSA) &agrave; Washington, &Eacute;tats-Unis d'Am&eacute;rique. Je travaille sur une petite &eacute;quipe dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes co&eacute;quipiers &agrave; g&eacute;rer le site publique de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;calis&eacute;s &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es SQL, de l'analyse statistique, et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais, et espagnol. Bien que nos bureaux se situent aux &Eacute;tats-Unis, nous avons des membres venant de partout dans le monde.</p>
+<p>Je m'appelle Grant Kiyoshi Muka&iuml; et je suis D&eacute;veloppeur Web et Sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> (APSA) aux &Eacute;tats-Unis d'Am&eacute;rique. Je travaille sur une petite &eacute;quipe dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes co&eacute;quipiers &agrave; g&eacute;rer le site publique de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;calis&eacute;s &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es SQL, de l'analyse statistique, et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais, et espagnol. Bien que nos bureaux se situent aux &Eacute;tats-Unis, nous avons des membres venant de partout dans le monde.</p>
 
 <p>Avant de me joindre &agrave; l'APSA, j'ai travaill&eacute; &agrave; <a href='http://msb.georgetown.edu'>l'&Eacute;cole McDonough de commerce</a> &agrave; l'Universit&eacute; Georgetown &agrave; Washington et <a href='http://www.iqsolutions.com'>iQ Solutions</a> aux banlieux en d&eacute;veloppant des e-mails de marketing. Quelques clients de sant&eacute; pour lesquels j'ai travaill&eacute; ont compris l'Administration pour abus des stup&eacute;fiants et services sant&eacute; mentale et les Instituts nationaux de la sant&eacute; &mdash; des agences gouvernementales am&eacute;ricaines. J'ai aussi r&eacute;alis&eacute; et mis &agrave; jour des pages Web en anglais et en espagnol pour les Instituts nationaux de l'arthrite, affections musculo-squelettiques et maladies de la peau.</p>
 
@@ -60,6 +60,8 @@ $lang['bio'] = "
 <p>&Agrave; l'universit&eacute;, j'ai gagn&eacute; encore plus d'exp&eacute;rience en t&eacute;l&eacute;vision lors de mon stage en tant que stagiaire Web pour Antiques Roadshow au WGBH Educational Foundation (PBS), la cha&icirc;ne publique nationale aux Etats-Unis, et chez <a href='http://www.publicsynergies.com'>Public Synergies</a> et Rpublictv &agrave; Asni&egrave;res-sur-Seine, en tant que stagiaire vid&eacute;o et multim&eacute;dia.</p>
 
 <p>J'ai obtenu un BAC+4 (dipl&ocirc;me de premier cycle) en journalisme t&eacute;l&eacute;vis&eacute; &agrave; <a href='http://www.bu.edu/com'>l'&Eacute;cole de communications</a> &agrave; l'Universit&eacute; de Boston avec une sp&eacute;cialisation en langue et litt&eacute;rature fran&ccedil;aise.</p>
+
+<p>Je passe mon temps libre dans les salles de bal en dansant le blues et le lindy hop, deux styles de danse qui sont populaires en am&eacute;rique du nord.</p>
 ";
 
 $lang['derniere_maj'] = "Derni&egrave;re mise &agrave; jour";
@@ -71,7 +73,7 @@ $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";
 
 $lang['download_webcv'] = "T&eacute;l&eacute;charger CV";
-$webFileDate = new DateTime('03/15/2016');
+$webFileDate = new DateTime('04/23/2016');
 $lang['webfile_size'] = 3; //2.7MB
 
 $lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
