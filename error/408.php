@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<html> 
 <head>
     <title>Grant Mukai - 408</title>
     <!-- Meta -->
@@ -39,19 +37,19 @@
       <div lang="en-US">
       <h2>Request Timed Out</h2>
 
-      <p>Something took too long. <a href="http://www.grantmukai.com/index.php">Try again</a></p>
+      <p>Something took too long. <a href="http://www.grantmukai.com">Try again</a></p>
       </div>
 
       <div lang="fr-CA">
       <h2>R&eacute;qu&ecirc;te Expir&eacute;e</h2>
 
-      <p>Quelque chose a dur&eacute; trop longtemps. <a href="http://www.grantmukai.com/fr/index.php">Re-essayer.</a></p>
+      <p>Quelque chose a dur&eacute; trop longtemps. <a href="http://www.grantmukai.com">Re-essayer.</a></p>
       </div>
 
       <div lang="es-MX">
       <h2>Requisito Expirado</h2>
 
-      <p>Algo ha tomado demasiado tiempo. <a href="http://www.grantmukai.com/es/index.php">Reintentar</a></p>
+      <p>Algo ha tomado demasiado tiempo. <a href="http://www.grantmukai.com">Reintentar</a></p>
       </div>
     </div>
   </div>

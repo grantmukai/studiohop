@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<html>
 <head>
     <title>Grant Mukai - 404</title>
     <!-- Meta -->
@@ -39,19 +37,19 @@
       <div lang="en-US">
       <h2>Looking for something?</h2>
 
-      <p>The Web address you have entered does not exist. <a href="http://www.grantmukai.com/index.php">Take me back.</a></p>
+      <p>The Web address you have entered does not exist. <a href="http://www.grantmukai.com">Take me back.</a></p>
       </div>
 
       <div lang="fr-CA">
       <h2>Cherchez-vous quelque chose?</h2>
 
-      <p>L'adresse Web que vous avez saisi n'existe pas. <a href="http://www.grantmukai.com/fr/index.php">Rebobinez.</a></p>
+      <p>L'adresse Web que vous avez saisi n'existe pas. <a href="http://www.grantmukai.com">Rebobinez.</a></p>
       </div>
 
       <div lang="es-MX">
       <h2>&iquest;Esta buscando algo?</h2>
 
-      <p>La p&aacute;gina que usted estaba buscando no est&aacute; aqu&iacute;. <a href="http://www.grantmukai.com/es/index.php">Revolver a casa.</a></p>
+      <p>La p&aacute;gina que usted estaba buscando no est&aacute; aqu&iacute;. <a href="http://www.grantmukai.com">Revolver a casa.</a></p>
       </div>
     </div>
   </div>

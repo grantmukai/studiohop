@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<html>
 <head>
     <title>Grant Mukai - 405</title>
     <!-- Meta -->
@@ -39,19 +37,19 @@
       <div lang="en-US">
       <h2>Method Not Allowed</h2>
 
-      <p>I'm afraid you aren't allowed to do that. <a href="http://www.grantmukai.com/index.php">Take me back.</a></p>
+      <p>I'm afraid you aren't allowed to do that. <a href="http://www.grantmukai.com">Take me back.</a></p>
       </div>
 
       <div lang="fr-CA">
       <h2>M&eacute;thode Interdite</h2>
 
-      <p>Malheureusement, vous n'avez pas le droit de faire &ccedil;a. <a href="http://www.grantmukai.com/fr/index.php">Rebobinez.</a></p>
+      <p>Malheureusement, vous n'avez pas le droit de faire &ccedil;a. <a href="http://www.grantmukai.com">Rebobinez.</a></p>
       </div>
 
       <div lang="es-MX">
       <h2>M&eacute;todo no permitido</h2>
 
-      <p>Lo siento. No tiene el derecho para est&aacute; acci&oacute;n. <a href="http://www.grantmukai.com/es/index.php">Revolver a casa.</a></p>
+      <p>Lo siento. No tiene el derecho para est&aacute; acci&oacute;n. <a href="http://www.grantmukai.com">Revolver a casa.</a></p>
       </div>
     </div>
   </div>

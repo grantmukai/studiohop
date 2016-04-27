@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
     <title>Internet Explorer :(</title>
     <!-- Meta -->
@@ -42,7 +42,7 @@
       <div lang="fr-CA">
       <h2>Internet Explorer n'est pas support&eacute;</h2>
 
-      <p>SVP, r&ecacute;essayez avec un autre navigateur.</p>
+      <p>SVP, r&eacute;essayez avec un autre navigateur.</p>
       </div>
 		<br />
       <div lang="es-MX">
