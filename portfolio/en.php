@@ -51,6 +51,7 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
                     "Hailey and the Bees, Part 2 (225MB)"=>"bees2.mov",
                     "Beth Elohim Craft Fair (66MB)"=>"bethelohim.mp4",
                     "Schofield Road Race (17MB)"=>"roadrace.mp4",
+                    "First Commons Bank Tour (43MB)"=>"firstcommonsbank.mp4",
 					"Arms Around Sierra Leone (84MB)"=>"sierraleone.mov",
 					"Radcliffe Bailey: Memory as Medicine (86MB)"=>"radcliffebailey.mov",
 					"Landscape Photographer Art Donahue (129MB)"=>"artdonahue.mov",
