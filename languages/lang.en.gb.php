@@ -23,8 +23,8 @@ $lang['NAME'] = 'Grant Kiyoshi Mukai';
 
 // Menu bar
 
-$lang['intro'] = 'home';
-$lang['profile'] = 'profile';
+$lang['intro'] = 'Home';
+$lang['profile'] = 'Profile';
 $lang['services'] = 'Services';
 $lang['web_cv'] = 'Web Development';
 $lang['pr_cv'] = 'Public Relations';
