@@ -218,10 +218,10 @@ if (isset($imageVille)) {
 						<div class="profile-widget">
 							<h3><?php echo $lang['social_profiles']; ?></h3>
 							<ul class="widget-social">
-								<li><a href="http://www.twitter.com/grantmukai"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="http://www.github.com/grantmukai"><i class="fa fa-github-alt"></i></a></li>
-								<li><a href="http://www.linkedin.com/in/grantmukai"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="http://www.youtube.com/grantmukai"><i class="fa fa-youtube"></i></a></li>
+								<li><span style="display:none;">Twitter</span><a href="http://www.twitter.com/grantmukai"><i class="fa fa-twitter"></i></a></li>
+								<li><span style="display:none;">Github</span><a href="http://www.github.com/grantmukai"><i class="fa fa-github-alt"></i></a></li>
+								<li><span style="display:none;">LinkedIn</span><a href="http://www.linkedin.com/in/grantmukai"><i class="fa fa-linkedin"></i></a></li>
+								<li><span style="display:none;">YouTube</span><a href="http://www.youtube.com/grantmukai"><i class="fa fa-youtube"></i></a></li>
 							</ul>
 						</div>
 					</div>
