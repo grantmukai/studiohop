@@ -519,8 +519,8 @@ if (isset($imageVille)) {
 					while($row_education = $educationResult->fetch_assoc())
 					{
 						echo "<div class='col-md-6 col-sm-8 resume-item wow fadeIn'>";
-						echo "<h4>{$row_education['degreetype']},{$row_education['degreetitle']}</h4>";
-						echo "<p>{$row_education['minortype']},{$row_education['minortitle']}</p>";
+						echo "<h4>{$row_education['degreetype']},&nbsp;{$row_education['degreetitle']}</h4>";
+						echo "<p>{$row_education['minortype']},&nbsp;{$row_education['minortitle']}</p>";
 						echo "<hr class='hidden-xs'>";
 						echo "</div>";
 						echo "<div class='col-md-3 col-sm-4 resume-place wow fadeIn'>";
@@ -674,8 +674,8 @@ if (isset($imageVille)) {
 					while($row_education = $educationResult->fetch_assoc())
 					{
 						echo "<div class='col-md-6 col-sm-8 resume-item wow fadeIn'>";
-						echo "<h4>{$row_education['degreetype']},{$row_education['degreetitle']}</h4>";
-						echo "<p>{$row_education['minortype']},{$row_education['minortitle']}</p>";
+						echo "<h4>{$row_education['degreetype']},&nbsp;{$row_education['degreetitle']}</h4>";
+						echo "<p>{$row_education['minortype']},&nbsp;{$row_education['minortitle']}</p>";
 						echo "<hr class='hidden-xs'>";
 						echo "</div>";
 						echo "<div class='col-md-3 col-sm-4 resume-place wow fadeIn'>";
