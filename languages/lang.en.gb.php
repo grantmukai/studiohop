@@ -46,17 +46,19 @@ $lang['social_profiles'] = 'Social Profiles';
 $lang['bio'] = "
 <h3>Who Am I?</h3>
 
-<p>My name is Grant Kiyoshi Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the United States of America. I work on a small team in the Marketing and Communications Department where I help manage our association's public-facing site as well as several small-scale WordPress sites devoted to promoting political science and helping our special interest sections organise themselves on the Web. I also help out with a lot of database management, which includes building SQL queries and generating reports, while providing excellent customer service to our members in English, French, and Spanish. Although we are located in the United States, we have a very large international membership including many professors and business partners working in England.</p>
+<p>My name is Grant Kiyoshi Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the United States of America. I work in the Marketing and Communications Department where I help manage our association's public-facing site as well as several small-scale WordPress sites devoted to promoting political science and helping our special interest sections organise themselves on the Web. I also help out with a lot of database management, which includes building SQL queries and generating reports, while providing excellent customer service to our members in English, French and Spanish. Although we are located in the United States, we have a very large international membership including many professors and business partners, such as Cambridge University Press, who work in England.</p>
 
-<p>Before joining the APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a> in the District of Columbia (Mid-Atlantic region) and <a href='http://www.iqsolutions.com'>iQ Solutions</a>, in the State of Maryland just north of the District of Columbia, developing email newsletters. Some of the healthcare clients I worked for included the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages by coding HTML, CSS, and PHP for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
+<p>Before joining the APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a> in the District of Columbia (Mid-Atlantic region) and <a href='http://www.iqsolutions.com'>iQ Solutions</a>, in the State of Maryland just north of the District of Columbia, developing email newsletters. Some of the healthcare clients I worked for included the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages by coding for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
 
 <p>A large part of my responsibilities have comprised making sure that webpages and documents meet the Web Accessibility Guidelines set forth by the World Wide Web Consortium.</p>
 
 <p>Prior to my career switch from journalism to Web development and database management, I was an Associate Producer for <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> in the Commonwealth of Massachusetts (Northeast region) where I produced news reports and documentaries for the local cable access station. In this same area, I was instrumental in bringing online video content to Patch.com, an American online news platform, where I provided freelance video work on a number of local events and businesses and ran a weekly real estate column.</p>
 
-<p>While at university, I gained additional television experiences from the <a href='http://www.wgbh.org'>WGBH Educational Foundation</a>, one of a series of national publicly-funded television stations in the United States, as the Antiques Roadshow Web Intern and with <a href='http://www.publicsynergies.com'>Public Synergies</a> and Rpublictv in Asni&egrave;res-sur-Seine, France, as a multimedia and video intern.</p>
+<p>While at university, I gained additional television experiences from the <a href='http://www.wgbh.org'>WGBH Educational Foundation</a>, one of a series of national public television stations in the United States, as the Antiques Roadshow Web Intern and with <a href='http://www.publicsynergies.com'>Public Synergies</a> and Rpublictv in Asni&egrave;res-sur-Seine, France, as a multimedia and video intern.</p>
 
-<p>I am a proud graduate of Boston University's <a href='http://www.bu.edu/com'>College of Communication</a> where I graduated with a Bachelor of Science in Broadcast Journalism and an academic minor in French Language and Literature. In the United States, an academic minor is a field of study meant to compliment the bachelor's degree.</p>";
+<p>I am a proud graduate of Boston University's <a href='http://www.bu.edu/com'>College of Communication</a> where I graduated with a Bachelor of Science in Broadcast Journalism and an academic minor in French Language and Literature. In the United States, an academic minor is a field of study meant to compliment the bachelor's degree.</p>
+
+<p>In my free time, I enjoy dancing Lindy Hop and Blues which are two styles of American partner dance which have become very popular in the U.K. I also enjoy traveling and learning new cultures and languages.</p>";
 
 $lang['derniere_maj'] = "Last updated";
 
@@ -67,8 +69,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('04/06/2016');
-$lang['webfile_size'] = 87;
+$webFileDate = new DateTime('05/06/2016');
+$lang['webfile_size'] = 75;
 
 //$lang['download_prcv'] = "Download CV";
 //$prFileDate = new DateTime('03/24/2016');
