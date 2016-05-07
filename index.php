@@ -151,7 +151,18 @@ if (isset($imageVille)) {
 					<div style="text-align:center;" class="wow bounceInUp">
 						<?php if (isset($jeSuisEnEurope)) {
 							echo "<p><strong>".$lang['cookiesEurope']."</strong></p>";
+							echo "<button id='daccord' type='button' class='btn btn-success btn-xs'>Je comprends</button>";
+							echo "<span id='merci' style='display:none;'><button type='button' class='btn btn-success btn-xs disabled'>Merci!</button></span>";
 						} ?>
+						<script type="text/javascript">
+						    var button = document.getElementById('daccord')
+						    button.addEventListener('click',hideshow,false);
+
+						    function hideshow() {
+						        document.getElementById('merci').style.display = 'block'; 
+						        this.style.display = 'none'
+						    }   
+						</script>
 						<h3><?php echo $lang['select_country']; ?></h3>
 						<h5>
 						<a href="index.php?lang=en-US"><img src="assets/images/drapeaux/us24.png" alt="" style="width:24px;height:24px;" />&nbsp;United States</a>&nbsp;|&nbsp;
