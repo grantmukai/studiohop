@@ -72,9 +72,9 @@ $lang['download_webcv'] = "Download CV";
 $webFileDate = new DateTime('05/06/2016');
 $lang['webfile_size'] = 75;
 
-//$lang['download_prcv'] = "Download CV";
-//$prFileDate = new DateTime('03/24/2016');
-//$lang['prfile_size'] = 70;
+$lang['download_prcv'] = "Download CV";
+$prFileDate = new DateTime('05/08/2016');
+$lang['prfile_size'] = 75;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
