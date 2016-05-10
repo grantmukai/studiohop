@@ -40,6 +40,10 @@ $lang['hello_3'] = 'Web Development | Email Advertising | Database Administratio
 
 $lang['skillset'] = 'Skillset';
 
+// COOKIES!
+$lang['cookiesJeComprends'] = "I understand";
+$lang['cookiesMerci'] = "Thank You!";
+
 $lang['cookiesEurope'] = "European Cookie Law: This site uses cookies to remember that you prefer the Irish version of this site. By visiting this site, you agree to allowing cookies to be stored on your computer. No personal information is being collected. If you have questions, please <a href='#contact'>contact me</a>.";
 
 $lang['select_country'] = "Select your country";

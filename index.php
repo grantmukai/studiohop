@@ -151,8 +151,8 @@ if (isset($imageVille)) {
 					<div style="text-align:center;" class="wow bounceInUp">
 						<?php if (isset($jeSuisEnEurope)) {
 							echo "<p><strong>".$lang['cookiesEurope']."</strong></p>";
-							echo "<button id='daccord' type='button' class='btn btn-success btn-xs'>Je comprends</button>";
-							echo "<span id='merci' style='display:none;'><button type='button' class='btn btn-success btn-xs disabled'>Merci!</button></span>";
+							echo "<button id='daccord' type='button' class='btn btn-success btn-xs'>{$lang['cookiesJeComprends']}</button>";
+							echo "<span id='merci' style='display:none;'><button type='button' class='btn btn-success btn-xs disabled'>{$lang['cookiesMerci']}</button></span>";
 						} ?>
 						<script type="text/javascript">
 						    var button = document.getElementById('daccord')

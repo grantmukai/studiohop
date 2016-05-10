@@ -38,6 +38,10 @@ $lang['hello_1'] = "Bonjour, je m'appelle Grant Kiyoshi Muka&iuml;";
 $lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Publication | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Journalisme';
 $lang['hello_3'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Publication';
 
+// COOKIES!
+$lang['cookiesJeComprends'] = "Je Comprends";
+$lang['cookiesMerci'] = "Merci!";
+
 $lang['cookiesEurope'] = "Loi Europ&eacute;enne sur les Cookies : Ce site emploi des cookies pour se souvenir que vous pr&eacute;f&eacute;rez la version fran&ccedil;aise de ce site. En visitant mon site, vous acceptez que les cookies vont &ecirc;tre stock&eacute;s sur votre ordinateur. Aucune information personelle n'est rapport&eacute;e. Pour toute question concernant l'usage des cookies, veuillez <a href='#contact'>me contacter</a>.";
 
 $lang['select_country'] = "Choisissez votre pays";
