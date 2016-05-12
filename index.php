@@ -150,9 +150,9 @@ if (isset($imageVille)) {
 				<div class="row">
 					<div style="text-align:center;" class="wow bounceInUp">
 						<?php if (isset($jeSuisEnEurope)) {
-							echo "<p><strong>".$lang['cookiesEurope']."</strong></p>";
+							echo "<div id='aviscookies'><p><strong>".$lang['cookiesEurope']."</strong></p>";
 							echo "<button id='daccord' type='button' class='btn btn-success btn-xs'>{$lang['cookiesJeComprends']}</button>";
-							echo "<span id='merci' style='display:none;'><button type='button' class='btn btn-success btn-xs disabled'>{$lang['cookiesMerci']}</button></span>";
+							echo "<span id='merci' style='display:none;'><button type='button' class='btn btn-success btn-xs disabled'>{$lang['cookiesMerci']}</button></span></div>";
 						} ?>
 						<script type="text/javascript">
 						    var button = document.getElementById('daccord')
@@ -161,8 +161,9 @@ if (isset($imageVille)) {
 						    function hideshow() {
 						        document.getElementById('merci').style.display = 'block'; 
 						        this.style.display = 'none'
-						    }   
-						</script>
+						        $("#aviscookies").show().delay(5000).fadeOut();
+						    }
+						    						</script>
 						<h3><?php echo $lang['select_country']; ?></h3>
 						<h5>
 						<a href="index.php?lang=en-US"><img src="assets/images/drapeaux/us24.png" alt="" style="width:24px;height:24px;" />&nbsp;United States</a>&nbsp;|&nbsp;
