@@ -72,8 +72,8 @@ $webFileDate = new DateTime('05/11/2016');
 $lang['webfile_size'] = 53;
 
 $lang['download_prcv'] = "Download CV";
-$prFileDate = new DateTime('04/11/2016');
-$lang['prfile_size'] = 77;
+$prFileDate = new DateTime('05/12/2016');
+$lang['prfile_size'] = 70;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
@@ -83,9 +83,9 @@ $lang['multimedia_p'] = "In my reporter days, I worked as a television producer 
 $lang['courriel_soustitre'] = "Email Design";
 $lang['courriel_p'] = "By understanding that email design is not the same as Web design, I am proficient in coding &ldquo;depricated&rdquo; HTML and inline CSS as well as having a good idea of what Outlook does and does not support.";
 $lang['codepropre_soustitre'] = "Clear Code";
-$lang['codepropre_p'] = "I am very serious about only writing the cleanest up-to-date HTML5, CSS3 and PHP5. My code is properly indented and follows standards set by the W3C and Sectin 508 of the Americans with Disabilities Act.";
+$lang['codepropre_p'] = "I am very serious about only writing the cleanest up-to-date HTML5, CSS3 and PHP5. My code is properly indented and follows standards set by the W3C and Section 508 of the Americans with Disabilities Act.";
 $lang['adaptatif_soustitre'] = "Responsive Design";
-$lang['adaptatif_p'] = "Not only do I understand how to implement media queries and float and scale content for responsive Web design, I also undestand best practices for creating responsive email (where supported)";
+$lang['adaptatif_p'] = "Not only do I understand how to implement media queries and float and scale content for responsive Web design, I also undestand best practices for creating responsive email (where supported).";
 $lang['soutien_soustitre'] = "Support";
 $lang['soutien_p'] = "Although I provide Web services for my association, I also offer training to our staff on how to manage their own content and assist our members in English, French and Spanish with membership issues.";
 
