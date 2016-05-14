@@ -555,7 +555,8 @@ if (isset($imageVille)) {
 					<div class="col-md-6 col-md-offset-3 wow fadeIn">
 						<?php 
 						if ($lang['webfile_size'] < 10) { $webFileByte = "MB";} else { $webFileByte = "KB";}
-						if (preg_match('/^en/', $cv_lang)) {
+						// !! ENLÈVE LES AUTRES PAYS ANGOLOPHONES LORSQUE LES FORMATS DE DATE SONT CORRIGÉ !!!!
+						if (preg_match('/^en-US/', $cv_lang)||preg_match('/^en-CA/', $cv_lang)||preg_match('/^en-IE/', $cv_lang)||preg_match('/^en-GB/', $cv_lang)) {
 							echo "<a href='cv_files/{$cv_lang}/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($webFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> {$lang['download_webcv']} ({$lang['webfile_size']}{$webFileByte})</a>";
 								} else {
 							echo "<a href='cv_files/{$cv_lang}/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($webFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> {$lang['download_webcv']} ({$lang['webfile_size']}{$webFileByte})</a>";
@@ -710,7 +711,8 @@ if (isset($imageVille)) {
 					<div class="col-md-6 col-md-offset-3 wow fadeIn">
 						<?php 
 						if ($lang['prfile_size'] < 10) { $prFileByte = "MB";} else { $prFileByte = "KB";}
-						if (preg_match('/^en/', $cv_lang)) {
+						// !! ENLÈVE LES AUTRES PAYS ANGOLOPHONES LORSQUE LES FORMATS DE DATE SONT CORRIGÉ !!!!
+						if (preg_match('/^en-US/', $cv_lang)||preg_match('/^en-CA/', $cv_lang)||preg_match('/^en-IE/', $cv_lang)||preg_match('/^en-GB/', $cv_lang)) {
 							echo "<a href='cv_files/{$cv_lang}/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> {$lang['download_prcv']} ({$lang['prfile_size']}{$prFileByte})</a>";
 								} else {
 							echo "<a href='cv_files/{$cv_lang}/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> {$lang['download_prcv']} ({$lang['prfile_size']}{$prFileByte})</a>";
