@@ -44,17 +44,29 @@ $lang['social_profiles'] = 'Social Profiles';
 $lang['bio'] = "
 <h3>Who Am I?</h3>
 
-<p>My name is Grant Kiyoshi Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the District of Columbia, United States of America. I work on a small team in the Marketing and Communications Department where I help manage our association's public site as well as several WordPress sites devoted to showcasing the association's offerings, promoting political science, and helping our special interest sections organize themselves on the Web. I also manage member databases, research site analytics, and generate data reports while providing excellent customer service to our members in English, French, and Spanish. Although we are located in the United States, we have a very large international membership.</p>
+<p>My name is Grant Kiyoshi Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the District of Columbia, United States of America. I work in the Marketing and Communications Department where I help manage our association's public site as well as several WordPress sites devoted to showcasing the association's offerings, promoting political science and helping our special interest sections organise themselves on the Web. I also manage member databases, research site analytics and generate data reports while providing excellent customer service to our members in English, French and Spanish. Although we are located in the United States, we have a very large international membership.</p>
 
-<p>Before joining the APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a> also in Washington. and <a href='http://www.iqsolutions.com'>iQ Solutions</a> in Rockville, Maryland developing email newsletters. Some of the healthcare clients I worked for include the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
+<p>Before joining the APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a>, also in Washington, and <a href='http://www.iqsolutions.com'>iQ Solutions</a> in Rockville, Maryland, developing email newsletters. Some of the healthcare clients I worked for include the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
 
 <p>A large part of my responsibilities have comprised making sure that webpages and documents meet the Web Accessibility Guidelines set forth by the World Wide Web Consortium (W3C).</p>
 
-<p>Prior to my career switch from journalism to Web development and database management, I was an Associate News Producer for <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> in the town of Wellesley, Massachusetts where I produced news reports and documentaries for the local cable access station. In the Boston area, I was instrumental in bringing online video content to the Patch.com platform where I provided freelance video work on a number of local events and businesses and ran a weekly real estate column.</p>
+<p>Prior to my career switch from journalism to Web development and database management, I was an Associate News Producer for <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> in the town of Wellesley, Massachusetts, where I produced news reports and documentaries for the local cable access station. In the Boston area, I was instrumental in bringing online video content to the Patch.com platform where I provided freelance video work on a number of local events and businesses and ran a weekly real estate column.</p>
 
 <p>While in school, I gained additional television experiences as the Antiques Roadshow Web Intern at the <a href='http://www.wgbh.org'>WGBH Educational Foundation</a>, part of the Public Broadcasting Service which is the national non-profit television broadcaster in the United States. I also gained additional experiences interning with <a href='http://www.publicsynergies.com'>Public Synergies</a> and Rpublictv in Asni&egrave;res-sur-Seine, France, as a multimedia and video intern.</p>
 
 <p>I am a proud alumnus of Boston University's <a href='http://www.bu.edu/com'>College of Communication</a> where I graduated with a Bachelor of Science in Broadcast Journalism and a minor in French Language and Literature.</p>
+
+<p>I often spend my free time dancing Lindy Hop and Blues and make several trips a year to Montr&eacute;al for various dance events. I also enjoy hanging out in Washington's international scene.</p>
+
+<p>Feel free to take a look at my website and I hope to talk to you soon.</p>
+
+<br />
+
+<p>Sincerely,</p>
+
+<img src='assets/images/signatures/signature_grantmukai.png' alt='Grant Mukai' style='width:40%;height:40%;' />
+
+<p><strong>Grant Mukai</strong></p>
 ";
 
 $lang['derniere_maj'] = "Last updated";
@@ -66,8 +78,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('04/16/2016');
-$lang['webfile_size'] = 77;
+$webFileDate = new DateTime('05/17/2016');
+$lang['webfile_size'] = 70;
 
 $lang['download_prcv'] = "Download CV";
 $prFileDate = new DateTime('04/18/2016');
