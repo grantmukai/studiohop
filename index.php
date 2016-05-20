@@ -89,7 +89,7 @@ if (isset($imageVille)) {
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Grant Mukai</a>
+					<a class="navbar-brand" href="#"><?php echo $lang['NAME']; ?></a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->

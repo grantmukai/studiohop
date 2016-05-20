@@ -21,7 +21,7 @@ $lang['drapeau_national_alt'] = "Bandera de los Estados Unidos";
  
 $lang['metadesc'] = "Grant Kiyoshi Mukai es un desarrollador Web y agente de comunicaciones a Washington, Distrito de Columbia, Estados Unidos";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
-$lang['NAME'] = 'Grant Kiyoshi Mukai';
+$lang['NAME'] = 'Grant Mukai';
 
 // Menu bar
 

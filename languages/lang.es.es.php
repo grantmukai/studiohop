@@ -18,8 +18,8 @@ $lang['drapeau_national'] = "eu";
 $lang['drapeau_national_alt'] = "Bandera de la Uni&oacute;n Europea";
  
 $lang['metadesc'] = "Grant Kiyoshi Mukai es un desarrollador Web y agente de comunicaciones en los Estados Unidos";
-$lang['PAGE_TITLE'] = 'Grant Mukai';
-$lang['NAME'] = 'Grant Kiyoshi Mukai';
+$lang['PAGE_TITLE'] = 'Kiyoshi Mukai';
+$lang['NAME'] = 'Kiyoshi Mukai';
 
 // Menu bar
 

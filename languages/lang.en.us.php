@@ -19,7 +19,7 @@ $lang['drapeau_alt'] = "Flag of the United States";
 
 $lang['metadesc'] = "Grant Kiyoshi Mukai is a Web developer and communications associate in the District of Columbia";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
-$lang['NAME'] = 'Grant Kiyoshi Mukai';
+$lang['NAME'] = 'Grant Mukai';
 
 // Menu bar
 

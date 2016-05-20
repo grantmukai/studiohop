@@ -21,7 +21,7 @@ $lang['drapeau_national_alt'] = "Drapeau du Canada";
 
 $lang['metadesc'] = "Grant Kiyoshi Muka&iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia"; 
 $lang['PAGE_TITLE'] = 'Grant Muka&iuml;';
-$lang['NAME'] = 'Grant Kiyoshi Muka&iuml;';
+$lang['NAME'] = 'Grant Muka&iuml;';
 
 // Menu bar
 

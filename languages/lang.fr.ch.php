@@ -19,8 +19,8 @@ $lang['drapeau'] = "ch";
 $lang['drapeau_alt'] = "Drapeau de la Suisse";
 
 $lang['metadesc'] = "Grant Kiyoshi Muka&iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia, Etats&ndash;Unis";
-$lang['PAGE_TITLE'] = 'Grant Muka&iuml;';
-$lang['NAME'] = 'Grant Kiyoshi Muka&iuml;';
+$lang['PAGE_TITLE'] = 'Kiyoshi Muka&iuml;';
+$lang['NAME'] = 'Kiyoshi Muka&iuml;';
 
 // Menu bar
 
