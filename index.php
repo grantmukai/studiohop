@@ -100,7 +100,9 @@ if (isset($imageVille)) {
 						<li><a href="#services"><?php echo $lang['services']; ?></a></li>
 						<li><a href="#web"><?php echo $lang['web_cv']; ?></a></li>
                         <li><a href="#public_relations"><?php echo $lang['pr_cv']; ?></a></li>
-						<li><a href="#portfolio"><?php echo $lang['portfolio']; ?></a></li>
+						<?php if (!preg_match('/^es-MX/', $cv_lang)) {
+							echo "<li><a href='#portfolio'>{$lang['portfolio']}</a></li>";
+						}; ?>
 						<li><a href="#contact"><?php echo $lang['contact']; ?></a></li>
 					</ul>
 				</div>
@@ -808,12 +810,11 @@ if (isset($imageVille)) {
 
 		<!-- début section Portfolio -->
 
-		<section id="portfolio" class="section">
-		
-			<?php $portfolioLangue = substr($cv_lang, 0, 2);
-			include 'portfolio/'.$portfolioLangue.'.php'; ?>
-
-		</section>
+		<?php if (!preg_match('/^es-MX/', $cv_lang)) {
+			echo "<section id='portfolio' class='section'>";
+			echo $portfolioLangue = substr($cv_lang, 0, 2);
+			include 'portfolio/'.$portfolioLangue.'.php';
+			echo "</section>";} ?>
 
 		<!-- fin section Portfolio -->
 
