@@ -221,9 +221,9 @@ if (isset($imageVille)) {
 
 					<div class="col-md-12 headline wow bounceInDown drapeau">
                         <?php if ($drapeauNational == 1) {
-                            echo "<img id='deuxieme_drapeau_en_tete' alt='{$lang['drapeau_national_alt']}' style='float:right;' src='assets/images/drapeaux/{$lang['drapeau_national']}.png' style='width:128px;height:128px;' />";
+                            echo "<img id='deuxieme_drapeau_en_tete' alt='{$lang['drapeau_national_alt']}' style='float:right;width:128px;height:128px;' src='assets/images/drapeaux/{$lang['drapeau_national']}.png' />";
                         } ?>
-						<img id="drapeau_en_tete" alt="<?php echo $lang['drapeau_alt']; ?>" style="float:right;" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" style="width:128px;height:128px;" />
+						<img id="drapeau_en_tete" alt="<?php echo $lang['drapeau_alt']; ?>" style="float:right;width:128px;height:128px;" src="assets/images/drapeaux/<?php echo $lang['drapeau']; ?>.png" />
 						<h2><?php echo $lang['hello_1']; ?></h2>
 						<p><?php echo $lang['hello_3']; ?></p> 
 					</div>
@@ -844,7 +844,8 @@ if (isset($imageVille)) {
 
 					<div class="col-md-6 wow bounceInRight">
 
-						<form id="contact-form" role="form" name="contact-form" action="assets/php/contactForm.php" action="post">
+						<form id="contact-form" role="form" name="contact-form" action="assets/php/contactForm.php">
+						<!-- j'ai enlevé action="post" d'en avant. Il semble marcher mais si ça échou, remets-le -->
 
 							<div class="form-group">
 								<label class="sr-only" for="c_name"><?php echo $lang['formule_nom']; ?></label>
