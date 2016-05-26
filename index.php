@@ -558,7 +558,7 @@ if (isset($imageVille)) {
 						<?php 
 						if ($lang['webfile_size'] < 10) { $webFileByte = "MB";} else { $webFileByte = "KB";}
 						// !! ENLÈVE LES AUTRES PAYS ANGOLOPHONES LORSQUE LES FORMATS DE DATE SONT CORRIGÉ !!!!
-						if (preg_match('/^en-US/', $cv_lang)||preg_match('/^en-IE/', $cv_lang)||preg_match('/^en-GB/', $cv_lang)) {
+						if (preg_match('/^en-US/', $cv_lang)||preg_match('/^en-GB/', $cv_lang)) {
 							echo "<a href='cv_files/{$cv_lang}/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($webFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> {$lang['download_webcv']} ({$lang['webfile_size']}{$webFileByte})</a>";
 								} else {
 							echo "<a href='cv_files/{$cv_lang}/Mukai_webCV_".str_replace('-','',$cv_lang)."_".date_format($webFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> {$lang['download_webcv']} ({$lang['webfile_size']}{$webFileByte})</a>";
