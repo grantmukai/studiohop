@@ -78,7 +78,7 @@ if (isset($imageVille)) {
 
 		<!-- Début Navigation -->
 
-		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<nav class="navbar navbar-custom navbar-fixed-top">
 			<div class="container">
 
 				<!-- Marque et parcours groupé ensemble pour mieux s'afficher sur mobile -->
@@ -844,8 +844,8 @@ if (isset($imageVille)) {
 
 					<div class="col-md-6 wow bounceInRight">
 
-						<form id="contact-form" role="form" name="contact-form" action="assets/php/contactForm.php">
-						<!-- j'ai enlevé action="post" d'en avant. Il semble marcher mais si ça échou, remets-le -->
+						<form id="contact-form" name="contact-form" action="assets/php/contactForm.php">
+						<!-- j'ai enlevé action="post" et role="form" d'en avant. Il semble marcher mais si ça échou, remets-le -->
 
 							<div class="form-group">
 								<label class="sr-only" for="c_name"><?php echo $lang['formule_nom']; ?></label>
