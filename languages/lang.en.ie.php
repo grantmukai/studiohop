@@ -34,7 +34,7 @@ $lang['pr_cv'] = 'Public Relations';
 $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
-$lang['hello_1'] = "Hello, I'm Grant Mukai";
+$lang['hello_1'] = "Hello, I'm Grant Mukai<br />F&aacute;ilte, Grant Mukai is ainm dom.";
 $lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Publishing';
 $lang['hello_3'] = 'Web Development | Email Advertising | Database Administration | Publishing';
 
@@ -87,8 +87,8 @@ $webFileDate = new DateTime('05/26/2016');
 $lang['webfile_size'] = 78;
 
 $lang['download_prcv'] = "Download CV";
-$prFileDate = new DateTime('04/29/2016');
-$lang['prfile_size'] = 75;
+$prFileDate = new DateTime('05/28/2016');
+$lang['prfile_size'] = 78;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
