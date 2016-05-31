@@ -52,11 +52,11 @@ $lang['bio'] = "
 
 <p>Adem&aacute;s, muchas de mis responsabilidades han incluido la verificaci&oacute;n de las p&aacute;ginas Web y documentos PDF para garantizar la conformidad a las normas establecidas por la Secci&oacute;n 508 de la Ley de Derechos de Discapacidados de los Estados Unidos.</p>
 
-<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, fue productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i></a> en el pueblo de Wellesley, Massachusetts, d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. En el metr&oacute;poli de Boston, realiz&oacute; contenido v&iacute;deo para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
+<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, fue productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i> en el pueblo de Wellesley, Massachusetts, d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. En el metr&oacute;poli de Boston, realiz&oacute; contenido v&iacute;deo para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
 
 <p>A la universidad, obtuv&oacute; m&aacute;s experiencias en televisi&oacute;n gracias a mi pasant&iacute;a como aprendiz Web para Antiques Roadshow al WGBH Educational Foundation (PBS) y a <i lang='fr-FR'><a href='http://www.publicsynergies.com'>Publics Synergies</a></i> y Rpublic.tv a Asni&egrave;res-sur-Seine, Francia, como aprendiz en v&iacute;deo y multimedia.</p>
 
-<p>Obtuv&oacute; mi bacherillato en periodismo televisivo a la <a href='http://www.bu.edu/com';>Escuela de comunicaciones</a> de la Universidad de Boston con un menor en lengua y literatura francesa.</p>
+<p>Obtuv&oacute; mi bacherillato en periodismo televisivo a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> de la Universidad de Boston con un menor en lengua y literatura francesa.</p>
 
 <p>En mi tiempo libre, me gustan mucho los bailes lindy hop y blues y me interesan las otras culturas internacionales de Washington.</p>
 
