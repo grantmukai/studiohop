@@ -110,7 +110,7 @@ $lang['contact_title'] = 'Contactez-Moi';
 $lang['contact_subtitle'] = "Donnez-moi un coup de fil ou envoyez-moi un e-mail. J'ai envie de vous parler.";
 $lang['contact_paragraph'] = "Vous pouvez prendre contact avec moi en utilisant un des moyens au-dessous<span class='formuleDroite'> ou en essayant le formulaire &agrave; droite</span><span class='formuleBas' style='display:none;'>au-dessus</span>.";
 
-$lang['customers'] = "Soci&eacute;t&eacute;s pour lesquelles j'ai travaill&eacute";
+$lang['customers'] = "Soci&eacute;t&eacute;s pour lesquelles j'ai travaill&eacute;";
 
 $lang['formule_nom'] = "Nom";
 $lang['formule_courriel'] = "E-mail";
