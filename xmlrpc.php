@@ -1,0 +1,1 @@
+<?php echo "<h1>Il n'y a rien &agrave; voir ici</h1>"; ?>
