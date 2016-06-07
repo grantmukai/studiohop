@@ -17,7 +17,7 @@ $lang['drapeau_alt'] = "Flag of the United Kingdom";
 $lang['drapeau_national'] = "eu";
 $lang['drapeau_national_alt'] = "Flag of the European Union";
  
-$lang['metadesc'] = "Grant Kiyoshi Mukai is a Web services and systems support specialist in the United States";
+$lang['metadesc'] = "Grant Mukai is a Web services and systems support specialist in the United States";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
 $lang['NAME'] = 'Grant Mukai';
 
@@ -31,7 +31,7 @@ $lang['pr_cv'] = 'Public Relations';
 $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
-$lang['hello_1'] = "Hello, I'm Grant Kiyoshi Mukai";
+$lang['hello_1'] = "Hello, I'm Grant Mukai";
 $lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Publishing';
 $lang['hello_3'] = 'Web Development | Email Advertising | Database Administration | Publishing';
 
@@ -50,7 +50,7 @@ $lang['social_profiles'] = 'Social Profiles';
 $lang['bio'] = "
 <h3>Who Am I?</h3>
 
-<p>My name is Grant Kiyoshi Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the United States of America. I work in the Marketing and Communications Department where I help manage our association's public-facing site as well as several small-scale WordPress sites devoted to promoting political science and helping our special interest sections organise themselves on the Web. I also help out with a lot of database management, which includes building SQL queries and generating reports, while providing excellent customer service to our members in English, French and Spanish. Although we are located in the United States, we have a very large international membership including many professors and business partners, such as Cambridge University Press, who work in England.</p>
+<p>My name is Grant Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the United States of America. I work in the Marketing and Communications Department where I help manage our association's public-facing site as well as several small-scale WordPress sites devoted to promoting political science and helping our special interest sections organise themselves on the Web. I also help out with a lot of database management, which includes building SQL queries and generating reports, while providing excellent customer service to our members in English, French and Spanish. Although we are located in the United States, we have a very large international membership including many professors and business partners &mdash; for example, Cambridge University Press &mdash; who work in England.</p>
 
 <p>Before joining the APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a> in the District of Columbia (Mid-Atlantic region) and <a href='http://www.iqsolutions.com'>iQ Solutions</a>, in the State of Maryland just north of the District of Columbia, developing email newsletters. Some of the healthcare clients I worked for included the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages by coding for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
 
@@ -62,7 +62,13 @@ $lang['bio'] = "
 
 <p>I am a proud graduate of Boston University's <a href='http://www.bu.edu/com'>College of Communication</a> where I graduated with a Bachelor of Science in Broadcast Journalism and an academic minor in French Language and Literature. In the United States, an academic minor is a field of study meant to compliment the bachelor's degree.</p>
 
-<p>In my free time, I enjoy dancing Lindy Hop and Blues which are two styles of American partner dance which have become very popular in the U.K. I also enjoy traveling and learning new cultures and languages.</p>";
+<p>In my free time, I enjoy dancing Lindy Hop and Blues which are two styles of American partner dance which have become very popular in the U.K. I also enjoy traveling and learning new cultures and languages.</p>
+
+<p>I hope to hear from you soon,</p>
+
+<img src='assets/images/signatures/signature_grantmukai.png' alt='Grant Mukai&apos;s Signature' style='width:40%;height:40%;' />
+
+<p><strong>Grant Mukai</strong></p>;";
 
 $lang['derniere_maj'] = "Last updated";
 
@@ -73,8 +79,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('05/06/2016');
-$lang['webfile_size'] = 75;
+$webFileDate = new DateTime('06/06/2016');
+$lang['webfile_size'] = 80;
 
 $lang['download_prcv'] = "Download CV";
 $prFileDate = new DateTime('05/08/2016');
