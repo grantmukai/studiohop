@@ -9,6 +9,9 @@ $jeSuisEnEurope = "oui";
  
 $lang = array();
 
+$imageVille = 1;
+$villeMax = 3;
+
 $lang["parcourir_nav"] = "Toggle Navigation";
 
 $drapeauNational = 1;
@@ -117,7 +120,7 @@ $lang['formule_message'] = "Your message";
 $lang['formule_envoyer'] = "Send It";
 
 $lang['copyright'] = "Grant Mukai. All rights reserved. Flag icons graciously provided by <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
-//$lang['creditdelaphoto'] = "Main Photo Credit";
-//$lang['par'] = "by";
-//$lang['license2photo'] = "Licensed under the Creative Commons License. No modifications have been applied to this photo.";
+$lang['creditdelaphoto'] = "Main Photo Credit";
+$lang['par'] = "by";
+$lang['license2photo'] = "Licensed under the Creative Commons License. No modifications have been applied to this photo.";
 ?>
