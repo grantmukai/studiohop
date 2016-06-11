@@ -32,7 +32,8 @@
                 <a href="index.php?lang=en-IE"><img src="assets/images/drapeaux/ie24.png" alt="" style="width:24px;height:24px;" />&nbsp;Ireland</a>&nbsp;|&nbsp;
 				<a href="index.php?lang=es-PR"><img src="assets/images/drapeaux/pr24.png" alt="" style="width:24px;height:24px;" />&nbsp;Puerto Rico</a>&nbsp;|&nbsp;
 				<a href="index.php?lang=fr-CH"><img src="assets/images/drapeaux/ch24.png" alt="" style="width:24px;height:24px;" />&nbsp;Conf&eacute;deration Suisse</a>&nbsp;|&nbsp;
-				<a href="index.php?lang=en-GB"><img src="assets/images/drapeaux/gb24.png" alt="" style="width:24px;height:24px;" />&nbsp;United Kingdom</a>
+				<a href="index.php?lang=en-GB"><img src="assets/images/drapeaux/gb24.png" alt="" style="width:24px;height:24px;" />&nbsp;United Kingdom</a>&nbsp;|&nbsp;
+				<a href="index.php?lang=es-ES"><img src="assets/images/drapeaux/es24.png" alt="" style="width:24px;height:24px;" />&nbsp;Espa&ntilde;a</a>
 				</h5>
 			</div>
 		</div>

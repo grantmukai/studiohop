@@ -37,11 +37,11 @@ $lang['hello_3'] = 'Desarrollador Web | Publicidad Correo Electr&oacute;nico | A
 
 // COOKIES!
 $lang['cookiesJeComprends'] = "Yo Entiendo";
-$lang['cookiesMerci'] = "Gracias!";
+$lang['cookiesMerci'] = "&iexcl;Gracias!";
 
 $lang['cookiesEurope'] = "Ley Europea sobre los cookies: Este sitio usa cookies para recordar que prefieres la versi&oacute;n espa&ntilde;ola de este sitio. Cuando est&aacute;s visitando mi sitio, te acceptas que va a haber cookies guardados en tu ordenador. Ninguna informaci&oacute;n personal no es enviada. Si tienes cuestiones sobre el uso de cookies, por favor <a href='#contact'>digame</a>.";
 
-$lang['select_country'] = "Elige su pa&iacute;s";
+$lang['select_country'] = "Eliges tu pa&iacute;s";
 
 $lang['skillset'] = 'Gama de competencias';
 
@@ -68,7 +68,7 @@ $lang['bio'] = "
 
 <img src='assets/images/signatures/signature_kiyoshimukai.png' alt='Signatura de Kiyoshi Mukai' style='width:40%;height:40%;' />
 
-<p><strong>KIYOSHI MUKAI</strong></p>;";
+<p><strong>KIYOSHI MUKAI</strong></p>";
 
 $lang['derniere_maj'] = "&Uacute;ltima actualizaci&oacute;n";
 
@@ -82,21 +82,21 @@ $lang['download_webcv'] = "Descargar CV";
 $webFileDate = new DateTime('06/09/2016');
 $lang['webfile_size'] = 3; //2,7 MB
 
-//$lang['download_prcv'] = "Descargar CV";
-//$prFileDate = new DateTime('04/21/2016');
-//$lang['prfile_size'] = 72;
+$lang['download_prcv'] = "Descargar CV";
+$prFileDate = new DateTime('06/11/2016');
+$lang['prfile_size'] = 3; //2,7 Mo
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
-$lang['redaction_p'] = "Porque estudi&oacute; el periodismo, yo se como bien escribir para las publicaciones escritas y utiliz&oacute; mis competencias para reportar las noticias y tambi&eacute;n para acentuar las empresas peque&ntilde;as en el espacio de promoci&oacute;n.";
+$lang['redaction_p'] = "Porque he estudiado el periodismo, yo se como bien escribir para las publicaciones escritas y he utilizado mis competencias para reportar las noticias y tambi&eacute;n para acentuar las empresas peque&ntilde;as en el espacio de promoci&oacute;n.";
 $lang['multimedia_soustitre'] = "Multimedia";
-$lang['multimedia_p'] = "En mi otra vida, trabaj&oacute; como periodista en la televisi&oacute;n y editor de v&iacute;deos. Realiz&oacute; mis propios reportajes del inicio hasta la fin y produzc&oacute; mis propios efectos especiales.";
+$lang['multimedia_p'] = "En mi otra vida, he trabajado como periodista en la televisi&oacute;n y editor de v&iacute;deos. He realizado mis propios reportajes del inicio hasta la fin y produzc&oacute; mis propios efectos especiales.";
 $lang['courriel_soustitre'] = "Dise&ntilde;o Correo Electr&oacute;nico";
 $lang['courriel_p'] = "Compreniendo que el dise&ntilde;o de correo electr&oacute;nico no es el mismo que el dise&ntilde;o Web, soy competente con el c&oacute;digo &ldquo;obsoleto&rdquo; del HTML y CSS entre los par&eacute;ntesis. Asimismo, tengo una buena idea de lo que Outlook acepta y no acepta.";
 $lang['codepropre_soustitre'] = "C&oacute;digo Limpio";
 $lang['codepropre_p'] = "Estoy serioso cuando escribo c&oacute;digo HTML5, CSS3 y PHP5 el m&aacute;s limpio y actualizado. Mi c&oacute;digo es correctamente sangrado y sigue los est&aacute;ndares establicidos por el W3C.";
 $lang['adaptatif_soustitre'] = "Dise&ntilde;o Web Adaptable";
-$lang['adaptatif_p'] = "No solo comprendo la implementaci&oacute;n de <em>media quieres</em> para flotar y escalar contenidos para el dise&ntilde;o Web adaptable, comprendo tambi&eacute;n las mejores pr&aacute;cticas para crear un correo electr&oacute;nico adaptable (cuando apoyado)"; 
+$lang['adaptatif_p'] = "No solo comprendo la implementaci&oacute;n de respuestas de media para flotar y escalar contenidos para el dise&ntilde;o Web adaptable, comprendo tambi&eacute;n las mejores pr&aacute;cticas para crear un correo electr&oacute;nico adaptable (cuando apoyado)."; 
 $lang['soutien_soustitre'] = "Apoyo";
 $lang['soutien_p'] = "Aunque proporciono servicios Web para mi asociaci&oacute;n, ofrezco tambi&eacute;n entrenamiento a nuestros empleados c&oacute;mo pueden administrar sus propios contenidos y ayudo a nuestros miembros en ingl&eacute;s, franc&eacute;s; y espa&ntilde;ol con preguntas de membres&iacute;a.";
 
@@ -109,7 +109,7 @@ $lang['contact_title'] = 'Cont&aacute;ctame';
 $lang['contact_subtitle'] = "Me da una l&iacute;nea o llamame por tel&eacute;fono. Me gustar&iacute;a escucharle.";
 $lang['contact_paragraph'] = "Puede contactarme utilizando una de las maneras abajo<span class='formuleDroite'> o el formulario de contacto a su derecho</span><span class='formuleBas' style='display:none;'>abajo</span>.";
 
-$lang['customers'] = "Trabaj&oacute; para estas empresas";
+$lang['customers'] = "He trabajado para estas compan&iacute;as";
 
 $lang['formule_nom'] = "Nombre";
 $lang['formule_courriel'] = "Dirrecci&oacute;n de correo electr&oacute;nico";
