@@ -56,11 +56,11 @@ $lang['bio'] = "
 
 <p>Adem&aacute;s, muchas de mis responsabilidades ha incluido la verificaci&oacute;n de las p&aacute;ginas Web y documentos PDF para garantizar la conformidad a las normas establecidas por el W3C <em lang='en-CA'>(World Wide Web Consortium)</em>.</p>
 
-<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, era productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i></a> en el estado libre asociado de Massachusetts (norteste), d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. All&iacute;, he realizado contenido v&iacute;deo para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
+<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, era productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i> en el estado libre asociado de Massachusetts (norteste), d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. All&iacute;, he realizado contenido v&iacute;deo para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
 
 <p>A la universidad, he obtenido m&aacute;s experiencias en televisi&oacute;n gracias a mi pasant&iacute;a como aprendiz Web para Antiques Roadshow al WGBH Educational Foundation (PBS), el canal p&uacute;blico y no lucrativo de los Estados Unidos, y a <i lang='fr-FR'><a href='http://www.publicsynergies.com'>Publiques Synergies</a></i> y Rpublic.tv a Asni&egrave;res-sur-Seine, Francia, como aprendiz en v&iacute;deo y multimedia.</p>
 
-<p>He obtenido mi licenciatura en periodismo televisivo despu&eacute;s de cuatro a&ntilde;os de estudios a la <a href='http://www.bu.edu/com';>Escuela de comunicaciones</a> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>à
+<p>He obtenido mi licenciatura en periodismo televisivo despu&eacute;s de cuatro a&ntilde;os de estudios a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>à
 
 <p>Yo paso mi tiempo libre bailando el Lindy Hop y Blues, dos tipos de baile popular en los Estados Unidos quienes han cruzado el atl&aacute;ntico. Las espa&ntilde;olas y los espa&ntilde;oles se diverten de este pasatiempo en comunidades de baile en Barcelona. Me gusta tambi&eacute;n conocer otras culturas e idiomas.</p>
 
