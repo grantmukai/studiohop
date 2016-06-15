@@ -17,7 +17,7 @@ $drapeauNational = 0;
 $lang['drapeau'] = "us";
 $lang['drapeau_alt'] = "Flag of the United States";
 
-$lang['metadesc'] = "Grant Kiyoshi Mukai is a Web developer and communications associate in the District of Columbia";
+$lang['metadesc'] = "Grant Mukai is a Web developer and communications associate in the District of Columbia";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
 $lang['NAME'] = 'Grant Mukai';
 
@@ -31,7 +31,7 @@ $lang['pr_cv'] = 'Public Relations';
 $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
-$lang['hello_1'] = "Hello, I'm Grant Kiyoshi Mukai";
+$lang['hello_1'] = "Hello, I'm Grant Mukai";
 $lang['hello_2'] = 'Web Development | Email Marketing | Database Administration | Member Services | Public Relations | Marketing | Web Content Management | Journalism' ;
 $lang['hello_3'] = 'Web Development | Email Marketing | Database Administration | Member Services';
 
@@ -44,20 +44,25 @@ $lang['social_profiles'] = 'Social Profiles';
 $lang['bio'] = "
 <h3>Who Am I?</h3>
 
-<p>My name is Grant Kiyoshi Mukai and I am a front-end Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the District of Columbia. I work in the Marketing and Communications Department where I help manage our association's primary website as well as several small-scale WordPress sites devoted to promoting political science and helping our special interest sections organize themselves on the Web. I also help out with database management, social media, and publications while providing excellent customer service to our members in English, French, and Spanish. Although we are located in the United States, we have a very large international membership.</p>
+<p>My name is Grant Mukai and I am a front-end Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the District of Columbia. I work in the Marketing and Communications Department where I help manage our association's primary website as well as several small-scale WordPress sites devoted to promoting political science and helping our special interest sections organize themselves on the Web. I also help out with database management, social media and publications while providing excellent customer service to our members in English, French and Spanish. Although we are located in the United States, we have a very large international membership.</p>
 
-<p>Before joining APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a> in Washington and <a href='http://www.iqsolutions.com'>iQ Solutions</a> in Rockville, Maryland developing email newsletters. Some of the healthcare agencies I worked for include the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
+<p>Before joining APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a> in Washington and <a href='http://www.iqsolutions.com'>iQ Solutions</a> in Rockville, Maryland, developing email newsletters. Some of the healthcare agencies I worked for include the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
 
 <p>A large part of my responsibilities at iQ Solutions consisted of making sure that webpages and documents met the Web Accessibility Guidelines set forth by the World Wide Web Consortium and Section 508 of the Americans with Disabilities Act.</p>
 
-<p>Prior to my career switch from journalism to Web development, I was an Associate News Producer for <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> in the town of Wellesley, Massachusetts where I produced news reports and documentaries for the local cable access station. In the Boston area, I was instrumental in bringing online video content to the Patch.com platform where I provided freelance video work on a number of local events and businesses and ran a weekly real estate column.</p>
-
-<p>In college, I gained additional television experiences from the <a href='http://www.wgbh.org'>WGBH Educational Foundation (PBS)</a> as the Antiques Roadshow Web Intern and with <a href='http://www.publicsynergies.com'>Public Synergies</a> and Rpublictv in Asni&egrave;res-sur-Seine, France as a multimedia and video intern.</p>
+<p>Prior to my career switch from journalism to Web development, I was an Associate News Producer for <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> in the town of Wellesley, Massachusetts, where I produced news reports and documentaries for the local cable access station. In the Boston area, I was instrumental in bringing online video content to the Patch.com platform where I provided freelance video work on a number of local events and businesses and ran a weekly real estate column.</p>
 
 <p>I am a proud alumnus of Boston University's <a href='http://www.bu.edu/com'>College of Communication</a> where I graduated with a Bachelor of Science in Broadcast Journalism and a minor in French Language and Literature.</p>
 
 <p>In my free time, I can be found dancing Lindy Hop and Blues, two popular styles of partner dance, and hanging out in Washington's international scene.</p>
-";
+
+<p>I hope to hear from you soon!</p>
+
+<p>Sincerely,</p>
+
+<img src='assets/images/signatures/signature_grantmukai.png' alt='Grant Mukai&apos;s Signature' style='width:40%;height:40%;' />
+
+<p><strong>Grant Mukai</strong></p>";
 
 $lang['derniere_maj'] = "Last updated";
 
@@ -68,8 +73,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('05/11/2016');
-$lang['webfile_size'] = 53;
+$webFileDate = new DateTime('06/14/2016');
+$lang['webfile_size'] = 72;
 
 $lang['download_prcv'] = "Download CV";
 $prFileDate = new DateTime('05/12/2016');
