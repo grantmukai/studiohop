@@ -92,4 +92,38 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 			</div>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-6 headline wow fadeIn">
+			<!--<h2>Video &amp; Multimedia</h2>-->
+			<h3>Boston University Television</h3>
+			<div class="mediatec-cleanvideoplayer lecturevideo" style="width:100%;"><!-- width overridden for mobile in style.css -->
+				<ul data-theme="default">
+			<?php
+				$bostonUniversityTV = array(
+					"SAT Testing (17MB)"=>"sat.mov"
+					);
+				foreach($bostonUniversityTV as $dataTitle1 => $dataUrl1) {
+					echo "<li data-title='{$dataTitle1}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/bu/{$dataUrl1}' data-poster='BUTV10' data-free='false'></li>";
+				}
+			?>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-6 headline wow fadeIn">
+			<h3>Boston University <br />Radio</h3>
+			<div class="mediatec-cleanvideoplayer lecturevideo" style="width:100%;"><!-- width overridden for mobile in style.css -->
+			<ul data-theme="default">
+			<?php
+				$bostonUniversityRadio = array(
+					"Worker Profile (3.7MB)"=>"workerprofile.mp3",
+					"Retirement (2.6MB)"=>"retirement.mp3"
+					);
+				foreach($bostonUniversityRadio as $dataTitle2 => $dataUrl2) {
+					echo "<li data-title='{$dataTitle2}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/audio/bu/{$dataUrl2}' data-poster='BU Radio' data-free='false'></li>";
+				}
+			?>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
