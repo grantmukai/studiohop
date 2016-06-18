@@ -19,7 +19,7 @@ $lang['drapeau_alt'] = "Drapeau du Qu&eacute;bec";
 $lang['drapeau_national'] = "ca";
 $lang['drapeau_national_alt'] = "Drapeau du Canada";
 
-$lang['metadesc'] = "Grant Kiyoshi Muka&iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia"; 
+$lang['metadesc'] = "Grant Muka&iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia"; 
 $lang['PAGE_TITLE'] = 'Grant Muka&iuml;';
 $lang['NAME'] = 'Grant Muka&iuml;';
 
@@ -33,8 +33,8 @@ $lang['pr_cv'] = 'Relations Publiques';
 $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
-$lang['hello_1'] = "Bonjour, mon nom est Grant Kiyoshi Muka&iuml;";
-$lang['hello_2'] = "D&eacute;veloppement Web | Courriels de Marketing | Administration de Donn&eacute;es | Services d'Adh&eacute;sion | Relations Publiques | Promotion | Gestion de Contenu Web | Journalisme";
+$lang['hello_1'] = "Bonjour, mon nom est Grant Muka&iuml;";
+$lang['hello_2'] = "D&eacute;veloppement Web | Courriels de Marketing | Administration des Donn&eacute;es | Services d'Adh&eacute;sion | Relations Publiques | Promotion | Gestion des Contenu Web | Journalisme";
 $lang['hello_3'] = "D&eacute;veloppement Web | Courriels de Marketing | Administration de Donn&eacute;es | Services d'Adh&eacute;sion";
 
 $lang['select_country'] = "Choisissez votre pays";
@@ -46,20 +46,23 @@ $lang['social_profiles'] = 'R&eacute;seaux Sociaux';
 $lang['bio'] = "
 <h3>Qui Je Suis</h3>
 
-<p>Je m'appelle Grant Kiyoshi Muka&iuml; et je suis D&eacute;veloppeur Web frontal et sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> (APSA) au District de Columbia. Je travaille dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes co&eacute;quipiers &agrave; g&eacute;rer le site publique de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique et qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;ciaux &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es, de l'analyse statistique et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais et espagnol. Bien que nous nous situions aux &Eacute;tats-Unis, nous avons des membres provenant de partout dans le monde.</p>
+<p>Je m'appelle Grant Muka&iuml; et je suis D&eacute;veloppeur Web frontal et sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> (APSA) au District de Columbia. Je travaille dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes co&eacute;quipiers &agrave; g&eacute;rer le site publique de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique et qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;ciaux &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es, de l'analyse statistique et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais et espagnol. Bien que nos bureaux se trouvent aux &Eacute;tats-Unis, nous avons des membres provenant de partout dans le monde.</p>
 
-<p>Avant de me rejoindre &agrave; l'APSA, j'ai travaill&eacute; &agrave; <a href='http://msb.georgetown.edu'>l'&Eacute;cole McDonough de commerce</a> &agrave; l'Universit&eacute; Georgetown &agrave; Washington et <a href='http://www.iqsolutions.com'>iQ Solutions</a> &agrave; Rockville, Maryland en d&eacute;veloppant des bulletins &eacute;lectroniques. Quelques clients de sant&eacute; pour lesquels j'ai travaill&eacute; ont compris l'Administration pour abus des stup&eacute;fiants et services sant&eacute; mentale <em>(SAMHSA en anglais)</em> et les Instituts nationaux de la sant&eacute; <em>(NIH en anglais)</em>. J'ai aussi r&eacute;dig&eacute; et mit &agrave; jour des pages Web en anglais et en espagnol pour les Instituts nationaux de l'arthrite, affections musculo-squelettiques et maladies de la peau <em>(NIAMS en anglais)</em>.</p>
+<p>Avant de me rejoindre &agrave; l'APSA, j'ai travaill&eacute; &agrave; <a href='http://msb.georgetown.edu'>l'&Eacute;cole McDonough de commerce</a> &agrave; l'Universit&eacute; Georgetown &agrave; Washington et <a href='http://www.iqsolutions.com'>iQ Solutions</a> &agrave; Rockville, Maryland, en d&eacute;veloppant des bulletins &eacute;lectroniques. Quelques clients de sant&eacute; pour lesquels j'ai travaill&eacute; ont compris l'Administration pour abus des stup&eacute;fiants et services sant&eacute; mentale <em>(SAMHSA en anglais)</em> et les Instituts nationaux de la sant&eacute; <em>(NIH en anglais)</em>. J'ai aussi r&eacute;dig&eacute; et mit &agrave; jour des pages Web en anglais et en espagnol pour les Instituts nationaux de l'arthrite, affections musculo-squelettiques et maladies de la peau <em>(NIAMS en anglais)</em>.</p>
 
 <p>Une grande partie de mes responsabilit&eacute;s a inclut la v&eacute;rification des pages Web et documents PDF afin d'assurer la conformit&eacute; aux normes &eacute;tablies par le W3C <em>(World Wide Web Consortium)</em>.</p>
 
 <p>Avant mon changement de carri&egrave;re du journalisme au d&eacute;veloppement Web et relations publiques, j'&eacute;tais r&eacute;alisateur adjoint d'actualit&eacute; chez <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> dans le village de Wellesley, Massachusetts, o&ugrave; je produisais des court m&eacute;trages et documentaires pour une cha&icirc;ne de t&eacute;l&eacute;vision. Dans la m&eacute;tropole de Boston, j'ai apport&eacute; du contenu vid&eacute;o au plateforme Patch.com.</p>
 
-<p>&Agrave; l'universit&eacute;, j'ai gagn&eacute; encore plus d'exp&eacute;rience en t&eacute;l&eacute;vision lors de mon stage en tant que stagiaire Web pour Antiques Roadshow au WGBH Educational Foundation (PBS) chez <a href='http://www.publicsynergies.com'>Public Synergies</a> et Rpublictv &agrave; Asni&egrave;res-sur-Seine, France, en tant que stagiaire vid&eacute;o et multim&eacute;dia.</p>
-
 <p>J'ai obtenu un Baccalaur&eacute;at en sciences en journalisme t&eacute;l&eacute;vis&eacute; &agrave; <a href='http://www.bu.edu/com'>l'&Eacute;cole de communications</a> &agrave; l'Universit&eacute; de Boston avec une mineure en langue et litt&eacute;rature fran&ccedil;aise.</p>
 
-<p>Dans mon temps libre, je suis danceur de Lindy Hop et Blues, deux styles de danse sociale assez populaires partout au Canada et surtout &agrave; Montr&eacute;al, la capitale de danse au pays. Je suis &agrave; Montr&eacute;al plusieurs fois par ann&eacute;e pour y participer. Je suis aussi tr&egrave;s actif dans la sc&egrave;ne internationale &agrave; Washington et je suis en train d'am&eacute;liorer mes comp&eacute;tences en espagnol afin de pouvoir voyager au Mexique pour aller danser.</p>
-";
+<p>Pendant mon temps libre, je suis danceur de Lindy Hop et Blues, deux styles de danse sociale assez populaires partout au Canada et surtout &agrave; Montr&eacute;al, la capitale de danse au pays. Je suis &agrave; Montr&eacute;al plusieurs fois par ann&eacute;e pour y participer. Je suis aussi tr&egrave;s actif dans la sc&egrave;ne internationale &agrave; Washington et je suis en train d'am&eacute;liorer mes comp&eacute;tences en espagnol afin de pouvoir voyager au Mexique pour aller danser.</p>
+
+<p>Cordialement,</p>
+
+<img src='assets/images/signatures/signature_grantmukai.png' alt='Grant Mukai&apos;s Signature' style='width:40%;height:40%;' />
+
+<p><strong>Grant Muka&iuml;</strong></p>";
 
 $lang['derniere_maj'] = "Derni&egrave;re mise &agrave; jour";
 
@@ -70,8 +73,8 @@ $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";
 
 $lang['download_webcv'] = "T&eacute;l&eacute;charger CV";
-$webFileDate = new DateTime('05/14/2016');
-$lang['webfile_size'] = 77;
+$webFileDate = new DateTime('06/18/2016');
+$lang['webfile_size'] = 78;
 
 $lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
 $prFileDate = new DateTime('05/15/2016');
