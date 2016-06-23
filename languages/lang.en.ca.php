@@ -17,7 +17,7 @@ $drapeauNational = 0;
 $lang['drapeau'] = "ca";
 $lang['drapeau_alt'] = "Flag of Canada";
  
-$lang['metadesc'] = "Grant Kiyoshi Mukai is a Web developer and communications associate in Washington, District of Columbia, United States";
+$lang['metadesc'] = "Grant Mukai is a Web developer and communications associate in Washington, District of Columbia, United States";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
 $lang['NAME'] = 'Grant Mukai';
 
@@ -32,7 +32,7 @@ $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
 $lang['hello_1'] = "Hello, I'm Grant Mukai";
-$lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Member Services | Public Relations | Marketing | Web Content Management | Communications';
+$lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Member Services | Public Relations | Marketing | Web Content Management | Journalism';
 $lang['hello_3'] = 'Web Development | Email Advertising | Database Administration | Member Services';
 
 $lang['skillset'] = 'Skillset';
@@ -80,8 +80,8 @@ $webFileDate = new DateTime('06/21/2016');
 $lang['webfile_size'] = 76;
 
 $lang['download_prcv'] = "Download CV";
-$prFileDate = new DateTime('05/18/2016');
-$lang['prfile_size'] = 66;
+$prFileDate = new DateTime('06/23/2016');
+$lang['prfile_size'] = 72;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
