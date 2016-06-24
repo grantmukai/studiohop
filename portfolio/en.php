@@ -100,7 +100,11 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 				<ul data-theme="default">
 			<?php
 				$bostonUniversityTV = array(
-					"SAT Testing (17MB)"=>"sat.mov"
+					"BU 10 News Opening (17MB)"=>"bu10news.mp4",
+					"SAT Testing (17MB)"=>"sat.mov",
+					"Equal Exchange Cafe (5.2MB)"=>"fairtrade.mp4",
+					"Quebec Language Law (74MB)"=>"loi101.mov",
+					"Computer Hackers (7.1MB)"=>"hacker.mp4"
 					);
 				foreach($bostonUniversityTV as $dataTitle1 => $dataUrl1) {
 					echo "<li data-title='{$dataTitle1}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/bu/{$dataUrl1}' data-poster='BUTV10' data-free='false'></li>";
