@@ -50,9 +50,9 @@ $lang['bio'] = "
 
 <p>Adem&aacute;s, muchas de mis responsabilidades incluyeron la verificaci&oacute;n de las p&aacute;ginas Web y documentos PDF para garantizar la conformidad a las normas establecidas por el W3C <em lang='en-CA'>(World Wide Web Consortium)</em>.</p>
 
-<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, era productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i></a> en el pueblo de Wellesley, Massachusetts, d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. En el noreste del pa&iacute;s, realiz&oacute; contenido v&iacute;deo para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
+<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, era productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i> en el pueblo de Wellesley, Massachusetts, d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. En el noreste del pa&iacute;s, realiz&oacute; contenido v&iacute;deo para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
 
-<p>Obtuv&oacute; mi licenciatura en periodismo televisivo despu&eacute;s de cuatro a&ntilde;os de estudios a la <a href='http://www.bu.edu/com';>Escuela de comunicaciones</a> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>
+<p>Obtuv&oacute; mi licenciatura en periodismo televisivo despu&eacute;s de cuatro a&ntilde;os de estudios a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>
 
 <p>En mi tiempo libre, el baile es algo muy importante en mi vida. Los dos tipos de baile que hago son el Lindy Hop y Blues. Hay una peque&ntilde;a comunidad de Lindy Hop en la Ciudad de M&eacute;xico. Me gusta tambi&eacute;n la comunidad internacional de Washington porque me da la opportunidad de practicar mi espa&ntilde;ol.</p>
 
