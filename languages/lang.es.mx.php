@@ -76,22 +76,22 @@ $webFileDate = new DateTime('06/25/2016');
 $lang['webfile_size'] = 86;
 
 $lang['download_prcv'] = "Descargar CV";
-$prFileDate = new DateTime('05/22/2016');
-$lang['prfile_size'] = 70;
+$prFileDate = new DateTime('06/27/2016');
+$lang['prfile_size'] = 78;
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
-$lang['redaction_p'] = "Porque estudi&oacute; el periodismo, yo se como bien escribir para las publicaciones escritas y utiliz&oacute; mis competencias para reportar las noticias y tambi&eacute;n para acentuar las empresas peque&ntilde;as en el espacio de promoci&oacute;n.";
+$lang['redaction_p'] = "Porque estudi&oacute; el periodismo, yo se como bien escribir para las publicaciones escritas y electr&oacute;nicas y utiliz&oacute; mis competencias para reportar las noticias y tambi&eacute;n para acentuar las empresas peque&ntilde;as en el espacio de promoci&oacute;n.";
 $lang['multimedia_soustitre'] = "Multimedia";
 $lang['multimedia_p'] = "En mi otra vida, trabaj&oacute; como periodista en la televisi&oacute;n y editor de v&iacute;deos. Realiz&oacute; mis propios reportajes del inicio hasta la fin y produzc&oacute; mis propios efectos especiales.";
 $lang['courriel_soustitre'] = "Dise&ntilde;o Correo Electr&oacute;nico";
-$lang['courriel_p'] = "Compreniendo que el dise&ntilde;o de correo electr&oacute;nico no es el mismo que el dise&ntilde;o Web, soy competente con el c&oacute;digo &ldquo;obsoleto&rdquo; del HTML y CSS entre los par&eacute;ntesis. Asimismo, tengo una buena idea de lo que Outlook acepta y no acepta.";
+$lang['courriel_p'] = "Compreniendo que el dise&ntilde;o de correo electr&oacute;nico no es el mismo que el dise&ntilde;o Web, soy competente con el c&oacute;digo &ldquo;obsoleto&rdquo; del HTML y CSS. Asimismo, tengo una buena idea de lo que Outlook acepta y no acepta.";
 $lang['codepropre_soustitre'] = "C&oacute;digo Limpio";
-$lang['codepropre_p'] = "Estoy serioso cuando escribo c&oacute;digo HTML5, CSS3 y PHP5 el m&aacute;s limpio y actualizado. Mi c&oacute;digo es correctamente sangrado y sigue los est&aacute;ndares establicidos por el W3C.";
+$lang['codepropre_p'] = "Estoy serioso cuando escribo c&oacute;digo HTML5, CSS3 y PHP7 el m&aacute;s limpio y actualizado. Mi c&oacute;digo es correctamente sangrado y sigue los est&aacute;ndares establicidos por el W3C.";
 $lang['adaptatif_soustitre'] = "Dise&ntilde;o Web Adaptable";
 $lang['adaptatif_p'] = "No solo comprendo la implementaci&oacute;n de <em>media quieres</em> para flotar y escalar contenidos para el dise&ntilde;o Web adaptable, comprendo tambi&eacute;n las mejores pr&aacute;cticas para crear un correo electr&oacute;nico adaptable (cuando apoyado)."; 
 $lang['soutien_soustitre'] = "Apoyo";
-$lang['soutien_p'] = "Aunque proporciono servicios Web para mi asociaci&oacute;n, ofrezco tambi&eacute;n entrenamiento a nuestros empleados c&oacute;mo pueden administrar sus propios contenidos y ayudo a nuestros miembros en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol con preguntas de membres&iacute;a.";
+$lang['soutien_p'] = "Aunque proporciono servicios Web para mi asociaci&oacute;n, ofrezco tambi&eacute;n entrenamiento a nuestros empleados sobre c&oacute;mo pueden administrar sus propios contenidos y ayudo a nuestros miembros en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol con preguntas de membres&iacute;a.";
 
 $lang['status_title'] = 'Mi Estado';
 $lang['status_1'] = "Estoy trabajando para la Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica";
