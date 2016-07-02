@@ -103,8 +103,11 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 					"BU 10 News Opening (17MB)"=>"bu10news.mp4",
 					"SAT Testing (17MB)"=>"sat.mov",
 					"Equal Exchange Cafe (5.2MB)"=>"fairtrade.mp4",
-					"Quebec Language Law (74MB)"=>"loi101.mov",
-					"Computer Hackers (7.1MB)"=>"hacker.mp4"
+					"Quebec Language Law (76MB)"=>"loi101_english.mov",
+					"Computer Hackers (7.1MB)"=>"hacker.mp4",
+					"Sports Reel (10MB)"=>"sports.mp4",
+					"Church Protest (44MB)"=>"churchprotest.mp4",
+					"Food Banks (26MB)"=>"foodbanks.mp4"
 					);
 				foreach($bostonUniversityTV as $dataTitle1 => $dataUrl1) {
 					echo "<li data-title='{$dataTitle1}' data-artist='Grant Kiyoshi Mukai' data-type='m4v' data-url='http://portfolio.grantmukai.com/video/bu/{$dataUrl1}' data-poster='BUTV10' data-free='false'></li>";
@@ -119,6 +122,7 @@ As The Price of Textbooks Weighs Heavily On Students Wallets, Some Administratio
 			<ul data-theme="default">
 			<?php
 				$bostonUniversityRadio = array(
+					"WBUR Economy (2.6MB)"=>"wbur_economy.mov",
 					"Worker Profile (3.7MB)"=>"workerprofile.mp3",
 					"Retirement (2.6MB)"=>"retirement.mp3"
 					);
