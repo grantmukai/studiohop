@@ -1,7 +1,15 @@
 a {
-	/*color: #08AA00!important;*/
-	color:#EF4836;
+	color:#08AA00;
 	text-decoration:none!important;
+}
+
+
+.navbar-custom .nav li a:hover, 
+.navbar-custom .nav li a:focus, 
+.navbar-custom .nav li.active {
+	background: none;
+	outline: 0;
+	color: #08AA00;
 }
 
 /*a.navbar-brand, a.btn.btn-default.btn-custom-2 {

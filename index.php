@@ -22,18 +22,6 @@ if (isset($imageVille)) {
 	<title><?php echo $lang['PAGE_TITLE']; ?></title>
 
 	<!-- CSS -->
-	<!-- couleur des liens -->
-	<?php if (preg_match('/^en/', $cv_lang)) {
-	echo "<!-- Rouge est la couleur de l'anglais -->";
-	echo "<link href='assets/css/liens_en.css' rel='stylesheet'>";
-	} elseif (preg_match('/^fr/', $cv_lang)) {
-	echo "<!-- Bleu est la couleur du français -->";
-	echo "<link href='assets/css/liens_fr.css' rel='stylesheet'>";
-	} elseif (preg_match('/^es/', $cv_lang)) {
-	echo "<!-- Vert est la couleur de l'espagnol -->";
-	echo "<link href='assets/css/liens_es.css' rel='stylesheet'>";
-	}
-	?>
 	
 	<!-- Coeur Bootstrap CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -53,6 +41,19 @@ if (isset($imageVille)) {
 
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	
+	<!-- couleur des liens -->
+	<?php if (preg_match('/^en/', $cv_lang)) {
+	echo "<!-- Rouge est la couleur de l'anglais -->";
+	echo "<link href='assets/css/liens_en.css' rel='stylesheet'>";
+	} elseif (preg_match('/^fr/', $cv_lang)) {
+	echo "<!-- Bleu est la couleur du français -->";
+	echo "<link href='assets/css/liens_fr.css' rel='stylesheet'>";
+	} elseif (preg_match('/^es/', $cv_lang)) {
+	echo "<!-- Vert est la couleur de l'espagnol -->";
+	echo "<link href='assets/css/liens_es.css' rel='stylesheet'>";
+	}
+	?>
 	
 	<!-- jQuery -->
 	<script src="assets/js/jquery-1.11.0.min.js"></script>
