@@ -1,4 +1,13 @@
 a {
-	color: #EF4836;
+	color:#B20000;
 	text-decoration:none!important;
+}
+
+
+.navbar-custom .nav li a:hover, 
+.navbar-custom .nav li a:focus, 
+.navbar-custom .nav li.active {
+	background: none;
+	outline: 0;
+	color: #B20000;
 }
