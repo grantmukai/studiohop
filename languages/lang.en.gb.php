@@ -17,8 +17,8 @@ $lang["parcourir_nav"] = "Toggle Navigation";
 $drapeauNational = 1;
 $lang['drapeau'] = "gb";
 $lang['drapeau_alt'] = "Flag of the United Kingdom";
-$lang['drapeau_national'] = "eu";
-$lang['drapeau_national_alt'] = "Flag of the European Union";
+$lang['drapeau_national'] = "a1";
+$lang['drapeau_national_alt'] = "Brexit";
  
 $lang['metadesc'] = "Grant Mukai is a Web services and systems support specialist in the United States";
 $lang['PAGE_TITLE'] = 'Grant Mukai';
@@ -35,8 +35,8 @@ $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
 $lang['hello_1'] = "Hello, I'm Grant Mukai";
-$lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Publishing | Public Relations | Marketing | Web Content Management | Journalism';
-$lang['hello_3'] = 'Web Development | Email Advertising | Database Administration | Publishing';
+$lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Member Services | Public Relations | Marketing | Web Content Management | Journalism';
+$lang['hello_3'] = 'Web Development | Email Advertising | Database Administration | Member Services';
 
 $lang['skillset'] = 'Skillset';
 
@@ -53,15 +53,13 @@ $lang['social_profiles'] = 'Social Profiles';
 $lang['bio'] = "
 <h3>Who Am I?</h3>
 
-<p>My name is Grant Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the United States of America. I work in the Marketing and Communications Department where I help manage our association's public-facing site as well as several small-scale WordPress sites devoted to promoting political science and helping our special interest sections organise themselves on the Web. I also help out with a lot of database management, which includes building SQL queries and generating reports, while providing excellent customer service to our members in English, French and Spanish. Although we are located in the United States, we have a very large international membership including many professors and business partners &mdash; for example, Cambridge University Press &mdash; who work in England.</p>
+<p>My name is Grant Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> in the United States of America. I work in the Marketing and Communications Department where I help manage our association's public-facing site as well as several small-scale WordPress sites devoted to promoting political science and helping our special interest sections organise themselves on the Web. I also help out with a lot of database management, which includes building SQL queries and generating reports, while providing excellent customer service to our members in English, French and Spanish. Although we are located in the United States, we have a very large international membership including many professors and business partners &mdash; for example, Cambridge University Press &mdash; who are headquartered in England.</p>
 
 <p>Before joining the APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a> in the District of Columbia (Mid-Atlantic region) and <a href='http://www.iqsolutions.com'>iQ Solutions</a>, in the State of Maryland just north of the District of Columbia, developing email newsletters. Some of the healthcare clients I worked for included the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages by coding for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
 
 <p>A large part of my responsibilities have comprised making sure that webpages and documents meet the Web Accessibility Guidelines set forth by the World Wide Web Consortium.</p>
 
 <p>Prior to my career switch from journalism to Web development and database management, I was an Associate Producer for <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> in the Commonwealth of Massachusetts (Northeast region) where I produced news reports and documentaries for the local cable access station. In this same area, I was instrumental in bringing online video content to Patch.com, an American online news platform, where I provided freelance video work on a number of local events and businesses and ran a weekly real estate column.</p>
-
-<p>While at university, I gained additional television experiences from the <a href='http://www.wgbh.org'>WGBH Educational Foundation</a>, one of a series of national public television stations in the United States, as the Antiques Roadshow Web Intern and with <a href='http://www.publicsynergies.com'>Public Synergies</a> and Rpublictv in Asni&egrave;res-sur-Seine, France, as a multimedia and video intern.</p>
 
 <p>I am a proud graduate of Boston University's <a href='http://www.bu.edu/com'>College of Communication</a> where I graduated with a Bachelor of Science in Broadcast Journalism and an academic minor in French Language and Literature. In the United States, an academic minor is a field of study meant to compliment the bachelor's degree.</p>
 
@@ -82,8 +80,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download CV";
-$webFileDate = new DateTime('06/06/2016');
-$lang['webfile_size'] = 80;
+$webFileDate = new DateTime('07/12/2016');
+$lang['webfile_size'] = 78;
 
 $lang['download_prcv'] = "Download CV";
 $prFileDate = new DateTime('06/08/2016');
