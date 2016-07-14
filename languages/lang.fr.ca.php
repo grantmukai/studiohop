@@ -29,12 +29,12 @@ $lang['intro'] = 'Accueil';
 $lang['profile'] = 'Profil';
 $lang['services'] = 'Services';
 $lang['web_cv'] = 'D&eacute;veloppement Web';
-$lang['pr_cv'] = 'Relations Publiques';
+$lang['pr_cv'] = 'Communications';
 $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
 $lang['hello_1'] = "Bonjour, mon nom est Grant Muka&iuml;";
-$lang['hello_2'] = "D&eacute;veloppement Web | Courriels de Marketing | Administration des Donn&eacute;es | Services d'Adh&eacute;sion | Relations Publiques | Promotion | Gestion des Contenu Web | Journalisme";
+$lang['hello_2'] = "D&eacute;veloppement Web | Courriels de Marketing | Administration des Donn&eacute;es | Services d'Adh&eacute;sion | Communications | Promotion | Gestion des Contenu Web | Journalisme";
 $lang['hello_3'] = "D&eacute;veloppement Web | Courriels de Marketing | Administration de Donn&eacute;es | Services d'Adh&eacute;sion";
 
 $lang['select_country'] = "Choisissez votre pays";
@@ -52,7 +52,7 @@ $lang['bio'] = "
 
 <p>Une grande partie de mes responsabilit&eacute;s a inclut la v&eacute;rification des pages Web et documents PDF afin d'assurer la conformit&eacute; aux normes &eacute;tablies par le W3C <em>(World Wide Web Consortium)</em>.</p>
 
-<p>Avant mon changement de carri&egrave;re du journalisme au d&eacute;veloppement Web et relations publiques, j'&eacute;tais r&eacute;alisateur adjoint d'actualit&eacute; chez <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> dans le village de Wellesley, Massachusetts, o&ugrave; je produisais des court m&eacute;trages et documentaires pour une cha&icirc;ne de t&eacute;l&eacute;vision. Dans la m&eacute;tropole de Boston, j'ai apport&eacute; du contenu vid&eacute;o au plateforme Patch.com.</p>
+<p>Avant mon changement de carri&egrave;re du journalisme au d&eacute;veloppement Web et Communications, j'&eacute;tais r&eacute;alisateur adjoint d'actualit&eacute; chez <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> dans le village de Wellesley, Massachusetts, o&ugrave; je produisais des court m&eacute;trages et documentaires pour une cha&icirc;ne de t&eacute;l&eacute;vision. Dans la m&eacute;tropole de Boston, j'ai apport&eacute; du contenu vid&eacute;o au plateforme Patch.com.</p>
 
 <p>J'ai obtenu un Baccalaur&eacute;at en sciences en journalisme t&eacute;l&eacute;vis&eacute; &agrave; <a href='http://www.bu.edu/com'>l'&Eacute;cole de communications</a> &agrave; l'Universit&eacute; de Boston avec une mineure en langue et litt&eacute;rature fran&ccedil;aise.</p>
 
@@ -67,7 +67,7 @@ $lang['bio'] = "
 $lang['derniere_maj'] = "Derni&egrave;re mise &agrave; jour";
 
 $lang['web_development'] = "D&eacute;veloppement Web";
-$lang['public_relations'] = "Relations Publiques";
+$lang['public_relations'] = "Communications";
 $lang['experience'] = "Exp&eacute;riences Professionnelles";
 $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";

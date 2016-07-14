@@ -30,12 +30,12 @@ $lang['intro'] = 'Home';
 $lang['profile'] = 'Profile';
 $lang['services'] = 'Services';
 $lang['web_cv'] = 'Web Development';
-$lang['pr_cv'] = 'Public Relations';
+$lang['pr_cv'] = 'Communications';
 $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
 $lang['hello_1'] = "Hello, I'm Grant Mukai";
-$lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Member Services | Public Relations | Marketing | Web Content Management | Journalism';
+$lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Member Services | Communications | Marketing | Web Content Management | Journalism';
 $lang['hello_3'] = 'Web Development | Email Advertising | Database Administration | Member Services';
 
 $lang['skillset'] = 'Skillset';
@@ -74,7 +74,7 @@ $lang['bio'] = "
 $lang['derniere_maj'] = "Last updated";
 
 $lang['web_development'] = "Web Development";
-$lang['public_relations'] = "Public Relations";
+$lang['public_relations'] = "Communications";
 $lang['experience'] = "Work Experience";
 $lang['duties'] = "Duties";
 $lang['education'] = "Education";

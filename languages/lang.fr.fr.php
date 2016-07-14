@@ -30,7 +30,7 @@ $lang['intro'] = 'Accueil';
 $lang['profile'] = 'Profil';
 $lang['services'] = 'Services';
 $lang['web_cv'] = 'D&eacute;veloppement Web';
-$lang['pr_cv'] = 'Relations Publiques';
+$lang['pr_cv'] = 'Communications';
 $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
@@ -75,7 +75,7 @@ $lang['bio'] = "
 $lang['derniere_maj'] = "Derni&egrave;re mise &agrave; jour";
 
 $lang['web_development'] = "D&eacute;veloppement Web";
-$lang['public_relations'] = "Relations Publiques";
+$lang['public_relations'] = "Communications";
 $lang['experience'] = "Exp&eacute;riences Professionnelles";
 $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";

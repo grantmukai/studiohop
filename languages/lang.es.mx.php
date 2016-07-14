@@ -27,12 +27,12 @@ $lang['intro'] = 'Inicio';
 $lang['profile'] = 'Perfil';
 $lang['services'] = 'Servicios';
 $lang['web_cv'] = 'Desarrollo Web';
-$lang['pr_cv'] = 'Relaciones P&uacute;blicas';
+$lang['pr_cv'] = 'Comunicaciones';
 $lang['portfolio'] = 'Mi trabajo';
 $lang['contact'] = 'Contactarme';
 
 $lang['hello_1'] = "Hola, me llamo Kiyoshi Mukai";
-$lang['hello_2'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a | Relaciones P&uacute;blicas | Periodismo | Gesti&oacute;n de contenidos Web | Comunicaciones';
+$lang['hello_2'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a | Comunicaciones | Periodismo | Gesti&oacute;n de contenidos Web | Comunicaciones';
 $lang['hello_3'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Mebres&iacute;a';
 
 $lang['select_country'] = "Elige su pa&iacute;s";
@@ -66,7 +66,7 @@ $lang['bio'] = "
 $lang['derniere_maj'] = "&Uacute;ltima actualizaci&oacute;n";
 
 $lang['web_development'] = "Desarrollo Web";
-$lang['public_relations'] = "Relaciones P&uacute;blicas";
+$lang['public_relations'] = "Comunicaciones";
 $lang['experience'] = "Experiencias Profesionales";
 $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";

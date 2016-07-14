@@ -29,12 +29,12 @@ $lang['intro'] = 'Inicio';
 $lang['profile'] = 'Perfil';
 $lang['services'] = 'Servicios';
 $lang['web_cv'] = 'Desarrollo Web';
-$lang['pr_cv'] = 'Relaciones P&uacute;blicas';
+$lang['pr_cv'] = 'Comunicaciones';
 $lang['portfolio'] = 'Mi trabajo';
 $lang['contact'] = 'Contactarme';
 
 $lang['hello_1'] = "Hola, mi nombre es Grant Mukai<br /><small>Hello, my name is Grant Mukai</small>";
-$lang['hello_2'] = 'Desarrollador Web | Desarrollo Correo Electr&oacute;nico | Dise&ntilde;o Gr&aacute;fico | Servicios de Membres&iacute;a | Relaciones P&uacute;blicas | Marketing | Gesti&oacute;n de contenidos | Periodismo';
+$lang['hello_2'] = 'Desarrollador Web | Desarrollo Correo Electr&oacute;nico | Dise&ntilde;o Gr&aacute;fico | Servicios de Membres&iacute;a | Comunicaciones | Marketing | Gesti&oacute;n de contenidos | Periodismo';
 $lang['hello_3'] = 'Desarrollador Web | Desarrollo Correo Electr&oacute;nico | Dise&ntilde;o Gr&aacute;fico | Servicios de Membres&iacute;a';
 
 $lang['select_country'] = "Elige su pa&iacute;s";
@@ -67,7 +67,7 @@ $lang['bio'] = "
 $lang['derniere_maj'] = "&Uacute;ltima actualizaci&oacute;n";
 
 $lang['web_development'] = "Desarrollo Web";
-$lang['public_relations'] = "Relaciones P&uacute;blicas";
+$lang['public_relations'] = "Comunicaciones";
 $lang['experience'] = "Experiencias Profesionales";
 $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
