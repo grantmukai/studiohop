@@ -31,9 +31,9 @@ $lang['pr_cv'] = 'Comunicaciones';
 $lang['portfolio'] = 'Mi trabajo';
 $lang['contact'] = 'Contactarme';
 
-$lang['hello_1'] = "Hola, me llamo Kiyoshi Mukai";
-$lang['hello_2'] = 'Desarrollador Web | Publicidad Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Publicaciones | Comunicaciones | Periodismo | Gesti&oacute;n de contenidos Web | Comunicaciones';
-$lang['hello_3'] = 'Desarrollador Web | Publicidad Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Publicaciones';
+$lang['hello_1'] = "Hola, me llamo Kiyoshi Mukai<br /><small>Hola, em dic Kiyoshi Mukai<br />Kaixo, nire izena da Kiyoshi Mukai</small>";
+$lang['hello_2'] = 'Desarrollador Web | Publicidad Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a | Comunicaciones | Periodismo | Gesti&oacute;n de contenidos Web | Comunicaciones';
+$lang['hello_3'] = 'Desarrollador Web | Publicidad Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a';
 
 // COOKIES!
 $lang['cookiesJeComprends'] = "Yo Entiendo";
@@ -50,19 +50,17 @@ $lang['social_profiles'] = 'Redes Sociales';
 $lang['bio'] = "
 <h3>Acerca de Mi</h3>
 
-<p>Me llamo Kiyoshi Mukai y soy un Desarrollador Web y Especialista de servicios y sistemas Web a la <a href='http://www.apsanet.org'>Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica</a> (APSA) en  los Estados Unidos de Am&eacute;rica. Trabajo en el Departamento de marketing y comunicaciones d&oacute;nde ayudo a mis colegios a gestionar el sitio p&uacute;blico de la asociaci&oacute;n y varios sitios WordPress destinados a promover la ciencia pol&iacute;tica y ayudar a nuestras secciones de intereses especializadas a organizarse en los redes. Asimismo, soy responsable de la gesti&oacute;n de bases de datos, anal&iacute;ticas estad&iacute;sticas y la generaci&oacute;n de formas de datos. Hago estas tareas proporcionando el servicio excelente al cliente en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol. Aunque nuestras oficinas se encuentran en los Estados Unidos, tenemos miembros que vengan de todo el mundo.</p>
+<p>Me llamo Kiyoshi Mukai y soy un Desarrollador Web y Especialista de servicios y sistemas Web a la <a href='http://www.apsanet.org'>Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica</a> en  los Estados Unidos de Am&eacute;rica. Trabajo en el Departamento de marketing y comunicaciones d&oacute;nde ayudo a mis colegios a gestionar el sitio p&uacute;blico de la asociaci&oacute;n y varios sitios WordPress destinados a promover la ciencia pol&iacute;tica y ayudar a nuestras secciones de intereses especializadas a organizarse en los redes. Asimismo, soy responsable de la gesti&oacute;n de bases de datos, anal&iacute;ticas estad&iacute;sticas y la generaci&oacute;n de formas de datos. Hago estas tareas proporcionando el servicio excelente al cliente en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol. Aunque nuestras oficinas se encuentran en los Estados Unidos, tenemos miembros que vengan de todo el mundo.</p>
 
-<p>Antes de unirme a la APSA, trabajaba a la <a href='http://www.msb.edu'>Escuela de negocios McDonough</a> de la Universidad Georgetown en la capital del pa&iacute;s (mi-atl&aacute;ntico) y <a href='http://www.iqsolutions.com'>iQ Solutions</a> en Maryland, el estado vecino, desarrollando boletines electr&oacute;nicos. Algunos clientes de salud para qui&eacute;nes estaba trabajando incluyaban la Administraci&oacute;n de Salud Mental y Abuso de Sustancias de E.E.U.U. <em>(SAMHSA por sus siglas en ingl&eacute;s)</em> y los Institutos Nacionales de Salud <em>(NIH por sus siglas en ingl&eacute;s)</em>. Asimismo, he creado y actualizado paginas Web en ingl&eacute;s y en espa&ntilde;ol para el Instituto Nacional de Artritis y Enfermedades Musculoesquel&eacute;ticas y de la Piel <em>(NIAMS por sus siglas en ingl&eacute;s)</em>.</p>
+<p>Antes de unirme a la APSA, trabajaba a la <a href='http://www.msb.edu'>Escuela McDonough de negocios</a> de la Universidad Georgetown en la capital del pa&iacute;s (mi-atl&aacute;ntico) y <a href='http://www.iqsolutions.com'>iQ Solutions</a> en Maryland, el estado vecino, desarrollando boletines electr&oacute;nicos. Algunos clientes de salud para qui&eacute;nes estaba trabajando incluyeran la Administraci&oacute;n de Salud Mental y Abuso de Sustancias de E.E.U.U. <em>(SAMHSA por sus siglas en ingl&eacute;s)</em> y los Institutos Nacionales de Salud <em>(NIH por sus siglas en ingl&eacute;s)</em>. Asimismo, he creado y actualizado p&aacute;ginas Web en ingl&eacute;s y en espa&ntilde;ol para el Instituto Nacional de Artritis y Enfermedades Musculoesquel&eacute;ticas y de la Piel <em>(NIAMS por sus siglas en ingl&eacute;s)</em>.</p>
 
-<p>Adem&aacute;s, muchas de mis responsabilidades ha incluido la verificaci&oacute;n de las p&aacute;ginas Web y documentos PDF para garantizar la conformidad a las normas establecidas por el W3C <em lang='en-CA'>(World Wide Web Consortium)</em>.</p>
+<p>Adem&aacute;s, muchas de mis responsabilidades han incluido la verificaci&oacute;n de las p&aacute;ginas Web y documentos PDF para garantizar la conformidad a las normas establecidas por el W3C <em lang='en-CA'>(World Wide Web Consortium)</em>.</p>
 
-<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, era productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i> en el estado libre asociado de Massachusetts (norteste), d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. All&iacute;, he realizado contenido v&iacute;deo para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
+<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, era productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i> en el estado libre asociado de Massachusetts (norteste), d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. All&iacute;, he realizado contenido cinematogr&aacute;fico para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
 
-<p>A la universidad, he obtenido m&aacute;s experiencias en televisi&oacute;n gracias a mi pasant&iacute;a como aprendiz Web para Antiques Roadshow al WGBH Educational Foundation (PBS), el canal p&uacute;blico y no lucrativo de los Estados Unidos, y a <i lang='fr-FR'><a href='http://www.publicsynergies.com'>Publiques Synergies</a></i> y Rpublic.tv a Asni&egrave;res-sur-Seine, Francia, como aprendiz en v&iacute;deo y multimedia.</p>
+<p>He obtenido mi licenciatura en periodismo televisivo despu&eacute;s de cuatro a&ntilde;os de estudios a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>
 
-<p>He obtenido mi licenciatura en periodismo televisivo despu&eacute;s de cuatro a&ntilde;os de estudios a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>à
-
-<p>Yo paso mi tiempo libre bailando el Lindy Hop y Blues, dos tipos de baile popular en los Estados Unidos quienes han cruzado el atl&aacute;ntico. Las espa&ntilde;olas y los espa&ntilde;oles se diverten de este pasatiempo en comunidades de baile en Barcelona. Me gusta tambi&eacute;n conocer otras culturas e idiomas.</p>
+<p>Yo paso mi tiempo libre bailando el Lindy Hop y Blues, dos tipos de baile popular en los Estados Unidos quienes han cruzado el atl&aacute;ntico recientemente. Las espa&ntilde;olas y los espa&ntilde;oles se diviertan de este pasatiempo en comunidades de baile en Barcelona. Me gusta tambi&eacute;n conocer otras culturas e idiomas.</p>
 
 <p>Cordialmente,</p>
 
@@ -79,7 +77,7 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV";
-$webFileDate = new DateTime('06/09/2016');
+$webFileDate = new DateTime('07/15/2016');
 $lang['webfile_size'] = 3; //2,7 MB
 
 $lang['download_prcv'] = "Descargar CV";
