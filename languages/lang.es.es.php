@@ -9,6 +9,9 @@ $jeSuisEnEurope = "oui";
 
 $lang = array();
 
+$imageVille = 1;
+$villeMax = 1;
+
 $lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
 
 $drapeauNational = 1;
@@ -114,8 +117,8 @@ $lang['formule_courriel'] = "Dirrecci&oacute;n de correo electr&oacute;nico";
 $lang['formule_message'] = "Su mensaje";
 $lang['formule_envoyer'] = "Envialo";
 
-//$lang['copyright'] = "Grant Mukai. Todos los derechos reservados. Iconos de banderas graciosamente proporcionados por <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
-//$lang['creditdelaphoto'] = "Cr&eacute;dito de Foto Arriba";
-//$lang['par'] = "por";
-//$lang['license2photo'] = "Autorizada bajo el licencia Creative Commons. No hay modificaciones a esta foto.";
+$lang['copyright'] = "Kiyoshi Mukai. Todos los derechos reservados. Iconos de banderas graciosamente proporcionados por <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
+$lang['creditdelaphoto'] = "Cr&eacute;dito de Foto Arriba";
+$lang['par'] = "por";
+$lang['license2photo'] = "Autorizada bajo el licencia Creative Commons. No hay modificaciones a esta foto.";
 ?>
