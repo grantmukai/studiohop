@@ -97,7 +97,7 @@ if (isset($imageVille)) {
 		include "section/services.php";
 		include "section/chiffres-references.php";
 		include "section/cv_web.php";
-		include "section/cv_marketing.php";
+		include "section/cv_communications.php";
 		include "section/entreprises.php";
 		include "section/portfolio.php";
 		include "section/contact.php";
