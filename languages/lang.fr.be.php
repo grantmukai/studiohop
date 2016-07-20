@@ -31,7 +31,7 @@ $lang['pr_cv'] = 'Communications';
 $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
-$lang['hello_1'] = "Bonjour, je m'appelle Kiyoshi MUKA&Iuml;";
+$lang['hello_1'] = "Bonjour, je m'appelle Kiyoshi MUKA&Iuml;<br /><small>Hallo, mijn naam is Kiyoshi Mukai</small>";
 $lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Services d&apos;Adh&eacute;sion | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Journalisme';
 $lang['hello_3'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Services d&apos;Adh&eacute;sion';
 
@@ -81,19 +81,19 @@ $lang['download_webcv'] = "T&eacute;l&eacute;charger CV";
 $webFileDate = new DateTime('07/18/2016');
 $lang['webfile_size'] = 3; //2.7MB
 
-//$lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
-//$prFileDate = new DateTime('05/25/2016');
-//$lang['prfile_size'] = 3; //2.7MB
+$lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
+$prFileDate = new DateTime('07/20/2016');
+$lang['prfile_size'] = 3; //2.7MB
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
-$lang['redaction_p'] = "Puisque je suis dipl&ocirc;m&eacute; en journalisme, je sais bien &eacute;crire tant en &eacute;crit comme en ligne et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et aussi pour mettre les petites entreprises en vedette dans l'espace de marketing.";
+$lang['redaction_p'] = "Puisque je detiens un dipl&ocirc;me en journalisme, je sais bien &eacute;crire tant &agrave; l'&eacute;crit comme en ligne et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et aussi pour mettre les petites entreprises en vedette dans l'espace de marketing.";
 $lang['multimedia_soustitre'] = "Multim&eacute;dia";
 $lang['multimedia_p'] = "Dans mes anciens jours, je travaillais en tant qu'animateur &agrave; la t&eacute;l&eacute; et monteur de vid&eacute;os. J'ai realis&eacute; mes propres reportages du d&eacute;but jusqu'&agrave; la fin en produisant mes propres effets sp&eacute;ciaux.";
 $lang['courriel_soustitre'] = "Design d'E-mail";
 $lang['courriel_p'] = "En comprenant que le design de courrier el&eacute;ctronique n'est pas pareil que celui du Web, je suis comp&eacute;tent avec le code &laquo;obsol&egrave;te&raquo; du HTML et du CSS. De plus, j'ai une bonne id&eacute;e de ce qu'Outlook accepte et n'accepte pas.";
 $lang['codepropre_soustitre'] = "Code Propre";
-$lang['codepropre_p'] = "Je suis s&eacute;rieux en &eacute;crivant seulement du code HTML5, CSS3 et PHP5 le plus propre et &agrave; jour. Mon code est correctement dent&eacute;l&eacute; et il suit les standards &eacute;tablis par le W3C.";
+$lang['codepropre_p'] = "Je suis s&eacute;rieux en &eacute;crivant seulement du code HTML5, CSS3 et PHP7 le plus propre et &agrave; jour. Mon code est correctement dent&eacute;l&eacute; et il suit les standards &eacute;tablis par le W3C.";
 $lang['adaptatif_soustitre'] = "Sites Web Adaptifs";
 $lang['adaptatif_p'] = "Je ne comprend pas juste l'impl&eacute;mentation des <em>media queries</em> pour flotter et mettre &agrave; l'&eacute;chelle du contenu pour les sites Web adaptifs, je comprend aussi les meilleures pratiques pour cr&eacute;er un e-mail adaptif (si support&eacute;).";
 $lang['soutien_soustitre'] = "Soutien";
@@ -115,7 +115,7 @@ $lang['formule_courriel'] = "E-mail";
 $lang['formule_message'] = "Votre Message";
 $lang['formule_envoyer'] = "Envoyez-le";
 
-//$lang['copyright'] = "Grant MUKA&Iuml;. Tous droits r&eacute;serv&eacute;s. Ic&ocirc;nes des drapeaux gracieusement fournies par <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
+$lang['copyright'] = "Grant MUKA&Iuml;. Tous droits r&eacute;serv&eacute;s. Ic&ocirc;nes des drapeaux gracieusement fournies par <a href='http://www.icondrawer.com'>Icon Drawer</a>.";
 //$lang['creditdelaphoto'] = "Cr&eacute;dit de la Photo Ent&ecirc;te";
 //$lang['par'] = "par";
 //$lang['license2photo'] = "Autoris&eacute;e sous le permis Creative Commons. Aucune modification n'a &eacute;t&eacute; appliqu&eacute;e &agrave; cette photo."

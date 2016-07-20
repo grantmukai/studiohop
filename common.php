@@ -65,6 +65,10 @@ switch ($lang) {
   $lang_file = 'lang.es.es.php';
   break;
   
+  case 'fr-BE':
+  $lang_file = 'lang.fr.be.php';
+  break;
+  
   default:
   $lang_file = 'lang.fr.ca.php';
  
