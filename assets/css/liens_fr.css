@@ -1,5 +1,5 @@
 a {
-	color:#B20000;
+	color:#008be1;
 	text-decoration:none!important;
 }
 
@@ -9,5 +9,5 @@ a {
 .navbar-custom .nav li.active {
 	background: none;
 	outline: 0;
-	color: #B20000;
+	color: #008be1;
 }
