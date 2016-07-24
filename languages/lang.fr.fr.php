@@ -30,7 +30,7 @@ $lang['intro'] = 'Accueil';
 $lang['profile'] = 'Profil';
 $lang['services'] = 'Services';
 $lang['web_cv'] = 'D&eacute;veloppement Web';
-$lang['pr_cv'] = 'Communications';
+$lang['com_cv'] = 'Communications';
 $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 

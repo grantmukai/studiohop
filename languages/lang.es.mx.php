@@ -27,7 +27,7 @@ $lang['intro'] = 'Inicio';
 $lang['profile'] = 'Perfil';
 $lang['services'] = 'Servicios';
 $lang['web_cv'] = 'Desarrollo Web';
-$lang['pr_cv'] = 'Comunicaciones';
+$lang['com_cv'] = 'Comunicaciones';
 $lang['portfolio'] = 'Mi trabajo';
 $lang['contact'] = 'Contactarme';
 

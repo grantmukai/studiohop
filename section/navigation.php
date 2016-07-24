@@ -21,7 +21,7 @@
 				<li><a href="#profile"><?php echo $lang['profile']; ?></a></li>
 				<li><a href="#services"><?php echo $lang['services']; ?></a></li>
 				<li><a href="#web"><?php echo $lang['web_cv']; ?></a></li>
-                <li><a href="#public_relations"><?php echo $lang['pr_cv']; ?></a></li>
+                <li><a href="#public_relations"><?php echo $lang['com_cv']; ?></a></li>
 				<?php if (!preg_match('/^es/', $cv_lang)) {
 					echo "<li><a href='#portfolio'>{$lang['portfolio']}</a></li>";
 				}; ?>
