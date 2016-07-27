@@ -7,7 +7,7 @@
 		<div class="row">
 
 			<div class="col-md-12 headline wow fadeIn">
-				<h2><?php echo $lang['public_relations']; ?></h2>
+				<h2><?php echo $lang['communications']; ?></h2>
 				<?php 
 				$introsQuery = "SELECT paragraph FROM intros WHERE language='$cv_lang' AND (type = 'MAR' || type = 'COM');";
 				$introsResult = $link->query($introsQuery);

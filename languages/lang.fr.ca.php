@@ -67,7 +67,7 @@ $lang['bio'] = "
 $lang['derniere_maj'] = "Derni&egrave;re mise &agrave; jour";
 
 $lang['web_development'] = "D&eacute;veloppement Web";
-$lang['public_relations'] = "Communications";
+$lang['communications'] = "Communications";
 $lang['experience'] = "Exp&eacute;riences Professionnelles";
 $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";
