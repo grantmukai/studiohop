@@ -76,9 +76,9 @@ $lang['download_webcv'] = "T&eacute;l&eacute;charger CV Web &mdash; PDF";
 $webFileDate = new DateTime('07/26/2016');
 $lang['webfile_size'] = 85;
 
-$lang['download_prcv'] = "T&eacute;l&eacute;charger CV";
-$prFileDate = new DateTime('06/20/2016');
-$lang['prfile_size'] = 75;
+$lang['download_prcv'] = "T&eacute;l&eacute;charger CV Communications &mdash; PDF";
+$prFileDate = new DateTime('07/28/2016');
+$lang['prfile_size'] = 84;
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
