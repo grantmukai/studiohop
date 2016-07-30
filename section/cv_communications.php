@@ -138,9 +138,9 @@
 				<?php 
 				if ($lang['prfile_size'] < 10) { $prFileByte = "MB";} else { $prFileByte = "KB";}
 				if (preg_match('/^en-US/', $cv_lang)) {
-					echo "<a href='cv_files/{$cv_lang}/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> {$lang['download_prcv']} ({$lang['prfile_size']}{$prFileByte})</a>";
+					echo "<a href='cv_files/{$cv_lang}/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'mdy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> {$lang['telecharger_comcv']} ({$lang['prfile_size']}{$prFileByte})</a>";
 						} else {
-					echo "<a href='cv_files/{$cv_lang}/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> {$lang['download_prcv']} ({$lang['prfile_size']}{$prFileByte})</a>";
+					echo "<a href='cv_files/{$cv_lang}/Mukai_prCV_".str_replace('-','',$cv_lang)."_".date_format($prFileDate, 'dmy').".pdf' class='btn btn-default btn-custom-2'><i class='fa fa-cloud-download icon-before'></i> {$lang['telecharger_comcv']} ({$lang['prfile_size']}{$prFileByte})</a>";
 						} 
 				?>
 			</div>

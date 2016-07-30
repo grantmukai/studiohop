@@ -83,7 +83,7 @@ $lang['download_webcv'] = "Descargar CV";
 $webFileDate = new DateTime('07/15/2016');
 $lang['webfile_size'] = 3; //2,7 MB
 
-$lang['download_prcv'] = "Descargar CV";
+$lang['telecharger_comcv'] = "Descargar CV";
 $prFileDate = new DateTime('07/16/2016');
 $lang['prfile_size'] = 3; //2,7 Mo
 

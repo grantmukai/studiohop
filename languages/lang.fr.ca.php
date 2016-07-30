@@ -76,7 +76,7 @@ $lang['download_webcv'] = "T&eacute;l&eacute;charger CV Web &mdash; PDF";
 $webFileDate = new DateTime('07/26/2016');
 $lang['webfile_size'] = 85;
 
-$lang['download_prcv'] = "T&eacute;l&eacute;charger CV Communications &mdash; PDF";
+$lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV Communications &mdash; PDF";
 $prFileDate = new DateTime('07/28/2016');
 $lang['prfile_size'] = 84;
 
