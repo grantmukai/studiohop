@@ -79,9 +79,9 @@ $lang['download_webcv'] = "Download Web CV &mdash; PDF";
 $webFileDate = new DateTime('07/29/2016');
 $lang['webfile_size'] = 78;
 
-$lang['telecharger_comcv'] = "Download CV";
-$prFileDate = new DateTime('06/23/2016');
-$lang['prfile_size'] = 72;
+$lang['telecharger_comcv'] = "Download Communications CV &mdash; PDF";
+$prFileDate = new DateTime('07/29/2016');
+$lang['prfile_size'] = 71;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
@@ -91,7 +91,7 @@ $lang['multimedia_p'] = "In my former days, I worked as a television reporter an
 $lang['courriel_soustitre'] = "Email Design";
 $lang['courriel_p'] = "Understanding that email design is not the same as Web design, I am proficient in coding &ldquo;depricated&rdquo; HTML and inline CSS as well as having a good idea of what Outlook does and does not support.";
 $lang['codepropre_soustitre'] = "Clear Code";
-$lang['codepropre_p'] = "I am very serious about only writing the cleanest up-to-date HTML, CSS and PHP. My code is properly indented and follows standards set by the W3C.";
+$lang['codepropre_p'] = "I am very serious about only writing the cleanest up-to-date HTML5, CSS3 and PHP7. My code is properly indented and follows standards set by the W3C.";
 $lang['adaptatif_soustitre'] = "Responsive Design";
 $lang['adaptatif_p'] = "Not only do I understand how to implement media queries and float and scale content for responsive Web design, I also understand best practices for creating responsive email (where supported).";
 $lang['soutien_soustitre'] = "Support";
