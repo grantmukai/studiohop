@@ -32,7 +32,7 @@ $lang['portfolio'] = 'Mi trabajo';
 $lang['contact'] = 'Contactarme';
 
 $lang['hello_1'] = "Hola, me llamo Kiyoshi Mukai";
-$lang['hello_2'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a | Comunicaciones | Periodismo | Gesti&oacute;n de contenidos Web | Comunicaciones';
+$lang['hello_2'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a | Relaciones P&uacute;blicas | Marketing | Gesti&oacute;n de contenidos Web | Periodismo';
 $lang['hello_3'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a';
 
 $lang['select_country'] = "Elige su pa&iacute;s";
@@ -75,19 +75,19 @@ $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
 $webFileDate = new DateTime('08/02/2016');
 $lang['webfile_size'] = 89;
 
-$lang['telecharger_comcv'] = "Descargar CV";
-$prFileDate = new DateTime('06/27/2016');
-$lang['prfile_size'] = 78;
+$lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
+$prFileDate = new DateTime('08/03/2016');
+$lang['prfile_size'] = 77;
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
-$lang['redaction_p'] = "Porque estudi&oacute; el periodismo, yo se como bien escribir para las publicaciones escritas y electr&oacute;nicas y utiliz&oacute; mis competencias para reportar las noticias y tambi&eacute;n para acentuar las empresas peque&ntilde;as en el espacio de promoci&oacute;n.";
+$lang['redaction_p'] = "Porque estudi&eacute; el periodismo, yo se como bien escribir para las publicaciones escritas y electr&oacute;nicas y utilic&eacute; mis competencias para reportar las noticias y tambi&eacute;n para acentuar las empresas peque&ntilde;as en el espacio de promoci&oacute;n.";
 $lang['multimedia_soustitre'] = "Multimedia";
-$lang['multimedia_p'] = "En mi otra vida, trabaj&oacute; como periodista en la televisi&oacute;n y editor de v&iacute;deos. Realiz&oacute; mis propios reportajes del inicio hasta la fin y produzc&oacute; mis propios efectos especiales.";
+$lang['multimedia_p'] = "En mi otra vida, trabaj&eacute; como periodista en la televisi&oacute;n y editor de v&iacute;deos. Realic&eacute; mis propios reportajes del inicio hasta la fin y produj&eacute; mis propios efectos especiales.";
 $lang['courriel_soustitre'] = "Dise&ntilde;o Correo Electr&oacute;nico";
 $lang['courriel_p'] = "Compreniendo que el dise&ntilde;o de correo electr&oacute;nico no es el mismo que el dise&ntilde;o Web, soy competente con el c&oacute;digo &ldquo;obsoleto&rdquo; del HTML y CSS. Asimismo, tengo una buena idea de lo que Outlook acepta y no acepta.";
 $lang['codepropre_soustitre'] = "C&oacute;digo Limpio";
-$lang['codepropre_p'] = "Estoy serioso cuando escribo c&oacute;digo HTML5, CSS3 y PHP7 el m&aacute;s limpio y actualizado. Mi c&oacute;digo es correctamente sangrado y sigue los est&aacute;ndares establicidos por el W3C.";
+$lang['codepropre_p'] = "Estoy serio cuando escribo c&oacute;digo HTML5, CSS3 y PHP7 el m&aacute;s limpio y actualizado. Mi c&oacute;digo es correctamente sangrado y sigue los est&aacute;ndares establicidos por el W3C.";
 $lang['adaptatif_soustitre'] = "Dise&ntilde;o Web Adaptable";
 $lang['adaptatif_p'] = "No solo comprendo la implementaci&oacute;n de <em>media quieres</em> para flotar y escalar contenidos para el dise&ntilde;o Web adaptable, comprendo tambi&eacute;n las mejores pr&aacute;cticas para crear un correo electr&oacute;nico adaptable (cuando apoyado)."; 
 $lang['soutien_soustitre'] = "Apoyo";
