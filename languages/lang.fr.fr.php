@@ -80,19 +80,19 @@ $lang['experience'] = "Exp&eacute;riences Professionnelles";
 $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";
 
-$lang['download_webcv'] = "T&eacute;l&eacute;charger CV";
+$lang['download_webcv'] = "T&eacute;l&eacute;charger CV Web &mdash; PDF";
 $webFileDate = new DateTime('08/04/2016');
 $lang['webfile_size'] = 3; //2.7MB
 
-$lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV";
-$prFileDate = new DateTime('06/29/2016');
+$lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV &mdash; PDF";
+$prFileDate = new DateTime('08/06/2016');
 $lang['prfile_size'] = 3; //2.7MB
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
 $lang['redaction_p'] = "Puisque je suis dipl&ocirc;m&eacute; en journalisme, je sais bien &eacute;crire tant &agrave; l'&eacute;crit comme en ligne et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et aussi pour mettre les petites entreprises en vedette dans l'espace de marketing.";
 $lang['multimedia_soustitre'] = "Multim&eacute;dia";
-$lang['multimedia_p'] = "Dans mes anciens jours, je travaillais en tant qu'animateur &agrave; la t&eacute;l&eacute; et monteur de vid&eacute;os. J'ai realis&eacute; mes propres reportages du d&eacute;but jusqu'&agrave; la fin en produisant mes propres effets sp&eacute;ciaux.";
+$lang['multimedia_p'] = "Dans mes anciens jours, je travaillais en tant qu'animateur &agrave; la t&eacute;l&eacute; et monteur des vid&eacute;os. J'ai realis&eacute; mes propres reportages du d&eacute;but jusqu'&agrave; la fin en produisant mes propres effets sp&eacute;ciaux.";
 $lang['courriel_soustitre'] = "Design d'E-mail";
 $lang['courriel_p'] = "En comprenant que le design de courrier el&eacute;ctronique n'est pas pareil que celui du Web, je suis comp&eacute;tent avec le code &laquo;obsol&egrave;te&raquo; du HTML et du CSS. De plus, j'ai une bonne id&eacute;e de ce qu'Outlook accepte et n'accepte pas.";
 $lang['codepropre_soustitre'] = "Code Propre";
