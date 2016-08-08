@@ -48,13 +48,13 @@ $lang['bio'] = "
 
 <p>Me llamo Grant Mukai y soy un Desarrollador Web y Especialista de servicios y sistemas Web a la <a href='http://www.apsanet.org'>Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica</a> (APSA) en el Distrito de Columbia. Trabajo en el Departamento de marketing y comunicaciones d&oacute;nde ayudo a mis colegios a gestionar el sitio p&uacute;blico de la asociaci&oacute;n y varios sitios WordPress destinados a promover la ciencia pol&iacute;tica y ayudar a nuestras secciones de intereses especializadas a organizarse en la red. Asimismo, soy responsable de la gesti&oacute;n de bases de datos, anal&iacute;ticas estad&iacute;sticas y la generaci&oacute;n de datos. Hago estas tareas proporcionando el servicio excelente al cliente en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol. Aunque nuestras oficinas se encuentran en los Estados Unidos, tenemos miembros vengan de todo el mundo.</p>
 
-<p>Antes de unirme a la APSA, trabaj&oacute; a la <a href='http://www.msb.edu'>Escuela de negocios McDonough</a> de la Universidad Georgetown en Washington y <a href='http://www.iqsolutions.com'>iQ Solutions</a> en Rockville, Maryland, desarrollando boletines electr&oacute;nicos. Algunos clientes de salud para qui&eacute;nes estaba trabajando incluyaban la Administraci&oacute;n de Salud Mental y Abuso de Sustancias de E.E.U.U. <em>(SAMHSA por sus siglas en ingl&eacute;s)</em> y los Institutos Nacionales de Salud <em>(NIH por sus siglas en ingl&eacute;s)</em>. Asimismo, he creado y actualizado paginas Web en ingl&eacute;s y en espa&ntilde;ol para el Instituto Nacional de Artritis y Enfermedades Musculoesquel&eacute;ticas y de la Piel <em>(NIAMS por sus siglas en ingl&eacute;s)</em>.</p>
+<p>Antes de unirme a la APSA, trabaj&eacute; a la <a href='http://www.msb.edu'>Escuela de negocios McDonough</a> de la Universidad Georgetown en Washington y <a href='http://www.iqsolutions.com'>iQ Solutions</a> en Rockville, Maryland, desarrollando boletines electr&oacute;nicos. Algunos clientes de salud para qui&eacute;nes estaba trabajando incluyeron la Administraci&oacute;n de Salud Mental y Abuso de Sustancias de E.E.U.U. <em>(SAMHSA por sus siglas en ingl&eacute;s)</em> y los Institutos Nacionales de Salud <em>(NIH por sus siglas en ingl&eacute;s)</em>. Asimismo, cre&iacute; y actualic&eacute; paginas Web en ingl&eacute;s y en espa&ntilde;ol para el Instituto Nacional de Artritis y Enfermedades Musculoesquel&eacute;ticas y de la Piel <em>(NIAMS por sus siglas en ingl&eacute;s)</em>.</p>
 
-<p>Adem&aacute;s, muchas de mis responsabilidades han incluido la verificaci&oacute;n de las p&aacute;ginas Web y documentos PDF para garantizar la conformidad a las normas establecidas por la Secci&oacute;n 508 de la Ley de Derechos de Discapacidados de los Estados Unidos.</p>
+<p>Adem&aacute;s, muchas de mis responsabilidades incluyeron la verificaci&oacute;n de las p&aacute;ginas Web y documentos PDF para garantizar la conformidad a las normas establecidas por la Secci&oacute;n 508 de la Ley de Derechos de Discapacidados de los Estados Unidos.</p>
 
-<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, fue productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i> en el pueblo de Wellesley, Massachusetts, d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. En el metr&oacute;poli de Boston, realiz&oacute; contenido v&iacute;deo para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
+<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, fue productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i> en el pueblo de Wellesley, Massachusetts, d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. En el metr&oacute;poli de Boston, realic&eacute; contenido v&iacute;deo para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
 
-<p>Obtuv&oacute; mi bacherillato en periodismo televisivo a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> de la Universidad de Boston con un menor en lengua y literatura francesa.</p>
+<p>Obtuve mi bacherillato en periodismo televisivo a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> de la Universidad de Boston con un menor en lengua y literatura francesa.</p>
 
 <p>En mi tiempo libre, me gustan mucho los bailes lindy hop y blues y me interesan las otras culturas internacionales de Washington.</p>
 
@@ -72,9 +72,9 @@ $lang['experience'] = "Experiencias Profesionales";
 $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
-$lang['download_webcv'] = "Descargar CV";
-$webFileDate = new DateTime('07/04/2016');
-$lang['webfile_size'] = 78;
+$lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
+$webFileDate = new DateTime('08/08/2016');
+$lang['webfile_size'] = 80;
 
 $lang['telecharger_comcv'] = "Descargar CV";
 $prFileDate = new DateTime('07/06/2016');
@@ -103,7 +103,7 @@ $lang['contact_title'] = 'Cont&aacute;ctame';
 $lang['contact_subtitle'] = "Me da una l&iacute;nea o llamame por tel&eacute;fono. Me gustar&iacute;a escucharle.";
 $lang['contact_paragraph'] = "Puede contactarme utilizando una de las maneras abajo<span class='formuleDroite'> o el formulario de contacto a su derecho</span><span class='formuleBas' style='display:none;'>abajo</span>.";
 
-$lang['customers'] = "Trabaj&oacute; para estas empresas";
+$lang['customers'] = "Trabaj&eacute; para estas empresas";
 
 $lang['formule_nom'] = "Nombre";
 $lang['formule_courriel'] = "Dirrecci&oacute;n de correo electr&oacute;nico";
