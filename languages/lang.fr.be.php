@@ -52,13 +52,13 @@ $lang['bio'] = "
 
 <p>Je m'appelle Kiyoshi MUKA&Iuml; et je suis D&eacute;veloppeur Web et Sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> aux &Eacute;tats-Unis d'Am&eacute;rique. Je travaille dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes co&eacute;quipiers &agrave; g&eacute;rer le site publique de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;calis&eacute;s &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es SQL, de l'analyse statistique et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais et espagnol. Bien que nos bureaux se situent aux &Eacute;tats-Unis, nous avons des membres venant des quatre coins du monde.</p>
 
-<p>Avant de me joindre &agrave; l'APSA, j'ai travaill&eacute; &agrave; <a href='http://msb.georgetown.edu'>l'&Eacute;cole McDonough de commerce</a> &agrave; l'Universit&eacute; Georgetown &agrave; Washington et <a href='http://www.iqsolutions.com'>iQ Solutions</a> aux banlieux en d&eacute;veloppant des e-mails de marketing. Quelques clients de sant&eacute; pour lesquels j'ai travaill&eacute; ont compris l'Administration pour abus des stup&eacute;fiants et services sant&eacute; mentale <em>(SAMHSA en anglais)</em> et les Instituts nationaux de la sant&eacute; <em>(NIH en anglais)</em> &mdash; deux agences gouvernementales am&eacute;ricaines. J'ai aussi r&eacute;alis&eacute; et mis &agrave; jour des pages Web en anglais et en espagnol pour les Instituts nationaux de l'arthrite, affections musculo-squelettiques et maladies de la peau. <em>(NIAMS en anglais)</em></p>
+<p>Avant de me joindre &agrave; mon association actuelle, j'ai travaill&eacute; &agrave; <a href='http://msb.georgetown.edu'>l'&Eacute;cole McDonough de commerce</a> &agrave; l'Universit&eacute; Georgetown &agrave; Washington et <a href='http://www.iqsolutions.com'>iQ Solutions</a> aux banlieux en d&eacute;veloppant des e-mails de marketing. Quelques clients de sant&eacute; pour lesquels j'ai travaill&eacute; ont compris l'Administration pour abus des stup&eacute;fiants et services sant&eacute; mentale et les Instituts nationaux de la sant&eacute; &mdash; deux agences gouvernementales am&eacute;ricaines. J'ai aussi r&eacute;alis&eacute; et mis &agrave; jour des pages Web en anglais et en espagnol pour les Instituts nationaux de l'arthrite, affections musculo-squelettiques et maladies de la peau.</p>
 
 <p>Une grande partie de mes responsabilit&eacute;s a inclut la v&eacute;rification des pages Web et documents PDF afin d'assurer la conformit&eacute; aux normes &eacute;tablies par le W3C <em>(World Wide Web Consortium)</em>.</p>
 
 <p>Avant mon changement de carri&egrave;re du journalisme au d&eacute;veloppement Web et gestion des donn&eacute;es, j'&eacute;tais r&eacute;alisateur adjoint d'actualit&eacute; chez <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> dans le nord-est du pays, o&ugrave; je produisais des court m&eacute;trages et documentaires pour une cha&icirc;ne de t&eacute;l&eacute;vision. Dans cette m&ecirc;me m&eacute;tropole, j'ai apport&eacute; du contenu vid&eacute;o au plateforme Patch.com, une s&eacute;ries de sites d'actualit&eacute;s aux &Eacute;tats-Unis.</p>
 
-<p>Je detiens un bachelier (dipl&ocirc;me de quatre ans) en journalisme t&eacute;l&eacute;vis&eacute; de <a href='http://www.bu.edu/com'>l'&Eacute;cole de communications</a> &agrave; l'Universit&eacute; de Boston avec une sp&eacute;cialisation en langue et litt&eacute;rature fran&ccedil;aise.</p>
+<p>Je d&eacute;tiens un bachelier (dipl&ocirc;me de quatre ans) en journalisme t&eacute;l&eacute;vis&eacute; de <a href='http://www.bu.edu/com'>l'&Eacute;cole de communications</a> &agrave; l'Universit&eacute; de Boston avec une sp&eacute;cialisation en langue et litt&eacute;rature fran&ccedil;aise.</p>
 
 <p>Je passe mon temps libre dans les salles de bal en dansant le blues et le lindy hop, deux styles de danse qui sont populaires en Am&eacute;rique du nord, maintenant rendus aussi populaires &agrave; Bruxelles avec BRUX <em>(The Brussels Lindy Exchange)</em>. J'aime aussi faire des nouvelles rencontres lors des &eacute;v&eacute;nements culturels aux &Eacute;tats-Unis.</p>
 
@@ -77,8 +77,8 @@ $lang['experience'] = "Exp&eacute;riences Professionnelles";
 $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";
 
-$lang['download_webcv'] = "T&eacute;l&eacute;charger CV";
-$webFileDate = new DateTime('07/18/2016');
+$lang['download_webcv'] = "T&eacute;l&eacute;charger CV Web &mdash; PDF";
+$webFileDate = new DateTime('08/18/2016');
 $lang['webfile_size'] = 3; //2.7MB
 
 $lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV";
