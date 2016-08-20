@@ -84,17 +84,17 @@ $lang['download_webcv'] = "T&eacute;l&eacute;charger CV Web &mdash; PDF";
 $webFileDate = new DateTime('08/18/2016');
 $lang['webfile_size'] = 3; //2.7MB
 
-$lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV";
-$prFileDate = new DateTime('07/20/2016');
+$lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV &mdash; PDF";
+$prFileDate = new DateTime('08/20/2016');
 $lang['prfile_size'] = 3; //2.7MB
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
-$lang['redaction_p'] = "Puisque je detiens un dipl&ocirc;me en journalisme, je sais bien &eacute;crire tant &agrave; l'&eacute;crit comme en ligne et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et aussi pour mettre les petites entreprises en vedette dans l'espace de marketing.";
+$lang['redaction_p'] = "Puisque je d&eacute;tiens un dipl&ocirc;me en journalisme, je sais bien &eacute;crire tant &agrave; l'&eacute;crit comme en ligne et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et aussi pour mettre les petites entreprises en vedette dans l'espace de marketing.";
 $lang['multimedia_soustitre'] = "Multim&eacute;dia";
 $lang['multimedia_p'] = "Dans mes anciens jours, je travaillais en tant qu'animateur &agrave; la t&eacute;l&eacute; et monteur de vid&eacute;os. J'ai realis&eacute; mes propres reportages du d&eacute;but jusqu'&agrave; la fin en produisant mes propres effets sp&eacute;ciaux.";
 $lang['courriel_soustitre'] = "Design d'E-mail";
-$lang['courriel_p'] = "En comprenant que le design de courrier el&eacute;ctronique n'est pas pareil que celui du Web, je suis comp&eacute;tent avec le code &laquo;obsol&egrave;te&raquo; du HTML et du CSS. De plus, j'ai une bonne id&eacute;e de ce qu'Outlook accepte et n'accepte pas.";
+$lang['courriel_p'] = "En comprenant que le design du courrier el&eacute;ctronique n'est pas pareil que celui du Web, je suis comp&eacute;tent avec le code &laquo;obsol&egrave;te&raquo; du HTML et du CSS. De plus, j'ai une bonne id&eacute;e de ce qu'Outlook accepte et n'accepte pas.";
 $lang['codepropre_soustitre'] = "Code Propre";
 $lang['codepropre_p'] = "Je suis s&eacute;rieux en &eacute;crivant seulement du code HTML5, CSS3 et PHP7 le plus propre et &agrave; jour. Mon code est correctement dent&eacute;l&eacute; et il suit les standards &eacute;tablis par le W3C.";
 $lang['adaptatif_soustitre'] = "Sites Web Adaptifs";
