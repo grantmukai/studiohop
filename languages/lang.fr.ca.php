@@ -34,8 +34,8 @@ $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
 $lang['hello_1'] = "Bonjour, mon nom est Grant Muka&iuml;";
-$lang['hello_2'] = "D&eacute;veloppement Web | Courriels de Marketing | Administration des Donn&eacute;es | Services d'Adh&eacute;sion | Communications | Promotion | Gestion des Contenu Web | Journalisme";
-$lang['hello_3'] = "D&eacute;veloppement Web | Courriels de Marketing | Administration de Donn&eacute;es | Services d'Adh&eacute;sion";
+$lang['hello_2'] = "D&eacute;veloppement Web | Courriels de Marketing | Administration des Donn&eacute;es | Multim&eacute;dia | Communications | Promotion | Gestion des Contenu Web | Journalisme";
+$lang['hello_3'] = "D&eacute;veloppement Web | Courriels de Marketing | Administration de Donn&eacute;es | Multim&eacute;dia";
 
 $lang['select_country'] = "Choisissez votre pays";
 
@@ -46,7 +46,7 @@ $lang['social_profiles'] = 'R&eacute;seaux Sociaux';
 $lang['bio'] = "
 <h3>Qui Je Suis</h3>
 
-<p>Je m'appelle Grant Muka&iuml; et je suis D&eacute;veloppeur Web et sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> (APSA) au District de Columbia. Je travaille dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes co&eacute;quipiers &agrave; g&eacute;rer le site publique de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique et qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;ciaux &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es, de l'analyse statistique et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais et espagnol. Bien que nos bureaux se trouvent aux &Eacute;tats-Unis, nous avons des membres provenant des quatre coins du monde.</p>
+<p>Je m'appelle Grant Muka&iuml; et je suis D&eacute;veloppeur Web et sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> (APSA) au District de Columbia, &Eacute;tats-Unis. Je travaille dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes co&eacute;quipiers &agrave; g&eacute;rer le site publique de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique et qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;ciaux &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es, de l'analyse statistique et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais et espagnol. Bien que nos bureaux se trouvent aux &Eacute;tats-Unis, nous avons des membres provenant des quatre coins du monde.</p>
 
 <p>Avant de me rejoindre &agrave; l'APSA, j'ai travaill&eacute; &agrave; <a href='http://msb.georgetown.edu'>l'&Eacute;cole McDonough de commerce</a> &agrave; l'Universit&eacute; Georgetown &agrave; Washington et <a href='http://www.iqsolutions.com'>iQ Solutions</a> &agrave; Rockville, Maryland, en d&eacute;veloppant des bulletins &eacute;lectroniques. Quelques clients de sant&eacute; pour lesquels j'ai travaill&eacute; ont compris l'Administration pour abus des stup&eacute;fiants et services sant&eacute; mentale <em>(SAMHSA en anglais)</em> et les Instituts nationaux de la sant&eacute; <em>(NIH en anglais)</em>. J'ai aussi r&eacute;dig&eacute; et mit &agrave; jour des pages Web en anglais et en espagnol pour les Instituts nationaux de l'arthrite, affections musculo-squelettiques et maladies de la peau <em>(NIAMS en anglais)</em>.</p>
 
@@ -73,8 +73,8 @@ $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";
 
 $lang['download_webcv'] = "T&eacute;l&eacute;charger CV Web &mdash; PDF";
-$webFileDate = new DateTime('07/26/2016');
-$lang['webfile_size'] = 85;
+$webFileDate = new DateTime('08/24/2016');
+$lang['webfile_size'] = 81;
 
 $lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV Communications &mdash; PDF";
 $prFileDate = new DateTime('07/28/2016');
