@@ -77,12 +77,12 @@ $webFileDate = new DateTime('08/24/2016');
 $lang['webfile_size'] = 81;
 
 $lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV Communications &mdash; PDF";
-$prFileDate = new DateTime('07/28/2016');
+$prFileDate = new DateTime('08/26/2016');
 $lang['prfile_size'] = 84;
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
-$lang['redaction_p'] = "Puisque j'ai obtenu mon bac en journalisme, je sais bien &eacute;crire tant en ligne comme &agrave; l'&eacute;crit et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et pour mettre les petites entreprises en vedette dans l'espace de marketing.";
+$lang['redaction_p'] = "Puisque je d&eacute;tiens un bac en journalisme, je sais bien &eacute;crire tant en ligne comme &agrave; l'&eacute;crit et j'ai employ&eacute; mes comp&eacute;tences pour publier des nouvelles et pour mettre les petites entreprises en vedette dans l'espace de marketing.";
 $lang['multimedia_soustitre'] = "Multim&eacute;dia";
 $lang['multimedia_p'] = "Dans mes anciens jours, je travaillais en tant qu'animateur &agrave; la t&eacute;l&eacute; et monteur de vid&eacute;o. Je realisais mes propres reportages du d&eacute;but jusqu'&agrave; la fin en produisant mes propres effets sp&eacute;ciaux.";
 $lang['courriel_soustitre'] = "Conc&eacute;ption de Courriel";
