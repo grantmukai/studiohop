@@ -31,7 +31,7 @@ $lang['com_cv'] = 'Communications';
 $lang['portfolio'] = 'My Work';
 $lang['contact'] = 'Contact Me';
 
-$lang['hello_1'] = "Hello, I'm Grant Mukai";
+$lang['hello_1'] = "Hello, I'm Grant Mukai<br /><small>Bonjour, je suis Grant Muka&iuml;</small>";
 $lang['hello_2'] = 'Web Development | Email Advertising | Database Administration | Member Services | Communications | Marketing | Web Content Management | Journalism';
 $lang['hello_3'] = 'Web Development | Email Advertising | Database Administration | Member Services';
 
@@ -44,7 +44,7 @@ $lang['social_profiles'] = 'Social Profiles';
 $lang['bio'] = "
 <h3>Who Am I?</h3>
 
-<p>My name is Grant Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> in the District of Columbia, United States of America. I work in the Marketing and Communications Department where I help manage our association's public site as well as several WordPress sites devoted to showcasing the association's offerings, promoting political science and helping our special interest sections organise themselves on the Web. I also manage member databases, research site analytics and generate data reports while providing excellent customer service to our members in English, French and Spanish. Although we are located in the United States, we have a very large international membership.</p>
+<p>My name is Grant Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the District of Columbia, United States of America. I work in the Marketing and Communications Department where I help manage our association's public site as well as several WordPress sites devoted to showcasing the association's offerings, promoting political science and helping our special interest sections organise themselves on the Web. I also manage member databases, research site analytics and generate data reports while providing excellent customer service to our members in English, French and Spanish. Although we are located in the United States, we have a very large international membership.</p>
 
 <p>Before joining the APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a>, also in Washington, and <a href='http://www.iqsolutions.com'>iQ Solutions</a> in Rockville, Maryland, developing email newsletters. Some of the healthcare clients I worked for include the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
 
@@ -76,8 +76,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download Web CV &mdash; PDF";
-$webFileDate = new DateTime('07/29/2016');
-$lang['webfile_size'] = 78;
+$webFileDate = new DateTime('08/28/2016');
+$lang['webfile_size'] = 77;
 
 $lang['telecharger_comcv'] = "Download Communications CV &mdash; PDF";
 $prFileDate = new DateTime('07/31/2016');
