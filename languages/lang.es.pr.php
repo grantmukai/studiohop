@@ -34,8 +34,8 @@ $lang['portfolio'] = 'Mi trabajo';
 $lang['contact'] = 'Contactarme';
 
 $lang['hello_1'] = "Hola, mi nombre es Grant Mukai<br /><small>Hello, my name is Grant Mukai</small>";
-$lang['hello_2'] = 'Desarrollador Web | Desarrollo Correo Electr&oacute;nico | Dise&ntilde;o Gr&aacute;fico | Servicios de Membres&iacute;a | Comunicaciones | Marketing | Gesti&oacute;n de contenidos | Periodismo';
-$lang['hello_3'] = 'Desarrollador Web | Desarrollo Correo Electr&oacute;nico | Dise&ntilde;o Gr&aacute;fico | Servicios de Membres&iacute;a';
+$lang['hello_2'] = 'Desarrollador Web | Correo Electr&oacute;nico | Dise&ntilde;o Gr&aacute;fico | Servicios de Membres&iacute;a | Comunicaciones | Marketing | Gesti&oacute;n de contenidos | Periodismo';
+$lang['hello_3'] = 'Desarrollador Web | Correo Electr&oacute;nico | Dise&ntilde;o Gr&aacute;fico | Servicios de Membres&iacute;a';
 
 $lang['select_country'] = "Elige su pa&iacute;s";
 
@@ -73,8 +73,8 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
-$webFileDate = new DateTime('08/08/2016');
-$lang['webfile_size'] = 80;
+$webFileDate = new DateTime('09/07/2016');
+$lang['webfile_size'] = 72;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
 $prFileDate = new DateTime('08/10/2016');
