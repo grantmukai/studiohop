@@ -35,8 +35,8 @@ $lang['portfolio'] = 'Mi trabajo';
 $lang['contact'] = 'Contactarme';
 
 $lang['hello_1'] = "Hola, me llamo Kiyoshi Mukai<br /><small>Hola, em dic Kiyoshi Mukai<br />Kaixo, nire izena da Kiyoshi Mukai</small>";
-$lang['hello_2'] = 'Desarrollador Web | Publicidad Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a | Comunicaciones | Periodismo | Gesti&oacute;n de contenidos Web | Comunicaciones';
-$lang['hello_3'] = 'Desarrollador Web | Publicidad Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a';
+$lang['hello_2'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a | Comunicaciones | Periodismo | Gesti&oacute;n de contenidos Web | Comunicaciones';
+$lang['hello_3'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a';
 
 // COOKIES!
 $lang['cookiesJeComprends'] = "Yo Entiendo";
@@ -55,11 +55,11 @@ $lang['bio'] = "
 
 <p>Me llamo Kiyoshi Mukai y soy un desarrollador Web y especialista de servicios y sistemas Web a la <a href='http://www.apsanet.org'>Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica</a> en  los Estados Unidos de Am&eacute;rica. Trabajo en el Departamento de marketing y comunicaciones d&oacute;nde ayudo a mis colegios a gestionar el sitio p&uacute;blico de la asociaci&oacute;n y varios sitios WordPress destinados a promover la ciencia pol&iacute;tica y ayudar a nuestras secciones de intereses especializadas a organizarse en los redes. Asimismo, soy responsable de la gesti&oacute;n de bases de datos, anal&iacute;ticas estad&iacute;sticas y la generaci&oacute;n de formas de datos. Hago estas tareas proporcionando el servicio excelente al cliente en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol. Aunque nuestras oficinas se encuentran en los Estados Unidos, tenemos miembros que vengan de todo el mundo.</p>
 
-<p>Antes de unirme a mi asociaci&oacute;n, trabajaba a la <a href='http://www.msb.edu'>Escuela McDonough de negocios</a> de la Universidad Georgetown en la capital del pa&iacute;s (mi-atl&aacute;ntico) y <a href='http://www.iqsolutions.com'>iQ Solutions</a> en Maryland, el estado vecino, desarrollando boletines electr&oacute;nicos. Algunos clientes de salud para qui&eacute;nes estaba trabajando han incluido la Administraci&oacute;n de Salud Mental y Abuso de Sustancias de E.E.U.U. <em>(SAMHSA por sus siglas en ingl&eacute;s)</em> y los Institutos Nacionales de Salud <em>(NIH por sus siglas en ingl&eacute;s)</em>. Asimismo, he creado y actualizado p&aacute;ginas Web en ingl&eacute;s y en espa&ntilde;ol para el Instituto Nacional de Artritis y Enfermedades Musculoesquel&eacute;ticas y de la Piel <em>(NIAMS por sus siglas en ingl&eacute;s)</em>.</p>
+<p>Antes de unirme a mi asociaci&oacute;n, trabajaba a la <a href='http://www.msb.edu'>Escuela McDonough de negocios</a> de la Universidad Georgetown en la capital del pa&iacute;s (mi-atl&aacute;ntico) y <a href='http://www.iqsolutions.com'>iQ Solutions</a> en Maryland, el estado vecino, desarrollando boletines electr&oacute;nicos. Algunos clientes de salud para qui&eacute;nes estaba trabajando han incluido la Administraci&oacute;n de Salud Mental y Abuso de Sustancias de E.E.U.U. y los Institutos Nacionales de Salud. Asimismo, he creado y actualizado p&aacute;ginas Web en ingl&eacute;s y en espa&ntilde;ol para el Instituto Nacional de Artritis y Enfermedades Musculoesquel&eacute;ticas y de la Piel.</p>
 
 <p>Adem&aacute;s, muchas de mis responsabilidades han incluido la verificaci&oacute;n de las p&aacute;ginas Web y documentos PDF para garantizar la conformidad a las normas establecidas por el W3C <em lang='en-CA'>(World Wide Web Consortium)</em>.</p>
 
-<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, era productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i> en el estado libre asociado de Massachusetts (norteste), d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. All&iacute;, he realizado contenido cinematogr&aacute;fico para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
+<p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, era productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i> en el estado libre asociado de Massachusetts (noreste), d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. All&iacute;, he realizado contenido cinematogr&aacute;fico para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
 
 <p>He obtenido mi licenciatura en periodismo televisivo despu&eacute;s de cuatro a&ntilde;os de estudios a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>
 
@@ -80,8 +80,8 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
-$webFileDate = new DateTime('08/15/2016');
-$lang['webfile_size'] = 2; //2 MB
+$webFileDate = new DateTime('09/14/2016');
+$lang['webfile_size'] = 3; //2,7 MB
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
 $prFileDate = new DateTime('08/16/2016');
