@@ -54,7 +54,7 @@ $lang['bio'] = "
 
 <p>Obtuve mi licenciatura en periodismo televisivo despu&eacute;s de cuatro a&ntilde;os de estudios a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>
 
-<p>En mi tiempo libre, el baile es algo muy importante en mi vida. Los dos tipos de baile que hago son el Lindy Hop y Blues. Hay una peque&ntilde;a comunidad de Lindy Hop en la Ciudad de M&eacute;xico. Me gusta tambi&eacute;n la comunidad internacional de Washington porque me da la opportunidad de practicar mi espa&ntilde;ol.</p>
+<p>En mi tiempo libre, el baile es algo muy importante en mi vida. Los dos tipos de baile que hago son el Lindy Hop y Blues. Hay una peque&ntilde;a comunidad de Lindy Hop en el DF. Me gusta tambi&eacute;n la comunidad internacional de Washington porque me da la opportunidad de practicar mi espa&ntilde;ol.</p>
 
 <p>Cordialemente,</p>
 
@@ -72,8 +72,8 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
-$webFileDate = new DateTime('08/31/2016');
-$lang['webfile_size'] = 86;
+$webFileDate = new DateTime('10/02/2016');
+$lang['webfile_size'] = 61;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
 $prFileDate = new DateTime('09/02/2016');
