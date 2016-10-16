@@ -84,14 +84,14 @@ $webFileDate = new DateTime('10/15/2016');
 $lang['webfile_size'] = 3; //2,7 MB
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
-$prFileDate = new DateTime('09/15/2016');
+$prFileDate = new DateTime('10/16/2016');
 $lang['prfile_size'] = 3; //2,7 Mo
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
 $lang['redaction_p'] = "Porque he estudiado el periodismo, yo se como bien escribir para las publicaciones escritas y he utilizado mis competencias para reportar las noticias y tambi&eacute;n para acentuar las empresas peque&ntilde;as en el espacio de promoci&oacute;n.";
 $lang['multimedia_soustitre'] = "Multimedia";
-$lang['multimedia_p'] = "En mi otra vida, he trabajado como periodista en la televisi&oacute;n y editor de v&iacute;deos. He realizado mis propios reportajes del inicio hasta la fin y he hecho la producci&oacute;n de mis propios efectos especiales.";
+$lang['multimedia_p'] = "En mi otra vida, he trabajado como periodista en la televisi&oacute;n y editor de v&iacute;deos. He realizado mis propios reportajes del inicio hasta el fin y he hecho la producci&oacute;n de mis propios efectos especiales.";
 $lang['courriel_soustitre'] = "Dise&ntilde;o Correo Electr&oacute;nico";
 $lang['courriel_p'] = "Comprendiendo que el dise&ntilde;o de correo electr&oacute;nico no es el mismo que el dise&ntilde;o Web, soy competente con el c&oacute;digo &ldquo;obsoleto&rdquo; del HTML y CSS entre los par&eacute;ntesis. Asimismo, tengo una buena idea de lo que Outlook acepta y no acepta.";
 $lang['codepropre_soustitre'] = "C&oacute;digo Limpio";
