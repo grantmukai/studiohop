@@ -63,7 +63,7 @@ $lang['bio'] = "
 
 <p>Je d&eacute;tiens un bachelier (dipl&ocirc;me de quatre ans) en journalisme t&eacute;l&eacute;vis&eacute; de <a href='http://www.bu.edu/com'>l'&Eacute;cole de communications</a> &agrave; l'Universit&eacute; de Boston avec une sp&eacute;cialisation en langue et litt&eacute;rature fran&ccedil;aise.</p>
 
-<p>Je passe mon temps libre dans les salles de bal en dansant le blues et le lindy hop, deux styles de danse qui sont populaires en Am&eacute;rique du nord, maintenant rendus aussi populaires &agrave; Bruxelles avec BRUX <em>(The Brussels Lindy Exchange)</em>. J'aime aussi faire des nouvelles rencontres lors des &eacute;v&eacute;nements culturels aux &Eacute;tats-Unis.</p>
+<p>Je passe mon temps libre dans les salles de bal en dansant le Blues-Fusion et le Lindy Hop, deux styles de danse qui sont populaires en Am&eacute;rique du nord, maintenant rendus aussi populaires &agrave; Bruxelles avec BRUX <em>(The Brussels Lindy Exchange)</em>. J'aime aussi faire des nouvelles rencontres lors des &eacute;v&eacute;nements culturels aux &Eacute;tats-Unis.</p>
 
 <p>Veuillez recevoir l'assurance de mes sentiments les meilleurs,</p>
 
@@ -81,7 +81,7 @@ $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";
 
 $lang['download_webcv'] = "T&eacute;l&eacute;charger CV Web &mdash; PDF";
-$webFileDate = new DateTime('09/17/2016');
+$webFileDate = new DateTime('10/18/2016');
 $lang['webfile_size'] = 3; //2.7MB
 
 $lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV &mdash; PDF";
