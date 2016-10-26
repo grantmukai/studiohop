@@ -5,7 +5,6 @@ Langue: Español - Chile
 -----------------------
 */
 $cv_lang = "es-CL";
-$jeSuisEnEurope = "non";
 
 $lang = array();
 
@@ -14,7 +13,7 @@ $lang = array();
 
 $lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
 
-$drapeauNational = 1;
+$drapeauNational = 0;
 $lang['drapeau'] = "cl";
 $lang['drapeau_alt'] = "Bandera de Chile";
  
@@ -37,10 +36,8 @@ $lang['hello_2'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci
 $lang['hello_3'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a';
 
 // COOKIES!
-$lang['cookiesJeComprends'] = "Yo Entiendo";
-$lang['cookiesMerci'] = "&iexcl;Gracias!";
 
-$lang['select_country'] = "Eliges tu pa&iacute;s";
+$lang['select_country'] = "Elige su pa&iacute;s";
 
 $lang['skillset'] = 'Gama de competencias';
 
