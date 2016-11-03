@@ -1,4 +1,4 @@
-<?php date_default_timezone_set("America/Montreal");
+<?php date_default_timezone_set("America/Toronto");
 /*
 --------------------------
 Language: English - Canada
@@ -76,8 +76,8 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download Web CV &mdash; PDF";
-$webFileDate = new DateTime('09/28/2016');
-$lang['webfile_size'] = 61;
+$webFileDate = new DateTime('11/03/2016');
+$lang['webfile_size'] = 89;
 
 $lang['telecharger_comcv'] = "Download Communications CV &mdash; PDF";
 $prFileDate = new DateTime('09/30/2016');
