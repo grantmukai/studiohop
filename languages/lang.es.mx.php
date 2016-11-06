@@ -44,7 +44,7 @@ $lang['social_profiles'] = 'Redes Sociales';
 $lang['bio'] = "
 <h3>Acerca de Mi</h3>
 
-<p>Me llamo Kiyoshi Mukai y soy un Desarrollador Web y Especialista de servicios y sistemas Web a la <a href='http://www.apsanet.org'>Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica</a> en el Distrito de Columbia, Estados Unidos de Am&eacute;rica. Trabajo en el Departamento de promoci&oacute;n y comunicaciones d&oacute;nde ayudo a mis colegios a gestionar el sitio p&uacute;blico de la asociaci&oacute;n y varios sitios WordPress destinados a promover la ciencia pol&iacute;tica y ayudar a nuestras secciones de intereses especializadas a organizarse en los redes. Asimismo, soy responsable de la gesti&oacute;n de bases de datos, anal&iacute;ticas estad&iacute;sticas y la generaci&oacute;n de formas de datos. Hago estas tareas proporcionando el servicio excelente al cliente en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol. Aunque nuestras oficinas se encuentran en los Estados Unidos, tenemos miembros que vengan de todo el mundo.</p>
+<p>Me llamo Kiyoshi Mukai y soy un Desarrollador Web y Especialista de servicios y sistemas Web a la <a href='http://www.apsanet.org'>Asociaci&oacute;n estadounidense de ciencia pol&iacute;tica</a> en el Distrito de Columbia, Estados Unidos de Am&eacute;rica. Trabajo en el Departamento de promoci&oacute;n y comunicaciones d&oacute;nde ayudo a mis colegios a gestionar el sitio p&uacute;blico de la asociaci&oacute;n y varios sitios WordPress destinados a promover la ciencia pol&iacute;tica y ayudar a nuestras secciones de intereses especializadas a organizarse en las redes. Asimismo, soy responsable de la gesti&oacute;n de bases de datos, anal&iacute;ticas estad&iacute;sticas y la generaci&oacute;n de formas de datos. Hago estas tareas proporcionando el servicio excelente al cliente en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol. Aunque nuestras oficinas se encuentran en los Estados Unidos, tenemos miembros que vengan de todo el mundo.</p>
 
 <p>Antes de unirme a la mi asociaci&oacute;n, trabaj&eacute; a la <a href='http://www.msb.edu'>Escuela McDonough de negocios</a> de la Universidad Georgetown en la ciudad capital de mi Distrito y <a href='http://www.iqsolutions.com'>iQ Solutions</a> en Maryland, el estado vecino, desarrollando boletines electr&oacute;nicos. Algunos clientes de salud para qui&eacute;nes estaba trabajando incluyeron la Administraci&oacute;n de Salud Mental y Abuso de Sustancias de E.E.U.U. y los Institutos Nacionales de Salud. Asimismo, cre&eacute; y actualic&eacute; paginas Web en ingl&eacute;s y en espa&ntilde;ol para el Instituto Nacional de Artritis y Enfermedades Musculoesquel&eacute;ticas y de la Piel.</p>
 
@@ -72,8 +72,8 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
-$webFileDate = new DateTime('10/02/2016');
-$lang['webfile_size'] = 61;
+$webFileDate = new DateTime('11/06/2016');
+$lang['webfile_size'] = 104;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
 $prFileDate = new DateTime('10/04/2016');
