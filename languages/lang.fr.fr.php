@@ -86,7 +86,7 @@ $lang['webfile_size'] = 4; //3,9Mo
 
 $lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV &mdash; PDF";
 $prFileDate = new DateTime('10/06/2016');
-$lang['prfile_size'] = 3; //2.7MB
+$lang['prfile_size'] = 3; //2,7Mo
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
@@ -94,7 +94,7 @@ $lang['redaction_p'] = "Puisque je suis dipl&ocirc;m&eacute; en journalisme, je 
 $lang['multimedia_soustitre'] = "Multim&eacute;dia";
 $lang['multimedia_p'] = "Dans mes anciens jours, je travaillais en tant qu'animateur &agrave; la t&eacute;l&eacute; et monteur des vid&eacute;os. J'ai realis&eacute; mes propres reportages du d&eacute;but jusqu'&agrave; la fin en produisant mes propres effets sp&eacute;ciaux.";
 $lang['courriel_soustitre'] = "Design d'E-mail";
-$lang['courriel_p'] = "En comprenant que le design de courrier el&eacute;ctronique n'est pas pareil que celui du Web, je suis comp&eacute;tent avec le code &laquo;obsol&egrave;te&raquo; du HTML et du CSS. De plus, j'ai une bonne id&eacute;e de ce qu'Outlook accepte et n'accepte pas.";
+$lang['courriel_p'] = "En comprenant que le design de courrier el&eacute;ctronique n'est pas pareil que celui du Web, je suis comp&eacute;tent avec le code &laquo; obsol&egrave;te &raquo; du HTML et du CSS. De plus, j'ai une bonne id&eacute;e de ce qu'Outlook accepte et n'accepte pas.";
 $lang['codepropre_soustitre'] = "Code Propre";
 $lang['codepropre_p'] = "Je suis s&eacute;rieux en &eacute;crivant seulement du code HTML5, CSS3 et PHP7 le plus propre et &agrave; jour. Mon code est correctement dent&eacute;l&eacute; et il suit les standards &eacute;tablis par le W3C.";
 $lang['adaptatif_soustitre'] = "Sites Web Adaptifs";
