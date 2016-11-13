@@ -56,7 +56,7 @@ $lang['bio'] = "
 
 <p>Obtuve mi bacherillato en periodismo televisivo a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> de la Universidad de Boston con un menor en lengua y literatura francesa.</p>
 
-<p>En mi tiempo libre, me gustan mucho los bailes lindy hop y blues y me interesan las otras culturas internacionales de Washington.</p>
+<p>En mi tiempo libre, me gustan mucho los bailes Lindy Hop y Blues y me interesan las otras culturas internacionales de Washington.</p>
 
 <p>Cordialmente,</p>
 
@@ -73,8 +73,8 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
-$webFileDate = new DateTime('10/08/2016');
-$lang['webfile_size'] = 75;
+$webFileDate = new DateTime('11/13/2016');
+$lang['webfile_size'] = 87;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
 $prFileDate = new DateTime('10/10/2016');
