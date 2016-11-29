@@ -8,8 +8,8 @@ $cv_lang = "es-CL";
 
 $lang = array();
 
-//$imageVille = 1;
-//$villeMax = 1;
+$imageVille = 1;
+$villeMax = 0;
 
 $lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
 
@@ -77,8 +77,8 @@ $webFileDate = new DateTime('11/27/2016');
 $lang['webfile_size'] = 114;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
-$prFileDate = new DateTime('09/15/2016');
-$lang['prfile_size'] = 96;
+$prFileDate = new DateTime('11/29/2016');
+$lang['prfile_size'] = 109;
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
