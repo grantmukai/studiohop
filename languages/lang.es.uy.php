@@ -14,9 +14,9 @@ $lang = array();
 
 $lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
 
-$drapeauNational = 1;
-$lang['drapeau'] = "cl";
-$lang['drapeau_alt'] = "Bandera de Chile";
+$drapeauNational = 0;
+$lang['drapeau'] = "uy";
+$lang['drapeau_alt'] = "Bandera de Uruguay";
  
 $lang['metadesc'] = "Kiyoshi Mukai es un desarrollador Web y agente de comunicaciones en los Estados Unidos";
 $lang['PAGE_TITLE'] = 'Kiyoshi Mukai';
@@ -79,9 +79,9 @@ $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
 $webFileDate = new DateTime('12/01/2016');
 $lang['webfile_size'] = 118;
 
-/*$lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
+$lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
 $prFileDate = new DateTime('09/15/2016');
-$lang['prfile_size'] = 3; //2,7 Mo*/
+$lang['prfile_size'] = 107;
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
