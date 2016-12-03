@@ -1,10 +1,10 @@
-<?php date_default_timezone_set("America/Montevideo");
+<?php date_default_timezone_set("America/Buenos_Aires");
 /*
--------------------------
-Langue: Español - Uruguay
--------------------------
+---------------------------
+Langue: Español - Argentina
+---------------------------
 */
-$cv_lang = "es-UY";
+$cv_lang = "es-AR";
 $jeSuisEnEurope = "non";
 
 $lang = array();
@@ -15,8 +15,8 @@ $lang = array();
 $lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
 
 $drapeauNational = 0;
-$lang['drapeau'] = "uy";
-$lang['drapeau_alt'] = "Bandera de Uruguay";
+$lang['drapeau'] = "ar";
+$lang['drapeau_alt'] = "Bandera de Argentina";
  
 $lang['metadesc'] = "Kiyoshi Mukai es un desarrollador Web y agente de comunicaciones en los Estados Unidos";
 $lang['PAGE_TITLE'] = 'Kiyoshi Mukai';
@@ -76,12 +76,12 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
-$webFileDate = new DateTime('12/01/2016');
-$lang['webfile_size'] = 118;
+$webFileDate = new DateTime('12/03/2016');
+$lang['webfile_size'] = 114;
 
-$lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
-$prFileDate = new DateTime('12/02/2016');
-$lang['prfile_size'] = 107;
+//$lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
+//$prFileDate = new DateTime('09/15/2016');
+//$lang['prfile_size'] = 107;
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
