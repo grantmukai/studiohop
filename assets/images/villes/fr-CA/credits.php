@@ -6,6 +6,6 @@ $creditsImages = array(
 	array(3,"Voitures Traversant Le Centre-ville de Chicoutimi La Nuit","Chicoutimi, Qu&eacute;.","Jean-Pierre Bluteau","turkian"),
 	array(4,"Gatineau","Gatineau, Qu&eacute;.","Axel Drainville","axelrd"),
 	array(5,"Wellington Sud I","Sherbrooke, Qu&eacute;.","Michel G.","michelgagnon"),
-	array(6,"Police Car in Kuujjuaq (Fort-Chimo), Qu&eacute;bec, Canada","Kuujjuaq, Qu&ecaute;.","oliver.brisson","ly-brisson")
+	array(6,"Police Car in Kuujjuaq (Fort-Chimo), Qu&eacute;bec, Canada","Kuujjuaq, Qu&eacute;.","oliver.brisson","ly-brisson")
 	);
 ?>
