@@ -46,7 +46,7 @@ $lang['bio'] = "
 
 <p>My name is Grant Mukai and I am a Web developer and systems support specialist for the <a href='http://www.apsanet.org'>American Political Science Association</a> (APSA) in the District of Columbia, United States of America. I work in the Marketing and Communications Department where I help manage our association's public site as well as several WordPress sites devoted to showcasing the association's offerings, promoting political science and helping our special interest sections organise themselves on the Web. I also manage member databases, research site analytics and generate data reports while providing excellent customer service to our members in English, French and Spanish. Although we are located in the United States, we have a very large international membership.</p>
 
-<p>Before joining the APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a>, also in Washington, and <a href='http://www.iqsolutions.com'>iQ Solutions</a> in Rockville, Maryland, developing email newsletters. Some of the healthcare clients I worked for include the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
+<p>Before joining APSA, I worked at both the <a href='http://msb.georgetown.edu'>Georgetown University McDonough School of Business</a>, also in Washington, and <a href='http://www.iqsolutions.com'>iQ Solutions</a> in Rockville, Maryland, developing email newsletters. Some of the healthcare clients I worked for include the Substance Abuse and Mental Health Services Administration (SAMHSA) and the National Institutes of Health (NIH). I have also produced and updated English and Spanish webpages for the National Institutes of Arthritis and Musculoskeletal and Skin Diseases (NIAMS).</p>
 
 <p>A large part of my responsibilities have comprised making sure that webpages and documents meet the Web Accessibility Guidelines set forth by the World Wide Web Consortium (W3C).</p>
 
@@ -76,7 +76,7 @@ $lang['duties'] = "Duties";
 $lang['education'] = "Education";
 
 $lang['download_webcv'] = "Download Web CV &mdash; PDF";
-$webFileDate = new DateTime('11/03/2016');
+$webFileDate = new DateTime('12/12/2016');
 $lang['webfile_size'] = 89;
 
 $lang['telecharger_comcv'] = "Download Communications CV &mdash; PDF";
