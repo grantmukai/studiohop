@@ -80,8 +80,8 @@ $webFileDate = new DateTime('12/12/2016');
 $lang['webfile_size'] = 89;
 
 $lang['telecharger_comcv'] = "Download Communications CV &mdash; PDF";
-$prFileDate = new DateTime('11/04/2016');
-$lang['prfile_size'] = 71;
+$prFileDate = new DateTime('12/12/2016');
+$lang['prfile_size'] = 89;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
@@ -118,5 +118,4 @@ $lang['copyright'] = "Grant Mukai. All rights reserved. Flag icons graciously pr
 $lang['creditdelaphoto'] = "Banner Photo Credit";
 $lang['par'] = "by";
 $lang['license2photo'] = "Licensed under the Creative Commons License. No modifications have been made to the original photo."
-
 ?>
