@@ -73,8 +73,8 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
-$webFileDate = new DateTime('11/13/2016');
-$lang['webfile_size'] = 87;
+$webFileDate = new DateTime('12/21/2016');
+$lang['webfile_size'] = 85;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
 $prFileDate = new DateTime('11/15/2016');
