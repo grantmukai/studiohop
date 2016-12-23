@@ -73,12 +73,12 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
-$webFileDate = new DateTime('12/21/2016');
+$webFileDate = new DateTime('12/20/2016');
 $lang['webfile_size'] = 85;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
-$prFileDate = new DateTime('11/15/2016');
-$lang['prfile_size'] = 85;
+$prFileDate = new DateTime('12/23/2016');
+$lang['prfile_size'] = 86;
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
