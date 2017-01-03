@@ -57,7 +57,7 @@ $lang['bio'] = "
 
 <p>Antes de mi cambio de carrero de periodismo al desarrollo Web y gesti&oacute;n de datos, era productor asociado de noticias al <i lang='en-US'><a href='http://www.wellesleymedia.org'>Wellesley Public Media</a></i> en el estado libre asociado de Massachusetts (nordeste), d&oacute;nde estaba produciendo reportajes y documentarios para un canal de televisi&oacute;n. All&iacute;, realic&eacute; contenidos cinematogr&aacute;ficos para la plataforma <a href='http://www.patch.com'>Patch.com</a>.</p>
 
-<p>Obvtuvo mi licenciado en periodismo televisivo a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>
+<p>Obvtuvo mi grado en periodismo televisivo a la <a href='http://www.bu.edu/com'>Escuela de comunicaciones</a> a la Universidad de Boston con especializaci&oacute;n en lengua y literatura francesa.</p>
 
 <p>Yo pas&eacute; mi tiempo libre bailando el Lindy Hop y Blues, dos tipos de baile popular en los Estados Unidos. Me gusta tambi&eacute;n la escena internacional de Washington.</p>
 
@@ -76,8 +76,8 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
-$webFileDate = new DateTime('12/01/2016');
-$lang['webfile_size'] = 118;
+$webFileDate = new DateTime('01/03/2017');
+$lang['webfile_size'] = 116;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
 $prFileDate = new DateTime('12/02/2016');
