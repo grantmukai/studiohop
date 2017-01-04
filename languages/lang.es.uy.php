@@ -9,8 +9,8 @@ $jeSuisEnEurope = "non";
 
 $lang = array();
 
-//$imageVille = 1;
-//$villeMax = 1;
+$imageVille = 0;
+$villeMax = 0;
 
 $lang["parcourir_nav"] = "Recorrer Navigaci&oacute;n";
 
@@ -35,10 +35,6 @@ $lang['contact'] = 'Contactarme';
 $lang['hello_1'] = "Hola, me llamo Kiyoshi Mukai";
 $lang['hello_2'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a | Comunicaciones | Periodismo | Gesti&oacute;n de contenidos Web | Comunicaciones';
 $lang['hello_3'] = 'Desarrollador Web | Correo Electr&oacute;nico | Administraci&oacute;n de Datos | Servicios de Membres&iacute;a';
-
-// COOKIES!
-$lang['cookiesJeComprends'] = "Yo Entiendo";
-$lang['cookiesMerci'] = "&iexcl;Gracias!";
 
 $lang['select_country'] = "Eliges tu pa&iacute;s";
 
@@ -80,8 +76,8 @@ $webFileDate = new DateTime('01/03/2017');
 $lang['webfile_size'] = 116;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
-$prFileDate = new DateTime('12/02/2016');
-$lang['prfile_size'] = 107;
+$prFileDate = new DateTime('01/03/2017');
+$lang['prfile_size'] = 90;
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
@@ -106,7 +102,7 @@ $lang['contact_title'] = 'Cont&aacute;ctame';
 $lang['contact_subtitle'] = "Me da una l&iacute;nea o llamame por tel&eacute;fono. Me gustar&iacute;a escucharle.";
 $lang['contact_paragraph'] = "Puede contactarme utilizando una de las maneras abajo<span class='formuleDroite'> o el formulario de contacto a su derecho</span><span class='formuleBas' style='display:none;'>abajo</span>.";
 
-$lang['customers'] = "He trabajado para estas compan&iacute;as";
+$lang['customers'] = "Trabaj&eacute; para estas empresas";
 
 $lang['formule_nom'] = "Nombre";
 $lang['formule_courriel'] = "Dirrecci&oacute;n de correo electr&oacute;nico";
