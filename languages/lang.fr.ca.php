@@ -52,9 +52,9 @@ $lang['bio'] = "
 
 <p>Une grande partie de mes responsabilit&eacute;s a inclut la v&eacute;rification des pages Web et documents PDF afin d'assurer la conformit&eacute; aux normes &eacute;tablies par le W3C <em>(World Wide Web Consortium)</em>.</p>
 
-<p>Avant mon changement de carri&egrave;re du journalisme au d&eacute;veloppement Web et Communications, j'&eacute;tais r&eacute;alisateur adjoint d'actualit&eacute; chez <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> dans le village de Wellesley, Massachusetts, o&ugrave; je produisais des court m&eacute;trages et documentaires pour une cha&icirc;ne de t&eacute;l&eacute;vision. Dans la m&eacute;tropole de Boston, j'ai apport&eacute; du contenu vid&eacute;o au plateforme Patch.com.</p>
+<p>Avant mon changement de carri&egrave;re du journalisme au d&eacute;veloppement Web et communications, j'&eacute;tais r&eacute;alisateur adjoint d'actualit&eacute; chez <a href='http://www.wellesleymedia.org'>Wellesley Public Media</a> dans le village de Wellesley, Massachusetts, o&ugrave; je produisais des court m&eacute;trages et documentaires pour une cha&icirc;ne de t&eacute;l&eacute;vision. Dans la m&eacute;tropole de Boston, j'ai apport&eacute; du contenu vid&eacute;o au plateforme Patch.com.</p>
 
-<p>J'ai obtenu un Baccalaur&eacute;at en sciences en journalisme t&eacute;l&eacute;vis&eacute; &agrave; <a href='http://www.bu.edu/com'>l'&Eacute;cole de communications</a> &agrave; l'Universit&eacute; de Boston avec une mineure en langue et litt&eacute;rature fran&ccedil;aise.</p>
+<p>J'ai obtenu un baccalaur&eacute;at en sciences en journalisme t&eacute;l&eacute;vis&eacute; &agrave; <a href='http://www.bu.edu/com'>l'&Eacute;cole de communications</a> &agrave; l'Universit&eacute; de Boston avec une mineure en langue et litt&eacute;rature fran&ccedil;aise.</p>
 
 <p>Pendant mon temps libre, je suis danseur de Lindy Hop et Blues, deux styles de danse sociale assez populaires partout au Canada et surtout &agrave; Montr&eacute;al, la capitale de danse au pays. Je suis &agrave; Montr&eacute;al plusieurs fois par ann&eacute;e pour y participer. Je suis aussi tr&egrave;s actif dans la sc&egrave;ne internationale &agrave; Washington et je suis en train d'am&eacute;liorer mes comp&eacute;tences en espagnol afin de pouvoir voyager au Mexique.</p>
 
@@ -73,8 +73,8 @@ $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";
 
 $lang['download_webcv'] = "T&eacute;l&eacute;charger CV Web &mdash; PDF";
-$webFileDate = new DateTime('12/09/2016');
-$lang['webfile_size'] = 111;
+$webFileDate = new DateTime('01/05/2017');
+$lang['webfile_size'] = 91;
 
 $lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV Communications &mdash; PDF";
 $prFileDate = new DateTime('12/10/2016');
