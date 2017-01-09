@@ -89,7 +89,6 @@ if (isset($imageVille)) {
 				<div class="status-mes"><h4><?php echo $lang['NAME']; ?></h4></div>
 			</div>
 		</div>
-
 		<?php include "section/navigation.php";
 		include "section/intro.php";
 		include "section/profile_contact.php";
