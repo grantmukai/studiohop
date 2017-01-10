@@ -77,8 +77,8 @@ $webFileDate = new DateTime('01/09/2017');
 $lang['webfile_size'] = 88;
 
 $lang['telecharger_comcv'] = "Download Communications CV &mdash; PDF";
-$prFileDate = new DateTime('12/07/2016');
-$lang['prfile_size'] = 93;
+$prFileDate = new DateTime('01/10/2017');
+$lang['prfile_size'] = 87;
 
 $lang['ce_que_je_peux_faire_titre'] = "What I Can Do";
 $lang['redaction_soustitre'] = "Writing";
