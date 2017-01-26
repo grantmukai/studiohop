@@ -18,9 +18,9 @@ $drapeauNational = 0;
 $lang['drapeau'] = "ch";
 $lang['drapeau_alt'] = "Drapeau de la Suisse";
 
-$lang['metadesc'] = "Kiyoshi MUKA&Iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia, Etats&ndash;Unis";
-$lang['PAGE_TITLE'] = 'Kiyoshi MUKA&Iuml;';
-$lang['NAME'] = 'Kiyoshi MUKA&Iuml;';
+$lang['metadesc'] = "Grant MUKA&Iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia, Etats&ndash;Unis";
+$lang['PAGE_TITLE'] = 'Grant MUKA&Iuml;';
+$lang['NAME'] = 'Grant MUKA&Iuml;';
 
 // Menu bar
 
@@ -32,7 +32,7 @@ $lang['com_cv'] = 'Communications';
 $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
-$lang['hello_1'] = "Bonjour! Je m'appelle Kiyoshi MUKA&Iuml;<br /><small>Guten Tag, Buongiorno, Allegra</small>";
+$lang['hello_1'] = "Bonjour! Je m'appelle Grant MUKA&Iuml;<br /><small>Guten Tag, Buongiorno, Allegra</small>";
 $lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Administration de Donn&eacute;es | Services d&apos;Adh&eacute;sion | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Journalisme';
 $lang['hello_3'] = 'D&eacute;veloppement Web | E-mails de marketing | Administration de Donn&eacute;es | Services d&apos;Adh&eacute;sion';
 
@@ -51,7 +51,7 @@ $lang['social_profiles'] = 'R&eacute;seaux Sociaux';
 $lang['bio'] = "
 <h3>Qui Je Suis</h3>
 
-<p>Je m'appelle Kiyoshi MUKA&Iuml; et je suis D&eacute;veloppeur Web et sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> aux États-Unis d'Am&eacute;rique. Je travaille dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes coll&egrave;gues &agrave; g&eacute;rer le site publique de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;cialis&eacute;s &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es SQL, de l'analyse statistique et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais et espagnol. Bien que nos bureaux se situent aux États-Unis, nous avons des membres venant des quatre coins du monde.</p>
+<p>Je m'appelle Grant MUKA&Iuml; et je suis D&eacute;veloppeur Web et sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> aux États-Unis d'Am&eacute;rique. Je travaille dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes coll&egrave;gues &agrave; g&eacute;rer le site publique de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;cialis&eacute;s &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es SQL, de l'analyse statistique et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais et espagnol. Bien que nos bureaux se situent aux États-Unis, nous avons des membres venant des quatre coins du monde.</p>
 
 <p>Avant de me joindre &agrave; mon association actuelle, je travaillais &agrave; <a href='http://msb.georgetown.edu'>l'Ecole McDonough de commerce</a> &agrave; l'Universit&eacute; Georgetown &agrave; Washington (mi-atlantique) et &agrave; <a href='http://www.iqsolutions.com'>iQ Solutions</a> aux banlieue en d&eacute;veloppant des e-mails de marketing. Quelques clients de sant&eacute; pour lesquels j'ai travaill&eacute; ont compris l'Administration pour abus des stup&eacute;fiants et services sant&eacute; mentale et les Instituts nationaux de la sant&eacute; &mdash; des agences gouvernementales am&eacute;ricaines. J'ai aussi r&eacute;alis&eacute; et mis &agrave; jour des pages Web en anglais et en espagnol pour les Instituts nationaux de l'arthrite, affections musculo-squelettiques et maladies de la peau.</p>
 
@@ -65,9 +65,9 @@ $lang['bio'] = "
 
 <p>Bien &agrave; vous,</p>
 
-<img src='assets/images/signatures/signature_kiyoshimukai.png' alt='Signature de Kiyoshi MUKA&Iuml;' style='width:40%;height:40%;' />
+<img src='assets/images/signatures/signature_grantmukai.png' alt='Signature de Grant MUKA&Iuml;' style='width:40%;height:40%;' />
 
-<p><strong>Kiyoshi MUKA&Iuml;</strong></p>";
+<p><strong>Grant MUKA&Iuml;</strong></p>";
 
 $lang['derniere_maj'] = "Derni&egrave;re mise &agrave; jour";
 
@@ -82,8 +82,8 @@ $webFileDate = new DateTime('01/24/2017');
 $lang['webfile_size'] = 98;
 
 $lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV Communications &mdash; PDF";
-$prFileDate = new DateTime('12/26/2016');
-$lang['prfile_size'] = 247;
+$prFileDate = new DateTime('01/25/2017');
+$lang['prfile_size'] = 105;
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
