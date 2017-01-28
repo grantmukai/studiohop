@@ -20,9 +20,9 @@ $lang['drapeau_alt'] = "Drapeau de la Belgique";
 $lang['drapeau_national'] = "eu";
 $lang['drapeau_national_alt'] = "Drapeau de l&apos;Union Europ&eacute;ene";
 
-$lang['metadesc'] = "Kiyoshi MUKA&Iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia, Etats&ndash;Unis";
-$lang['PAGE_TITLE'] = 'Kiyoshi MUKA&Iuml;';
-$lang['NAME'] = 'Kiyoshi MUKA&Iuml;';
+$lang['metadesc'] = "Grant MUKA&Iuml; est d&eacute;veloppeur Web et agent de communications &agrave; Washington, District de Columbia, Etats&ndash;Unis";
+$lang['PAGE_TITLE'] = 'Grant MUKA&Iuml;';
+$lang['NAME'] = 'Grant MUKA&Iuml;';
 
 // Barre de menu
 
@@ -34,7 +34,7 @@ $lang['com_cv'] = 'Communications';
 $lang['portfolio'] = 'Mon travail';
 $lang['contact'] = 'Contactez-Moi';
 
-$lang['hello_1'] = "Bonjour, je m'appelle Kiyoshi MUKA&Iuml;<br /><small>Hallo, mijn naam is Kiyoshi Mukai</small>";
+$lang['hello_1'] = "Bonjour, je m'appelle Grant MUKA&Iuml;<br /><small>Hallo, mijn naam is Grant Mukai</small>";
 $lang['hello_2'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Services d&apos;Adh&eacute;sion | R&eacute;lations Publiques | Marketing | Gestion de Contenu Web | Journalisme';
 $lang['hello_3'] = 'D&eacute;veloppement Web | E-mails de marketing | Design Graphique | Services d&apos;Adh&eacute;sion';
 
@@ -53,9 +53,9 @@ $lang['social_profiles'] = 'R&eacute;seaux Sociaux';
 $lang['bio'] = "
 <h3>Qui Je Suis</h3>
 
-<p>Je m'appelle Kiyoshi MUKA&Iuml; et je suis D&eacute;veloppeur Web et Sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> aux &Eacute;tats-Unis d'Am&eacute;rique. Je travaille dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes co&eacute;quipiers &agrave; g&eacute;rer le site publique de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;calis&eacute;s &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es SQL, de l'analyse statistique et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais et espagnol. Bien que nos bureaux se situent aux &Eacute;tats-Unis, nous avons des membres venant des quatre coins du monde.</p>
+<p>Je m'appelle Grant MUKA&Iuml; et je suis D&eacute;veloppeur Web et Sp&eacute;cialiste en services et syst&egrave;mes &agrave; <a href='http://www.apsanet.org/'>l'Association am&eacute;ricaine de science politique</a> aux &Eacute;tats-Unis d'Am&eacute;rique. Je travaille dans le D&eacute;partement de marketing et communications o&ugrave; j'aide mes co&eacute;quipiers &agrave; g&eacute;rer le site public de l'association ainsi que plusieurs sites WordPress consacr&eacute;s &agrave; la promotion de la science politique qui aident nos sections d'int&eacute;r&ecirc;ts sp&eacute;cialis&eacute;s &agrave; s'organiser aux r&eacute;seaux. Je suis aussi responsable de la gestion des bases de donn&eacute;es SQL, de l'analyse statistique et la g&eacute;n&eacute;ration des tableaux de donn&eacute;es tout en fournissant de l'excellent service &agrave; la client&egrave;le en anglais, fran&ccedil;ais et espagnol. Bien que nos bureaux se situent aux &Eacute;tats-Unis, nous avons des membres venant des quatre coins du monde.</p>
 
-<p>Avant de me joindre &agrave; mon association actuelle, j'ai travaill&eacute; &agrave; <a href='http://msb.georgetown.edu'>l'&Eacute;cole McDonough de commerce</a> &agrave; l'Universit&eacute; Georgetown &agrave; Washington et <a href='http://www.iqsolutions.com'>iQ Solutions</a> aux banlieux en d&eacute;veloppant des e-mails de marketing. Quelques clients de sant&eacute; pour lesquels j'ai travaill&eacute; ont compris l'Administration pour abus des stup&eacute;fiants et services sant&eacute; mentale et les Instituts nationaux de la sant&eacute; &mdash; deux agences gouvernementales am&eacute;ricaines. J'ai aussi r&eacute;alis&eacute; et mis &agrave; jour des pages Web en anglais et en espagnol pour les Instituts nationaux de l'arthrite, affections musculo-squelettiques et maladies de la peau.</p>
+<p>Avant de me joindre &agrave; mon association actuelle, j'ai travaill&eacute; &agrave; <a href='http://msb.georgetown.edu'>l'&Eacute;cole McDonough de commerce</a> &agrave; l'Universit&eacute; Georgetown &agrave; Washington et <a href='http://www.iqsolutions.com'>iQ Solutions</a> aux banlieue en d&eacute;veloppant des e-mails de marketing. Quelques clients de sant&eacute; pour lesquels j'ai travaill&eacute; ont compris l'Administration pour abus des stup&eacute;fiants et services sant&eacute; mentale et les Instituts nationaux de la sant&eacute; &mdash; deux agences gouvernementales am&eacute;ricaines. J'ai aussi r&eacute;alis&eacute; et mis &agrave; jour des pages Web en anglais et en espagnol pour les Instituts nationaux de l'arthrite, affections musculo-squelettiques et maladies de la peau.</p>
 
 <p>Une grande partie de mes responsabilit&eacute;s a inclut la v&eacute;rification des pages Web et documents PDF afin d'assurer la conformit&eacute; aux normes &eacute;tablies par le W3C <em>(World Wide Web Consortium)</em>.</p>
 
@@ -81,8 +81,8 @@ $lang['duties'] = "T&acirc;ches";
 $lang['education'] = "Formation";
 
 $lang['download_webcv'] = "T&eacute;l&eacute;charger CV Web &mdash; PDF";
-$webFileDate = new DateTime('12/28/2016');
-$lang['webfile_size'] = 3; //2.7MB
+$webFileDate = new DateTime('01/27/2017');
+$lang['webfile_size'] = 125;
 
 $lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV &mdash; PDF";
 $prFileDate = new DateTime('12/29/2016');
