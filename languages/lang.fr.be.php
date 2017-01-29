@@ -67,9 +67,9 @@ $lang['bio'] = "
 
 <p>Veuillez recevoir l'assurance de mes sentiments les meilleurs,</p>
 
-<img src='assets/images/signatures/signature_kiyoshimukai.png' alt='Kiyoshi Mukai' style='width:40%;height:40%;' />
+<img src='assets/images/signatures/signature_grantmukai.png' alt='Signature de Grant MUKA&Iuml;' style='width:40%;height:40%;' />
 
-<p><strong>Kiyoshi MUKA&Iuml;</strong></p>
+<p><strong>Grant MUKA&Iuml;</strong></p>
 ";
 
 $lang['derniere_maj'] = "Derni&egrave;re mise &agrave; jour";
@@ -85,8 +85,8 @@ $webFileDate = new DateTime('01/27/2017');
 $lang['webfile_size'] = 125;
 
 $lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV &mdash; PDF";
-$prFileDate = new DateTime('12/29/2016');
-$lang['prfile_size'] = 3; //2.7MB
+$prFileDate = new DateTime('01/28/2017');
+$lang['prfile_size'] = 114;
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
