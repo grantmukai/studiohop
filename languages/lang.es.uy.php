@@ -5,7 +5,6 @@ Langue: Español - Uruguay
 -------------------------
 */
 $cv_lang = "es-UY";
-$jeSuisEnEurope = "non";
 
 $lang = array();
 
@@ -72,8 +71,8 @@ $lang['duties'] = "Tareas";
 $lang['education'] = "Educaci&oacute;n";
 
 $lang['download_webcv'] = "Descargar CV Web &mdash; PDF";
-$webFileDate = new DateTime('01/03/2017');
-$lang['webfile_size'] = 116;
+$webFileDate = new DateTime('01/30/2017');
+$lang['webfile_size'] = 99;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
 $prFileDate = new DateTime('01/03/2017');
