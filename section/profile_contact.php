@@ -21,7 +21,7 @@
 				        $("#aviscookies").show().delay(5000).fadeOut();
 				    }
 				    						</script>
-				<p style="font-weight:700;"><a href="beta"><i lang="fr-CA">Aper&ccedil;u du nouveau site disponible</i> ** <i lang="en-CA">Preview new website design</i> ** <i lang="es-MX">Ver dise&ntilde;o del nuevo sitio</i></a></p>
+				<!--<p style="font-weight:700;"><a href="beta"><i lang="fr-CA">Aper&ccedil;u du nouveau site disponible</i> ** <i lang="en-CA">Preview new website design</i> ** <i lang="es-MX">Ver dise&ntilde;o del nuevo sitio</i></a></p>-->
 				<h3><?php echo $lang['select_country']; ?></h3>
 				<h5>
 				<a href="index.php?lang=en-US"><img src="assets/images/drapeaux/us24.png" alt="" style="width:24px;height:24px;" />&nbsp;United States</a>&nbsp;|&nbsp;

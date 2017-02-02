@@ -75,8 +75,8 @@ $webFileDate = new DateTime('01/30/2017');
 $lang['webfile_size'] = 99;
 
 $lang['telecharger_comcv'] = "Descargar CV Comunicaciones &mdash; PDF";
-$prFileDate = new DateTime('01/03/2017');
-$lang['prfile_size'] = 90;
+$prFileDate = new DateTime('02/01/2017');
+$lang['prfile_size'] = 73;
 
 $lang['ce_que_je_peux_faire_titre'] = "Lo Que Puedo Hacer";
 $lang['redaction_soustitre'] = "Escritura";
@@ -97,7 +97,7 @@ $lang['status_1'] = "Estoy trabajando para la Asociaci&oacute;n estadounidense d
 $lang['status_2'] = "Trabajo en el Departamento de comunicaciones y marketing con un equipo fantastico.";
 $lang['status_3'] = 'Cont&aacute;ctame';
 
-$lang['contact_title'] = 'Cont&aacute;ctame';
+$lang['contact_title'] = 'Contáctame';
 $lang['contact_subtitle'] = "Me da una l&iacute;nea o llamame por tel&eacute;fono. Me gustar&iacute;a escucharle.";
 $lang['contact_paragraph'] = "Puede contactarme utilizando una de las maneras abajo<span class='formuleDroite'> o el formulario de contacto a su derecho</span><span class='formuleBas' style='display:none;'>abajo</span>.";
 
