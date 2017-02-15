@@ -32,7 +32,7 @@
 			</div>
 
 			<?php
-				$webpositionsQuery = "SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY start_date DESC;";
+				$webpositionsQuery = "SELECT company_id, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY start_date DESC;";
 				$webpositionsResult = $link->query($webpositionsQuery);
 				while($row_webpositions = $webpositionsResult->fetch_assoc())
 				{
@@ -62,7 +62,7 @@
 			<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 				<img src="assets/images/logo/apsa.jpg" alt="APSA" style="width:91px;">
 				<?php
-				$apsaQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'apsa' ORDER BY id;";
+				$apsaQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company_id = 1000 ORDER BY id;";
 				$apsaResult = $link->query($apsaQuery);
 				echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
 				while($row_apsa = $apsaResult->fetch_assoc())
@@ -76,7 +76,7 @@
 			<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 				<img src="assets/images/logo/georgetown.png" alt="Georgetown" style="width:91px;">
 				<?php
-				$georgetownQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'georgetown' ORDER BY id;";
+				$georgetownQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company_id = 2000 ORDER BY id;";
 				echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
 				$georgetownResult = $link->query($georgetownQuery);
 				while($row_georgetown = $georgetownResult->fetch_assoc())
@@ -90,7 +90,7 @@
 			<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 				<img src="assets/images/logo/iqsolutions.jpg" alt="iQ" style="width:91px;">
 				<?php
-				$iqQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company = 'iq' ORDER BY id;";
+				$iqQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'WEB' AND company_id = 3000 ORDER BY id;";
 				echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
 				$iqResult = $link->query($iqQuery);
 				while($row_iq = $iqResult->fetch_assoc())

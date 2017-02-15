@@ -32,7 +32,7 @@
 			</div>
 
 			<?php
-				$prpositionsQuery = "SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND (type = 'MAR' || type = 'COM') ORDER BY start_date DESC;";
+				$prpositionsQuery = "SELECT company_id, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND (type = 'MAR' || type = 'COM') ORDER BY start_date DESC;";
 				$prpositionsResult = $link->query($prpositionsQuery);
 				while($row_prpositions = $prpositionsResult->fetch_assoc())
 				{
@@ -62,7 +62,7 @@
 			<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 				<img src="assets/images/logo/apsa.jpg" alt="APSA" style="width:91px;">
 				<?php
-				$apsaQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND (type = 'MAR' || type = 'COM') AND company = 'apsa' ORDER BY id;";
+				$apsaQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'COM' AND company_id = 1000 ORDER BY id;";
 				$apsaResult = $link->query($apsaQuery);
 				echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
 				while($row_apsa = $apsaResult->fetch_assoc())
@@ -76,7 +76,7 @@
 			<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 				<img src="assets/images/logo/wellesley.png" alt="Wellesley Public Media" style="width:91px;">
 				<?php
-				$wellesleyQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND (type = 'MAR' || type = 'COM') AND company = 'wellesley' ORDER BY id;";
+				$wellesleyQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'COM' AND company_id = 2000 ORDER BY id;";
 				echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
 				$wellesleyResult = $link->query($wellesleyQuery);
 				while($row_wellesley = $wellesleyResult->fetch_assoc())
@@ -90,7 +90,7 @@
 			<div class="col-md-4 col-sm-12 resume-item wow fadeIn">
 				<img src="assets/images/logo/patch.jpg" alt="iQ" style="width:91px;">
 				<?php
-				$patchQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND (type = 'MAR' || type = 'COM') AND company = 'patch' ORDER BY id;";
+				$patchQuery = "SELECT job FROM descriptions WHERE language='$cv_lang' AND type = 'COM' AND company_id = 3000 ORDER BY id;";
 				echo "<ul style='list-style-type:none;padding:0;text-align:left;'>";
 				$patchResult = $link->query($patchQuery);
 				while($row_patch = $patchResult->fetch_assoc())
