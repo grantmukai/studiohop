@@ -32,7 +32,7 @@
 			</div>
 
 			<?php
-				$webpositionsQuery = "SELECT company_id, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY start_date DESC;";
+				$webpositionsQuery = "SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'WEB' ORDER BY start_date DESC;";
 				$webpositionsResult = $link->query($webpositionsQuery);
 				while($row_webpositions = $webpositionsResult->fetch_assoc())
 				{

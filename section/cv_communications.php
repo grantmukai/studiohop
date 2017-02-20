@@ -32,7 +32,7 @@
 			</div>
 
 			<?php
-				$prpositionsQuery = "SELECT company_id, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND (type = 'MAR' || type = 'COM') ORDER BY start_date DESC;";
+				$prpositionsQuery = "SELECT company, jobtitle, start_date, end_date FROM positions WHERE language='$cv_lang' AND type = 'COM' ORDER BY start_date DESC;";
 				$prpositionsResult = $link->query($prpositionsQuery);
 				while($row_prpositions = $prpositionsResult->fetch_assoc())
 				{
