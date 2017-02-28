@@ -85,8 +85,8 @@ $webFileDate = new DateTime('02/26/2017');
 $lang['webfile_size'] = 135;
 
 $lang['telecharger_comcv'] = "T&eacute;l&eacute;charger CV &mdash; PDF";
-$prFileDate = new DateTime('01/28/2017');
-$lang['prfile_size'] = 114;
+$prFileDate = new DateTime('02/27/2017');
+$lang['prfile_size'] = 110;
 
 $lang['ce_que_je_peux_faire_titre'] = "Ce Que Je Peux Faire";
 $lang['redaction_soustitre'] = "R&eacute;daction";
